@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  14 OCT 2023 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  14 OCT 2023 20:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/phili/Documents/Uni/Labor-Ex2/Protokollvorlage/main.tex
-(c:/Users/phili/Documents/Uni/Labor-Ex2/Protokollvorlage/main.tex
+**"c:/Users/phili/Documents/Uni/Labor-Ex2/10 Gitter Prisma/main.tex"
+(c:/Users/phili/Documents/Uni/Labor-Ex2/10 Gitter Prisma/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-07> (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -1481,7 +1481,7 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 3.
 
 \c@lstlisting=\count502
-<../Deckblätter/Deckblatt_Gitter.pdf, id=38, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Gitter.pdf, id=50, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf  used on input line 33.
@@ -1490,7 +1490,7 @@ File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../Deckblätter/Deckblatt_Gitter.pdf, id=41, page=1, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Gitter.pdf, id=53, page=1, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on input line 33.
@@ -1513,43 +1513,85 @@ Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on in
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [1
 
- <../Deckblätter/Deckblatt_Gitter.pdf>] (main.toc)
+ <../Deckblätter/Deckblatt_Gitter.pdf>] (main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
  [2{C:/Users/phili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
- (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
- (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+Underfull \hbox (badness 10000) in paragraph at lines 39--46
 
-LaTeX Warning: Empty bibliography on input line 86.
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 49--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--57
+
+ []
+
+<nudes/Brechung.png, id=104, 612.78937pt x 369.63094pt>
+File: nudes/Brechung.png Graphic file (type png)
+<use nudes/Brechung.png>
+Package pdftex.def Info: nudes/Brechung.png  used on input line 79.
+(pdftex.def)             Requested size: 273.14923pt x 164.75879pt.
+[3]
+<nudes/versuch.jpg, id=121, 4047.12pt x 3035.34pt>
+File: nudes/versuch.jpg Graphic file (type jpg)
+<use nudes/versuch.jpg>
+Package pdftex.def Info: nudes/versuch.jpg  used on input line 113.
+(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
+ [4 <./nudes/Brechung.png>]
+<nudes/messskala.jpg, id=133, 4047.12pt x 3035.34pt>
+File: nudes/messskala.jpg Graphic file (type jpg)
+<use nudes/messskala.jpg>
+Package pdftex.def Info: nudes/messskala.jpg  used on input line 122.
+(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
+<nudes/gitter.jpg, id=134, 4047.12pt x 3035.34pt>
+File: nudes/gitter.jpg Graphic file (type jpg)
+<use nudes/gitter.jpg>
+Package pdftex.def Info: nudes/gitter.jpg  used on input line 129.
+(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
+<nudes/prisma.jpg, id=135, 4047.12pt x 3035.34pt>
+File: nudes/prisma.jpg Graphic file (type jpg)
+<use nudes/prisma.jpg>
+Package pdftex.def Info: nudes/prisma.jpg  used on input line 130.
+(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
+ [5 <./nudes/versuch.jpg> <./nudes/messskala.jpg>] [6 <./nudes/gitter.jpg> <./nudes/prisma.jpg>] [7]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 277.
+ (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) 
 AED: lastpage setting LastPage
-[3] (main.aux)
+[8] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 25ED8802B80BB1A7A61A0F2F0F75017F;1219.
+(rerunfilecheck)             Checksum: 6950AF4D169E8104519B8A3D2E7ECE68;1485.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40478 strings out of 476339
- 808409 string characters out of 5788120
- 1858340 words of memory out of 5000000
- 60285 multiletter control sequences out of 15000+600000
- 520123 words of font info for 55 fonts, out of 8000000 for 9000
+ 40809 strings out of 476339
+ 814616 string characters out of 5788120
+ 1873340 words of memory out of 5000000
+ 60580 multiletter control sequences out of 15000+600000
+ 523646 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 114i,17n,108p,733b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (3 pages, 3004624 bytes).
+ 114i,17n,108p,735b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (8 pages, 15486312 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

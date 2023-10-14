@@ -1,0 +1,79 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{mikr_aufbau}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ea1b008f0cd208b3e88e911000b7686b}{%
+           family={Konrad},
+           familyi={K\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea1b008f0cd208b3e88e911000b7686b}
+      \strng{fullhash}{ea1b008f0cd208b3e88e911000b7686b}
+      \strng{bibnamehash}{ea1b008f0cd208b3e88e911000b7686b}
+      \strng{authorbibnamehash}{ea1b008f0cd208b3e88e911000b7686b}
+      \strng{authornamehash}{ea1b008f0cd208b3e88e911000b7686b}
+      \strng{authorfullhash}{ea1b008f0cd208b3e88e911000b7686b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Aufbau Mikroskop Bild}
+      \verb{urlraw}
+      \verb https://www.ulfkonrad.de/physik/5-6/optik/mikroskop
+      \endverb
+      \verb{url}
+      \verb https://www.ulfkonrad.de/physik/5-6/optik/mikroskop
+      \endverb
+    \endentry
+    \entry{teachcenter1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%
+           family={TeachCenter},
+           familyi={T\bibinitperiod},
+           given={TU\bibnamedelima Graz},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{fullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{bibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authorbibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authornamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authorfullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{"Laborübungen 1: Mechanik und Wärme". Kurs: PHYD20UF}
+      \verb{urlraw}
+      \verb https://tc.tugraz.at/main/course/view.php?id=127
+      \endverb
+      \verb{url}
+      \verb https://tc.tugraz.at/main/course/view.php?id=127
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -2,15 +2,19 @@
 \contentsline {section}{\numberline {1}Aufgabenstellung}{3}{section.1}%
 \contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{3}{section.2}%
 \contentsline {section}{\numberline {3}Versuchsanordnung}{5}{section.3}%
-\contentsline {section}{\numberline {4}Geräteliste}{7}{section.4}%
-\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{7}{section.5}%
-\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{10}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Objektivvergrößerung altes Mikroskop und Diagramm}{10}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Okularvergrößerung}{11}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Objektivbrennweite}{12}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Gesamtvergrößerung neues Mikroskop}{12}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Vergleich Mikroskope alt/neu}{12}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Untersuchung von Proben (digital)}{12}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Diskussion}{12}{section.7}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{12}{section.8}%
-\contentsline {section}{Literatur}{12}{section*.29}%
+\contentsline {section}{\numberline {4}Geräteliste}{8}{section.4}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{8}{section.5}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Objektivvergrößerung altes Mikroskop und Diagramm}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Okularvergrößerung}{12}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Objektivbrennweite}{13}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Gesamtvergrößerung neues Mikroskop}{13}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Vergleich Mikroskope alt/neu}{13}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Untersuchung von Proben (digital)}{14}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Diskussion}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Objektivvergrößerung altes Mikroskop}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Okularvergrößerung}{16}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Objektivbrennweite}{16}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Gesamtvergrößerung neues Mikroskop}{16}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{16}{section.8}%
+\contentsline {section}{Literatur}{17}{section*.39}%

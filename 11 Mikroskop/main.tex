@@ -18,7 +18,7 @@
 
 \newcommand\degreeid{UB 033 678}
 \newcommand\semester{23WS}
-\date{14.10.2023}
+\date{13.10.2023}
 
 %select correct course title
 %\newcommand\coursetitle{Einführung in die \\ physikalischen Messmethoden}
@@ -100,6 +100,11 @@ Um nun die als Verhältnis des Sehwinkels mit Instrument, zum Sehwinkel ohne Ins
         \centerline{$V_{ges}=V_{Obj}*V_{Oku}$}
     \end{equation}
 
+    \begin{equation}
+        \label{eq:Unsicherheit_Gesamtvergrößerung}
+        \centerline{$\Delta V_{ges} = \vert \frac{\partial V_{ges}}{V_{Obj}} * \Delta V_{Obj} \vert + \vert \frac{\partial V_{ges}}{\partial V_{Oku}} * \Delta V_{Oku} \vert$}
+    \end{equation}
+
 \noindent
 verwendet werde, wobei sich $V_{Obj}$ aus
 
@@ -125,6 +130,44 @@ Die Brennweite $f_{obj}$ des Objektives lösst sich mittels Tubuslänge t und fo
 \begin{equation}
     \label{eq:Objektivbrennweite}
     \centerline{$V_{obj}=\frac{V_{ges}}{V_{Oku}}=\frac{t}{f_{Obj}}$}
+\end{equation}
+
+\begin{equation}
+    \label{eq:Unsicherheit_Objektivbrennweite}
+    \centerline{$\Delta V_{obj} = \vert \frac{\partial V_{obj}}{\partial t} * \Delta t \vert + \vert \frac{\partial V_{obj}}{\partial f_{Obj}} * \Delta f_{Obj} \vert $}
+\end{equation}
+
+\noindent
+Zur Berechnung der jeweiligen Gesamtvergrößerungen werden folgende Formeln verwendet:
+
+\begin{equation}
+    \label{eq:VergrößerungAM}
+    \centerline{$V=\frac{Vergleichsskala Hinter Mikroskop}{Messkala Am Objekt}$}
+\end{equation}
+
+\begin{equation}
+    \label{eq:Unsicherheit_VergrößerungAM}
+    \centerline{$\Delta V = \vert \frac{\partial V}{\partial VHM} * \Delta VHM \vert + \vert \frac{\partial V}{\partial MAO} * \Delta MAO \vert $}
+\end{equation}
+
+\begin{equation}
+    \label{eq:VergrößerungAM10x}
+    \centerline{$V=\frac{Messkala Am Objekt}{Vergleichsskala Im Okular}$}
+\end{equation}
+
+\begin{equation}
+    \label{eq:Unsicherheit_VergrößerungAM10x}
+    \centerline{$\Delta V = \vert \frac{\partial V}{\partial MAO} * \Delta MAO \vert + \vert \frac{\partial V}{\partial VIO} * \Delta VIO \vert $}
+\end{equation}
+
+\begin{equation}
+    \label{eq:VergrößerungNM}  
+    \centerline{$V=\frac{Vergleichsskala Ober Mikroskop}{Messkala Am Objekt}$}
+\end{equation}
+
+\begin{equation}
+    \label{eq:Unsicherheit_VergrößerungNM}
+    \centerline{$\Delta V = \vert \frac{\partial V}{\partial VOM} * \Delta VOM \vert + \vert \frac{\partial V}{\partial MAO} * \Delta MAO \vert $}
 \end{equation}
 
 
@@ -200,7 +243,7 @@ Die Brennweite $f_{obj}$ des Objektives lösst sich mittels Tubuslänge t und fo
             Gerät & Gerätenummer  & Unsicherheit \\
             \hline
             Altes Mikroskop mit Vergleichsskala & {n.a} & {n.a} \\
-            Neues Mikroskop mit Vergleichsskala & {n.a} & {n.a} \\
+            Neues Mikroskop mit Vergleichsskala & Zeiss Primostar 3 & {n.a} \\
             Aufsatz mit halbdurchlässigem Spiegel & {n.a} & {n.a} \\
             Objekt mit aufgedruckter Messskala & {n.a} & {n.a} \\
             Proben (Gitter, Haare - Melissa Eberhard) & {n.a} & {n.a} \\
@@ -210,6 +253,8 @@ Die Brennweite $f_{obj}$ des Objektives lösst sich mittels Tubuslänge t und fo
 
 
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
+
+Die Unsicherheiten der Werte der Messskalen wurden je mit $\pm$ 1 mm angenommen.
 
 Der erste Teil des Versuches besteht aus der Bestimmung der Gesamt- und Objektivvergrößerung des alten Mikroskopes.
 Hierfür wurde eine Probe mit einer kleinen (0.01 mm Schritte) Messskala unter das Mikroskop gelegt. 
@@ -226,13 +271,13 @@ Durch adjustieren der Tubuslänge am Mikroskop können so verschiedene Vergöße
     \label{tab:messwerteTB20}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala hinter Mikroskop [1 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala hinter Mikroskop [mm] $\pm$ 1  & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 1 & 12 \\
-        2 & 1 & 12 \\
-        3 & 1 & 12 \\
+        1 & 10 & 0.12 \\
+        2 & 10 & 0.12 \\
+        3 & 10 & 0.12 \\
         \hline
-        Avg. & 1 & 12.0 \\
+        Avg. & 10 & 0.12 \\
         \hline
     \end{tabular}
 \end{table}
@@ -243,13 +288,13 @@ Durch adjustieren der Tubuslänge am Mikroskop können so verschiedene Vergöße
     \label{tab:messwerteTB19}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala hinter Mikroskop [1 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala hinter Mikroskop [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 1 & 13 \\
-        2 & 1 & 13 \\
-        3 & 1 & 12 \\
+        1 & 10 & 0.13 \\
+        2 & 10 & 0.13 \\
+        3 & 10 & 0.12 \\
         \hline
-        Avg. & 1 & 12.7 \\
+        Avg. & 10 & 0.127 \\
         \hline
     \end{tabular}
 \end{table}
@@ -260,13 +305,13 @@ Durch adjustieren der Tubuslänge am Mikroskop können so verschiedene Vergöße
     \label{tab:messwerteTB17}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala hinter Mikroskop [1 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala hinter Mikroskop [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 1 & 14 \\
-        2 & 1 & 14 \\
-        3 & 1 & 14 \\
+        1 & 10 & 0.14 \\
+        2 & 10 & 0.14 \\
+        3 & 10 & 0.14 \\
         \hline
-        Avg. & 1 & 14.0 \\
+        Avg. & 10 & 0.14 \\
         \hline
     \end{tabular}
 \end{table}
@@ -277,13 +322,13 @@ Durch adjustieren der Tubuslänge am Mikroskop können so verschiedene Vergöße
     \label{tab:messwerteTB16}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala hinter Mikroskop [1 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala hinter Mikroskop [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1\\
         \hline
-        1 & 1 & 16 \\
-        2 & 1 & 15 \\
-        3 & 1 & 15 \\
+        1 & 10 & 0.16 \\
+        2 & 10 & 0.15 \\
+        3 & 10 & 0.15 \\
         \hline
-        Avg. & 1 & 15.7 \\
+        Avg. & 10 & 0.157 \\
         \hline
     \end{tabular}
 \end{table}
@@ -294,13 +339,13 @@ Durch adjustieren der Tubuslänge am Mikroskop können so verschiedene Vergöße
     \label{tab:messwerteTB14}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala hinter Mikroskop [1 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala hinter Mikroskop [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 1 & 17 \\
-        2 & 1 & 17 \\
-        3 & 1 & 17 \\
+        1 & 10 & 0.17 \\
+        2 & 10 & 0.17 \\
+        3 & 10 & 0.17 \\
         \hline
-        Avg. & 1 & 17 \\
+        Avg. & 10 & 0.17 \\
         \hline
     \end{tabular}
 \end{table}
@@ -316,11 +361,13 @@ Die Messwerte wurden wiederum in Tabellen gesammelt.
     \label{tab:10XmesswerteTB20}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala im Okular [0.01 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala im Okular [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 10 & 11 \\
-        2 & 10 & 11 \\
-        3 & 10 & 11 \\
+        1 & 0.1 & 9 \\
+        2 & 0.1 & 9 \\
+        3 & 0.1 & 9 \\
+        \hline
+        Avg. & 0.1 & 9 \\
         \hline
     \end{tabular}
 \end{table}
@@ -331,11 +378,13 @@ Die Messwerte wurden wiederum in Tabellen gesammelt.
     \label{tab:10XmesswerteTB19}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala im Okular [0.01 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala im Okular [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 10 & 10 \\
-        2 & 10 & 10 \\
-        3 & 10 & 10 \\
+        1 & 0.1 & 10 \\
+        2 & 0.1 & 10 \\
+        3 & 0.1 & 11 \\
+        \hline
+        Avg. & 0.1 & 10.3 \\
         \hline
     \end{tabular}
 \end{table}
@@ -346,11 +395,13 @@ Die Messwerte wurden wiederum in Tabellen gesammelt.
     \label{tab:10XmesswerteTB17}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala im Okular [0.01 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala im Okular [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 10 & 11 \\
-        2 & 10 & 11 \\
-        3 & 10 & 11 \\
+        1 & 0.1 & 9 \\
+        2 & 0.1 & 9 \\
+        3 & 0.1 & 8 \\
+        \hline
+        Avg. & 0.1 & 8.7 \\
         \hline
     \end{tabular}
 \end{table}
@@ -361,11 +412,13 @@ Die Messwerte wurden wiederum in Tabellen gesammelt.
     \label{tab:10XmesswerteTB16}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala im Okular [0.01 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala im Okular [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 10 & 12 \\
-        2 & 10 & 12 \\
-        3 & 10 & 12 \\
+        1 & 0.1 & 8 \\
+        2 & 0.1 & 8 \\
+        3 & 0.1 & 8 \\
+        \hline
+        Avg. & 0.1 & 8 \\
         \hline
     \end{tabular}
 \end{table}
@@ -376,11 +429,13 @@ Die Messwerte wurden wiederum in Tabellen gesammelt.
     \label{tab:10XmesswerteTB14}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala im Okular [0.01 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala im Okular [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 10 & 13 \\
-        2 & 10 & 13 \\
-        3 & 10 & 13 \\
+        1 & 0.1 & 8 \\
+        2 & 0.1 & 7 \\
+        3 & 0.1 & 7 \\
+        \hline
+        Avg. & 0.1 & 7.7 \\
         \hline
     \end{tabular}
 \end{table}
@@ -394,13 +449,13 @@ Um die Gesamtvergrößerung des neuen Mikroskopes zu bestimmen wurde mit der gle
     \label{tab:messwerteNM4x}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala ober Mikroskop [1 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala ober Mikroskop [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 1 & 47 \\
-        2 & 1 & 48 \\
-        3 & 1 & 50 \\
+        1 & 10 & 0.24 \\
+        2 & 10 & 0.24 \\
+        3 & 10 & 0.25 \\
         \hline
-        Avg. & 1 & 48.34 \\
+        Avg. & 1 & 0.247 \\
         \hline
     \end{tabular}
 \end{table}
@@ -411,13 +466,13 @@ Um die Gesamtvergrößerung des neuen Mikroskopes zu bestimmen wurde mit der gle
     \label{tab:messwerteNM10x}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala ober Mikroskop [1 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala ober Mikroskop [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 1 & 0.9 \\
-        2 & 1 & 0.8 \\
-        3 & 1 & 0.9 \\
+        1 & 10 & 0.090 \\
+        2 & 10 & 0.091 \\
+        3 & 10 & 0.090 \\
         \hline
-        Avg. & 1 & 0.87 \\
+        Avg. & 1 & 0.091 \\
         \hline
     \end{tabular}
 \end{table}
@@ -428,13 +483,13 @@ Um die Gesamtvergrößerung des neuen Mikroskopes zu bestimmen wurde mit der gle
     \label{tab:messwerteNM40x}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.   & Vergleichsskala ober Mikroskop [1 cm]  & Messkala am Objekt [0.01 mm] \\
+        Nr.   & Vergleichsskala ober Mikroskop [mm] $\pm$ 1 & Messkala am Objekt [mm] $\pm$ 1 \\
         \hline
-        1 & 1 & 2.5 \\
-        2 & 1 & 2.4 \\
-        3 & 1 & 2.4 \\
+        1 & 10 & 0.0250 \\
+        2 & 10 & 0.0240 \\
+        3 & 10 & 0.0240 \\
         \hline
-        Avg. & 1 & 2.47 \\
+        Avg. & 1 & 0.0247 \\
         \hline
     \end{tabular}
 \end{table}
@@ -450,7 +505,7 @@ Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größt
 
 \subsection{Objektivvergrößerung altes Mikroskop und Diagramm}
 Zur Bestimmung der Objektivvergrößerung des alten Mikroskopes wurden die Durchschnittswerte aus den Tabellen \ref{tab:messwerteTB20}-\ref{tab:messwerteTB14} verwendet.
-Durch einsetzen dieser in Formel \ref*{label} ergeben sich folgende Werte für die Vergrößerung:
+Durch einsetzen dieser in Formel \ref{eq:VergrößerungAM} bzw. Formel \ref{eq:Unsicherheit_VergrößerungAM} für die Unsicherheiten ergeben sich folgende Werte für die Vergrößerung:
 
 \begin{table}[H]
     \centering
@@ -460,11 +515,11 @@ Durch einsetzen dieser in Formel \ref*{label} ergeben sich folgende Werte für d
         \hline
         Nr.   & Tubuslänge [cm]  & Vergrößerung [] \\
         \hline
-        1 & 20.1 & 83.4 \\
-        2 & 19.1 & 78.8 \\
-        3 & 17.1 & 71.5 \\
-        4 & 16.1 & 63.7 \\
-        5 & 14.1 & 58.9 \\
+        1 & 20.1 & 83.40 $\pm$ 627.90 \\
+        2 & 19.1 & 78.80 $\pm$ 686.60 \\
+        3 & 17.1 & 71.50 $\pm$ 503.10 \\
+        4 & 16.1 & 63.70 $\pm$ 399.40 \\
+        5 & 14.1 & 58.92 $\pm$ 380.14 \\
         \hline
     \end{tabular}
 \end{table}
@@ -474,7 +529,7 @@ Durch das grafische Darstellen dieser Werte in einem Diagramm und einer Ausgleic
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth, angle=0]{nudes/VergrößerungAltesMikr.jpg}
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/VergrößerungAltesMik.jpg}
     \caption{Vergrößerung in Abhängigkeit der Tubuslänge in qti-Plot}
     \label{fig:VergrößerungDiagramm}
 \end{figure}
@@ -483,8 +538,8 @@ Durch das grafische Darstellen dieser Werte in einem Diagramm und einer Ausgleic
 Für die Ausgleichsgerade ergibt sich folgende Funktion $V(t') = 4.22*t' - 1.69$. Setzt man die Funktion gleich null, so erhält man durch umformen den Wert für x = 0.4. \newline
 
 \noindent 
-Zur Bestimmung der Objektivvergrößerung wurde dann ein anderes Okular verwendet, welche eine bekannte Vergrößerung von 10 besitzt. 
-Mit den beobachteten Werten für die Gesamtvergrößerung aus den Tabellen \ref{tab:10XmesswerteTB20}-\ref{tab:10XmesswerteTB14} konnten mittels Formel \ref*{eq:Gesamtvergrößerung} die Objektivvergrößerungen der jeweiligen Tubuslängen ermittelt werden.
+Zur Bestimmung der Objektivvergrößerung wurde dann ein anderes Okular verwendet, welche eine bekannte Vergrößerung von 10 $\pm$ 0 besitzt. 
+Mit den Gesamtvergrößerungen, welche mittels Formel \ref{eq:VergrößerungAM10x} bzw. \ref{eq:Unsicherheit_VergrößerungAM10x} und den Daten aus den Tabellen \ref{tab:10XmesswerteTB20}-\ref{tab:10XmesswerteTB14} berechnet wurden, konnten mit Hilfe von Formel \ref*{eq:Gesamtvergrößerung} bzw. \ref{eq:Unsicherheit_Gesamtvergrößerung} die Objektivvergrößerungen der jeweiligen Tubuslängen ermittelt werden.
 
 \begin{table}[H]
     \centering
@@ -494,11 +549,11 @@ Mit den beobachteten Werten für die Gesamtvergrößerung aus den Tabellen \ref{
         \hline
         Nr.   & Tubuslänge [cm]  & Gesamtvergrößerung [] & Objektivvergrößerung [] \\
         \hline
-        1 & 20.1 & 9.1 & 0.91 \\
-        2 & 19.1 & 10.0 & 1.00 \\
-        3 & 17.1 & 9.1 & 0.91 \\
-        4 & 16.1 & 8.4 & 0.84 \\
-        5 & 14.1 & 7.7 & 0.77 \\
+        1 & 20.1 & 90 $\pm$ 890 & 9.0 $\pm$ 89 \\
+        2 & 19.1 & 103 $\pm$ 1020 & 10.3 $\pm$ 102 \\
+        3 & 17.1 & 87 $\pm$ 860 & 8.7 $\pm$ 86 \\
+        4 & 16.1 & 80 $\pm$ 790 & 8.0 $\pm$ 79 \\
+        5 & 14.1 & 77 $\pm$ 760 & 7.7 $\pm$ 76 \\
         \hline
     \end{tabular}
 \end{table}
@@ -506,42 +561,42 @@ Mit den beobachteten Werten für die Gesamtvergrößerung aus den Tabellen \ref{
 
 \subsection{Okularvergrößerung}
 
-Mit Hilfe von Formel \ref{eq:Gesamtvergrößerung} lässt sich außerdem die Okularvergrößerung des verwendeten Okulars bei den Werten von Tabelle \ref{tab:messwerteTB20}-\ref{tab:messwerteTB14} ermitteln.
+Mit Hilfe von Formel \ref{eq:Gesamtvergrößerung} bzw. \ref{eq:Unsicherheit_Gesamtvergrößerung} lässt sich außerdem die Okularvergrößerung des verwendeten Okulars bei den Werten von Tabelle \ref{tab:messwerteTB20}-\ref{tab:messwerteTB14} ermitteln.
 
 \begin{table}[H]
     \centering
-    \caption{Berechnete Objektivvergrößerungen der jeweiligen Tubuslängen}
+    \caption{Berechnete Okularvergrößerung der jeweiligen Tubuslängen}
     \label{tab:Okularvergrößerungen}
     \begin{tabular}{| l | l | l | l | l |}
         \hline
         Nr.   & Tubuslänge [cm]  & Gesamtvergrößerung [] & Objektivvergrößerung [] & Okularvergrößerung [] \\
         \hline
-        1 & 20.1 & 83.4 & 0.91 & 91.6 \\
-        2 & 19.1 & 78.8 & 1.00 & 78.8 \\
-        3 & 17.1 & 71.5 & 0.91 & 78.6 \\
-        4 & 16.1 & 63.7 & 0.84 & 75.9 \\
-        5 & 14.1 & 58.9 & 0.77 & 76.5 \\
+        1 & 20.1 & 83.40 $\pm$ 627.90 & 9.0 $\pm$ 89 & 9.3 $\pm$ 636.7 \\
+        2 & 19.1 & 78.80 $\pm$ 686.60 & 10.3 $\pm$ 102 & 7.7 $\pm$ 519.9 \\
+        3 & 17.1 & 71.50 $\pm$ 503.10 & 8.7 $\pm$ 86 & 8.22 $\pm$ 485.14 \\
+        4 & 16.1 & 63.70 $\pm$ 399.40 & 8.0 $\pm$ 79 & 8.0 $\pm$ 407.4 \\
+        5 & 14.1 & 58.90 $\pm$ 380.14 & 7.7 $\pm$ 76 & 7.7 $\pm$ 387.6 \\
         \hline
     \end{tabular}
 \end{table}
 
 \subsection{Objektivbrennweite}
 
-Die Objektivbrennweiten ergeben sich mit Formel \ref{eq:Objektivbrennweite} und den Werten für die Objektivvergrößerungen aus Tabelle \ref{tab:Objektivvergrößerungen}.
+Die Objektivbrennweiten ergeben sich mit Formel \ref{eq:Objektivbrennweite} bzw. \ref{eq:Unsicherheit_Objektivbrennweite} und den Werten für die Objektivvergrößerungen aus Tabelle \ref{tab:Objektivvergrößerungen}.
 
 \begin{table}[H]
     \centering
     \caption{Berechnete Objektivvergrößerungen der jeweiligen Tubuslängen}
-    \label{tab:Okularvergrößerungen}
+    \label{tab:Objektivbrennweiten}
     \begin{tabular}{| l | l | l | l |}
         \hline
         Nr.   & Tubuslänge [cm]  & Objektivvergrößerung [] & Objektivbrennweite [mm] \\
         \hline
-        1 & 20.1 & 0.91 & 22.1 \\
-        2 & 19.1 & 1.00 & 19.1 \\
-        3 & 17.1 & 0.91 & 18.8 \\
-        4 & 16.1 & 0.84 & 19.2 \\
-        5 & 14.1 & 0.77 & 18.4 \\
+        1 & 20.1 & 9.0 $\pm$ 89 & 22.4 $\pm$ 220.9 \\
+        2 & 19.1 & 10.3 $\pm$ 102 & 18.6 $\pm$ 183.7 \\
+        3 & 17.1 & 8.7 $\pm$ 86 & 19.7 $\pm$ 194.3 \\
+        4 & 16.1 & 8.0 $\pm$ 79 & 20.2 $\pm$ 198.8 \\
+        5 & 14.1 & 7.7 $\pm$ 76 & 18.4 $\pm$ 180.8 \\
         \hline
     \end{tabular}
 \end{table}
@@ -549,19 +604,19 @@ Die Objektivbrennweiten ergeben sich mit Formel \ref{eq:Objektivbrennweite} und 
 \subsection{Gesamtvergrößerung neues Mikroskop}
 
 Für die Gesamtvergrößerungen des neuen Mikroskopes der einzelnen Objektivvergrößerungen wird wiederum die Formel \ref{eq:Gesamtvergrößerung} verwendet.
-Gemeinsam mit den Durchschnittswerten der Gesamtvergrößerung aus Tabellen \ref{tab:messwerteNM4x}-\ref{tab:messwerteNM40x} kann so auf die Gesamtvergrößerung geschlossen werden.
+Gemeinsam mit den Durchschnittswerten der Gesamtvergrößerung aus Tabellen \ref{tab:messwerteNM4x}-\ref{tab:messwerteNM40x} kann mittels Formel \ref{eq:VergrößerungNM} bzw. \ref{eq:Unsicherheit_VergrößerungNM} auf die Gesamtvergrößerung geschlossen werden.
 
 \begin{table}[H]
     \centering
     \caption{Berechnete Objektivvergrößerungen der jeweiligen Tubuslängen}
-    \label{tab:Okularvergrößerungen}
+    \label{tab:GesamtvergrößerungNM}
     \begin{tabular}{| l | l | l | l |}
         \hline
-        Nr.   & Objektivvergrößerung [] & Gesamtvergrößerung [] \\
+        Nr.   & Objektivvergrößerung [] & Gesamtvergrößerung berechnet [] & Gesamtvergrößerung gerundet [] \\
         \hline
-        1 & 4 & 4.83 \\
-        2 & 10 & 0.09 \\
-        3 & 40 & 4.05 \\
+        1 & 4 & 40.5 $\pm$ 159.9 & 40 \\
+        2 & 10 & 109.9 $\pm$ 1196.6 & 100 \\
+        3 & 40 & 404.9 $\pm$ 16350 & 400 \\
         \hline
     \end{tabular}
 \end{table}
@@ -570,16 +625,173 @@ Gemeinsam mit den Durchschnittswerten der Gesamtvergrößerung aus Tabellen \ref
 
 \subsection{Vergleich Mikroskope alt/neu}
 
+Vergleicht man die beiden Mikroskope miteinander, so sollte einem jedem sofort ins Auge fallen, dass das ältere Mikroskop ihrem modernerem Gegenstück optisch, als auch praktisch etwas hinterherhinkt.
+Zum einen gibt es natürlich den großen Unterschied, dass man beim alten Mirkoskop die Tubuslänge manuell einstellen kann. Dafür gibt es beim neuen Mikroskop die Möglichkeit, die Objektive zu wechseln. \newline
+
+\noindent
+Das neue Mikroskop weißt außerdem ein kompakteres und einfacheres Design auf, was sich vor allem beim Bestimmen der Vergrößerungen als vorteilhafter herausgestellt hat. \newline
+
+\noindent
+Mit Hilfe der folgenden Tabelle lassen sich nun die Vergrößerungsleistungen der beiden Mikroskope vergleichen.
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnete Objektivvergrößerungen der jeweiligen Tubuslängen}
+    \label{tab:Okularvergrößerungen}
+    \begin{tabular}{| l | l | l |}
+        \hline
+           & Mikroskop neu & Mikroskop alt \\
+        \hline
+        max. gemessene Gesamtvergrößerung & 400 & 103 \\
+        min. gemessene Gesamtvergrößerung & 40 & 77 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Mit dem neuen Mikroskop lässt sich ein wesentlich größerer Vergrößerungsbereich erzielen. 
+Beim modernen Forschen sollte das neue Mikroskop mit Sicherheit für die meisten Untersuchungsaufgaben das bessere und handlichere Hilfsmittel darstellen.
+Es schadet jedoch sicherlich nicht, sich auch mit dem älterem Mikroskop auseinanderzusetzen, da auf digitale Technologie nicht immer Verlass ist, vor allem wenn der Strom fehlt.
+
+
 \subsection{Untersuchung von Proben (digital)}
 
+Im letzten Punkt der Aufgabenstellung sollten Proben mit dem neuen Mikroskop untersucht und vermessen werden. \newline
 
+\noindent
+Hierfür wurden ein altes Transmissionsgitter und eine Graphenprobe im wahrsten Sinne des Wortes unter die Lupe bzw. unter das Mikroskop genommen.
+Die Resultate wurden digital am Computerbildschirm dargestellt und zur weiteren Untersuchung auf
 
+\begin{itemize}
+    \item Transmissionsgitter: Liniendichte
+    \item Graphenprobe: Graphenbedeckung der Oberfläche
+    \item Haarprobe 
+\end{itemize}
+
+\noindent
+abfotografiert. Die Ergebnisse sind in den folgenden Abbildungen zu sehen:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth, angle=0]{nudes/mikro/Snap_001.jpg}
+    \caption{Transmissionsgitter 15$\%$}
+    \label{fig:Transmissionsgitter15}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth, angle=0]{nudes/mikro/Snap_004.jpg}
+    \caption{Transmissionsgitter 50$\%$}
+    \label{fig:Transmissionsgitter50}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth, angle=0]{nudes/mikro/Snap_002.jpg}
+    \caption{Transmissionsgitter 100$\%$}
+    \label{fig:Transmissionsgitter100}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth, angle=0]{nudes/mikro/Snap_003.jpg}
+    \caption{Graphenprobe}
+    \label{fig:graphenprobe}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth, angle=0]{nudes/mikro/Snap_005.jpg}
+    \caption{Haarprobe}
+    \label{fig:haarprobe}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \caption{Probenaufgaben}
+    \label{tab:Probenaufgabe}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Objekt & Aufgabe & Ergebnis \\
+        \hline
+        Transmissionsgitter 15$\%$ & Liniendichte &  \\
+        Transmissionsgitter 50$\%$ & Liniendichte &  \\
+        Transmissionsgitter 100$\%$ & Liniendichte &  \\
+        Graphenprobe & Graphenbedeckung &  \\
+        Haarprobe & & \\
+        \hline
+    \end{tabular}
+\end{table}
 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 
+Ein Luftthermometer ist ein unabdingbares Hilfsmittel in der Forschung. 
+
+\subsection{Objektivvergrößerung altes Mikroskop}
+
+Die Gesamtvergrößerungen von Mikroskopen hängt von der Zusammensetzung aus Okular- und Objektivvergrößerung ab.
+Da die Vergrößerung des eingebauten Objektives nicht bekannt ist, lässt sich auch kein literarischer Wert für die Gesamtvergrößerung anführen. \newline
+
+\noindent
+Eine Verlängerung der Tubuslänge führt jedooch meist zu einer Vergrößerung, was sich auch bei den genannten Messergebnissen bemerkbar macht. 
+Dies ist möglicherweiße ein Indiz für eine richtige Durchführung des Experimentes. 
+
+\subsection{Okularvergrößerung}
+
+Selbiges Problem wie bei der Objektivvergrößerung lässt sich auch bei der Okularvergrößerung finden, jedoch sinkt auch hier die Vergrößerung mit der Tubuslänge. 
+
+
+\subsection{Objektivbrennweite}
+
+In der Mikroskopie liegen die Objektivbrennweiten meist zwischen 2mm und 20mm oder mehr. Diese Werte decken sich ebenfalls mit den berechneten Brennweiten aus Tabelle \ref{tab:Objektivbrennweiten}.
+
+
+\subsection{Gesamtvergrößerung neues Mikroskop}
+
+Die berechneten Werte der Gesamtvergrößerung aus Tabelle \ref{tab:GesamtvergrößerungNM} legen ein verwendetes Okular mit einer Vergrößerung von 10 nahe, was ebenfalls auf die korrekte Versuchsdurchführung hinweist.
+
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+
+Hier nocheinmal die Ergebnisse zusammengefasst.
+
+\begin{table}[H]
+    \centering
+    \caption{Ergebnisse altes Mikroskop}
+    \label{tab:ErgebnisseAM}
+    \begin{tabular}{| l | l | l | l | l | l |}
+        \hline
+         & TL 21.1 & TL 19.1 & TL 17.1 & TL 16.1 & TL 14.1 \\
+        \hline
+        Gesamtvergrößerung & 83.4 & 78.8 & 71.5 & 63.7 & 58.9 \\
+        Objektivvergrößerung & 9.0 & 10.3 & 8.7 & 8.0 & 7.7 \\
+        Okularvergrößerung & 9.27 & 7.65 & 8.22 & 7.97 & 7.65 \\
+        Objektivbrennweite & 22.3 & 18.6 & 19.7 & 20.2 & 18.4 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Ergebnisse neues Mikroskop}
+    \label{tab:ErgebnisseNM}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+         & Obj 4x & Obj 10x & Obj. 40x \\
+        \hline
+        Gesamtvergrößerung & 40 & 100 & 400 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/VergrößerungAltesMik.jpg}
+    \caption{Vergrößerung in Abhängigkeit der Tubuslänge in qti-Plot}
+    \label{fig:VergrößerungDiagramm}
+\end{figure}
+
 
 
 \printbibliography[heading=bibintoc]

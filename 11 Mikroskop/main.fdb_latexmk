@@ -1,11 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1697309103 -1
-  "main.bcf" 1697309102 108036 aa63050cb1ccffbdf60bcfa60903c7a9 "pdflatex"
+["biber main"] 1697402658 "main.bcf" "main.bbl" "main" 1697407800 0
+  "bibliography.bib" 1697293588 10283 55c5cf04f0c7d9c637405c00261d93ad ""
+  "main.bcf" 1697407799 108036 aa63050cb1ccffbdf60bcfa60903c7a9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1697309097 "c:/Uni/Semester 3/ExP2-Labor/11 Mikroskop/main.tex" "main.pdf" "main" 1697309103 0
+["pdflatex"] 1697407792 "c:/Uni/Semester 3/ExP2-Labor/11 Mikroskop/main.tex" "main.pdf" "main" 1697407800 0
   "../Deckblätter/DeckBlatt_Mikroskop.pdf" 1697282558 2955723 a31a7147edb6f5636efe262a08467c17 ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682279348 82705 9cc9f144eacd499bc23a611703921467 ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1679860963 31952 1c8e29bd2aff213fa93173c8fb45733a ""
@@ -248,20 +249,25 @@
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Uni/Semester 3/ExP2-Labor/11 Mikroskop/main.tex" 1697309091 21198 4b27a6bd5f533aadb1c301149b233661 ""
+  "c:/Uni/Semester 3/ExP2-Labor/11 Mikroskop/main.tex" 1697407791 30750 a2ab558166dfd20605f32b32ac77e8fb ""
   "labor.sty" 1697282558 7223 0e5f3462a1a12aa9c2ec850941c0dcb5 ""
-  "main.aux" 1697309102 11067 d37a62b846d3b411cc75c63f2e1c5320 "pdflatex"
-  "main.bbl" 1697297792 2861 28095467e685fa37e433fd7fa92a1427 "biber main"
-  "main.out" 1697309102 2614 68ce7f47ba04cab75fcdd6f2c04156b5 "pdflatex"
-  "main.run.xml" 1697309102 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
-  "main.tex" 1697309091 21198 4b27a6bd5f533aadb1c301149b233661 ""
-  "main.toc" 1697309102 1295 9f003cfc4bc85db79a5b3522ed4fd86f "pdflatex"
+  "main.aux" 1697407799 14961 38a5360fec5a252ace43d9d46c2c5394 "pdflatex"
+  "main.bbl" 1697402662 2861 28095467e685fa37e433fd7fa92a1427 "biber main"
+  "main.out" 1697407799 3406 001ce342f3f6a4367756158a650faf96 "pdflatex"
+  "main.run.xml" 1697407799 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
+  "main.tex" 1697407791 30750 a2ab558166dfd20605f32b32ac77e8fb ""
+  "main.toc" 1697407799 1675 3710dc2af417d9d37fefb02d0df48df3 "pdflatex"
   "nudes/AltesMikro.jpg" 1697283465 2905952 37e2c9fde85863e57cd400392dfc70c4 ""
   "nudes/AltesMikroMessskala.jpg" 1697283505 2262952 891f365f5af06184abb0aacc53908afd ""
   "nudes/AltesMikroTubuslänge.jpg" 1697283500 3212420 57cf73ce997237a009011444752d2caa ""
   "nudes/Aufsatz.jpg" 1697283513 3857444 b381eb7440665c283b5407027f02be37 ""
   "nudes/StrahlengangMikro.png" 1697284896 32653 f7497308ad169ff16d60b05ca6fb4b51 ""
-  "nudes/VergrößerungAltesMikr.jpg" 1697300622 87658 50ec839d5d791a570fd52d8f57fac387 ""
+  "nudes/VergrößerungAltesMik.jpg" 1697395050 82940 d6c0a5bd517f706f905e9db6f8cb7eb5 ""
+  "nudes/mikro/Snap_001.jpg" 1697293490 3053675 81b83d9231190699dcfd0f941b1d5031 ""
+  "nudes/mikro/Snap_002.jpg" 1697293491 7447887 e3f07f93dd76f340d6f919208dc4898d ""
+  "nudes/mikro/Snap_003.jpg" 1697293490 7277575 498c0b3b30b4ad6894a1916e0aba98a8 ""
+  "nudes/mikro/Snap_004.jpg" 1697293491 4306886 37d9ac5b70a9db3654768e522fc9eda1 ""
+  "nudes/mikro/Snap_005.jpg" 1697293490 3361764 ada897ef463bd31dac99576e8fbd4aac ""
   "nudes/mikroskop_aufbau.png" 1697284568 71446 935df624753b51c6d0d8bdd47eff3fbc ""
   "nudes/neues_mikroskop.jpg" 1697293539 82668 d7a3e1ecc0bcb43ac488496bfb47519f ""
   (generated)

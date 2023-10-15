@@ -38,8 +38,8 @@
 \section{Aufgabenstellung} %jo beschreibn wos gmocht host ------------------------------
 Das Experiment Gitter/Prisma ist in zwei Teile gegliedert. Die Aufgabe beim Gitter ist es, die Gitterkonstante $g$ mithilfe einer gelben Na-Dampflampe zu bestimmen, sowie die Wellenlänge $\lambda$ der sichtbaren Linien einer Spektrallampe. 
 \\
-Im zweiten Teil des Experimentes besteht die Aufgabe den brechenden Winkel eines Prismas $\gamma$ durch Messung des Reflexionswinkels $\epsilon$ zu bestimmen. 
-Des weiteren ist auch der Brechungsindex $n(\lambda_0)$ des Prismas für die gut sichtbaren Linien einer Hg-Dampflampe zu bestimmen. 
+Im zweiten Teil des Experimentes besteht die Aufgabe den brechenden Winkel eines Prismas $\gamma$ durch Messung des Reflexionswinkels $\omega$ zu bestimmen. 
+Des weiteren ist auch der minimale Brechungswinkel $\delta$ sowie der Brechungsindex $n(\lambda_0)$ des Prismas für die gut sichtbaren Linien einer Hg-Dampflampe zu bestimmen. 
 \\
 \\
 Alle Informationen und Methodiken wurden uns von der Technischen Universität bereitgestellt \cite{teachcenter2}. 
@@ -62,6 +62,14 @@ Die konstruktiven Interferenzen können als Beugungsmaxima der Wellenlänge $\la
 
 \noindent
 Die Zahl $z$ ist die Ordnungszahl des Beugungsmaximums. 
+\\
+\\
+Das Auflösungsvermögen des Gitters wird über die Wellenlänge $\lambda$ und dessen Unsicherheit $\Delta \lambda$ berechnet. 
+
+\begin{equation}
+    \label{eq:Auflösungsvermögen}
+    \centerline{$\frac{\lambda}{\Delta \lambda}$}
+\end{equation}
 
 \subsection{Prisma}
 Licht wird durch einen Prisma gebrochen. 
@@ -100,6 +108,13 @@ Formt man nun die Gleichung auf den Brechungsindex $n$ des Prismas um, so erhäl
     \centerline{$ n = \frac{sin(\frac{\gamma + \delta }{2})}{sin(\gamma /2)}$}
 \end{equation}
 dies lässt sich jedoch nur bei symmetrischen Strahlengang bewerkstelligen. 
+\\
+\\
+Desweiteren wird die Formel für die Berechnung des Mittelwertes der verschiedenen Spektrallinien benötigt. Um den Mittelwert \={x} (representativ für die verschiedenen Winkel) zu berechnen, müssen die Anzahl der Messversuche N sowie die einzelnen Winkel bekannt sein. 
+\begin{equation}
+    \label{eq:Mittelwert}
+    \centerline{$\bar{x} = \frac{1}{N} \sum_{i = 1}^{N} x_i $}
+\end{equation}
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
 Der Aufbau des Versuches mit dem Gitter ist wiefolgt. Es besteht aus einen Spektrometertisch. Dieser ist in Kollimator, einen Fernrohr auf einer rotierbaren Winkelskala und einer Ablage für Gitter und Prisma in der Mitte. 
@@ -156,18 +171,21 @@ Das Fernrohr wird für die Messung des Winkels nach links und rechts gescwenkt u
 
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
 Die Versuchsdurchführung besteht aus mehreren Teilen für das Gitter und Prisma. 
+
+\subsection{Gitter}
+
 Der erste Teil besteht darin das Gitter zu Justieren. Dies war bereits der Fall und es wurde nur noch überprüft, dass keine Fehler vorhanden sind. Das Gitter wird mittig und normal zum Kollimator gestellt, wie in Bild \ref{fig:Aufbau} der Versuchsanordnung zu erkennen ist. 
 Die Natriumlampe wird vor den Kollimator gestellt und die Blende so eingestellt, dass eine dünne, jedoch noch gut sichtbare Linie durch das Fernrohr zu erkennen ist. 
 Durch schwenken des Fernrohres wird kontrolliert, ob zwei Maxima der Spektrallinien pro Seite sichtbar sind. 
-
+Es werden insgesamt fünf Messungen pro Seite für die zwei hinteren Spektrallinien vorgenommen, wobei mit dem Fadenkreuz des Fernrohres die innere grüne Linie anvisiert wird. 
 
 \begin{table}[H]
     \centering
-    \caption{Natriumlampe Gitter}
+    \caption{Winkel $\varphi$ der zweiten Spektrallinien der Natriumlampe}
     \label{tab:Gitter v1}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.  & Links  & Rechts \\
+        Nr.  & $\varphi_{Links}$ [Grad + Bogenminute]  & $\varphi_{Rechts}$ [Grad + Bogenminute]\\
         \hline
         1 & 41 + (2 $\pm$ 1) & 140 + (0 $\pm$ 1) \\
         2 & 41 + (1 $\pm$ 1) & 139 + (5 $\pm$ 1) \\
@@ -178,46 +196,68 @@ Durch schwenken des Fernrohres wird kontrolliert, ob zwei Maxima der Spektrallin
     \end{tabular}
 \end{table}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/na-lampe1.jpg}
+    \caption{Spektrallinien der Natriumlampe bei geöffneter Blende für die Aufnahme}
+    \label{fig:spektallinienNA}
+\end{figure}
+
+\noindent
+Im zweiten Teil mit dem Gitter wird die Natriumlampe durch die Quecksilberlampe getauscht. 
+Bei der Quecksilberlampe werden die einzelnen Wellenlängen der verschiedenfarbigen Spektrallinien gemessen. Hierbei werden wieder die zweiten hinteren Spektrallinien zur Messung genommen. 
+
 \begin{table}[H]
     \centering
     \caption{Quecksilberlampe Gitter}
     \label{tab:Gitter v2}
     \begin{tabular}{| l | l | l | l |}
         \hline
-        Farbe & Nr. & Links  & Rechts \\
-        \hline
+        Farbe & Nr.  & $\varphi_{Links}$ [Grad + Bogenminute]  & $\varphi_{Rechts}$ [Grad + Bogenminute]\\
         \hline
                 &  1 & 48 + (4 $\pm$ 1) & 132 + (21 $\pm$ 1) \\
-        rot     &  2 & 48 + (4 $\pm$ 1) & 132 + (20 $\pm$ 1) \\
+        Lila     &  2 & 48 + (4 $\pm$ 1) & 132 + (20 $\pm$ 1) \\
                 &  3 & 48 + (5 $\pm$ 1) & 132 + (20 $\pm$ 1) \\
         \hline
                 &  1 & 41 + (17 $\pm$ 1) & 138 + (26 $\pm$ 1) \\
-        gelb    &  2 & 41 + (17 $\pm$ 1) & 138 + (26 $\pm$ 1) \\
+        Hellblau&  2 & 41 + (17 $\pm$ 1) & 138 + (26 $\pm$ 1) \\
                 &  3 & 41 + (17 $\pm$ 1) & 138 + (26 $\pm$ 1) \\
         \hline
                 &  1 & 36 + (0 $\pm$ 1) & 144 + (7 $\pm$ 1) \\
-        grün    &  2 & 36 + (0 $\pm$ 1) & 144 + (7 $\pm$ 1) \\
+        Grün    &  2 & 36 + (0 $\pm$ 1) & 144 + (7 $\pm$ 1) \\
                 &  3 & 36 + (1 $\pm$ 1) & 144 + (8 $\pm$ 1) \\
         \hline
                 &  1 & 33 + (10 $\pm$ 1) & 146 + (20 $\pm$ 1) \\
-        hellblau&  2 & 33 + (10 $\pm$ 1) & 146 + (20 $\pm$ 1) \\
+        Gelb    &  2 & 33 + (10 $\pm$ 1) & 146 + (20 $\pm$ 1) \\
                 &  3 & 33 + (11 $\pm$ 1) & 146 + (20 $\pm$ 1) \\
         \hline
                 &  1 & 27 + (24 $\pm$ 1) & 155 + (5 $\pm$ 1) \\
-        lila    &  2 & 27 + (25 $\pm$ 1) & 152 + (5 $\pm$ 1) \\
+        Rot     &  2 & 27 + (25 $\pm$ 1) & 152 + (5 $\pm$ 1) \\
                 &  3 & 27 + (25 $\pm$ 1) & 152 + (5 $\pm$ 1) \\
         \hline
     \end{tabular}
 \end{table}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/stacked.png}
+    \caption{Spektrallinien der einzelnen Farben der Quecksilberlampe bei geöffneter Blende für die Aufnahme. Zusammengesetzt aus drei Einzelaufnahmen.}
+    \label{fig:spektallinienHG}
+\end{figure}
+
+\subsection{Prisma}
+Im zweiten Teil des Experimentes wird das Gitter durch einen Prisma getauscht. 
+Dieser wird mittels Augenmaß mittig auf der Ablage plaziert, wie das Gitter im Bild \ref{fig:Aufbau}. 
+Durch öffnen der Blende wird die Reflektion auf den Laborwänden sichtbar, wodurch die feine Weiße linie, nicht die RGB Linien, leichter mit dem Fernrohr zu finden ist. 
+Von dieser Linie wird auf beiden Seiten der Winkel $\gamma_{Links/Rechts}$ mit dem Fernrohr gemessen. Die Blende wird wieder so eingestellt, dass nur eine dünne Linie zu sehen ist. 
 
 \begin{table}[H]
     \centering
-    \caption{Prisma}
+    \caption{Brechender Winkel Prisma}
     \label{tab:Prisma}
     \begin{tabular}{| l | l | l |}
         \hline
-        Nr.  & Links  & Rechts \\
+        Nr.  & $\gamma_{Links}$ [Grad + Bogenminute] & $\gamma_{Rechts}$ [Grad + Bogenminute] \\
         \hline
         1 & 70 +    (4 $\pm$ 1) & 129 + (23 $\pm$ 1) \\
         2 & 69.5 +  (6 $\pm$ 1) & 129 + (23 $\pm$ 1) \\
@@ -229,50 +269,264 @@ Durch schwenken des Fernrohres wird kontrolliert, ob zwei Maxima der Spektrallin
     \end{tabular}
 \end{table}
 
+\noindent
+Nun wird der Spalt wieder geöffnet um die Reflekton an den Laborwänden besser zu erkennen. Der Prisma wird gedreht, bis an den Wänden ein bunter Fleck (\ref{fig:spektallinien Prisma}) zu sehen ist. 
+Dreht man den Prisma weiter, bemerkt man, dass dieser Fleck seine Richtung umkehrt. Der Prisma wird so gedreht, bis der bunte Fleck genau am Umkehrpunkt ist. 
+Die Blende wird wieder für die Beobachtung mit Fernrohr eingestellt und der Winkel $\omega$ der einzelnen Spektrallinien wird jeweils dreimal vermessen. 
 
 \begin{table}[H]
     \centering
-    \caption{Quecksilberlampe Gitter}
+    \caption{Winkel $\omega$ der gebrochenen Spektrallinien des Prismas}
     \label{tab:Prisma v2}
     \begin{tabular}{| l | l | l | l |}
         \hline
-        Farbe & Nr. & Links  & Rechts \\
+        Farbe & Nr. & $\omega_(Links)$ [Grad + Bogenminute] & $\omega_(Rechts)$ [Grad + Bogenminute] \\
         \hline
         \hline
                 &  1 & 38 + (6 $\pm$ 1) & 97.5 + (17 $\pm$ 1) \\
-        rot     &  2 & 38 + (5 $\pm$ 1) & 97.5 + (17 $\pm$ 1) \\
+        Lila    &  2 & 38 + (5 $\pm$ 1) & 97.5 + (17 $\pm$ 1) \\
                 &  3 & 38 + (6 $\pm$ 1) & 97.5 + (17 $\pm$ 1) \\
         \hline
                 &  1 & 38.5 + (0 $\pm$ 1) & 98 + (10 $\pm$ 1) \\
-        gelb    &  2 & 38.5 + (1 $\pm$ 1) & 98 + (10 $\pm$ 1) \\
+        Hellblau&  2 & 38.5 + (1 $\pm$ 1) & 98 + (10 $\pm$ 1) \\
                 &  3 & 38.5 + (0 $\pm$ 1) & 98 + (11 $\pm$ 1) \\
         \hline
                 &  1 & 38.5 + (13 $\pm$ 1) & 98 + (24 $\pm$ 1) \\
-        grün    &  2 & 38.5 + (13 $\pm$ 1) & 98 + (25 $\pm$ 1) \\
+        Grün    &  2 & 38.5 + (13 $\pm$ 1) & 98 + (25 $\pm$ 1) \\
                 &  3 & 38.5 + (13 $\pm$ 1) & 98 + (24 $\pm$ 1) \\
         \hline
                 &  1 & 39 + (0 $\pm$ 1) & 98.5 + (5 $\pm$ 1) \\
-        hellblau&  2 & 39 + (0 $\pm$ 1) & 98.5 + (6 $\pm$ 1) \\
+        Gelb    &  2 & 39 + (0 $\pm$ 1) & 98.5 + (6 $\pm$ 1) \\
                 &  3 & 39 + (1 $\pm$ 1) & 98.5 + (6 $\pm$ 1) \\
         \hline
                 &  1 & 39.5 + (6 $\pm$ 1) & 98.5 + (23 $\pm$ 1) \\
-        lila    &  2 & 39.5 + (6 $\pm$ 1) & 98.5 + (22 $\pm$ 1) \\
+        Rot     &  2 & 39.5 + (6 $\pm$ 1) & 98.5 + (22 $\pm$ 1) \\
                 &  3 & 39.5 + (6 $\pm$ 1) & 98.5 + (23 $\pm$ 1) \\
         \hline
     \end{tabular}
 \end{table}
 
-\section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/rgb wand.jpg}
+    \caption{Spektrallinien der einzelnen Farben der Quecksilberlampe reflektiert an der Laborwand}
+    \label{fig:spektallinien Prisma}
+\end{figure}
 
+\section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
 In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
 Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
 
+\subsection{Gitter}
+Aus den Messdaten aus Tabelle \ref{tab:Gitter v1} wird mit der Formel \ref{eq:Mittelwert} der Mittelwert berechnet. Die Bogenminuten werden noch in Grad umgerechnet mit der Formel: 
+
+\begin{equation}
+    \label{eq:Bogenwix}
+    \centerline{$Grad = \frac{Bogenminuten}{60}$}
+\end{equation}
+Daraus ergeben sich für die Winkel $\varphi_{Links} = (41.05 \pm 0.02)$ Grad und für $\varphi_{Rechts} = (140.07 \pm 0.02) $ Grad. Die Unsicherheit $\Delta \varphi $ beträgt eine Bogensekunde = 0.02 Grad. 
+\\
+Mit der Formel
+\begin{equation}
+    \label{eq:formel für gitterwix}
+    \centerline{$\varphi = \frac{\varphi_{Rechts} - \varphi_{Links}}{2}$}
+\end{equation}
+wird der Winkel $\varphi = (49.51 \pm 0.02) Grad$ berechnet und mit der Wellenlänge $\lambda = (5889.95 \pm 0.01)$ \AA, welche auf Seite 5 des Skriptes \cite{teachcenter2} angegeben ist, lässt sich mit Formel \ref{eq:Gitterkonstante}, $z=2$ weil die hinteren Spektrallinien gemessen wurden, und für die Unsicherheit die Formel 
+
+\begin{equation}
+    \label{eq:uns gitterkonstante}
+    \centerline{$ \Delta g = \vert \frac{\partial g}{\partial \lambda} * \Delta \lambda \vert + \vert \frac{\partial g}{\partial \varphi} * \Delta \varphi \vert$}
+\end{equation}
+
+\noindent
+die Gitterkonstante $g = (1.55 \pm 0.03) \mu m$ bestimmen. 
+\\
+\\
+Für die Werte aus der Tabelle \ref{tab:Gitter v2} wird wieder der Mittelwert mit Formel \ref{eq:Mittelwert} berechnet. 
+Der Winkel $\varphi$ wird wie zuvor mit der Formel \ref{eq:Bogenwix} und selber Unsicherheit berechnet. 
+
+\begin{table}[H]
+    \centering
+    \caption{Gemittelter Winkel $\varphi$}
+    \label{tab:gitterwinkel}
+    \begin{tabular}{| l | l |}
+        \hline
+        Farbe & $\varphi$ [Grad] \\
+        \hline
+        Lila        & $ 42.13 \pm 0.02 $ \\
+        Hellblau    & $ 48.58 \pm 0.02 $ \\
+        Grün        & $ 54.06 \pm 0.02 $ \\
+        Gelb        & $ 56.58 \pm 0.02 $ \\
+        Rot         & $ 63.34 \pm 0.02 $ \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Durch die zuvor bestimmte Gitterkonstante $g = (1.55 \pm 0.03) \mu m$ kann mit der Formel \ref{eq:Gitterkonstante} ($z=2$) die Wellenlänge $\lambda$ berechnet werden. 
+Für die Unsicherheit verwendet man die Formel
+
+\begin{equation}
+    \label{eq:uns wellenwix}
+    \centerline{$ \Delta \lambda = \vert \frac{\partial \lambda}{\partial g} * \Delta g \vert + \vert \frac{\partial \lambda }{\partial \varphi} * \Delta \varphi \vert$}
+\end{equation}
+
+\noindent
+und erhält dadurch die Unsicherheit der Wellenlänge $\Delta \lambda = \pm 0.04 nm$, welche für alle Werte gerundet die gleiche ist. 
+
+\begin{table}[H]
+    \centering
+    \caption{Wellenlänge $\lambda$ der einzelnen Farben}
+    \label{tab:wellenlänge gitter}
+    \begin{tabular}{| l | l |}
+        \hline
+        Farbe & $\lambda$ [nm] \\
+        \hline
+        Lila        & $ 519.89 \pm 0.04 $ \\
+        Hellblau    & $ 581.16 \pm 0.04 $ \\
+        Grün        & $ 627.47 \pm 0.04 $ \\
+        Gelb        & $ 646.86 \pm 0.04 $ \\
+        Rot         & $ 692.62 \pm 0.04 $ \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Das Auflösungsvermögen der Messanordnung wird durch die Formel \ref{eq:Auflösungsvermögen} berechnet. 
+Für die Werte aus Tabelle \ref{tab:wellenlänge gitter} beträgt das Auflösungsvermögen
+
+\begin{table}[H]
+    \centering
+    \caption{Auflösungsvermögen des Gitters}
+    \label{tab:Auflösungsvermögen gitter}
+    \begin{tabular}{| l | l |}
+        \hline
+        Farbe & $\lambda$/$\Delta \lambda$ \\
+        \hline
+        Lila        &  12997.3\\
+        Hellblau    &  14529.0\\
+        Grün        &  15686.8\\
+        Gelb        &  16171.5\\
+        Rot         &  17315.5\\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Prisma}
+Für die Werte aus der Tabelle \ref{tab:Prisma} für den brechende Winkel $\gamma$ wird der Mittelwert mit der Formel \ref{eq:Mittelwert} berechnet. 
+Der Winkel $\gamma$ wird mit der Formel
+
+\begin{equation}
+    \label{eq:formel für prismawix}
+    \centerline{$\gamma = \frac{\gamma_{Rechts} - \gamma_{Links}}{2}$}
+\end{equation}
+
+\noindent
+berechnet. Daraus erhält man den Winkel $\gamma = (29.70 \pm 0.02)$ des Prisma. 
+\\
+\\
+Durch die Formel \ref{eq:Ablenkungswinkel} und den Messwerten aus Tabelle \ref{tab:Prisma v2} lässt sich der minimale Brechungswinkel $\delta$ berechnen. 
+Die Unsicherheit $\Delta \delta$ beträgt eine Bogenminute = 0.02 Grad. 
+
+\begin{table}[H]
+    \centering
+    \caption{Brechungswinkel $\delta$ der einzelnen Farben}
+    \label{tab:delta scheiß}
+    \begin{tabular}{| l | l |}
+        \hline
+        Farbe & $\delta$ [Grad] \\
+        \hline
+        Lila        & $ 29.85 \pm 0.02 $ \\
+        Hellblau    & $ 29.85 \pm 0.02 $ \\
+        Grün        & $ 29.84 \pm 0.02 $ \\
+        Gelb        & $ 29.80 \pm 0.02 $ \\
+        Rot         & $ 29.64 \pm 0.02 $ \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Mit der Formel \ref{eq:Brechungsindex} und dem zuvor berechneten brechenden Winkel $\gamma = (29.70 \pm 0.02)$ des Prisma lassen sich noch die einzelnen Brechungsindizes berechnen. 
+Für die Unsicherheit verwendet man die Formel
+
+\begin{equation}
+    \label{eq:uns n}
+    \centerline{$ \Delta n = \vert \frac{\partial n}{\partial \gamma} * \Delta \gamma \vert + \vert \frac{\partial n }{\partial \delta} * \Delta \delta \vert$}
+\end{equation}
+
+\noindent
+und erhält für $\Delta n = 0.0004$. Die Unsicherheit ist gerundet für die einzelnen Farben die gleiche. 
+
+\begin{table}[H]
+    \centering
+    \caption{Brechungsindizes $n$}
+    \label{tab:delta n}
+    \begin{tabular}{| l | l |}
+        \hline
+        Farbe & $\delta$ [Grad] \\
+        \hline
+        Lila        & $ 1.9377 \pm 0.0004 $ \\
+        Hellblau    & $ 1.9377 \pm 0.0004 $ \\
+        Grün        & $ 1.9374 \pm 0.0004 $ \\
+        Gelb        & $ 1.9362 \pm 0.0004 $ \\
+        Rot         & $ 1.9315 \pm 0.0004 $ \\
+        \hline
+    \end{tabular}
+\end{table}
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+Hier nocheinmal die in der Aufgabenstellung angegebenen Werte zusammengefasst. 
+\\
+\\
+\subsection{Gitter}
+Gitterkonstante  $g = (1.55 \pm 0.03)\mu m$ \\
+Wellenlänge $\lambda$
 
+\begin{table}[H]
+    \centering
+    \caption{Wellenlänge $\lambda$ der einzelnen Farben}
+    \label{tab:zus wellenlänge gitter}
+    \begin{tabular}{| l | l |}
+        \hline
+        Farbe & $\lambda$ [nm] \\
+        \hline
+        Lila        & $ 519.89 \pm 0.04 $ \\
+        Hellblau    & $ 581.16 \pm 0.04 $ \\
+        Grün        & $ 627.47 \pm 0.04 $ \\
+        Gelb        & $ 646.86 \pm 0.04 $ \\
+        Rot         & $ 692.62 \pm 0.04 $ \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Auflösungsvermögen $\lambda / \Delta \lambda$
+
+\begin{table}[H]
+    \centering
+    \caption{Auflösungsvermögen des Gitters}
+    \label{tab:zus Auflösungsvermögen gitter}
+    \begin{tabular}{| l | l |}
+        \hline
+        Farbe & $\lambda$/$\Delta \lambda$ \\
+        \hline
+        Lila        &  12997.3\\
+        Hellblau    &  14529.0\\
+        Grün        &  15686.8\\
+        Gelb        &  16171.5\\
+        Rot         &  17315.5\\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Prisma}
+Brechender Winkel $\gamma = (29.7 \pm 0.02)$ \\
+Minimale Brechungswinkel $\delta$ \\
+Brechungsindex $n$ \\
+Auflösungsvermögen $\lambda / \Delta \lambda$
 
 \printbibliography[heading=bibintoc]
 \end{document}

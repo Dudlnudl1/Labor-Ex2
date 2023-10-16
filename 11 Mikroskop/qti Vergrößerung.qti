@@ -1,29 +1,29 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	2
+<windows>	3
 <table>
-Table1	30	2	14/10/2023 18:13:19
-geometry	0	0	551	374	active
-header	1[X]	2[Y]
-ColWidth	100	100	
+Table1	30	3	14/10/2023 18:13:19
+geometry	0	0	551	374	
+header	1[X]	2[Y]	3[yEr]
+ColWidth	100	100	100	
 <com>
 </com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
 WindowLabel		2
 <data>
-0	2.01000000000000e+01	8.34000000000000e+01
-1	1.91000000000000e+01	7.88000000000000e+01
-2	1.71000000000000e+01	7.15000000000000e+01
-3	1.61000000000000e+01	6.37000000000000e+01
-4	1.41000000000000e+01	5.89000000000000e+01
+0	2.01000000000000e+02	8.34000000000000e+01	1.53000000000000e+01
+1	1.91000000000000e+02	7.88000000000000e+01	1.41000000000000e+01
+2	1.71000000000000e+02	7.15000000000000e+01	1.23000000000000e+01
+3	1.61000000000000e+02	6.37000000000000e+01	1.05000000000000e+01
+4	1.41000000000000e+02	5.89000000000000e+01	9.40000000000000e+00
 </data>
 </table>
 <multiLayer>
-Graph1	1	1	14/10/2023 18:32:13
-geometry	551	0	492	457	
+Graph1	1	1	15/10/2023 20:32:31
+geometry	551	0	632	577	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -32,27 +32,27 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	466	388
-PlotTitle	Title	#000000	4228
+ggeometry	5	5	602	504
+PlotTitle	Vergrößerung altes Mikroskop	#000000	4228
 <Antialiasing>0</Antialiasing>
 Background	#ffffff	255
 Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)			
+AxesTitles	t'/mm	Vges			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
-TitleFont	MS Shell Dlg 2	10	75	0	0	0
-ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
-AxisFont0	MS Shell Dlg 2	8	50	0	0	0
-AxisFont1	MS Shell Dlg 2	8	50	0	0	0
-AxisFont2	MS Shell Dlg 2	8	50	0	0	0
-AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+TitleFont	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	10	75	0	0	0
+AxisFont0	MS Shell Dlg 2	10	50	0	0	0
+AxisFont1	MS Shell Dlg 2	10	50	0	0	0
+AxisFont2	MS Shell Dlg 2	10	50	0	0	0
+AxisFont3	MS Shell Dlg 2	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
@@ -63,10 +63,10 @@ curve	Table1_1	Table1_2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0
 <Title>LinearFit1</Title>
 <Expression>A*x+B</Expression>
 <Variable>x</Variable>
-<Range>14.1	20.1</Range>
+<Range>141	201</Range>
 <Points>2</Points>
-<Constant>A	4.21666666666667</Constant>
-<Constant>B	-1.68833333333333</Constant>
+<Constant>A	0.421666666666667</Constant>
+<Constant>B	-1.68833333333334</Constant>
 <Style>0</Style>
 <LineStyle>1</LineStyle>
 <Pen>
@@ -81,8 +81,8 @@ curve	Table1_1	Table1_2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0
 </Function>
 scale	0	55	85	0	8	5	0	0
 scale	1	55	85	0	8	5	0	0
-scale	2	14	21	0	8	5	0	0
-scale	3	14	21	0	8	5	0	0
+scale	2	140	210	0	8	5	0	0
+scale	3	140	210	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -94,31 +94,87 @@ LabelsRotation	0	0
 LabelsPrefix				
 LabelsSuffix				
 TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	185620672
+ShowTicksPolicy	0	118521456	0	1782059124
 EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>14.175438596491</x>
-<y>83.996655518395</y>
-<right>15.9122807017544</right>
-<bottom>81.0869565217391</bottom>
-<attachTo>0</attachTo>
-<onTop>1</onTop>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	16/10/2023 14:09:08
+geometry	1183	0	590	578	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	399	305
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	6	563	512
+PlotTitle	Vergrößerung altes Mikroskop	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	t'/mm	Vges			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	13	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	10	75	0	0	0
+AxisFont0	MS Shell Dlg 2	10	50	0	0	0
+AxisFont1	MS Shell Dlg 2	10	50	0	0	0
+AxisFont2	MS Shell Dlg 2	10	50	0	0	0
+AxisFont3	MS Shell Dlg 2	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	4	1
+ErrorBars	1	Table1_1	Table1_2	Table1_3	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>141	201</Range>
+<Points>2</Points>
+<Constant>A	0.413533341594081</Constant>
+<Constant>B	-0.384449301422883</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-6.25704147045296	206.185328217876	0	8	5	0	0
+scale	1	-6.25704147045296	206.185328217876	0	8	5	0	0
+scale	2	-5.04211660023161	242.807314702819	0	8	5	0	0
+scale	3	-5.04211660023161	242.807314702819	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	128827544	0	128822680
+EnabledTickLabels	1	1	1	1
 </graph>
 <LinkXAxes>0</LinkXAxes>
 </multiLayer>
@@ -162,5 +218,47 @@ R^2 = 0.978702532358631
 Adjusted R^2 = 0.957405064717262
 RMSE (Root Mean Squared Error) = 1.7148048155856
 RSS (Residual Sum of Squares) = 8.82166666666667
+---------------------------------------------------------------------------------------
+
+[15/10/2023 20:33:03	Plot: ''Graph1'']
+Linear Regression of dataset: Table1_2, using function: A*x+B
+Weighting Method: No weighting
+From x = 2.010000000000000e+02 to x = 1.410000000000000e+02
+B (y-intercept) = -1.688333333333341e+00 +/- 6.260036872668836e+00
+A (slope) = 4.216666666666667e-01 +/- 3.591263494827236e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.940555555555551e+00
+R^2 = 0.978702532358631
+Adjusted R^2 = 0.957405064717262
+RMSE (Root Mean Squared Error) = 1.7148048155856
+RSS (Residual Sum of Squares) = 8.82166666666665
+---------------------------------------------------------------------------------------
+
+[16/10/2023 11:50:36	Plot: ''Graph2'']
+Linear Regression of dataset: Table1_2, using function: A*x+B
+Weighting Method: No weighting
+From x = 2.010000000000000e+02 to x = 1.410000000000000e+02
+B (y-intercept) = -1.688333333333341e+00 +/- 6.260036872668836e+00
+A (slope) = 4.216666666666667e-01 +/- 3.591263494827236e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.940555555555551e+00
+R^2 = 0.978702532358631
+Adjusted R^2 = 0.957405064717262
+RMSE (Root Mean Squared Error) = 1.7148048155856
+RSS (Residual Sum of Squares) = 8.82166666666665
+---------------------------------------------------------------------------------------
+
+[16/10/2023 14:09:13	Plot: ''Graph2'']
+Linear Regression of dataset: Table1_2, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table1_3
+From x = 2.010000000000000e+02 to x = 1.410000000000000e+02
+B (y-intercept) = -3.844493014228826e-01 +/- 4.191247045135391e+01
+A (slope) = 4.135333415940812e-01 +/- 2.513301888363720e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.611994618231457e-02
+R^2 = 0.975228221614339
+Adjusted R^2 = 0.950456443228678
+RMSE (Root Mean Squared Error) = 0.161616664308835
+RSS (Residual Sum of Squares) = 0.0783598385469437
 ---------------------------------------------------------------------------------------
 </log>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  16 OCT 2023 00:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  16 OCT 2023 14:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1558,41 +1558,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--126
  []
 
 [4 <./nudes/StrahlengangMikro.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 177--181
 
  []
 
 <nudes/AltesMikro.jpg, id=179, 4047.12pt x 3035.34pt>
 File: nudes/AltesMikro.jpg Graphic file (type jpg)
 <use nudes/AltesMikro.jpg>
-Package pdftex.def Info: nudes/AltesMikro.jpg  used on input line 183.
+Package pdftex.def Info: nudes/AltesMikro.jpg  used on input line 184.
 (pdftex.def)             Requested size: 227.62206pt x 170.6726pt.
 [5]
 <nudes/AltesMikroTubuslänge.jpg, id=193, 4047.12pt x 3035.34pt>
 File: nudes/AltesMikroTubuslänge.jpg Graphic file (type jpg)
 <use nudes/AltesMikroTubuslänge.jpg>
-Package pdftex.def Info: nudes/AltesMikroTubuslänge.jpg  used on input line 193.
+Package pdftex.def Info: nudes/AltesMikroTubuslänge.jpg  used on input line 194.
 (pdftex.def)             Requested size: 227.62206pt x 170.6726pt.
 <nudes/AltesMikroMessskala.jpg, id=194, 4047.12pt x 3035.34pt>
 File: nudes/AltesMikroMessskala.jpg Graphic file (type jpg)
 <use nudes/AltesMikroMessskala.jpg>
-Package pdftex.def Info: nudes/AltesMikroMessskala.jpg  used on input line 203.
+Package pdftex.def Info: nudes/AltesMikroMessskala.jpg  used on input line 204.
 (pdftex.def)             Requested size: 227.62206pt x 170.6726pt.
  [6 <./nudes/AltesMikro.jpg> <./nudes/AltesMikroTubuslänge.jpg>]
 <nudes/neues_mikroskop.jpg, id=201, 770.88pt x 770.88pt>
 File: nudes/neues_mikroskop.jpg Graphic file (type jpg)
 <use nudes/neues_mikroskop.jpg>
-Package pdftex.def Info: nudes/neues_mikroskop.jpg  used on input line 213.
+Package pdftex.def Info: nudes/neues_mikroskop.jpg  used on input line 214.
 (pdftex.def)             Requested size: 227.62206pt x 227.61935pt.
 
 
-LaTeX Warning: Reference `neues_mikr' on page 7 undefined on input line 214.
+LaTeX Warning: Reference `neues_mikr' on page 7 undefined on input line 215.
 
 
-LaTeX Warning: Reference `neues_mikr' on page 7 undefined on input line 214.
+LaTeX Warning: Reference `neues_mikr' on page 7 undefined on input line 215.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--221
+Underfull \hbox (badness 10000) in paragraph at lines 219--222
 
  []
 
@@ -1600,37 +1600,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--221
 <nudes/Aufsatz.jpg, id=209, 4047.12pt x 3035.34pt>
 File: nudes/Aufsatz.jpg Graphic file (type jpg)
 <use nudes/Aufsatz.jpg>
-Package pdftex.def Info: nudes/Aufsatz.jpg  used on input line 229.
+Package pdftex.def Info: nudes/Aufsatz.jpg  used on input line 230.
 (pdftex.def)             Requested size: 227.62206pt x 170.6726pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--262
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
-[8 <./nudes/Aufsatz.jpg>] [9] [10] [11]
-<nudes/VergrößerungAltesMik.jpg, id=248, 463.7325pt x 393.72093pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--264
+
+ []
+
+[8 <./nudes/Aufsatz.jpg>] [9] [10]
+Overfull \hbox (3.67119pt too wide) in paragraph at lines 486--497
+ [][] 
+ []
+
+[11]
+<nudes/VergrößerungAltesMik.jpg, id=248, 432.11438pt x 394.47375pt>
 File: nudes/VergrößerungAltesMik.jpg Graphic file (type jpg)
 <use nudes/VergrößerungAltesMik.jpg>
-Package pdftex.def Info: nudes/VergrößerungAltesMik.jpg  used on input line 532.
-(pdftex.def)             Requested size: 273.14923pt x 231.91486pt.
+Package pdftex.def Info: nudes/VergrößerungAltesMik.jpg  used on input line 534.
+(pdftex.def)             Requested size: 273.14923pt x 249.36246pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--539
+Underfull \hbox (badness 10000) in paragraph at lines 539--541
 
  []
 
 
-Overfull \hbox (58.64824pt too wide) in paragraph at lines 570--581
+Overfull \hbox (58.64824pt too wide) in paragraph at lines 572--583
  [][] 
  []
 
 [12 <./nudes/VergrößerungAltesMik.jpg>]
-Overfull \hbox (68.19164pt too wide) in paragraph at lines 613--622
+Overfull \hbox (68.19164pt too wide) in paragraph at lines 616--625
  [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 628--630
-
  []
 
 
@@ -1638,54 +1643,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 631--633
 
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 659--660
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--636
 
  []
 
-<nudes/mikro/Snap_001.jpg, id=281, 925.056pt x 520.344pt>
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 662--663
+
+ []
+
+<nudes/mikro/Snap_001.jpg, id=284, 925.056pt x 520.344pt>
 File: nudes/mikro/Snap_001.jpg Graphic file (type jpg)
 <use nudes/mikro/Snap_001.jpg>
-Package pdftex.def Info: nudes/mikro/Snap_001.jpg  used on input line 676.
+Package pdftex.def Info: nudes/mikro/Snap_001.jpg  used on input line 679.
 (pdftex.def)             Requested size: 227.62206pt x 128.0372pt.
-<nudes/mikro/Snap_004.jpg, id=282, 925.056pt x 520.344pt>
+<nudes/mikro/Snap_004.jpg, id=285, 925.056pt x 520.344pt>
 File: nudes/mikro/Snap_004.jpg Graphic file (type jpg)
 <use nudes/mikro/Snap_004.jpg>
-Package pdftex.def Info: nudes/mikro/Snap_004.jpg  used on input line 683.
+Package pdftex.def Info: nudes/mikro/Snap_004.jpg  used on input line 686.
 (pdftex.def)             Requested size: 227.62206pt x 128.0372pt.
-<nudes/mikro/Snap_002.jpg, id=283, 925.056pt x 520.344pt>
+[14 <./nudes/mikro/Snap_001.jpg>]
+<nudes/mikro/Snap_002.jpg, id=291, 925.056pt x 520.344pt>
 File: nudes/mikro/Snap_002.jpg Graphic file (type jpg)
 <use nudes/mikro/Snap_002.jpg>
-Package pdftex.def Info: nudes/mikro/Snap_002.jpg  used on input line 690.
+Package pdftex.def Info: nudes/mikro/Snap_002.jpg  used on input line 693.
 (pdftex.def)             Requested size: 227.62206pt x 128.0372pt.
-[14 <./nudes/mikro/Snap_001.jpg> <./nudes/mikro/Snap_004.jpg>]
-<nudes/mikro/Snap_003.jpg, id=291, 925.056pt x 520.344pt>
+<nudes/mikro/Snap_003.jpg, id=292, 925.056pt x 520.344pt>
 File: nudes/mikro/Snap_003.jpg Graphic file (type jpg)
 <use nudes/mikro/Snap_003.jpg>
-Package pdftex.def Info: nudes/mikro/Snap_003.jpg  used on input line 697.
+Package pdftex.def Info: nudes/mikro/Snap_003.jpg  used on input line 700.
 (pdftex.def)             Requested size: 227.62206pt x 128.0372pt.
-<nudes/mikro/Snap_005.jpg, id=292, 925.056pt x 520.344pt>
+<nudes/mikro/Snap_005.jpg, id=293, 925.056pt x 520.344pt>
 File: nudes/mikro/Snap_005.jpg Graphic file (type jpg)
 <use nudes/mikro/Snap_005.jpg>
-Package pdftex.def Info: nudes/mikro/Snap_005.jpg  used on input line 704.
+Package pdftex.def Info: nudes/mikro/Snap_005.jpg  used on input line 707.
 (pdftex.def)             Requested size: 227.62206pt x 128.0372pt.
-
-Overfull \hbox (1.49991pt too wide) in paragraph at lines 733--735
+ [15 <./nudes/mikro/Snap_004.jpg> <./nudes/mikro/Snap_002.jpg> <./nudes/mikro/Snap_003.jpg> <./nudes/mikro/Snap_005.jpg>]
+Overfull \hbox (1.49991pt too wide) in paragraph at lines 736--738
 \T1/cmr/m/n/12 Die Ge-samt-ver-gr�-�e-run-gen von Mi-kro-sko-pen h�ngt von der Zu-sam-men-set-zung aus Okular-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 733--735
+Underfull \hbox (badness 10000) in paragraph at lines 736--738
 
  []
 
-[15 <./nudes/mikro/Snap_002.jpg> <./nudes/mikro/Snap_003.jpg> <./nudes/mikro/Snap_005.jpg>]
+
+Overfull \hbox (20.26804pt too wide) in paragraph at lines 766--776
+ [][] 
+ []
+
+[16]
 File: nudes/VergrößerungAltesMik.jpg Graphic file (type jpg)
 <use nudes/VergrößerungAltesMik.jpg>
-Package pdftex.def Info: nudes/VergrößerungAltesMik.jpg  used on input line 790.
-(pdftex.def)             Requested size: 273.14923pt x 231.91486pt.
- [16]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 797.
+Package pdftex.def Info: nudes/VergrößerungAltesMik.jpg  used on input line 793.
+(pdftex.def)             Requested size: 273.14923pt x 249.36246pt.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 802.
  (C:\Users\nicoe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [17] 
@@ -1712,9 +1726,9 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,721b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (17 pages, 41096520 bytes).
+Output written on main.pdf (17 pages, 41072972 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
+ 652 PDF objects out of 1000 (max. 8388607)
  89 named destinations out of 1000 (max. 500000)
  250 words of extra memory for PDF output out of 10000 (max. 10000000)
 

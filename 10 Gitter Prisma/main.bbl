@@ -19,6 +19,58 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{wiki1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=236eaf17d33b5933b5afa326531a057b}{%
+           family={Lichtmikroskop},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{236eaf17d33b5933b5afa326531a057b}
+      \strng{fullhash}{236eaf17d33b5933b5afa326531a057b}
+      \strng{bibnamehash}{236eaf17d33b5933b5afa326531a057b}
+      \strng{authorbibnamehash}{236eaf17d33b5933b5afa326531a057b}
+      \strng{authornamehash}{236eaf17d33b5933b5afa326531a057b}
+      \strng{authorfullhash}{236eaf17d33b5933b5afa326531a057b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{"Wellenlänge"}
+      \verb{urlraw}
+      \verb https://www.lichtmikroskop.net/optik/wellenlaenge.php
+      \endverb
+      \verb{url}
+      \verb https://www.lichtmikroskop.net/optik/wellenlaenge.php
+      \endverb
+    \endentry
+    \entry{wiki2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b61acd84b36babaf531555565a1c4bd0}{%
+           family={Physics},
+           familyi={P\bibinitperiod},
+           given={Bio},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b61acd84b36babaf531555565a1c4bd0}
+      \strng{fullhash}{b61acd84b36babaf531555565a1c4bd0}
+      \strng{bibnamehash}{b61acd84b36babaf531555565a1c4bd0}
+      \strng{authorbibnamehash}{b61acd84b36babaf531555565a1c4bd0}
+      \strng{authornamehash}{b61acd84b36babaf531555565a1c4bd0}
+      \strng{authorfullhash}{b61acd84b36babaf531555565a1c4bd0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{"Absoption und Dispersion"}
+      \verb{urlraw}
+      \verb https://www.bio-physics.at/wiki/index.php?title=Absoption_und_Dispersion
+      \endverb
+      \verb{url}
+      \verb https://www.bio-physics.at/wiki/index.php?title=Absoption_und_Dispersion
+      \endverb
+    \endentry
     \entry{teachcenter2}{online}{}
       \name{author}{1}{}{%
         {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%

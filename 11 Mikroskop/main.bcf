@@ -2366,6 +2366,8 @@
     <bcf:citekey order="3" intorder="1">mikr_aufbau</bcf:citekey>
     <bcf:citekey order="4" intorder="1">teachcenter1</bcf:citekey>
     <bcf:citekey order="5" intorder="1">teachcenter1</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">neues_mikr</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">neues_mikr</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

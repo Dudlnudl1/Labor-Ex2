@@ -46,6 +46,33 @@
       \verb https://www.ulfkonrad.de/physik/5-6/optik/mikroskop
       \endverb
     \endentry
+    \entry{neues_mikr}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e432d304d2f2049715b2394dec1e8f9b}{%
+           family={Mikroskopie},
+           familyi={M\bibinitperiod},
+           given={ZEISS},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{e432d304d2f2049715b2394dec1e8f9b}
+      \strng{fullhash}{e432d304d2f2049715b2394dec1e8f9b}
+      \strng{bibnamehash}{e432d304d2f2049715b2394dec1e8f9b}
+      \strng{authorbibnamehash}{e432d304d2f2049715b2394dec1e8f9b}
+      \strng{authornamehash}{e432d304d2f2049715b2394dec1e8f9b}
+      \strng{authorfullhash}{e432d304d2f2049715b2394dec1e8f9b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Neues Mikroskop Bild}
+      \verb{urlraw}
+      \verb https://www.zeiss.com/microscopy/de/produkte/lichtmikroskope/weitfeldmikroskope/primostar-3.html
+      \endverb
+      \verb{url}
+      \verb https://www.zeiss.com/microscopy/de/produkte/lichtmikroskope/weitfeldmikroskope/primostar-3.html
+      \endverb
+    \endentry
     \entry{teachcenter1}{online}{}
       \name{author}{1}{}{%
         {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%

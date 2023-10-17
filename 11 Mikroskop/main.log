@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  17 OCT 2023 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  17 OCT 2023 21:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1489,7 +1489,7 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 3.
 
 \c@lstlisting=\count502
-<../Deckblätter/DeckBlatt_Mikroskop.pdf, id=86, 597.432pt x 845.07718pt>
+<../Deckblätter/DeckBlatt_Mikroskop.pdf, id=90, 597.432pt x 845.07718pt>
 File: ../Deckblätter/DeckBlatt_Mikroskop.pdf Graphic file (type pdf)
 <use ../Deckblätter/DeckBlatt_Mikroskop.pdf>
 Package pdftex.def Info: ../Deckblätter/DeckBlatt_Mikroskop.pdf  used on input line 33.
@@ -1498,7 +1498,7 @@ File: ../Deckblätter/DeckBlatt_Mikroskop.pdf Graphic file (type pdf)
 <use ../Deckblätter/DeckBlatt_Mikroskop.pdf>
 Package pdftex.def Info: ../Deckblätter/DeckBlatt_Mikroskop.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../Deckblätter/DeckBlatt_Mikroskop.pdf, id=89, page=1, 597.432pt x 845.07718pt>
+<../Deckblätter/DeckBlatt_Mikroskop.pdf, id=93, page=1, 597.432pt x 845.07718pt>
 File: ../Deckblätter/DeckBlatt_Mikroskop.pdf Graphic file (type pdf)
 <use ../Deckblätter/DeckBlatt_Mikroskop.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/DeckBlatt_Mikroskop.pdf , page1 used on input line 33.
@@ -1534,12 +1534,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout6 = `main.toc'.
 
  [2{C:/Users/nicoe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<nudes/mikroskop_aufbau.png, id=149, 185.19188pt x 225.84375pt>
+<nudes/mikroskop_aufbau.png, id=154, 185.19188pt x 225.84375pt>
 File: nudes/mikroskop_aufbau.png Graphic file (type png)
 <use nudes/mikroskop_aufbau.png>
 Package pdftex.def Info: nudes/mikroskop_aufbau.png  used on input line 76.
 (pdftex.def)             Requested size: 136.57462pt x 166.55658pt.
-<nudes/StrahlengangMikro.png, id=153, 463.7325pt x 247.67531pt>
+<nudes/StrahlengangMikro.png, id=158, 463.7325pt x 247.67531pt>
 File: nudes/StrahlengangMikro.png Graphic file (type png)
 <use nudes/StrahlengangMikro.png>
 Package pdftex.def Info: nudes/StrahlengangMikro.png  used on input line 86.
@@ -1559,24 +1559,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--181
 
  []
 
-<nudes/AltesMikro.jpg, id=184, 4047.12pt x 3035.34pt>
+<nudes/AltesMikro.jpg, id=189, 4047.12pt x 3035.34pt>
 File: nudes/AltesMikro.jpg Graphic file (type jpg)
 <use nudes/AltesMikro.jpg>
 Package pdftex.def Info: nudes/AltesMikro.jpg  used on input line 184.
 (pdftex.def)             Requested size: 227.62206pt x 170.6726pt.
 [5]
-<nudes/AltesMikroTubuslänge.jpg, id=198, 4047.12pt x 3035.34pt>
+<nudes/AltesMikroTubuslänge.jpg, id=203, 4047.12pt x 3035.34pt>
 File: nudes/AltesMikroTubuslänge.jpg Graphic file (type jpg)
 <use nudes/AltesMikroTubuslänge.jpg>
 Package pdftex.def Info: nudes/AltesMikroTubuslänge.jpg  used on input line 194.
 (pdftex.def)             Requested size: 227.62206pt x 170.6726pt.
-<nudes/AltesMikroMessskala.jpg, id=199, 4047.12pt x 3035.34pt>
+<nudes/AltesMikroMessskala.jpg, id=204, 4047.12pt x 3035.34pt>
 File: nudes/AltesMikroMessskala.jpg Graphic file (type jpg)
 <use nudes/AltesMikroMessskala.jpg>
 Package pdftex.def Info: nudes/AltesMikroMessskala.jpg  used on input line 204.
 (pdftex.def)             Requested size: 227.62206pt x 170.6726pt.
  [6 <./nudes/AltesMikro.jpg> <./nudes/AltesMikroTubuslänge.jpg>]
-<nudes/neues_mikroskop.jpg, id=206, 770.88pt x 770.88pt>
+<nudes/neues_mikroskop.jpg, id=211, 770.88pt x 770.88pt>
 File: nudes/neues_mikroskop.jpg Graphic file (type jpg)
 <use nudes/neues_mikroskop.jpg>
 Package pdftex.def Info: nudes/neues_mikroskop.jpg  used on input line 214.
@@ -1587,7 +1587,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--222
  []
 
 [7 <./nudes/AltesMikroMessskala.jpg> <./nudes/neues_mikroskop.jpg>]
-<nudes/Aufsatz.jpg, id=217, 4047.12pt x 3035.34pt>
+<nudes/Aufsatz.jpg, id=222, 4047.12pt x 3035.34pt>
 File: nudes/Aufsatz.jpg Graphic file (type jpg)
 <use nudes/Aufsatz.jpg>
 Package pdftex.def Info: nudes/Aufsatz.jpg  used on input line 230.
@@ -1608,7 +1608,7 @@ Overfull \hbox (3.67119pt too wide) in paragraph at lines 486--497
  []
 
 [11]
-<nudes/VergrößerungAltesMik.jpg, id=256, 432.11438pt x 394.47375pt>
+<nudes/VergrößerungAltesMik.jpg, id=261, 432.11438pt x 394.47375pt>
 File: nudes/VergrößerungAltesMik.jpg Graphic file (type jpg)
 <use nudes/VergrößerungAltesMik.jpg>
 Package pdftex.def Info: nudes/VergrößerungAltesMik.jpg  used on input line 534.
@@ -1643,34 +1643,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 662--663
 
  []
 
-<nudes/mikro/Snap_001.jpg, id=291, 925.056pt x 520.344pt>
+<nudes/mikro/Snap_001.jpg, id=296, 925.056pt x 520.344pt>
 File: nudes/mikro/Snap_001.jpg Graphic file (type jpg)
 <use nudes/mikro/Snap_001.jpg>
 Package pdftex.def Info: nudes/mikro/Snap_001.jpg  used on input line 679.
 (pdftex.def)             Requested size: 227.62206pt x 128.0372pt.
-<nudes/mikro/Snap_004.jpg, id=292, 925.056pt x 520.344pt>
+<nudes/mikro/Snap_004.jpg, id=297, 925.056pt x 520.344pt>
 File: nudes/mikro/Snap_004.jpg Graphic file (type jpg)
 <use nudes/mikro/Snap_004.jpg>
 Package pdftex.def Info: nudes/mikro/Snap_004.jpg  used on input line 686.
 (pdftex.def)             Requested size: 227.62206pt x 128.0372pt.
 [14 <./nudes/mikro/Snap_001.jpg>]
-<nudes/mikro/Snap_002.jpg, id=299, 925.056pt x 520.344pt>
+<nudes/mikro/Snap_002.jpg, id=304, 925.056pt x 520.344pt>
 File: nudes/mikro/Snap_002.jpg Graphic file (type jpg)
 <use nudes/mikro/Snap_002.jpg>
 Package pdftex.def Info: nudes/mikro/Snap_002.jpg  used on input line 693.
 (pdftex.def)             Requested size: 227.62206pt x 128.0372pt.
-<nudes/mikro/Snap_003.jpg, id=300, 925.056pt x 520.344pt>
+<nudes/mikro/Snap_003.jpg, id=305, 925.056pt x 520.344pt>
 File: nudes/mikro/Snap_003.jpg Graphic file (type jpg)
 <use nudes/mikro/Snap_003.jpg>
 Package pdftex.def Info: nudes/mikro/Snap_003.jpg  used on input line 700.
 (pdftex.def)             Requested size: 227.62206pt x 128.0372pt.
-<nudes/mikro/Snap_005.jpg, id=301, 925.056pt x 520.344pt>
+<nudes/mikro/Snap_005.jpg, id=306, 925.056pt x 520.344pt>
 File: nudes/mikro/Snap_005.jpg Graphic file (type jpg)
 <use nudes/mikro/Snap_005.jpg>
 Package pdftex.def Info: nudes/mikro/Snap_005.jpg  used on input line 707.
 (pdftex.def)             Requested size: 227.62206pt x 128.0372pt.
  [15 <./nudes/mikro/Snap_004.jpg> <./nudes/mikro/Snap_002.jpg> <./nudes/mikro/Snap_003.jpg> <./nudes/mikro/Snap_005.jpg>]
-<nudes/mikro/Photoshop.png, id=311, 1449.91687pt x 771.63281pt>
+<nudes/mikro/Photoshop.png, id=316, 1449.91687pt x 771.63281pt>
 File: nudes/mikro/Photoshop.png Graphic file (type png)
 <use nudes/mikro/Photoshop.png>
 Package pdftex.def Info: nudes/mikro/Photoshop.png  used on input line 719.
@@ -1695,33 +1695,45 @@ File: nudes/VergrößerungAltesMik.jpg Graphic file (type jpg)
 Package pdftex.def Info: nudes/VergrößerungAltesMik.jpg  used on input line 810.
 (pdftex.def)             Requested size: 273.14923pt x 249.36246pt.
 [17]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 819.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 817.
  (C:\Users\nicoe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [18] 
+)
+<nudes/Rechnungen1.jpg, id=335, 1115.16624pt x 1606.0pt>
+File: nudes/Rechnungen1.jpg Graphic file (type jpg)
+<use nudes/Rechnungen1.jpg>
+Package pdftex.def Info: nudes/Rechnungen1.jpg  used on input line 823.
+(pdftex.def)             Requested size: 409.71692pt x 590.04477pt.
+ [18]
+<nudes/Rechnungen2.jpg, id=347, 1136.245pt x 1606.0pt>
+File: nudes/Rechnungen2.jpg Graphic file (type jpg)
+<use nudes/Rechnungen2.jpg>
+Package pdftex.def Info: nudes/Rechnungen2.jpg  used on input line 830.
+(pdftex.def)             Requested size: 409.71692pt x 579.1153pt.
+ [19 <./nudes/Rechnungen1.jpg>] [20 <./nudes/Rechnungen2.jpg>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 160480875DA18C9429748BBBEB4BD17F;3554.
+(rerunfilecheck)             Checksum: C31851B9913BDFA182A5EC9C09BDD508;3628.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41080 strings out of 476334
- 821379 string characters out of 5787971
+ 41102 strings out of 476334
+ 821825 string characters out of 5787971
  1869382 words of memory out of 5000000
- 60781 multiletter control sequences out of 15000+600000
+ 60796 multiletter control sequences out of 15000+600000
  523983 words of font info for 62 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,721b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (18 pages, 42665975 bytes).
+Output written on main.pdf (20 pages, 42914280 bytes).
 PDF statistics:
- 674 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 694 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 

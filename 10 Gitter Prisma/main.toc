@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Gitter}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Prisma}{3}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Versuchsanordnung}{4}{section.3}%
+\contentsline {section}{\numberline {3}Versuchsanordnung}{5}{section.3}%
 \contentsline {section}{\numberline {4}Geräteliste}{7}{section.4}%
 \contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{7}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Gitter}{7}{subsection.5.1}%
@@ -11,8 +11,10 @@
 \contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{11}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Gitter}{11}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Prisma}{12}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Diskussion}{13}{section.7}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{13}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Gitter}{13}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Prisma}{14}{subsection.8.2}%
-\contentsline {section}{Literatur}{14}{section*.21}%
+\contentsline {section}{\numberline {7}Diskussion}{14}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Gitter}{14}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Prisma}{14}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{15}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Gitter}{15}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Prisma}{15}{subsection.8.2}%
+\contentsline {section}{Literatur}{16}{section*.23}%

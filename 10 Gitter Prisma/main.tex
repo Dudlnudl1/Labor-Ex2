@@ -46,7 +46,7 @@ Alle Informationen und Methodiken wurden uns von der Technischen Universität be
 
 \section{Voraussetzungen \& Grundlagen} %Grundlagen erklären, Formeln mit erklärung
 \subsection{Gitter}
-Ein Gitter besteht aus lichtdurchlässigen Öffnungen und lichtblockenden Balken, welche in bestimmten Abständen folgen. Ein gutes Beispiel für ein Gitter ist eine Jalousie. 
+Ein Gitter besteht aus lichtdurchlässigen Öffnungen und lichtblockenden Balken, welche in bestimmten Abständen folgen. Ein Beispiel für ein Gitter aus dem Alltag ist eine CD. 
 In diesem Fall besteht das Gitter aus einer Glasplatte. Fällt Licht auf dieses Gitter, wird es gebeugt und von jeden Punkt einer Öffnung gehen Kugelförmige Lichtwellen aus, welche sich nach Richtung und Wellenlänge durch Interferenzen verstärken oder abschwächen. 
 \\
 \\
@@ -64,11 +64,11 @@ Die konstruktiven Interferenzen können als Beugungsmaxima der Wellenlänge $\la
 Die Zahl $z$ ist die Ordnungszahl des Beugungsmaximums. 
 \\
 \\
-Das Auflösungsvermögen des Gitters wird über die Wellenlänge $\lambda$ und dessen Unsicherheit $\Delta \lambda$ berechnet. 
+Das Auflösungsvermögen $\Delta \lambda / \lambda$ des Gitters wird über die Größe $D/g$ berechnet, welche die Anzahl $N$ aller vom Licht getroffenen Gitterstriche darstellt.  
 
 \begin{equation}
     \label{eq:Auflösungsvermögen}
-    \centerline{$\frac{\lambda}{\Delta \lambda}$}
+    \centerline{$\frac{\lambda}{\Delta \lambda} = zN = \frac{zD}{g}$}
 \end{equation}
 
 \subsection{Prisma}
@@ -108,6 +108,13 @@ Formt man nun die Gleichung auf den Brechungsindex $n$ des Prismas um, so erhäl
     \centerline{$ n = \frac{sin(\frac{\gamma + \delta }{2})}{sin(\gamma /2)}$}
 \end{equation}
 dies lässt sich jedoch nur bei symmetrischen Strahlengang bewerkstelligen. 
+\\
+\\
+Um das Auflösungsvermögen eines Prismas zu berechnen, benötigt man den Brechungsindex $n$, sowie die Wellenlänge $\lambda$. Der Wert $t$ ist die Basislänge des wirksamen Strahlenbündels im Prisma. $D$ wird als Dispersion bezeichnet. 
+\begin{equation}
+    \label{eq:Auflösungsvermögen Prisma}
+    \centerline{$\frac{\lambda}{\Delta \lambda} = tD = t \frac{dn}{d \lambda}$}
+\end{equation}
 \\
 \\
 Desweiteren wird die Formel für die Berechnung des Mittelwertes der verschiedenen Spektrallinien benötigt. Um den Mittelwert \={x} (representativ für die verschiedenen Winkel) zu berechnen, müssen die Anzahl der Messversuche N sowie die einzelnen Winkel bekannt sein. 
@@ -158,7 +165,7 @@ Das Fernrohr wird für die Messung des Winkels nach links und rechts gescwenkt u
             \hline
             Gerät  & Gerätenummer  & Unsicherheit \\
             \hline
-            Quecksilberlampe & {n.a} & {n.a} \\
+            Quecksilberlampe & G15 & {n.a} \\
             Natriumlampe & G18 & {n.a} \\
             Gitter 570/mm & {n.a} & {n.a} \\
             Prisma & {n.a} & {n.a} \\
@@ -313,6 +320,10 @@ Die Blende wird wieder für die Beobachtung mit Fernrohr eingestellt und der Win
     \label{fig:spektallinien Prisma}
 \end{figure}
 
+\noindent
+Der Abstand $L$ vom Fernrohr zum Kollimator beträgt $(12.1 \pm 0.3)cm$, der Durchmesser $d$ des Kollimators beträgt $(1.4 \pm 0.2)cm$
+
+
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
 In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
 Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
@@ -392,25 +403,18 @@ und erhält dadurch die Unsicherheit der Wellenlänge $\Delta \lambda = \pm 0.04
 \end{table}
 
 \noindent
-Das Auflösungsvermögen der Messanordnung wird durch die Formel \ref{eq:Auflösungsvermögen} berechnet. 
-Für die Werte aus Tabelle \ref{tab:wellenlänge gitter} beträgt das Auflösungsvermögen
+Das Auflösungsvermögen wird durch die Formel \ref{eq:Auflösungsvermögen} berechnet. 
+Die Größe $D = 1/570 = 0.001754 mm = 1.754 \mu m$ wird über den Kehrwert der Striche pro Milimeter gebildet, siehe Bild \ref{fig:gitterundprisma}. Mit der zuvor berechneten Gitterkonstante $g$ kann man das Auflösungsvermögen berechnen. 
+Setzt man die Werte in die Formel \ref{eq:Auflösungsvermögen} ein, so erhält man für $\lambda / \Delta \lambda = (2.27 \pm 0.05)$. 
+Für die Unsicherheit wurde die Formel
 
-\begin{table}[H]
-    \centering
-    \caption{Auflösungsvermögen des Gitters}
-    \label{tab:Auflösungsvermögen gitter}
-    \begin{tabular}{| l | l |}
-        \hline
-        Farbe & $\lambda$/$\Delta \lambda$ \\
-        \hline
-        Lila        &  12997.3\\
-        Hellblau    &  14529.0\\
-        Grün        &  15686.8\\
-        Gelb        &  16171.5\\
-        Rot         &  17315.5\\
-        \hline
-    \end{tabular}
-\end{table}
+\begin{equation}
+    \label{eq:uns Auflösungsvermögen}
+    \centerline{$ \Delta \frac{\lambda}{\Delta \lambda} = \vert \frac{\partial}{\partial g} * \Delta g \vert$}
+\end{equation}
+
+\noindent
+verwendet. 
 
 \subsection{Prisma}
 Für die Werte aus der Tabelle \ref{tab:Prisma} für den brechende Winkel $\gamma$ wird der Mittelwert mit der Formel \ref{eq:Mittelwert} berechnet. 
@@ -418,11 +422,11 @@ Der Winkel $\gamma$ wird mit der Formel
 
 \begin{equation}
     \label{eq:formel für prismawix}
-    \centerline{$\gamma = \frac{\gamma_{Rechts} - \gamma_{Links}}{2}$}
+    \centerline{$\gamma = \gamma_{Rechts} - \gamma_{Links}$}
 \end{equation}
 
 \noindent
-berechnet. Daraus erhält man den Winkel $\gamma = (29.70 \pm 0.02)$ des Prisma. 
+berechnet. Daraus erhält man den Winkel $\gamma = (59.40 \pm 0.02)$ des Prisma. 
 \\
 \\
 Durch die Formel \ref{eq:Ablenkungswinkel} und den Messwerten aus Tabelle \ref{tab:Prisma v2} lässt sich der minimale Brechungswinkel $\delta$ berechnen. 
@@ -446,7 +450,7 @@ Die Unsicherheit $\Delta \delta$ beträgt eine Bogenminute = 0.02 Grad.
 \end{table}
 
 \noindent
-Mit der Formel \ref{eq:Brechungsindex} und dem zuvor berechneten brechenden Winkel $\gamma = (29.70 \pm 0.02)$ des Prisma lassen sich noch die einzelnen Brechungsindizes berechnen. 
+Mit der Formel \ref{eq:Brechungsindex} und dem zuvor berechneten brechenden Winkel $\gamma = (59.40 \pm 0.02)$ des Prisma lassen sich noch die einzelnen Brechungsindizes berechnen. 
 Für die Unsicherheit verwendet man die Formel
 
 \begin{equation}
@@ -463,24 +467,88 @@ und erhält für $\Delta n = 0.0004$. Die Unsicherheit ist gerundet für die ein
     \label{tab:delta n}
     \begin{tabular}{| l | l |}
         \hline
-        Farbe & $\delta$ [Grad] \\
+        Farbe & $n$ [1] \\
         \hline
-        Lila        & $ 1.9377 \pm 0.0004 $ \\
-        Hellblau    & $ 1.9377 \pm 0.0004 $ \\
-        Grün        & $ 1.9374 \pm 0.0004 $ \\
-        Gelb        & $ 1.9362 \pm 0.0004 $ \\
-        Rot         & $ 1.9315 \pm 0.0004 $ \\
+        Lila        & $ 1.4178 \pm 0.0004 $ \\
+        Hellblau    & $ 1.4178 \pm 0.0004 $ \\
+        Grün        & $ 1.4177 \pm 0.0004 $ \\
+        Gelb        & $ 1.4172 \pm 0.0004 $ \\
+        Rot         & $ 1.4152 \pm 0.0004 $ \\
         \hline
     \end{tabular}
 \end{table}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/Dispersion.png}
+    \caption{Brechungsindizes $n$ aus der Tabelle \ref{tab:delta n}. Die Wellenlänge $\lambda$ wurde auf Seite 5 des Prisma Skriptes \cite{teachcenter2} bereitgestellt. Die Unsicherheit der Wellenlänge $\lambda$ wurde nicht angebeben, da der Wert sehr klein ist, und im Plot nicht sichtbar wäre.}
+    \label{fig:Dispersion Prisma}
+\end{figure}
+
+\noindent
+Das Auflösungsvermögen $\lambda / \Delta \lambda$ des Prismas ist je nach Wellenlänge $\lambda$ unterschiedlich. 
+In diesem Fall wird das Auflösungsvermögen $\lambda / \Delta \lambda$  für eine gelbe Linie mit der Formel \ref{eq:Auflösungsvermögen Prisma} berechnet. 
+Die Werte für $n$ und $\lambda$ werden aus dem Graph der Dispersion \ref{fig:Dispersion Prisma} entnommen. 
+Für $t$ wird der Wert des Durchmessers des Kollimators verwendet.  
+Setzt man die Werte in die vorher genannte Formel ein, so kommt man auf ein Auflösungsvermögen von $\lambda / \Delta \lambda = (ditl \pm wix)$. 
+Für die Unsicherheit wird folgende Formel verwendet. 
+
+\begin{equation}
+    \label{eq:uns Auflösungsvermögen Prisma}
+    \centerline{$ \Delta \frac{\lambda}{\Delta \lambda} = \vert \frac{\partial}{\partial n} * \Delta n \vert + \vert \frac{\partial}{\partial \lambda} * \Delta \lambda \vert + \vert \frac{\partial}{\partial t} * \Delta t \vert$}
+\end{equation}
+
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
+Die Brechung und Beugung des Lichts ist ein wichtiger Bestandteil der Optik. Sie erklären zusammenhänge wie Wellenlänge der einzelnen Farben des sichtbaren Lichtes sowie Brechende Winkel der Geometrischen Instrumente. 
+Doch wie bei allen Experimenten ist auch dieses nicht von Fehlern verschont. 
+
+\subsection{Gitter}
+Ein optisches Gitter besteht aus mehreren Spalten. 
+Durch die Spalten wird das Licht gebeugt. 
+Die Aufgabe mit dem Gitter war es, die Gitterkonstante zu bestimmen. 
+Vergleicht man diesen Wert mit dem auf dem Gitter aufgedruckten Wert von 570/mm, was im umkehrschluss durch den Kehrwert eine Gitterkonstante von $g=(1.76)\mu m$ ergibt, lässt darauf schließen, dass bei den Messungen ein Fehler entstanden ist. 
+Es lässt sich daraus schließen, dass bei der Messung der Winkel ein Fehler aufgetreten ist. 
+\\
+\\
+Bei dem zweiten Teilversuches mit dem Gitter wurden die Wellenlängen der verschiedenen sichtbaren Farben berechnet. 
+In der Folgenden Tabelle werden die berechneten Wellenlängen des sichtbaren Lichtes mit Literaturwerten verglichen. 
+
+\begin{table}[H]
+    \centering
+    \caption{Wellenlängen $\lambda$ sichtbares Licht }
+    \label{tab:literatur wellenlänge}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Farbe & Literaturwert \cite{wiki1} [nm] & Berechnete Werte [nm]\\
+        \hline
+        Lila        & 380 - 430 & $ 519.89 \pm 0.04 $ \\
+        Hellblau    & 430 - 490 & $ 581.16 \pm 0.04 $ \\
+        Grün        & 490 - 570 & $ 627.47 \pm 0.04 $ \\
+        Gelb        & 570 - 600 & $ 646.86 \pm 0.04 $ \\
+        Rot         & 640 - 780 & $ 692.62 \pm 0.04 $ \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Dabei erkennt man, dass die Wellenlänge der roten Farbe den zu erwartenden Wert entspricht. 
+Bei der Wellenlänge der gelben Farbe sieht man bereits erste Abweichungen der Vergleichswerte. Die berechneten Werte liegen im Bereich oranger Farbe, was eine Wellenlänge von 600-640 nm hat. 
+Bei den restlichen Wellenlängen sind offenbar systematische Fehler entstanden, da alle Werte höher sind als die Vergleichswerte. Eine mögliche Ursache wäre die Positionierung des Gitters. 
+Durch eine nicht genau zentrale Positionierung des Gitters zwischen Kollimator und Fernrohr kann der beobachtete Lichtstrahl weiter seitlich erscheinen, was im Anschluss auf ein falsches Ablesen des Winkels $\varphi$ führt.
+Bei erneuter Versuchsdurchführung sollte darauf geachtet werden, dass das Gitter genau Mittig plaziert wird. 
+\\
+\\
+Das Auflösungsvermögen
+\subsection{Prisma}
+Im zweiten Teil des Experimentes wird der brechende Winkel eines Prismas bestimmt. Der Winkel $\gamma = (59.40 \pm 0.02)$ entspricht größtenteils den zu erwartenden Wert von 60 Grad. 
+Da der Prisma die Grundform eines gleichseitigen Dreiecks hat, muss der brechende Winkel 60 Grad haben. 
+\\
+\\
 
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
 Hier nocheinmal die in der Aufgabenstellung angegebenen Werte zusammengefasst. 
-\\
-\\
+
 \subsection{Gitter}
 Gitterkonstante  $g = (1.55 \pm 0.03)\mu m$ \\
 Wellenlänge $\lambda$
@@ -503,29 +571,50 @@ Wellenlänge $\lambda$
 \end{table}
 
 \noindent
-Auflösungsvermögen $\lambda / \Delta \lambda$
+Auflösungsvermögen $\lambda / \Delta \lambda = (2.27 \pm 0.05)$
+
+\subsection{Prisma}
+Brechender Winkel $\gamma = (59.40 \pm 0.02)$ \\
+Minimale Brechungswinkel $\delta$ \\
 
 \begin{table}[H]
     \centering
-    \caption{Auflösungsvermögen des Gitters}
-    \label{tab:zus Auflösungsvermögen gitter}
+    \caption{Brechungswinkel $\delta$ der einzelnen Farben}
+    \label{tab:zus delta scheiß}
     \begin{tabular}{| l | l |}
         \hline
-        Farbe & $\lambda$/$\Delta \lambda$ \\
+        Farbe & $\delta$ [Grad] \\
         \hline
-        Lila        &  12997.3\\
-        Hellblau    &  14529.0\\
-        Grün        &  15686.8\\
-        Gelb        &  16171.5\\
-        Rot         &  17315.5\\
+        Lila        & $ 29.85 \pm 0.02 $ \\
+        Hellblau    & $ 29.85 \pm 0.02 $ \\
+        Grün        & $ 29.84 \pm 0.02 $ \\
+        Gelb        & $ 29.80 \pm 0.02 $ \\
+        Rot         & $ 29.64 \pm 0.02 $ \\
         \hline
     \end{tabular}
 \end{table}
 
-\subsection{Prisma}
-Brechender Winkel $\gamma = (29.7 \pm 0.02)$ \\
-Minimale Brechungswinkel $\delta$ \\
-Brechungsindex $n$ \\
+\noindent
+Brechungsindizes $n$ \\
+
+\begin{table}[H]
+    \centering
+    \caption{Brechungsindizes $n$}
+    \label{tab:zus delta n}
+    \begin{tabular}{| l | l |}
+        \hline
+        Farbe & $n$ [1] \\
+        \hline
+        Lila        & $ 1.4178 \pm 0.0004 $ \\
+        Hellblau    & $ 1.4178 \pm 0.0004 $ \\
+        Grün        & $ 1.4177 \pm 0.0004 $ \\
+        Gelb        & $ 1.4172 \pm 0.0004 $ \\
+        Rot         & $ 1.4152 \pm 0.0004 $ \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
 Auflösungsvermögen $\lambda / \Delta \lambda$
 
 \printbibliography[heading=bibintoc]

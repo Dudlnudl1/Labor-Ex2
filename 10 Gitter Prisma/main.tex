@@ -171,6 +171,7 @@ Das Fernrohr wird für die Messung des Winkels nach links und rechts gescwenkt u
             Prisma & {n.a} & {n.a} \\
             Spektrometertisch & 0161165 & {n.a} \\
             Winkelskala & {n.a} & 1 bogenminute \\
+            Rollmeter & {n.a} & 0.3 mm \\
             \hline
         \end{tabular}
     \end{table}
@@ -488,14 +489,14 @@ und erhält für $\Delta n = 0.0004$. Die Unsicherheit ist gerundet für die ein
 \noindent
 Das Auflösungsvermögen $\lambda / \Delta \lambda$ des Prismas ist je nach Wellenlänge $\lambda$ unterschiedlich. 
 In diesem Fall wird das Auflösungsvermögen $\lambda / \Delta \lambda$  für eine gelbe Linie mit der Formel \ref{eq:Auflösungsvermögen Prisma} berechnet. 
-Die Werte für $n$ und $\lambda$ werden aus dem Graph der Dispersion \ref{fig:Dispersion Prisma} entnommen. 
+Die Steigung der Dispersion beträgt laut qtiPlot $(-9.9 \pm -2.4 )\mu$. 
 Für $t$ wird der Wert des Durchmessers des Kollimators verwendet.  
-Setzt man die Werte in die vorher genannte Formel ein, so kommt man auf ein Auflösungsvermögen von $\lambda / \Delta \lambda = (ditl \pm wix)$. 
+Setzt man die Werte in die vorher genannte Formel ein, so kommt man auf ein Auflösungsvermögen von $\lambda / \Delta \lambda = (0.14 \pm 0.05)$. 
 Für die Unsicherheit wird folgende Formel verwendet. 
 
 \begin{equation}
     \label{eq:uns Auflösungsvermögen Prisma}
-    \centerline{$ \Delta \frac{\lambda}{\Delta \lambda} = \vert \frac{\partial}{\partial n} * \Delta n \vert + \vert \frac{\partial}{\partial \lambda} * \Delta \lambda \vert + \vert \frac{\partial}{\partial t} * \Delta t \vert$}
+    \centerline{$ \Delta \frac{\lambda}{\Delta \lambda} = \vert \frac{\partial}{\partial D} * \Delta D \vert + \vert \frac{\partial}{\partial t} * \Delta t \vert$}
 \end{equation}
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
@@ -624,7 +625,22 @@ Brechungsindizes $n$ \\
 \end{table}
 
 \noindent
-Auflösungsvermögen $\lambda / \Delta \lambda$
+Auflösungsvermögen $\lambda / \Delta \lambda = (0.14 \pm 0.05)$
 
 \printbibliography[heading=bibintoc]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{nudes/uns2.jpg}
+    \caption{Unsicherheitsrechnung}
+    \label{fig:uns1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{nudes/uns1.jpg}
+    \caption{Unsicherheitsrechnung}
+    \label{fig:uns2}
+\end{figure}
+
 \end{document}

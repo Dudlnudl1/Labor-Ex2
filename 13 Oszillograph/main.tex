@@ -66,19 +66,61 @@ Alle Informationen und Methodiken wurden uns von der Technischen Universität be
 
 \section{Voraussetzungen \& Grundlagen} %Grundlagen erklären, Formeln mit erklärung
 
+Wie bereits in der Aufgabenstellung erwähnt werden Oszilloskope hauptsächlich zur grafischen Darstellung elektrischer Spannungen eingesetzt.  
+Das Hauptbestandsteil des Gerätes ist eine Braun'sche Röhre und sieht im groben Aufbau wie folgt aus:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{nudes/OszilloskopAufbau.png}
+    \caption{Grundlegender Aufbau eines Oszilloskop/Braun'sche Röhre \cite{teachcenter1}}
+    \label{fig:Aufbau Oszilloskop}
+\end{figure}
+
+\noindent
+Die beheizte Kathode K beschleunigt Elektronen gegen eine Anode A. Diese besitzt eine Öffnung, durch die die Elektronen hindurchfliegen und mit Hilfe der Ablenkplatten $P_{x}$ (horizontal) und $P_{y}$ (vertikal) an die richtige Position des Leuchtschirms LS gelenkt werden. 
+Ein Oszilloskop besitzt außerdem einen Triggerungsmechanismus. Dieser sorgt dafür, dass das Signal beim erreichen des Bildschirmendes kurz pausiert wird, damit dieses wieder zum Anfang springen kann. \newline
+
+\noindent
+Zur erfolgreichen Durchführung des Versuches ist auch der Schwingkreis von Bedeutung. Dies ist im Prinzip eine einfache Schaltung, bestehend aus Kapazität, Induktivität und Widerstand.
+Mittels Gleichung
+
     \begin{equation}
-        \label{eq:Müll}
-        \centerline{$M=\frac{muell}{malle}$}
+        \label{eq:SchwingkreisGleichungFälle}
+        \centerline{$\lambda^2 + \lambda \frac{R}{L} + \frac{1}{LC} = 0 $}
     \end{equation}
+
+\noindent
+können hier drei verschiedene Fälle unterschieden werden:
+
+\begin{itemize}
+    \item $R^2C - 4L$ > 0: Kriechfall
+    \item $R^2C - 4L$ = 0: Aperiodischer Grenzfall
+    \item $R^2C - 4L$ < 0: Schwingfall
+\end{itemize}
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
 
-    \begin{figure}[H]
-        \centering
-        %\includegraphics[width=0.6\linewidth, angle=-90]{nudes/bild.jpg}
-        \caption{müll}
-        \label{fig:müllbild}
-    \end{figure}
+Der Versuch war in drei Teilversuche gegliedert. Im ersten Teil davon sollte eine Serienschaltung, bestehend aus einem Widerstand R = 1000 Ohm, einem Kondensator C = 1 $\mu F$, einem Trafo und einem Frequenzgenerator aufgebaut- und dann an das Oszilloskop angeschlossen werden.
+Der Schaltplan hierzu ist in folgender Abbildung zu erkennen:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=-90]{nudes/3.2 Schaltplan.png}
+    \caption{Schaltplan Serienschaltung}
+    \label{fig:Schaltplan Serienschaltung}
+\end{figure}
+
+\noindent
+Praktisch aufgebaut sieht der Versuch wie folgt aus:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=-90]{nudes/3.2 Schaltplan.png}
+    \caption{Aufbau Serienschaltung}
+    \label{fig:Aufbau Serienschaltung}
+\end{figure}
+
+
 
 \section{Geräteliste} %jo holt a listn ------------------------------
 
@@ -90,11 +132,24 @@ Alle Informationen und Methodiken wurden uns von der Technischen Universität be
             \hline
             Gerät   & Typ   & Gerätenummer  & Unsicherheit \\
             \hline
+            Oszilloskop & {n.a} & {n.a} \\
+            Trafo & {n.a} & {n.a} \\
+            Frequenzgenerator & {n.a} & {n.a} \\
+            Spule mit entfernbaren Eisenkern (n=500) & {n.a} & {n.a} \\
+            50 Ohm Widerstand & {n.a} & {n.a} \\
+            470 Ohm Potentiometer & {n.a} & {n.a} \\
+            50 Ohm / 1000 Ohm Widerstand & {n.a} & {n.a} \\
+            1 $\mu F$ Kondensator& {n.a} & {n.a} \\
+            Piezo & {n.a} & {n.a} \\
+            \hline
         \end{tabular}
     \end{table}
 
 
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
+
+Die Unsicherheiten
+
 
 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------

@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{3}{section.2}%
 \contentsline {section}{\numberline {3}Versuchsanordnung}{4}{section.3}%
 \contentsline {section}{\numberline {4}Geräteliste}{4}{section.4}%
-\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{4}{section.5}%
-\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{4}{section.6}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{5}{section.5}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{5}{section.6}%
 \contentsline {section}{\numberline {7}Diskussion}{5}{section.7}%
 \contentsline {section}{\numberline {8}Zusammenfassung}{5}{section.8}%

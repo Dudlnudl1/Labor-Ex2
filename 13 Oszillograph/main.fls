@@ -1420,6 +1420,34 @@ INPUT .\nudes\OszilloskopAufbau.png
 INPUT .\nudes\OszilloskopAufbau.png
 INPUT .\nudes\OszilloskopAufbau.png
 INPUT .\nudes\OszilloskopAufbau.png
+INPUT .\nudes\Osziloskop.jpg
+INPUT .\nudes\Osziloskop.jpg
+INPUT nudes\Osziloskop.jpg
+INPUT .\nudes\Osziloskop.jpg
+INPUT .\nudes\Osziloskop.jpg
+INPUT .\nudes\Osziloskop.jpg
+INPUT .\nudes\Osziloskop.jpg
+INPUT .\nudes\Trafo.jpg
+INPUT .\nudes\Trafo.jpg
+INPUT nudes\Trafo.jpg
+INPUT .\nudes\Trafo.jpg
+INPUT .\nudes\Trafo.jpg
+INPUT .\nudes\Trafo.jpg
+INPUT .\nudes\Trafo.jpg
+INPUT .\nudes\Frequenzgenerator.jpg
+INPUT .\nudes\Frequenzgenerator.jpg
+INPUT nudes\Frequenzgenerator.jpg
+INPUT .\nudes\Frequenzgenerator.jpg
+INPUT .\nudes\Frequenzgenerator.jpg
+INPUT .\nudes\Frequenzgenerator.jpg
+INPUT .\nudes\Frequenzgenerator.jpg
+INPUT .\nudes\Utensilien.jpg
+INPUT .\nudes\Utensilien.jpg
+INPUT nudes\Utensilien.jpg
+INPUT .\nudes\Utensilien.jpg
+INPUT .\nudes\Utensilien.jpg
+INPUT .\nudes\Utensilien.jpg
+INPUT .\nudes\Utensilien.jpg
 INPUT .\nudes\3.2 Schaltplan.png
 INPUT .\nudes\3.2 Schaltplan.png
 INPUT nudes\3.2 Schaltplan.png
@@ -1427,10 +1455,38 @@ INPUT .\nudes\3.2 Schaltplan.png
 INPUT .\nudes\3.2 Schaltplan.png
 INPUT .\nudes\3.2 Schaltplan.png
 INPUT .\nudes\3.2 Schaltplan.png
-INPUT .\nudes\3.2 Schaltplan.png
-INPUT .\nudes\3.2 Schaltplan.png
-INPUT nudes\3.2 Schaltplan.png
-INPUT .\nudes\3.2 Schaltplan.png
+INPUT .\nudes\Aufbau Serienschaltung.jpg
+INPUT .\nudes\Aufbau Serienschaltung.jpg
+INPUT nudes\Aufbau Serienschaltung.jpg
+INPUT .\nudes\Aufbau Serienschaltung.jpg
+INPUT .\nudes\Aufbau Serienschaltung.jpg
+INPUT .\nudes\Aufbau Serienschaltung.jpg
+INPUT .\nudes\Aufbau Serienschaltung.jpg
+INPUT .\nudes\3.3 Serienschwingkreis.png
+INPUT .\nudes\3.3 Serienschwingkreis.png
+INPUT nudes\3.3 Serienschwingkreis.png
+INPUT .\nudes\3.3 Serienschwingkreis.png
+INPUT .\nudes\3.3 Serienschwingkreis.png
+INPUT .\nudes\3.3 Serienschwingkreis.png
+INPUT .\nudes\3.3 Serienschwingkreis.png
+INPUT .\nudes\Aufbau Serienschaltung.jpg
+INPUT .\nudes\Aufbau Serienschaltung.jpg
+INPUT nudes\Aufbau Serienschaltung.jpg
+INPUT .\nudes\Aufbau Serienschaltung.jpg
+INPUT .\nudes\3.4 Eigenfrequenz.png
+INPUT .\nudes\3.4 Eigenfrequenz.png
+INPUT nudes\3.4 Eigenfrequenz.png
+INPUT .\nudes\3.4 Eigenfrequenz.png
+INPUT .\nudes\3.4 Eigenfrequenz.png
+INPUT .\nudes\3.4 Eigenfrequenz.png
+INPUT .\nudes\3.4 Eigenfrequenz.png
+INPUT .\nudes\Piezo.jpg
+INPUT .\nudes\Piezo.jpg
+INPUT nudes\Piezo.jpg
+INPUT .\nudes\Piezo.jpg
+INPUT .\nudes\Piezo.jpg
+INPUT .\nudes\Piezo.jpg
+INPUT .\nudes\Piezo.jpg
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd

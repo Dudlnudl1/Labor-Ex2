@@ -98,6 +98,23 @@ können hier drei verschiedene Fälle unterschieden werden:
     \item $R^2C - 4L$ < 0: Schwingfall
 \end{itemize}
 
+\noindent
+Für die Auswertung des Versuches ist auch die Formel für die Phasenverschiebung $\Phi$ wichtig, welche aus dem gemessenen Zeitunterschied und der Frequenz berechnet werden kann.
+
+\begin{equation}
+    \label{eq:Phasenversatz}
+    \centerline{$\Phi = \frac{360°}{T}*\Delta t = 360° * \Delta t * f$}
+\end{equation}
+
+\noindent
+Außerdem wird für den Vergleich der gemessenen Zerfallskonstante mit der berechneten noch eine Formel für letztere benötigt.
+
+\begin{equation}
+    \label{eq:Zerfallskonstante}
+    \centerline{$\tau = R*C$}
+\end{equation}
+
+
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
 
 Als Grundstein des gesamten Experimentes steht natürlich das Oszilloskop, abgebildet in nachstehender Grafik.
@@ -227,6 +244,119 @@ Das Piezo P, welches im dritten Aufgabenteil an das Oszilloskop angeschlossen wi
 
 Die Unsicherheiten
 
+\subsection{Serienschaltung}
+
+Zu Beginn des ersten Teiles des Versuchs wurde die Schaltung wie in Abbildung \ref{fig:Aufbau Serienschaltung} gezeigt aufgebaut. 
+Am Frequenzgenerator wurde eine Frequenz von 50 Hz eingestellt und als sinusförmige Speisespannung an die Schaltung und in weiterer Folge an das Oszilloskop übermittelt werden. Damit soll nun der Spannungsverlauf als Funktion der Zeit grafisch dargestellt werden. \newline
+
+\noindent
+Weiters soll nun eine rechteckige Speisespannung mit erneut 50 Hz eingerichtet werden. Diesmal wird jedoch nicht die Phasenverschiebung ermittelt, sondern die Zerfallskonstante $\tau$.
+Diese gibt jenen Zeitabschnitt an, in welchem die Spannung auf die Hälfte ihres Ursprungswertes (Halbwertszeit) gesunken ist. \newline
+
+\noindent
+Die Messergebnisse in Form von exportierten Bildern lassen sich in folgenden Abbildungen erkennen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{Messergebnisse/3.2/3.2a besser.jpg}
+    \caption{Messergebnisse 3.2a}
+    \label{fig:Messergebnisse3.2a}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{Messergebnisse/3.2/3.2b.jpg}
+    \caption{Messergebnisse3.2b}
+    \label{fig:Messergebnisse3.2b}
+\end{figure}
+
+\noindent 
+Der Graph für den zweiten Teil des Versuches wurde außerdem als CSV Datei exportiert.
+
+
+\subsection{Serienschwingkreis}
+
+Im zweiten Teil des Experimentes soll nun die Serienschaltung zum in Abbildung \ref{fig:Schaltplan Serienschwingkreis} erwähnten Serienschwingkreis erweitert werden.
+Mit dem neu hinzugefügten Potentiometer können nun durch einspeisen einer 50 Hz Rechtecksspannung die drei im Kapitel Grundlagen beschriebenen Fälle grafisch dargestellt werden. \newline
+
+\noindent
+Auch hier wurden wieder für jeden Fall ein Bild und ein CSV-File exportiert: \newline
+
+\noindent
+Der Kriechfall konnte bestimmt werden, indem das Potentiometer so adjustiert wurde, dass das Spannungsbild eine fallende Kurve bzw. den Kriechfall ergibt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{Messergebnisse/3.3 Kriechfall/KriechfallNahe.jpg}
+    \caption{Messergebniss Kriechfall}
+    \label{fig:MessergebnissKriechfall}
+\end{figure}
+
+\noindent
+Für den Schwingfall wurde das Potentiometer ganz aufgedreht, bis die gedämpfte Schwingung am Oszilloskop zu sehen war.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{Messergebnisse/3.3 Schwingfall/SchwingfallNahe.jpg}
+    \caption{Messergebniss Schwingfall}
+    \label{fig:MessergebnissSchwingfall}
+\end{figure}
+
+\noindent
+Um weiters den aperiodischen Grenzfall zu zeigen, musste das Potentiometer langsam zurückgedreht werden, bis der Übergang von Kriechfall zum Schwingfall erreicht wurde.
+Dies lies sich daran erkennen, dass das untere Ende des Kriechfalles gerade zu "Schwingen" anfängt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{Messergebnisse/3.3 Grenzfall/GrenzfallNahe.jpg}
+    \caption{Messergebniss aperiodischer Grenzfall}
+    \label{fig:MessergebnissAperiodischerGrenzfall}
+\end{figure}
+
+\noindent
+Außerdem sollte noch die Induktivität der Spule mit und ohne Eisenkern festgestellt werden. Hierfür soll der aperiodische Grenzfall jeweils einmal mit- und einmal ohne Eisenkern eingestellt werden. 
+Dann wird mittels Potentiometer der Gesamtwiderstand beider Fälle gemessen und der Wert für die Auswertung festgehalten.
+
+\begin{table}[H]
+    \centering
+    \caption{Messwerte Gesamtwiderstand}
+    \label{tab:messwerteGesamtwiderstand}
+    \begin{tabular}{| l | l |}
+        \hline
+        Gesamtwiderstand mit Eisenkern [Ohm] $\pm$ 1  & Gesamtwiderstand ohne Eisenkern [Ohm] $\pm$ 0.01 \\
+        \hline
+        298.0 & 115.8 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+\subsection{Eigenfrequenz}
+
+Im dritten und letzten Teil der Aufgabe soll die Eigenfrequenz eines Stuhles bestimmt werden. Dazu wurde die Schaltung aus den vorherigen Aufgaben durch das Piezo ersetzt.
+Da das Piezo mittels Tastkopf mit dem Oszilloskop verbunden wurde, musste dessen Faktor (1x, 10x) beachtet und am Oszilloskop eingestellt werden. \newline
+
+\noindent
+Zur Bestimmung der Eigenfrequenz des Stuhles wurde das Piezo nun auf diesen gelegt und mit einem Metallzylinder beschwert. Dann konnte mit einem leichten Klopfen auf den Suhl die Schwingung am Oszilloskop beobachtet werden. 
+Dabei wurden durch unterschiedliche Klopfstellen am Stuhl verschiedene Frequenzen beobachtet. Nach dem Klopfen auf die Stuhllehne wurde die Schwingung am Oszilloskop grafisch festgehalten.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{Messergebnisse/3.4EigenfrequenzStuhl/EigenfrequenzStuhl.jpg}
+    \caption{Messergebniss Eigenfrequenz Stuhl}
+    \label{fig:MessergebnissEigenfrequenzStuhl}
+\end{figure}
+
+\noindent
+Letztenendes soll noch die Eigenfrequenz des Piezos selbst ermittelt werden. Hierzu wurde das Messgerät frei hängen gelassen und vorsichtig an der Messoberfläche (helle Seite) angetippt.
+Die Ergebnisse konnten wiederum am Oszilloskop beobachtet werden, die Eigenfrequenz wurde diesesmal jedoch mit einer FastFourierTransformation (FFT) bestimmt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{Messergebnisse/3.4 EigenfrequenzDing/DSO00001.jpg}
+    \caption{Messergebniss Eigenfrequenz Piezo mit FFT}
+    \label{fig:MessergebnissEigenfrequenzPiezo}
+\end{figure}
 
 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------

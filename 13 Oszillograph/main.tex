@@ -368,12 +368,58 @@ Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größt
 
 Wie in Abbildung \ref{fig:Messergebnisse3.2a} erkennbar ist, beträgt der mittels Oszilloskoptools gemessene Zeitunterschied $\Delta t$ 4.7 ms. Setzt man dies nun gemeinsam mit der verwendeten Frequenz von 50 Hz in Formel \ref{eq:Phasenversatz} ein, so erhält man für den Phasenversatz einen Wert von $\Phi$ = 84.6°.
 
+0.7 ms 
+berechnet: 1 ms
 
 
 \subsection{Serienschwingkreis}
 
+Um beim Serienschwingkreis die drei verschiednenen Fälle darzustellen, wurden sie zunächst vom Oszilloskop als CSV Datei exportiert und in qti-Plot importiert. Die Ergebnisse dazu sehen wie folgt aus:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/KriechfallPlot.jpg}
+    \caption{Kriechfall Plot}
+    \label{fig:KriechfallPlot}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/SchwingfallPlot.jpg}
+    \caption{Schwingfall Plot}
+    \label{fig:SchwingfallPlot}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/Aperiodischer Grenzfall.jpg}
+    \caption{Aperiodischer Grenzfall Plot}
+    \label{fig:AperiodischerGrenzfallPlot}
+\end{figure}
+
+\noindent
+Im weiteren Verlauf des Experimentes galt es noch mittels der Gesamtwiderstände (veranschaulicht in Tabelle \ref{tab:messwerteGesamtwiderstand}) einmal mit und einmal ohne Eisenkern die Induktivität zu bestimmen.
+
+
+
 \subsection{Eigenfrequenz}
 
+Im letzten Teil des Versuches wird nun die Eigenfrequenz des Stuhles mittels Cursor- und die Eigenfrequenz des Piezos mittels FFT am Oszilloskop ermittelt. Die resultierenden Messdaten sind in Abbildung \ref{fig:MessergebnissEigenfrequenzPiezo} und \ref{fig:MessergebnissEigenfrequenzStuhl} ersichtlich.
+
+Durch Ablesen erhält man für die Eigenfrequenzen folgende Werte:
+
+\begin{table}[H]
+    \centering
+    \caption{Eigenfrequenzen}
+    \label{tab:Eigenfrequenzen}
+    \begin{tabular}{| l | l |}
+        \hline
+        Eigenfrequenz Stuhl [Hz] $\pm$ 1  & Eigenfrequenz Piezo [Hz] $\pm$ 0.01 \\
+        \hline
+        24.2 & 3036.0 \\
+        \hline
+    \end{tabular}
+\end{table}
 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------

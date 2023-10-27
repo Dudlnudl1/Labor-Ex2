@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.12)  26 OCT 2023 18:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.12)  27 OCT 2023 18:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1590,7 +1590,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 3.
- (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1601,7 +1600,7 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 3.
 
 \c@lstlisting=\count489
-<../Deckblätter/Deckblatt_Gitter.pdf, id=66, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Gitter.pdf, id=6, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf  used on input line 33.
@@ -1610,7 +1609,7 @@ File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../Deckblätter/Deckblatt_Gitter.pdf, id=69, page=1, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Gitter.pdf, id=9, page=1, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on input line 33.
@@ -1619,7 +1618,11 @@ File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on input line 33.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [1{C:/Users/Nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 33.
+
+[1{C:/Users/Nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 ]
 File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
@@ -1634,20 +1637,24 @@ File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on input line 33.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [2 <../Deckblätter/Deckblatt_Gitter.pdf>] (main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
- (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
- (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+ [2 <../Deckblätter/Deckblatt_Gitter.pdf>]
+No file main.toc.
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [3]
-<nudes/OszilloskopAufbau.png, id=129, 327.47343pt x 152.82094pt>
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 36.
+
+[3]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<nudes/OszilloskopAufbau.png, id=54, 327.47343pt x 152.82094pt>
 File: nudes/OszilloskopAufbau.png Graphic file (type png)
 <use nudes/OszilloskopAufbau.png>
 Package pdftex.def Info: nudes/OszilloskopAufbau.png  used on input line 74.
@@ -1656,6 +1663,9 @@ Package pdftex.def Info: nudes/OszilloskopAufbau.png  used on input line 74.
 Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 86.
 
 [4 <./nudes/OszilloskopAufbau.png>]
 
@@ -1672,168 +1682,283 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 106.
 
 Missing character: There is no � in font cmr8!
 Missing character: There is no � in font cmr12!
-<nudes/Osziloskop.jpg, id=143, 4047.12pt x 3035.34pt>
+<nudes/Osziloskop.jpg, id=70, 4047.12pt x 3035.34pt>
 File: nudes/Osziloskop.jpg Graphic file (type jpg)
 <use nudes/Osziloskop.jpg>
-Package pdftex.def Info: nudes/Osziloskop.jpg  used on input line 124.
+Package pdftex.def Info: nudes/Osziloskop.jpg  used on input line 143.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 147.
+
 [5]
-<nudes/Trafo.jpg, id=154, 4047.12pt x 3035.34pt>
+<nudes/Trafo.jpg, id=85, 4047.12pt x 3035.34pt>
 File: nudes/Trafo.jpg Graphic file (type jpg)
 <use nudes/Trafo.jpg>
-Package pdftex.def Info: nudes/Trafo.jpg  used on input line 134.
+Package pdftex.def Info: nudes/Trafo.jpg  used on input line 153.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
-<nudes/Frequenzgenerator.jpg, id=155, 4047.12pt x 3035.34pt>
+<nudes/Frequenzgenerator.jpg, id=86, 4047.12pt x 3035.34pt>
 File: nudes/Frequenzgenerator.jpg Graphic file (type jpg)
 <use nudes/Frequenzgenerator.jpg>
-Package pdftex.def Info: nudes/Frequenzgenerator.jpg  used on input line 141.
+Package pdftex.def Info: nudes/Frequenzgenerator.jpg  used on input line 160.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
- [6 <./nudes/Osziloskop.jpg> <./nudes/Trafo.jpg>]
-<nudes/Utensilien.jpg, id=162, 4047.12pt x 3035.34pt>
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 164.
+
+[6 <./nudes/Osziloskop.jpg> <./nudes/Trafo.jpg>]
+<nudes/Utensilien.jpg, id=94, 4047.12pt x 3035.34pt>
 File: nudes/Utensilien.jpg Graphic file (type jpg)
 <use nudes/Utensilien.jpg>
-Package pdftex.def Info: nudes/Utensilien.jpg  used on input line 151.
+Package pdftex.def Info: nudes/Utensilien.jpg  used on input line 170.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
-<nudes/Serienschaltung gezeichnet.jpg, id=163, 785.18344pt x 263.48438pt>
+<nudes/Serienschaltung gezeichnet.jpg, id=95, 785.18344pt x 263.48438pt>
 File: nudes/Serienschaltung gezeichnet.jpg Graphic file (type jpg)
 <use nudes/Serienschaltung gezeichnet.jpg>
-Package pdftex.def Info: nudes/Serienschaltung gezeichnet.jpg  used on input line 162.
+Package pdftex.def Info: nudes/Serienschaltung gezeichnet.jpg  used on input line 181.
 (pdftex.def)             Requested size: 273.14923pt x 91.66206pt.
- [7 <./nudes/Frequenzgenerator.jpg> <./nudes/Utensilien.jpg>]
-<nudes/Aufbau Serienschaltung.jpg, id=171, 4625.28pt x 3468.96pt>
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 185.
+
+[7 <./nudes/Frequenzgenerator.jpg> <./nudes/Utensilien.jpg>]
+<nudes/Aufbau Serienschaltung.jpg, id=103, 4625.28pt x 3468.96pt>
 File: nudes/Aufbau Serienschaltung.jpg Graphic file (type jpg)
 <use nudes/Aufbau Serienschaltung.jpg>
-Package pdftex.def Info: nudes/Aufbau Serienschaltung.jpg  used on input line 172.
+Package pdftex.def Info: nudes/Aufbau Serienschaltung.jpg  used on input line 191.
 (pdftex.def)             Requested size: 273.14923pt x 204.84683pt.
-<nudes/3.3 Serienschwingkreis.png, id=172, 383.18156pt x 118.19156pt>
+<nudes/3.3 Serienschwingkreis.png, id=104, 383.18156pt x 118.19156pt>
 File: nudes/3.3 Serienschwingkreis.png Graphic file (type png)
 <use nudes/3.3 Serienschwingkreis.png>
-Package pdftex.def Info: nudes/3.3 Serienschwingkreis.png  used on input line 182.
+Package pdftex.def Info: nudes/3.3 Serienschwingkreis.png  used on input line 201.
 (pdftex.def)             Requested size: 273.14923pt x 84.25745pt.
 File: nudes/Aufbau Serienschaltung.jpg Graphic file (type jpg)
 <use nudes/Aufbau Serienschaltung.jpg>
-Package pdftex.def Info: nudes/Aufbau Serienschaltung.jpg  used on input line 192.
+Package pdftex.def Info: nudes/Aufbau Serienschaltung.jpg  used on input line 211.
 (pdftex.def)             Requested size: 273.14923pt x 204.84683pt.
- [8 <./nudes/Serienschaltung gezeichnet.jpg> <./nudes/Aufbau Serienschaltung.jpg> <./nudes/3.3 Serienschwingkreis.png>]
-<nudes/3.4 Eigenfrequenz.png, id=181, 222.07968pt x 123.46124pt>
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 215.
+
+[8 <./nudes/Serienschaltung gezeichnet.jpg> <./nudes/Aufbau Serienschaltung.jpg> <./nudes/3.3 Serienschwingkreis.png>]
+<nudes/3.4 Eigenfrequenz.png, id=113, 222.07968pt x 123.46124pt>
 File: nudes/3.4 Eigenfrequenz.png Graphic file (type png)
 <use nudes/3.4 Eigenfrequenz.png>
-Package pdftex.def Info: nudes/3.4 Eigenfrequenz.png  used on input line 202.
+Package pdftex.def Info: nudes/3.4 Eigenfrequenz.png  used on input line 221.
 (pdftex.def)             Requested size: 273.14923pt x 151.86205pt.
-<nudes/Piezo.jpg, id=182, 4047.12pt x 3035.34pt>
+<nudes/Piezo.jpg, id=114, 4047.12pt x 3035.34pt>
 File: nudes/Piezo.jpg Graphic file (type jpg)
 <use nudes/Piezo.jpg>
-Package pdftex.def Info: nudes/Piezo.jpg  used on input line 212.
+Package pdftex.def Info: nudes/Piezo.jpg  used on input line 231.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
- [9 <./nudes/3.4 Eigenfrequenz.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
+
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 235.
+
+[9 <./nudes/3.4 Eigenfrequenz.png>]
+
+LaTeX Warning: Reference `fig:Aufbau Serienschaltung' on page 10 undefined on input line 269.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--255
+Underfull \hbox (badness 10000) in paragraph at lines 272--275
 
  []
+
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 275.
 
 [10 <./nudes/Piezo.jpg>]
-<Messergebnisse/3.2/3.2a besser.jpg, id=198, 803.0pt x 481.8pt>
+<Messergebnisse/3.2/3.2a besser.jpg, id=132, 803.0pt x 481.8pt>
 File: Messergebnisse/3.2/3.2a besser.jpg Graphic file (type jpg)
 <use Messergebnisse/3.2/3.2a besser.jpg>
-Package pdftex.def Info: Messergebnisse/3.2/3.2a besser.jpg  used on input line 261.
+Package pdftex.def Info: Messergebnisse/3.2/3.2a besser.jpg  used on input line 281.
 (pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
-<Messergebnisse/3.2/3.2b.jpg, id=199, 803.0pt x 481.8pt>
+<Messergebnisse/3.2/3.2b.jpg, id=133, 803.0pt x 481.8pt>
 File: Messergebnisse/3.2/3.2b.jpg Graphic file (type jpg)
 <use Messergebnisse/3.2/3.2b.jpg>
-Package pdftex.def Info: Messergebnisse/3.2/3.2b.jpg  used on input line 268.
+Package pdftex.def Info: Messergebnisse/3.2/3.2b.jpg  used on input line 288.
 (pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+
+LaTeX Warning: Reference `fig:Schaltplan Serienschwingkreis' on page 11 undefined on input line 299.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--284
+Underfull \hbox (badness 10000) in paragraph at lines 302--304
 
  []
 
-<Messergebnisse/3.3 Kriechfall/KriechfallNahe.jpg, id=201, 803.0pt x 481.8pt>
+<Messergebnisse/3.3 Kriechfall/KriechfallNahe.jpg, id=134, 803.0pt x 481.8pt>
 File: Messergebnisse/3.3 Kriechfall/KriechfallNahe.jpg Graphic file (type jpg)
 <use Messergebnisse/3.3 Kriechfall/KriechfallNahe.jpg>
-Package pdftex.def Info: Messergebnisse/3.3 Kriechfall/KriechfallNahe.jpg  used on input line 290.
+Package pdftex.def Info: Messergebnisse/3.3 Kriechfall/KriechfallNahe.jpg  used on input line 310.
 (pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 314.
+
 [11 <./Messergebnisse/3.2/3.2a besser.jpg> <./Messergebnisse/3.2/3.2b.jpg>]
-<Messergebnisse/3.3 Schwingfall/SchwingfallNahe.jpg, id=208, 803.0pt x 481.8pt>
+<Messergebnisse/3.3 Schwingfall/SchwingfallNahe.jpg, id=142, 803.0pt x 481.8pt>
 File: Messergebnisse/3.3 Schwingfall/SchwingfallNahe.jpg Graphic file (type jpg)
 <use Messergebnisse/3.3 Schwingfall/SchwingfallNahe.jpg>
-Package pdftex.def Info: Messergebnisse/3.3 Schwingfall/SchwingfallNahe.jpg  used on input line 300.
+Package pdftex.def Info: Messergebnisse/3.3 Schwingfall/SchwingfallNahe.jpg  used on input line 320.
 (pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
-<Messergebnisse/3.3 Grenzfall/GrenzfallNahe.jpg, id=209, 803.0pt x 481.8pt>
+<Messergebnisse/3.3 Grenzfall/GrenzfallNahe.jpg, id=143, 803.0pt x 481.8pt>
 File: Messergebnisse/3.3 Grenzfall/GrenzfallNahe.jpg Graphic file (type jpg)
 <use Messergebnisse/3.3 Grenzfall/GrenzfallNahe.jpg>
-Package pdftex.def Info: Messergebnisse/3.3 Grenzfall/GrenzfallNahe.jpg  used on input line 311.
+Package pdftex.def Info: Messergebnisse/3.3 Grenzfall/GrenzfallNahe.jpg  used on input line 331.
 (pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
- [12 <./Messergebnisse/3.3 Kriechfall/KriechfallNahe.jpg> <./Messergebnisse/3.3 Schwingfall/SchwingfallNahe.jpg> <./Messergebnisse/3.3 Grenzfall/GrenzfallNahe.jpg>]
-Overfull \hbox (49.59322pt too wide) in paragraph at lines 324--331
- [][] 
+
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 339.
+
+[12 <./Messergebnisse/3.3 Kriechfall/KriechfallNahe.jpg> <./Messergebnisse/3.3 Schwingfall/SchwingfallNahe.jpg> <./Messergebnisse/3.3 Grenzfall/GrenzfallNahe.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 356--358
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--338
-
- []
-
-<Messergebnisse/3.4EigenfrequenzStuhl/EigenfrequenzStuhl.jpg, id=217, 803.0pt x 481.8pt>
+<Messergebnisse/3.4EigenfrequenzStuhl/EigenfrequenzStuhl.jpg, id=151, 803.0pt x 481.8pt>
 File: Messergebnisse/3.4EigenfrequenzStuhl/EigenfrequenzStuhl.jpg Graphic file (type jpg)
 <use Messergebnisse/3.4EigenfrequenzStuhl/EigenfrequenzStuhl.jpg>
-Package pdftex.def Info: Messergebnisse/3.4EigenfrequenzStuhl/EigenfrequenzStuhl.jpg  used on input line 345.
+Package pdftex.def Info: Messergebnisse/3.4EigenfrequenzStuhl/EigenfrequenzStuhl.jpg  used on input line 365.
 (pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
-<Messergebnisse/3.4 EigenfrequenzDing/DSO00001.jpg, id=218, 803.0pt x 481.8pt>
+<Messergebnisse/3.4 EigenfrequenzDing/DSO00001.jpg, id=152, 803.0pt x 481.8pt>
 File: Messergebnisse/3.4 EigenfrequenzDing/DSO00001.jpg Graphic file (type jpg)
 <use Messergebnisse/3.4 EigenfrequenzDing/DSO00001.jpg>
-Package pdftex.def Info: Messergebnisse/3.4 EigenfrequenzDing/DSO00001.jpg  used on input line 356.
+Package pdftex.def Info: Messergebnisse/3.4 EigenfrequenzDing/DSO00001.jpg  used on input line 376.
 (pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 380.
+
 [13 <./Messergebnisse/3.4EigenfrequenzStuhl/EigenfrequenzStuhl.jpg>]
-<nudes/KriechfallPlot.jpg, id=228, 448.67625pt x 322.95656pt>
+
+LaTeX Warning: Reference `fig:Messergebnisse3.2a' on page 14 undefined on input line 389.
+
+
+LaTeX Warning: Reference `eq:Phasenversatz' on page 14 undefined on input line 389.
+
+
+LaTeX Warning: Reference `tab:geraete' on page 14 undefined on input line 390.
+
+
+LaTeX Warning: Reference `eq:UnsicherheitPhasenversatz' on page 14 undefined on input line 390.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
+
+ []
+
+
+LaTeX Warning: Reference `fig:Messergebnisse3.2b' on page 14 undefined on input line 393.
+
+<nudes/Zerfallskonstante Plot.jpg, id=161, 721.94719pt x 526.21594pt>
+File: nudes/Zerfallskonstante Plot.jpg Graphic file (type jpg)
+<use nudes/Zerfallskonstante Plot.jpg>
+Package pdftex.def Info: nudes/Zerfallskonstante Plot.jpg  used on input line 397.
+(pdftex.def)             Requested size: 273.14923pt x 199.08893pt.
+
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 401.
+
+[14 <./Messergebnisse/3.4 EigenfrequenzDing/DSO00001.jpg>]
+
+LaTeX Warning: Reference `eq:Zerfallskonstante' on page 15 undefined on input line 404.
+
+<nudes/KriechfallPlot.jpg, id=169, 448.67625pt x 322.95656pt>
 File: nudes/KriechfallPlot.jpg Graphic file (type jpg)
 <use nudes/KriechfallPlot.jpg>
-Package pdftex.def Info: nudes/KriechfallPlot.jpg  used on input line 381.
+Package pdftex.def Info: nudes/KriechfallPlot.jpg  used on input line 413.
 (pdftex.def)             Requested size: 273.14923pt x 196.61884pt.
- [14 <./Messergebnisse/3.4 EigenfrequenzDing/DSO00001.jpg>]
-<nudes/SchwingfallPlot.jpg, id=234, 398.23781pt x 319.1925pt>
+<nudes/SchwingfallPlot.jpg, id=170, 398.23781pt x 319.1925pt>
 File: nudes/SchwingfallPlot.jpg Graphic file (type jpg)
 <use nudes/SchwingfallPlot.jpg>
-Package pdftex.def Info: nudes/SchwingfallPlot.jpg  used on input line 388.
+Package pdftex.def Info: nudes/SchwingfallPlot.jpg  used on input line 420.
 (pdftex.def)             Requested size: 273.14923pt x 218.93776pt.
-<nudes/Aperiodischer Grenzfall.jpg, id=235, 404.26031pt x 322.20375pt>
+
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 424.
+
+[15 <./nudes/Zerfallskonstante Plot.jpg> <./nudes/KriechfallPlot.jpg>]
+<nudes/Aperiodischer Grenzfall.jpg, id=178, 404.26031pt x 322.20375pt>
 File: nudes/Aperiodischer Grenzfall.jpg Graphic file (type jpg)
 <use nudes/Aperiodischer Grenzfall.jpg>
-Package pdftex.def Info: nudes/Aperiodischer Grenzfall.jpg  used on input line 395.
+Package pdftex.def Info: nudes/Aperiodischer Grenzfall.jpg  used on input line 427.
 (pdftex.def)             Requested size: 273.14923pt x 217.70921pt.
- [15 <./nudes/KriechfallPlot.jpg> <./nudes/SchwingfallPlot.jpg>]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 431.
- (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+<nudes/AlleDreiFällePlot.jpg, id=179, 800.9925pt x 540.51938pt>
+File: nudes/AlleDreiFällePlot.jpg Graphic file (type jpg)
+<use nudes/AlleDreiFällePlot.jpg>
+Package pdftex.def Info: nudes/AlleDreiFällePlot.jpg  used on input line 434.
+(pdftex.def)             Requested size: 273.14923pt x 184.32674pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 438.
+
+[16 <./nudes/SchwingfallPlot.jpg> <./nudes/Aperiodischer Grenzfall.jpg>]
+
+LaTeX Warning: Reference `tab:messwerteGesamtwiderstand' on page 17 undefined on input line 440.
+
+
+LaTeX Warning: Reference `eq:Induktivität' on page 17 undefined on input line 442.
+
+
+LaTeX Warning: Reference `fig:MessergebnissEigenfrequenzPiezo' on page 17 undefined on input line 461.
+
+
+LaTeX Warning: Reference `fig:MessergebnissEigenfrequenzStuhl' on page 17 undefined on input line 461.
+
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 485.
+(C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) 
+)
+
+LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 485.
+
+[17 <./nudes/AlleDreiFällePlot.jpg>] 
 AED: lastpage setting LastPage
-[16 <./nudes/Aperiodischer Grenzfall.jpg>] (main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 107D718D65D9922B929F6737A684C681;2117.
+
+LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 486.
+
+[18] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  C598998CC647459FBCBDB523F9445AD3;2117.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37462 strings out of 475385
- 709894 string characters out of 2777379
- 1457231 words of memory out of 3000000
- 58144 multiletter control sequences out of 15000+600000
+ 37467 strings out of 475385
+ 710186 string characters out of 2777379
+ 1455453 words of memory out of 3000000
+ 58145 multiletter control sequences out of 15000+600000
  481072 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,734b,2457s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (16 pages, 23823230 bytes).
+{C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (18 pages, 24172455 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -106,6 +106,11 @@ Für die Auswertung des Versuches ist auch die Formel für die Phasenverschiebun
     \centerline{$\Phi = \frac{360°}{T}*\Delta t = 360° * \Delta t * f$}
 \end{equation}
 
+\begin{equation}
+    \label{eq:UnsicherheitPhasenversatz}
+    \centerline{$\Delta \Phi = \vert \frac{\partial \Phi}{\partial \Delta t} * \Delta \Delta t \vert + \vert \frac{\partial \Phi}{\partial f} * \Delta f \vert $}
+\end{equation}
+
 \noindent
 Außerdem wird für den Vergleich der gemessenen Zerfallskonstante mit der berechneten noch eine Formel für letztere benötigt.
 
@@ -113,6 +118,20 @@ Außerdem wird für den Vergleich der gemessenen Zerfallskonstante mit der berec
     \label{eq:Zerfallskonstante}
     \centerline{$\tau = R*C$}
 \end{equation}
+
+\noindent
+Zur Bestimmung der Induktivität mittels Gesamtwiderstände ist wichtig zu wissen, dass beim aperiodischen Grenzfall die Formel
+
+\begin{equation}
+    \label{eq:Induktivität}
+    \centerline{$R = 2\sqrt{\frac{L}{C}} \Longrightarrow L = (\frac{R}{2})^2*C$}
+\end{equation}
+
+\begin{equation}
+    \label{eq:UnsicherheitInduktivität}
+    \centerline{$\Delta L = \vert \frac{\partial L}{\partial R} * \Delta R \vert + \vert \frac{\partial L}{\partial C} * \Delta C \vert $}
+\end{equation}
+
 
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
@@ -228,13 +247,14 @@ Das Piezo P, welches im dritten Aufgabenteil an das Oszilloskop angeschlossen wi
             \hline
             Oszilloskop & {n.a} & {n.a} \\
             Trafo & {n.a} & {n.a} \\
-            Frequenzgenerator & {n.a} & {n.a} \\
+            Frequenzgenerator & {n.a} & $\pm 5\%$ \\
             Spule mit entfernbaren Eisenkern (n=500) & {n.a} & {n.a} \\
             50 Ohm Widerstand & {n.a} & {n.a} \\
             470 Ohm Potentiometer & {n.a} & {n.a} \\
             50 Ohm / 1000 Ohm Widerstand & {n.a} & {n.a} \\
-            1 $\mu F$ Kondensator& {n.a} & {n.a} \\
+            1 $\mu F$ Kondensator& {n.a} & $\pm 10\%$ \\
             Piezo & {n.a} & {n.a} \\
+            Multimeter & {n.a} & $\pm 1.2\%$ + 2 digit \\
             \hline
         \end{tabular}
     \end{table}
@@ -323,9 +343,9 @@ Dann wird mittels Potentiometer der Gesamtwiderstand beider Fälle gemessen und 
     \label{tab:messwerteGesamtwiderstand}
     \begin{tabular}{| l | l |}
         \hline
-        Gesamtwiderstand mit Eisenkern [Ohm] $\pm$ 1  & Gesamtwiderstand ohne Eisenkern [Ohm] $\pm$ 0.01 \\
+        Gesamtwiderstand mit Eisenkern [Ohm]  & Gesamtwiderstand ohne Eisenkern [Ohm] \\
         \hline
-        298.0 & 115.8 \\
+        298.0 $\pm$ 3.6 & 115.8 $\pm$ 1.4 \\
         \hline
     \end{tabular}
 \end{table}
@@ -366,10 +386,22 @@ Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größt
 
 \subsection{Serienschaltung}
 
-Wie in Abbildung \ref{fig:Messergebnisse3.2a} erkennbar ist, beträgt der mittels Oszilloskoptools gemessene Zeitunterschied $\Delta t$ 4.7 ms. Setzt man dies nun gemeinsam mit der verwendeten Frequenz von 50 Hz in Formel \ref{eq:Phasenversatz} ein, so erhält man für den Phasenversatz einen Wert von $\Phi$ = 84.6°.
+Wie in Abbildung \ref{fig:Messergebnisse3.2a} erkennbar ist, beträgt der mittels Oszilloskoptools gemessene Zeitunterschied $\Delta t$ 4.7 ms. Setzt man dies nun gemeinsam mit der verwendeten Frequenz von 50 Hz in Formel \ref{eq:Phasenversatz} ein, so erhält man für den Phasenversatz einen Wert von $\Phi$ = (84.6 $\pm$ 22.3) °. 
+Die Unsicherheit ergibt sich dabei aus mit der Unsicherheit des Frequenzgenerators aus Tabelle \ref{tab:geraete}, einer Ableseungenauigkeit am Oszilloskop von einem halben Kästchen (= 1 ms) und der Formel \ref{eq:UnsicherheitPhasenversatz}. \newline
 
-0.7 ms 
-berechnet: 1 ms
+\noindent
+Zur Bestimmung der Zerfallskonstante $\tau$ wurde nun die CSV Datei des resultierenden Spannungsbildes \ref*{fig:Messergebnisse3.2b} in qti-Plot importiert und linear gefittet.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/Zerfallskonstante Plot.jpg}
+    \caption{Serienschaltung Zerfallskonstante Plot}
+    \label{fig:SerienschaltungTauPlot}
+\end{figure}
+
+\noindent
+Zur Bestimmung der Zerfallskonstante wurde nun die Funktionsgleichung für die Ausgleichsgerade $f(x) = -(26.6 \pm 1.1) *x-(0.021 \pm 0.0009)$ = 0 gesetzt. Damit kommt man auf einen Wert für $\tau$ = (0.0008 $\pm$ 0.0018) s.
+Dieses Ergebeniss kommt der theoretisch berechneten Zerfallskonstante (Formel \ref{eq:Zerfallskonstante}) mit 0.1 ms sehr nahe.
 
 
 \subsection{Serienschwingkreis}
@@ -397,16 +429,38 @@ Um beim Serienschwingkreis die drei verschiednenen Fälle darzustellen, wurden s
     \label{fig:AperiodischerGrenzfallPlot}
 \end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/AlleDreiFällePlot.jpg}
+    \caption{Alle drei Fälle in einem Plot}
+    \label{fig:AlleDreiFälle}
+\end{figure}
+
 \noindent
 Im weiteren Verlauf des Experimentes galt es noch mittels der Gesamtwiderstände (veranschaulicht in Tabelle \ref{tab:messwerteGesamtwiderstand}) einmal mit und einmal ohne Eisenkern die Induktivität zu bestimmen.
 
+Hierfür werden die Widerstandswerte aus eben genannter Tabelle gemeinsam mit dem Wert für C = 1 $\mu F$ in Formel \ref{eq:Induktivität} eingesetzt und damit die Induktivitäten bestimmt.
+
+\begin{table}[H]
+    \centering
+    \caption{Induktivitäten}
+    \label{tab:Induktivitäten}
+    \begin{tabular}{| l | l | l |}
+        \hline
+         & Gesamtwiderstand [Ohm] & Induktivität [H] \\
+        \hline
+        Mit EK. & 298.0 $\pm$ 3.6 + 2 digit & 0.004 $\pm$ 0.004 \\
+        Ohne EK. & 115.8 $\pm$ 1.4 + 2 digit & 0.0030 $\pm$ 0.0006 \\
+        \hline
+    \end{tabular}
+\end{table}
 
 
 \subsection{Eigenfrequenz}
 
 Im letzten Teil des Versuches wird nun die Eigenfrequenz des Stuhles mittels Cursor- und die Eigenfrequenz des Piezos mittels FFT am Oszilloskop ermittelt. Die resultierenden Messdaten sind in Abbildung \ref{fig:MessergebnissEigenfrequenzPiezo} und \ref{fig:MessergebnissEigenfrequenzStuhl} ersichtlich.
 
-Durch Ablesen erhält man für die Eigenfrequenzen folgende Werte:
+Durch Ablesen mit einer Ableseunsicherheit von einem viertel Kästchen erhält man für die Eigenfrequenzen folgende Werte:
 
 \begin{table}[H]
     \centering
@@ -414,9 +468,9 @@ Durch Ablesen erhält man für die Eigenfrequenzen folgende Werte:
     \label{tab:Eigenfrequenzen}
     \begin{tabular}{| l | l |}
         \hline
-        Eigenfrequenz Stuhl [Hz] $\pm$ 1  & Eigenfrequenz Piezo [Hz] $\pm$ 0.01 \\
+        Eigenfrequenz Stuhl [Hz] & Eigenfrequenz Piezo [Hz] \\
         \hline
-        24.2 & 3036.0 \\
+        24 $\pm$ 5 & 3036 $\pm$ 250 \\
         \hline
     \end{tabular}
 \end{table}

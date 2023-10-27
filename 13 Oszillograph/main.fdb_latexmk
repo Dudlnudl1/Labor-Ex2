@@ -1,12 +1,11 @@
 # Fdb version 4
-["biber main"] 1698339140 "main.bcf" "main.bbl" "main" 1698339148 0
-  "bibliography.bib" 1697904344 9769 5cef977f08efea419941be7dec7e9b32 ""
-  "main.bcf" 1698339148 107392 e0dec50819dec95f98b33edf368e54b2 "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 0 -1
+  "main.bcf" 1698423587 107392 e0dec50819dec95f98b33edf368e54b2 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1698339144 "d:/Uni/3.Semester/ExP2 Labor/Labor-Ex2/13 Oszillograph/main.tex" "main.pdf" "main" 1698339148 2
+["pdflatex"] 1698423583 "d:/Uni/3.Semester/ExP2 Labor/Labor-Ex2/13 Oszillograph/main.tex" "main.pdf" "main" 1698423588 2
   "../Deckblätter/Deckblatt_Gitter.pdf" 1697904344 2961822 1145a54550cc0922fcd95a6e9548b838 ""
   "C:/Users/Nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1683919125 112913 95b3c43c37ed74c507c15d95b5dec294 ""
   "C:/Users/Nico/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1678621407 31952 f470e19f9829937d210c0434606e11f3 ""
@@ -47,6 +46,7 @@
   "C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/tfm/public/eurosym/feymr10.tfm" 1025694660 564 4473b3a7796d55e24866e7d8c333bf96 ""
   "C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
+  "C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -252,16 +252,17 @@
   "Messergebnisse/3.3 Schwingfall/SchwingfallNahe.jpg" 315529200 58933 4874f86d1977d28927f1ff23c514ae1f ""
   "Messergebnisse/3.4 EigenfrequenzDing/DSO00001.jpg" 315529200 82911 524d65e4f57720c63067be1fc9f9188e ""
   "Messergebnisse/3.4EigenfrequenzStuhl/EigenfrequenzStuhl.jpg" 315529200 92165 d0d05f838949e80c6797ab8a54dbf32d ""
-  "d:/Uni/3.Semester/ExP2 Labor/Labor-Ex2/13 Oszillograph/main.tex" 1698339136 17836 dc9028d0321b30ca50264c7072115566 ""
+  "d:/Uni/3.Semester/ExP2 Labor/Labor-Ex2/13 Oszillograph/main.tex" 1698423576 20552 f8016505fe5302fc0494e5b10227e4b4 ""
   "labor.sty" 1698160918 7223 0e5f3462a1a12aa9c2ec850941c0dcb5 ""
-  "main.aux" 1698339148 9308 0057a53442691b3c138b2921bea7c46c "pdflatex"
-  "main.bbl" 1698339144 1762 dc38c958ea71be8db64b02c085fc3e8b "biber main"
-  "main.out" 1698339148 2117 107d718d65d9922b929f6737a684c681 "pdflatex"
-  "main.run.xml" 1698339148 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
-  "main.tex" 1698339136 17836 dc9028d0321b30ca50264c7072115566 ""
-  "main.toc" 1698339148 1203 ad3b82a8fe6423ca78b1e8390b67f07f "pdflatex"
+  "main.aux" 1698423587 10345 241e841a505951daf370e229b0accfd2 "pdflatex"
+  "main.bbl" 1698423535 1762 dc38c958ea71be8db64b02c085fc3e8b "biber main"
+  "main.out" 1698423587 2117 c598998cc647459fbcbdb523f9445ad3 "pdflatex"
+  "main.run.xml" 1698423587 2337 fac93dc9dea5221f562b7b9e66a863b1 "pdflatex"
+  "main.tex" 1698423576 20552 f8016505fe5302fc0494e5b10227e4b4 ""
+  "main.toc" 1698423587 1203 af82dd9b3e171ac007338abd2eb5798c "pdflatex"
   "nudes/3.3 Serienschwingkreis.png" 1697994922 11592 d7e68534562cf32a0526a2811a608764 ""
   "nudes/3.4 Eigenfrequenz.png" 1697994939 6546 56ac9220b454cff1e6fbe09acf925cdf ""
+  "nudes/AlleDreiFällePlot.jpg" 1698408025 221113 db33678c46ea770a3d809be24b297aaf ""
   "nudes/Aperiodischer Grenzfall.jpg" 1698338490 92846 ba907d2dd890aaa9c876203f7481666f ""
   "nudes/Aufbau Serienschaltung.jpg" 1697867708 3844534 b7ffe37252a62c522215c9104d7289dc ""
   "nudes/Frequenzgenerator.jpg" 1697867708 3086321 664a0a3e10c2f65a54aab13ce78921a6 ""
@@ -273,6 +274,7 @@
   "nudes/Serienschaltung gezeichnet.jpg" 1698253723 31779 50789490ba2cd531e4b215a3c919945a ""
   "nudes/Trafo.jpg" 1697867710 3230743 5aab2beab156dccfa823802764c5370d ""
   "nudes/Utensilien.jpg" 1697867710 3563039 900a653d6f713b548f89560148dd5965 ""
+  "nudes/Zerfallskonstante Plot.jpg" 1698407365 130305 fd35ed7263b03f8fa83380a062f2f6b9 ""
   (generated)
   "main.aux"
   "main.bcf"

@@ -1342,18 +1342,8 @@ INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sy
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT .\main.out
-INPUT main.out
-INPUT .\main.out
-INPUT main.out
-INPUT .\main.out
-INPUT main.out
-INPUT .\main.out
-INPUT main.out
-OUTPUT main.pdf
-INPUT .\main.out
-INPUT .\main.out
 OUTPUT main.out
+OUTPUT main.pdf
 INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
 INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
 INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
@@ -1380,6 +1370,7 @@ INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
 INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
 INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
 INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
+INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
 INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
@@ -1395,10 +1386,8 @@ INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
 INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
-INPUT .\main.toc
-INPUT main.toc
-INPUT main.toc
-INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
+OUTPUT main.toc
+INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -1424,8 +1413,6 @@ INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT main.toc
-INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT .\nudes\OszilloskopAufbau.png
 INPUT .\nudes\OszilloskopAufbau.png
 INPUT nudes\OszilloskopAufbau.png
@@ -1551,6 +1538,13 @@ INPUT .\Messergebnisse\3.4 EigenfrequenzDing\DSO00001.jpg
 INPUT .\Messergebnisse\3.4 EigenfrequenzDing\DSO00001.jpg
 INPUT .\Messergebnisse\3.4 EigenfrequenzDing\DSO00001.jpg
 INPUT .\Messergebnisse\3.4 EigenfrequenzDing\DSO00001.jpg
+INPUT .\nudes\Zerfallskonstante Plot.jpg
+INPUT .\nudes\Zerfallskonstante Plot.jpg
+INPUT nudes\Zerfallskonstante Plot.jpg
+INPUT .\nudes\Zerfallskonstante Plot.jpg
+INPUT .\nudes\Zerfallskonstante Plot.jpg
+INPUT .\nudes\Zerfallskonstante Plot.jpg
+INPUT .\nudes\Zerfallskonstante Plot.jpg
 INPUT .\nudes\KriechfallPlot.jpg
 INPUT .\nudes\KriechfallPlot.jpg
 INPUT nudes\KriechfallPlot.jpg
@@ -1572,6 +1566,13 @@ INPUT .\nudes\Aperiodischer Grenzfall.jpg
 INPUT .\nudes\Aperiodischer Grenzfall.jpg
 INPUT .\nudes\Aperiodischer Grenzfall.jpg
 INPUT .\nudes\Aperiodischer Grenzfall.jpg
+INPUT .\nudes\AlleDreiFällePlot.jpg
+INPUT .\nudes\AlleDreiFällePlot.jpg
+INPUT nudes\AlleDreiFällePlot.jpg
+INPUT .\nudes\AlleDreiFällePlot.jpg
+INPUT .\nudes\AlleDreiFällePlot.jpg
+INPUT .\nudes\AlleDreiFällePlot.jpg
+INPUT .\nudes\AlleDreiFällePlot.jpg
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd
@@ -1595,12 +1596,14 @@ INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx
 INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
-INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
 INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb

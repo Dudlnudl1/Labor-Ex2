@@ -16,5 +16,62 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{voltmeter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6597f510bb48ca708715e057b312a84c}{%
+           family={RSPro},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6597f510bb48ca708715e057b312a84c}
+      \strng{fullhash}{6597f510bb48ca708715e057b312a84c}
+      \strng{bibnamehash}{6597f510bb48ca708715e057b312a84c}
+      \strng{authorbibnamehash}{6597f510bb48ca708715e057b312a84c}
+      \strng{authornamehash}{6597f510bb48ca708715e057b312a84c}
+      \strng{authorfullhash}{6597f510bb48ca708715e057b312a84c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{"Datasheet RS-12}
+      \verb{urlraw}
+      \verb https://docs.rs-online.com/3261/0900766b8154fa48.pdf
+      \endverb
+      \verb{url}
+      \verb https://docs.rs-online.com/3261/0900766b8154fa48.pdf
+      \endverb
+    \endentry
+    \entry{teachcenter2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%
+           family={TeachCenter},
+           familyi={T\bibinitperiod},
+           given={TU\bibnamedelima Graz},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{fullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{bibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authorbibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authornamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authorfullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{"Laborübungen 2: Elektrizität, Magnetismus, Optik". Kurs: PHYD30UF}
+      \verb{urlraw}
+      \verb https://tc.tugraz.at/main/course/view.php?id=796
+      \endverb
+      \verb{url}
+      \verb https://tc.tugraz.at/main/course/view.php?id=796
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

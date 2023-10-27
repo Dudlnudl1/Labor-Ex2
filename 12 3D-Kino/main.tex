@@ -101,13 +101,29 @@ Die 3D-Brille reversiert den Prozess. Dort polarisert ein $\lambda/4$ Plättchen
     \label{fig:3D Projektion schema}
 \end{figure}
 
+\noindent
+Für die berechnung des Mittelwertes $\bar{\varphi}$, benötigt man die Anzahl der Messversuche N sowie die einzelnen Winkel $\varphi$. 
+
+\begin{equation}
+    \label{eq:Mittelwert}
+    \centerline{$\bar{\varphi} = \frac{1}{N} \sum_{i = 1}^{N} \varphi_i $} 
+\end{equation}
+
+\noindent
+Mit dem nun bekannten Mittelwert $\bar{\varphi}$ lässt sich die Standardabweichung $\sigma_{\varphi}$ berechnen. 
+
+\begin{equation}
+    \label{eq:Standardabweichung}
+    \centerline{$\sigma_{\varphi} = \sqrt{\frac{1}{N-1} \sum_{i = 1}^{N} (\varphi_i - \bar{\varphi})^2}$} 
+\end{equation}
+
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
 Der Versuch besteht aus verschiedenen Aufbauten. Für den ersten Teil sieht der Versuch wiefolgt aus. 
 
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\linewidth]{nudes/aufbau mallus.jpg}
-        \caption{Versuchsaufbau für den Beweis des Gesetzes von Mallus}
+        \caption{Versuchsaufbau für den Beweis des Gesetzes von Malus}
         \label{fig:mallus aufbau}
     \end{figure}
 
@@ -190,49 +206,70 @@ Ist alles richtig aufgebaut, so kann man das Dia mit der 3D-Brille beobachten un
         \centering
         \caption{Im Versuch verwendete Geräte und Utensilien.}
         \label{tab:geraete}
-        \begin{tabular}{| l | l | l | l |}
+        \begin{tabular}{| l | l | l |}
             \hline
-            Gerät   & Typ   & Gerätenummer  & Unsicherheit \\
+            Gerät   & Gerätenummer  & Unsicherheit \\
+            \hline
+            3D-Kino Setup 3 & Thorlabs MB3060/M & {n.a} \\
+            Polarisatoren & Thorlabs PSP1D/M & $\pm 5 arcmin$\\
+            Laser & Thorlabs CPS532-C2 & {n.a}\\
+            Photodetektor & Thorlabs {n.a} & {n.a}\\
+            Voltmeter & RSPro RS-12 & $\pm(0.5\% reading + 2 digits)V$ \cite{voltmeter} \\
+            Plastikproben & {n.a} & {n.a} \\
+            3D Brille & RealD & {n.a} \\
+            $\lambda/4$ Plättchen & Thorlabs LM1-BM & {n.a} \\
+            Projektoren & Thorlabs {n.a} & {n.a} \\
+            Dias & {n.a} & {n.a} \\
+            Rollmeter & {n.a} & $\pm 0.3mm$ \\
             \hline
         \end{tabular}
     \end{table}
 
 
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
+Für den ersten Teil wurde die Gradzahl des Polarisators auf den höchsten Wert gestellt, welcher in diesen Fall 240° betrug.
+In 10° schritten wurden Messwerte aufgezeichnet. Da die Bogenminuten bei der Messung des Maximums auf 0 fielen, wurden sie nicht aufgeschrieben. 
 
 \begin{table}[H]
     \centering
-    \caption{Messdaten der Spannung $U$ des Multimeters. $\Delta U = \pm 1mV$}
+    \caption{Messdaten der Spannung $U$ des Multimeters.
+    \\
+    Dabei ist $U$ der gemessene Wert und $\bar{U}$ der Mittelwert, in der Tabelle jeweils das zweite $U$, da der Balken kaum sichtbar ist. }
     \label{tab:Messdaten Mallus}
-    \begin{tabular}{| l | l | l | l |}
+    \begin{tabular}{| l | l | l | l | l | l |}
         \hline
-        Winkel $\varphi$ [°] & $U$ [mv] & Winkel $\varphi$ [°] & $U$ [mv] \\
+        Winkel $\varphi$ [°] & $U$ [mv] & $\bar{U}$ [mV] & Winkel $\varphi$ [°] & $U$ [mv] & $\bar{U}$ [mV] \\
         \hline
-        0    & 191 - 174  & 180   & 112 - 97   \\
-        10   & 213 - 199  & 190   & 151 - 132  \\
-        20   & 208 - 219  & 200   & 174 - 155  \\
-        30   & 212 - 224  & 210   & 186 - 169  \\
-        40   & 225 - 214  & 220   & 196 - 181  \\
-        50   & 224 - 213  & 230   & 205 - 190  \\
-        60   & 212 - 198  & 240   & 206 - 192  \\
-        70   & 181 - 197  & 250   & 183 - 198  \\
-        80   & 173 - 153  & 260   & 178 - 160  \\
-        90   & 136 - 117  & 270   & 144 - 125  \\
-        100  & 79 - 67    & 280   & 83 - 97    \\
-        110  & 38 - 32    & 290   & 54 - 46    \\
-        120  & 15 - 12    & 300   & 21 - 18    \\
-        130  & 2 - 1      & 310   & 1 - 2      \\
-        140  & 3 - 2      & 320   & 5 - 4      \\
-        150  & 15 - 18    & 330   & 25 - 29    \\
-        160  & 40 - 47    & 340   & 60 - 70    \\
-        170  & 81 - 71    & 350   & 115 - 134  \\
+        0    & 191 - 174 & 182,5  & 180   & 112 - 97  &104,5 \\
+        10   & 213 - 199 & 206,0  & 190   & 151 - 132 &141,5 \\
+        20   & 208 - 219 & 213,0  & 200   & 174 - 155 &164,5 \\
+        30   & 212 - 224 & 218,0  & 210   & 186 - 169 &177,5 \\
+        40   & 225 - 214 & 219,5  & 220   & 196 - 181 &188,5 \\
+        50   & 224 - 213 & 218,5  & 230   & 205 - 190 &197,5 \\
+        60   & 212 - 198 & 205,0  & 240   & 206 - 192 &199,0 \\
+        70   & 181 - 197 & 189,0  & 250   & 183 - 198 &190,5 \\
+        80   & 173 - 153 & 163,0  & 260   & 178 - 160 &169,0 \\
+        90   & 136 - 117 & 126,5  & 270   & 144 - 125 &134,5 \\
+        100  & 79 - 67   &  73,0  & 280   & 83 - 97   & 90,0  \\
+        110  & 38 - 32   &  35,0  & 290   & 54 - 46   & 50,0  \\
+        120  & 15 - 12   &  13,5  & 300   & 21 - 18   & 19,5  \\
+        130  & 2 - 1     &   1,5  & 310   & 1 - 2     &  1,5   \\
+        140  & 3 - 2     &   2,5  & 320   & 5 - 4     &  4,5   \\
+        150  & 15 - 18   &  16,5  & 330   & 25 - 29   & 27,0  \\
+        160  & 40 - 47   &  43,5  & 340   & 60 - 70   & 65,0  \\
+        170  & 81 - 71   &  76,0  & 350   & 115 - 134 &124,5 \\
         \hline
     \end{tabular}
 \end{table}
 
+\noindent
+Im zweiten Teil wurden die Winkel mit und ohne Zuckerlösung insgesamt fünf mal gemessen. Die Messung erfolgte, wenn kein Licht mehr durch den Polarisator fiel. 
+\\
+Die Länge des Zuckerbassins beträgt $(21.5 \pm 0.1)cm$, der Winkel $\varphi_0$ beträgt laut Skriptum $\varphi_0 = 6.65$° \cite{teachcenter2}. 
+
 \begin{table}[H]
     \centering
-    \caption{Winkel $\varphi$ mit und ohne Zuckerlösung $\Delta U = \pm 0.1mV$}
+    \caption{Winkel $\varphi$ mit und ohne Zuckerlösung}
     \label{tab:Messdaten Zuckerlösung}
     \begin{tabular}{| l | l | l | l | l |}
         \hline
@@ -247,12 +284,14 @@ Ist alles richtig aufgebaut, so kann man das Dia mit der 3D-Brille beobachten un
     \end{tabular}
 \end{table}
 
-L=21.5cm +-0.1cm
-phi0 = 6.65 °
-
+\noindent
+Im dritten Teil gab es keine Messwerte, welche aufgenommen werden hätten können. \\
+\\
+Im vierten Teil wird für eine 3D Brille die Polarisation bestimmt. Dabei ist zu beachten, jedes Auge einzeln zu vermessen. 
+Da die Bogenminuten bei der Messung auf 0 fielen, wurden sie nicht aufgeschrieben. 
 \begin{table}[H]
     \centering
-    \caption{Auge 1 rechts.  $\Delta U = \pm 1mV$}
+    \caption{Auge 1 (rechts)}
     \label{tab:Messdaten Auge rechts}
     \begin{tabular}{| l | l | l | l |}
         \hline
@@ -282,7 +321,7 @@ phi0 = 6.65 °
 
 \begin{table}[H]
     \centering
-    \caption{Auge 2 links.  $\Delta U = \pm 1mV$}
+    \caption{Auge 2 (links)}
     \label{tab:Messdaten Auge links}
     \begin{tabular}{| l | l | l | l |}
         \hline
@@ -310,11 +349,13 @@ phi0 = 6.65 °
     \end{tabular}
 \end{table}
 
+
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
-
 In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
-Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
+Zur Berechnung der Unsicherheiten wird die Größtunsicherheitsmethode verwendet.
 
+Im ersten Teil gilt es das Gesetz von Malus zu beweisen. 
+Aus den Messdaten der Tabelle \ref{tab:Messdaten Mallus} wird ein Graph erzeugt. 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 

@@ -7029,7 +7029,7 @@ WindowLabel	D:/Uni/3.Semester/ExP2 Labor/Labor-Ex2/13 Oszillograph/Messergebniss
 </table>
 <table>
 Messergebnisse	7000	3	25/10/2023 20:19:48
-geometry	6	4	678	972	
+geometry	6	4	678	972	active
 header	1[X]	2[Y]	3[yEr]
 ColWidth	100	100	100	
 <com>
@@ -14044,7 +14044,7 @@ WindowLabel	D:/Uni/3.Semester/ExP2 Labor/Labor-Ex2/13 Oszillograph/Messergebniss
 </table>
 <multiLayer>
 Graph1	1	1	25/10/2023 20:33:46
-geometry	684	0	975	753	active
+geometry	684	0	975	753	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -14225,4 +14225,5 @@ Adjusted R^2 = 0.0837234569520565
 RMSE (Root Mean Squared Error) = 0.354862021117023
 RSS (Residual Sum of Squares) = 881.237524110745
 ---------------------------------------------------------------------------------------
+
 </log>

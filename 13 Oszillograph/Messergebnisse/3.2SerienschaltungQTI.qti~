@@ -14079,6 +14079,27 @@ AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
 curve	Messergebnisse_1	Messergebnisse_2	1	0	#000000	0	1	3	1	#000000	#000000	0	#000000	14	1	2	0	0	6999	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0	0.013998</Range>
+<Points>2</Points>
+<Constant>A	-26.583395038145</Constant>
+<Constant>B	-0.0206113895565944</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
 scale	0	-0.6	0.6	0	8	5	0	0
 scale	1	-0.6	0.6	0	8	5	0	0
 scale	2	-0.002	0.016	0	8	5	0	0
@@ -14189,5 +14210,19 @@ RSS (Residual Sum of Squares) = 402,446,456.467827
 ---------------------------------------------------------------------------------------
 Iterations = 1000
 Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+
+[27/10/2023 12:52:21	Plot: ''Graph1'']
+Linear Regression of dataset: Messergebnisse_2, using function: A*x+B
+Weighting Method: No weighting
+From x = 0.000000000000000e+00 to x = 1.399800000000000e-02
+B (y-intercept) = -2.061138955659437e-02 +/- 8.481916007159706e-03
+A (slope) = -2.658339503814503e+01 +/- 1.049477406815280e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.259270540312581e-01
+R^2 = 0.0839852876544563
+Adjusted R^2 = 0.0837234569520565
+RMSE (Root Mean Squared Error) = 0.354862021117023
+RSS (Residual Sum of Squares) = 881.237524110745
 ---------------------------------------------------------------------------------------
 </log>

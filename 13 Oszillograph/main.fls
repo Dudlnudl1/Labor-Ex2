@@ -1344,46 +1344,46 @@ INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 OUTPUT main.out
 OUTPUT main.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT C:\Users\Nico\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
-INPUT ..\Deckblätter\Deckblatt_Gitter.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
+INPUT ..\Deckblätter\Deckblatt_Oszillograph.pdf
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
 OUTPUT main.toc
@@ -1545,6 +1545,13 @@ INPUT .\nudes\Zerfallskonstante Plot.jpg
 INPUT .\nudes\Zerfallskonstante Plot.jpg
 INPUT .\nudes\Zerfallskonstante Plot.jpg
 INPUT .\nudes\Zerfallskonstante Plot.jpg
+INPUT .\nudes\Exponential Fit.jpg
+INPUT .\nudes\Exponential Fit.jpg
+INPUT nudes\Exponential Fit.jpg
+INPUT .\nudes\Exponential Fit.jpg
+INPUT .\nudes\Exponential Fit.jpg
+INPUT .\nudes\Exponential Fit.jpg
+INPUT .\nudes\Exponential Fit.jpg
 INPUT .\nudes\KriechfallPlot.jpg
 INPUT .\nudes\KriechfallPlot.jpg
 INPUT nudes\KriechfallPlot.jpg
@@ -1573,6 +1580,17 @@ INPUT .\nudes\AlleDreiFällePlot.jpg
 INPUT .\nudes\AlleDreiFällePlot.jpg
 INPUT .\nudes\AlleDreiFällePlot.jpg
 INPUT .\nudes\AlleDreiFällePlot.jpg
+INPUT .\nudes\AlleDreiFällePlot.jpg
+INPUT .\nudes\AlleDreiFällePlot.jpg
+INPUT nudes\AlleDreiFällePlot.jpg
+INPUT .\nudes\AlleDreiFällePlot.jpg
+INPUT .\nudes\Unsicherheitsberechnung.jpg
+INPUT .\nudes\Unsicherheitsberechnung.jpg
+INPUT nudes\Unsicherheitsberechnung.jpg
+INPUT .\nudes\Unsicherheitsberechnung.jpg
+INPUT .\nudes\Unsicherheitsberechnung.jpg
+INPUT .\nudes\Unsicherheitsberechnung.jpg
+INPUT .\nudes\Unsicherheitsberechnung.jpg
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
 INPUT C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1pcr.fd

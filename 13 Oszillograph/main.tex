@@ -30,7 +30,7 @@
 %\input{cover}
 %\maketitle %short title alternative
 
-\includepdf[pages={1}]{../Deckblätter/Deckblatt_Gitter.pdf}
+\includepdf[pages={1}]{../Deckblätter/Deckblatt_Oszillograph.pdf}
 
 \tableofcontents
 \newpage
@@ -45,11 +45,11 @@ Die tatächliche Aufgabenstellung sieht hierfür wie folgt aus:
     \item Serienschaltung (Trafo, Kondensator, Widerstand)
     \begin{itemize}
         \item Ermittlung des Phasenversatzes $\phi$
-        \item Ermittlung von der Zerfallskonstante $\tau$
+        \item Ermittlung der Zerfallskonstante $\tau$
     \end{itemize}
     \item Serienschwingkreis (Trafo, Kondensator, Widerstand, Potentiometer)
     \begin{itemize}
-        \item Zeichnen der von Kriechfall, Schwingfall, Aperiodischer Grenzfall des Serienschwingkreises
+        \item Graph von Kriechfall, Schwingfall, Aperiodischer Grenzfall des Serienschwingkreises
         \item Induktion der Spulte mit und ohne Eisenkern $L_{mitEisenkern}$ / $L_{ohneEisenkern}$
     \end{itemize}
     \item Frequenzbestimmung (Piezo)
@@ -250,8 +250,8 @@ Das Piezo P, welches im dritten Aufgabenteil an das Oszilloskop angeschlossen wi
             Frequenzgenerator & {n.a} & $\pm 5\%$ \\
             Spule mit entfernbaren Eisenkern (n=500) & {n.a} & {n.a} \\
             50 Ohm Widerstand & {n.a} & {n.a} \\
-            470 Ohm Potentiometer & {n.a} & {n.a} \\
-            50 Ohm / 1000 Ohm Widerstand & {n.a} & {n.a} \\
+            470 Ohm Potentiometer & {n.a} & $\pm 10\%$ \\
+            50 Ohm / 1000 Ohm Widerstand & {n.a} & $\pm 1\%$ \\
             1 $\mu F$ Kondensator& {n.a} & $\pm 10\%$ \\
             Piezo & {n.a} & {n.a} \\
             Multimeter & {n.a} & $\pm 1.2\%$ + 2 digit \\
@@ -390,18 +390,19 @@ Wie in Abbildung \ref{fig:Messergebnisse3.2a} erkennbar ist, beträgt der mittel
 Die Unsicherheit ergibt sich dabei aus mit der Unsicherheit des Frequenzgenerators aus Tabelle \ref{tab:geraete}, einer Ableseungenauigkeit am Oszilloskop von einem halben Kästchen (= 1 ms) und der Formel \ref{eq:UnsicherheitPhasenversatz}. \newline
 
 \noindent
-Zur Bestimmung der Zerfallskonstante $\tau$ wurde nun die CSV Datei des resultierenden Spannungsbildes \ref*{fig:Messergebnisse3.2b} in qti-Plot importiert und linear gefittet.
+Zur Bestimmung der Zerfallskonstante $\tau$ wurde nun die CSV Datei des resultierenden Spannungsbildes \ref{fig:Messergebnisse3.2b} in qti-Plot importiert und linear gefittet.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth, angle=0]{nudes/Zerfallskonstante Plot.jpg}
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/Exponential Fit.jpg}
     \caption{Serienschaltung Zerfallskonstante Plot}
     \label{fig:SerienschaltungTauPlot}
 \end{figure}
 
 \noindent
-Zur Bestimmung der Zerfallskonstante wurde nun die Funktionsgleichung für die Ausgleichsgerade $f(x) = -(26.6 \pm 1.1) *x-(0.021 \pm 0.0009)$ = 0 gesetzt. Damit kommt man auf einen Wert für $\tau$ = (0.0008 $\pm$ 0.0018) s.
-Dieses Ergebeniss kommt der theoretisch berechneten Zerfallskonstante (Formel \ref{eq:Zerfallskonstante}) mit 0.1 ms sehr nahe.
+Zur Bestimmung der Zerfallskonstante wurde nun der Wert von t des exponenziellen fits abgelesen, womit man auf einen Wert für $\tau$ = (0.0009505 $\pm$ 0.0000016) s kommt.
+Dieses Ergebeniss kommt dem theoretisch berechneten Wert der Zerfallskonstante (Formel \ref{eq:Zerfallskonstante}) von 0.1 ms sehr nahe.
 
 
 \subsection{Serienschwingkreis}
@@ -437,9 +438,10 @@ Um beim Serienschwingkreis die drei verschiednenen Fälle darzustellen, wurden s
 \end{figure}
 
 \noindent
-Im weiteren Verlauf des Experimentes galt es noch mittels der Gesamtwiderstände (veranschaulicht in Tabelle \ref{tab:messwerteGesamtwiderstand}) einmal mit und einmal ohne Eisenkern die Induktivität zu bestimmen.
+Im weiteren Verlauf des Experimentes galt es noch mittels der Gesamtwiderstände (veranschaulicht in Tabelle \ref{tab:messwerteGesamtwiderstand}) einmal mit und einmal ohne Eisenkern die Induktivität zu bestimmen. \newline
 
-Hierfür werden die Widerstandswerte aus eben genannter Tabelle gemeinsam mit dem Wert für C = 1 $\mu F$ in Formel \ref{eq:Induktivität} eingesetzt und damit die Induktivitäten bestimmt.
+\noindent
+Hierfür werden die Widerstandswerte aus eben genannter Tabelle gemeinsam mit dem Wert für C = 1 $\mu F$ in Formel \ref{eq:Induktivität} eingesetzt und damit die Induktivitäten bestimmt. Zur Unsicherheitsberechnung wurden die Unsicherheiten aus Tabelle \ref{tab:geraete} entnommen.
 
 \begin{table}[H]
     \centering
@@ -449,8 +451,8 @@ Hierfür werden die Widerstandswerte aus eben genannter Tabelle gemeinsam mit de
         \hline
          & Gesamtwiderstand [Ohm] & Induktivität [H] \\
         \hline
-        Mit EK. & 298.0 $\pm$ 3.6 + 2 digit & 0.004 $\pm$ 0.004 \\
-        Ohne EK. & 115.8 $\pm$ 1.4 + 2 digit & 0.0030 $\pm$ 0.0006 \\
+        Mit EK. & 298.0 $\pm$ 51.3 & 0.03 $\pm$ 0.01 \\
+        Ohne EK. & 115.8 $\pm$ 49.1 & 0.004 $\pm$  0.004 \\
         \hline
     \end{tabular}
 \end{table}
@@ -458,8 +460,9 @@ Hierfür werden die Widerstandswerte aus eben genannter Tabelle gemeinsam mit de
 
 \subsection{Eigenfrequenz}
 
-Im letzten Teil des Versuches wird nun die Eigenfrequenz des Stuhles mittels Cursor- und die Eigenfrequenz des Piezos mittels FFT am Oszilloskop ermittelt. Die resultierenden Messdaten sind in Abbildung \ref{fig:MessergebnissEigenfrequenzPiezo} und \ref{fig:MessergebnissEigenfrequenzStuhl} ersichtlich.
+Im letzten Teil des Versuches wird nun die Eigenfrequenz des Stuhles mittels Cursor- und die Eigenfrequenz des Piezos mittels FFT am Oszilloskop ermittelt. Die resultierenden Messdaten sind in Abbildung \ref{fig:MessergebnissEigenfrequenzPiezo} und \ref{fig:MessergebnissEigenfrequenzStuhl} ersichtlich. \newline
 
+\noindent
 Durch Ablesen mit einer Ableseunsicherheit von einem viertel Kästchen erhält man für die Eigenfrequenzen folgende Werte:
 
 \begin{table}[H]
@@ -478,9 +481,102 @@ Durch Ablesen mit einer Ableseunsicherheit von einem viertel Kästchen erhält m
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 
+Das Oszilloskop ist der Grundstein eines jeden Elektronikversuches und ist in der heutigen Forschungszeit nicht mehr wegzudenken.
+
+\subsection{Serienschaltung}
+
+Angefangen mit dem bestimmen des Phasenversatzes lässt sich mit Augenmaß in Abbildung \ref{fig:Messergebnisse3.2a} eine ungefähre Übereinstimmung des berechneten mit dem tatsächlichen Wert erkennen.
+Auch die Zerfallskonstante, welche mittels linearem fit mit 0.8 ms angenähert bestimmt wurde, lässt sich in Abbildung \ref{fig:Messergebnisse3.2b} mit einem Wert von 0.7 ms wiederfinden. Weiters lässt er sich jedoch auch mittels Formel \ref{eq:Zerfallskonstante} und den Werten des hier verwendeten Widerstandes (1000 Ohm) und Kondensators (1 $\mu F$) berechnen. Hierfür erhält man eine Zerflallskonstante von 1 ms, was den experimentell bestimmten Werten sehr nahe kommt und ebenfalls auf eine richtige Versuchsdurchführung schließen lässt.
+
+
+\subsection{Serienschwingkreis}
+
+Die resultierenden Graphen der einzelnen Fälle im Serienschwingkreis decken sich mit den erhofften Resultaten. \newline
+
+\noindent
+Die Werte der Induktivitäten decken sich unter einbezug der Unsicherheiten mit denen der Literatur, welche für Spulen dieser größe eine Induktivität zwischen 1 und 10 mH ohne Eisenkern und 10 bis 100 mH mit Eisenkern besagen. Die Beschriftung der Spule besagt eine Induktivität von 7.9 mH, was mit Unsicherheiten dem Ergebnis von (0.004 $\pm$ 0.004) H entspricht. 
+In Realität könnte der Wert hierfür etwas anders aussehen, da die Innenwiderstände der Geräte nicht miteinbezogen wurden. Auch durch Materialeigenschaften, Temperaturunterschiede oder magnetische Störung von außen kann das Ergebnis beinflusst werden. 
+
+
+\subsection{Eigenfrequenzen}
+
+Piezosensoren sind ein wichtiges Werkzeug zur Bestimmung von Frequenzen. Der Nutzen davon kann zum Beispiel im Gesundheitswesen und der Maschinenüberwachung sein. \newline
+
+\noindent
+Mögliche Anwendungsbereiche:
+
+\begin{itemize}
+    \item Ultraschallprüfung / Ulltraschallgeräte
+    \item Überprüfung von Herzfrequenzen 
+    \item Erkennung von Vibrationen bzw. Schwingungen von Maschinen (bei bspw. Störungen)
+\end{itemize}
+
+\noindent
+Das Datenblatt des verwendeten Piezos besagt eine Eigenfrequenz von (3.6 $\pm$ 0.6) kHz, was sich mit einbezogenen Unsicherheiten mit den Versuchsergebnissen deckt.
+
+
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
 
+Die resultierenden Werte werden in diesem Abschnitt noch einmal zusammengefasst:
+
+\subsection{Serienschaltung}
+
+$\tau$ = (0.0009505 $\pm$ 0.0000016) s \newline
+
+\noindent
+$\Phi$ = (84.6 $\pm$ 22.3) °
+
+
+\subsection{Serienschwingkreis}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/AlleDreiFällePlot.jpg}
+    \caption{Kriechfall, Schwingfall und Aperiodischer Grenzfall}
+    \label{fig:AlleDreiFälleZusmf}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \caption{Induktivitäten}
+    \label{tab:Induktivitäten}
+    \begin{tabular}{| l | l | l |}
+        \hline
+         & Gesamtwiderstand [Ohm] & Induktivität [H] \\
+        \hline
+        Mit EK. & 298.0 $\pm$ 51.3 & 0.03 $\pm$ 0.01 \\
+        Ohne EK. & 115.8 $\pm$ 49.1 & 0.004 $\pm$  0.004 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+\subsection{Eigenfrequenzen}
+
+\begin{table}[H]
+    \centering
+    \caption{Eigenfrequenzen}
+    \label{tab:EigenfrequenzenZsmf}
+    \begin{tabular}{| l | l |}
+        \hline
+        Eigenfrequenz Stuhl [Hz] & Eigenfrequenz Piezo [Hz] \\
+        \hline
+        24 $\pm$ 5 & 3036 $\pm$ 250 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+
+\section{Anhang} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth, angle=0]{nudes/Unsicherheitsberechnung.jpg}
+    \caption{Unsicherheitsberechnung}
+    \label{fig:Unsicherheitsberechnung}
+\end{figure}
 
 \printbibliography[heading=bibintoc]
 \end{document}

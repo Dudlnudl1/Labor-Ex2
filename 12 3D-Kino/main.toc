@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {3}Versuchsanordnung}{4}{section.3}%
 \contentsline {section}{\numberline {4}Geräteliste}{8}{section.4}%
 \contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{8}{section.5}%
-\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{10}{section.6}%
-\contentsline {section}{\numberline {7}Diskussion}{11}{section.7}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{11}{section.8}%
-\contentsline {section}{Literatur}{11}{section*.16}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{11}{section.6}%
+\contentsline {section}{\numberline {7}Diskussion}{13}{section.7}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{13}{section.8}%
+\contentsline {section}{Literatur}{13}{section*.18}%

@@ -1,0 +1,23 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Aufgabenstellung}{3}{section.1}%
+\contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{3}{section.2}%
+\contentsline {section}{\numberline {3}Versuchsanordnung}{5}{section.3}%
+\contentsline {section}{\numberline {4}Geräteliste}{9}{section.4}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Serienschaltung}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Serienschwingkreis}{10}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Eigenfrequenz}{12}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Serienschaltung}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Serienschwingkreis}{14}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Eigenfrequenz}{17}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Diskussion}{17}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Serienschaltung}{17}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Serienschwingkreis}{17}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Eigenfrequenzen}{17}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{18}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Serienschaltung}{18}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Serienschwingkreis}{18}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Eigenfrequenzen}{19}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Anhang}{19}{section.9}%
+\contentsline {section}{Literatur}{19}{section*.33}%

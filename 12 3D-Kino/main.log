@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.10)  28 OCT 2023 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.10)  29 OCT 2023 18:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1482,7 +1482,7 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 3.
 
 \c@lstlisting=\count502
-<../Deckblätter/Deckblatt_3DKino.pdf, id=42, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_3DKino.pdf, id=46, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_3DKino.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_3DKino.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_3DKino.pdf  used on input line 33.
@@ -1491,7 +1491,7 @@ File: ../Deckblätter/Deckblatt_3DKino.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_3DKino.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_3DKino.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../Deckblätter/Deckblatt_3DKino.pdf, id=45, page=1, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_3DKino.pdf, id=49, page=1, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_3DKino.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_3DKino.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_3DKino.pdf , page1 used on input line 33.
@@ -1531,7 +1531,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
  (C:\Users\Philip Waldl\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<nudes/Mallus.png, id=94, 1101.36469pt x 404.26031pt>
+<nudes/Mallus.png, id=99, 1101.36469pt x 404.26031pt>
 File: nudes/Mallus.png Graphic file (type png)
 <use nudes/Mallus.png>
 Package pdftex.def Info: nudes/Mallus.png  used on input line 68.
@@ -1547,12 +1547,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--96
  []
 
 [3 <./nudes/Mallus.png>]
-<nudes/3D.png, id=111, 824.32968pt x 617.30624pt>
+<nudes/3D.png, id=116, 824.32968pt x 617.30624pt>
 File: nudes/3D.png Graphic file (type png)
 <use nudes/3D.png>
 Package pdftex.def Info: nudes/3D.png  used on input line 99.
 (pdftex.def)             Requested size: 273.14923pt x 204.55pt.
-<nudes/aufbau mallus.jpg, id=114, 4047.12pt x 3035.34pt>
+<nudes/aufbau mallus.jpg, id=119, 4047.12pt x 3035.34pt>
 File: nudes/aufbau mallus.jpg Graphic file (type jpg)
 <use nudes/aufbau mallus.jpg>
 Package pdftex.def Info: nudes/aufbau mallus.jpg  used on input line 125.
@@ -1562,39 +1562,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--137
 
  []
 
-<nudes/zuckerlösung.jpg, id=126, 4047.12pt x 3035.34pt>
+<nudes/zuckerlösung.jpg, id=131, 4047.12pt x 3035.34pt>
 File: nudes/zuckerlösung.jpg Graphic file (type jpg)
 <use nudes/zuckerlösung.jpg>
 Package pdftex.def Info: nudes/zuckerlösung.jpg  used on input line 140.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
 [5 <./nudes/aufbau mallus.jpg> <./nudes/zuckerlösung.jpg>]
-<nudes/schraubenschlüssel.jpg, id=134, 4047.12pt x 3035.34pt>
+<nudes/schraubenschlüssel.jpg, id=139, 4047.12pt x 3035.34pt>
 File: nudes/schraubenschlüssel.jpg Graphic file (type jpg)
 <use nudes/schraubenschlüssel.jpg>
 Package pdftex.def Info: nudes/schraubenschlüssel.jpg  used on input line 151.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
-<nudes/plastikecke.jpg, id=135, 4047.12pt x 3035.34pt>
+<nudes/plastikecke.jpg, id=140, 4047.12pt x 3035.34pt>
 File: nudes/plastikecke.jpg Graphic file (type jpg)
 <use nudes/plastikecke.jpg>
 Package pdftex.def Info: nudes/plastikecke.jpg  used on input line 152.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
-<nudes/3d-brille aufbau.jpg, id=136, 4047.12pt x 3035.34pt>
+<nudes/3d-brille aufbau.jpg, id=141, 4047.12pt x 3035.34pt>
 File: nudes/3d-brille aufbau.jpg Graphic file (type jpg)
 <use nudes/3d-brille aufbau.jpg>
 Package pdftex.def Info: nudes/3d-brille aufbau.jpg  used on input line 165.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
  [6 <./nudes/schraubenschlüssel.jpg> <./nudes/plastikecke.jpg> <./nudes/3d-brille aufbau.jpg>]
-<nudes/brille rechts.jpg, id=143, 4047.12pt x 3035.34pt>
+<nudes/brille rechts.jpg, id=148, 4047.12pt x 3035.34pt>
 File: nudes/brille rechts.jpg Graphic file (type jpg)
 <use nudes/brille rechts.jpg>
 Package pdftex.def Info: nudes/brille rechts.jpg  used on input line 178.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
-<nudes/brille links.jpg, id=144, 4047.12pt x 3035.34pt>
+<nudes/brille links.jpg, id=149, 4047.12pt x 3035.34pt>
 File: nudes/brille links.jpg Graphic file (type jpg)
 <use nudes/brille links.jpg>
 Package pdftex.def Info: nudes/brille links.jpg  used on input line 179.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
-<nudes/3d kino aufbau hell.jpg, id=145, 4047.12pt x 3035.34pt>
+<nudes/3d kino aufbau hell.jpg, id=150, 4047.12pt x 3035.34pt>
 File: nudes/3d kino aufbau hell.jpg Graphic file (type jpg)
 <use nudes/3d kino aufbau hell.jpg>
 Package pdftex.def Info: nudes/3d kino aufbau hell.jpg  used on input line 194.
@@ -1610,7 +1610,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--359
  []
 
 [10]
-<nudes/malusplot.jpg, id=174, 367.3725pt x 303.38344pt>
+<nudes/malusplot.jpg, id=179, 367.3725pt x 303.38344pt>
 File: nudes/malusplot.jpg Graphic file (type jpg)
 <use nudes/malusplot.jpg>
 Package pdftex.def Info: nudes/malusplot.jpg  used on input line 362.
@@ -1631,7 +1631,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 396--409
  []
 
 [11 <./nudes/malusplot.jpg>]
-<nudes/Polardiagramm 3D Brille beide Augen.png, id=193, 431.6125pt x 372.39125pt>
+<nudes/Polardiagramm 3D Brille beide Augen.png, id=198, 431.6125pt x 372.39125pt>
 File: nudes/Polardiagramm 3D Brille beide Augen.png Graphic file (type png)
 <use nudes/Polardiagramm 3D Brille beide Augen.png>
 Package pdftex.def Info: nudes/Polardiagramm 3D Brille beide Augen.png  used on input line 413.
@@ -1641,36 +1641,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--425
 
  []
 
-<nudes/3d kino aufbau.jpg, id=196, 765.86125pt x 955.57pt>
+<nudes/3d kino aufbau.jpg, id=201, 765.86125pt x 955.57pt>
 File: nudes/3d kino aufbau.jpg Graphic file (type jpg)
 <use nudes/3d kino aufbau.jpg>
 Package pdftex.def Info: nudes/3d kino aufbau.jpg  used on input line 428.
 (pdftex.def)             Requested size: 273.14923pt x 340.81174pt.
 [12 <./nudes/Polardiagramm 3D Brille beide Augen.png>]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 442.
+Underfull \hbox (badness 10000) in paragraph at lines 436--448
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--448
+
+ []
+
+File: nudes/malusplot.jpg Graphic file (type jpg)
+<use nudes/malusplot.jpg>
+Package pdftex.def Info: nudes/malusplot.jpg  used on input line 456.
+(pdftex.def)             Requested size: 273.14923pt x 225.58809pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--459
+
+ []
+
+[13 <./nudes/3d kino aufbau.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 461--466
+
+ []
+
+File: nudes/Polardiagramm 3D Brille beide Augen.png Graphic file (type png)
+<use nudes/Polardiagramm 3D Brille beide Augen.png>
+Package pdftex.def Info: nudes/Polardiagramm 3D Brille beide Augen.png  used on input line 469.
+(pdftex.def)             Requested size: 273.14923pt x 235.67598pt.
+File: nudes/3d kino aufbau.jpg Graphic file (type jpg)
+<use nudes/3d kino aufbau.jpg>
+Package pdftex.def Info: nudes/3d kino aufbau.jpg  used on input line 478.
+(pdftex.def)             Requested size: 273.14923pt x 340.81174pt.
+[14]
+<nudes/unsicherheit.jpg, id=222, 4047.12pt x 3035.34pt>
+File: nudes/unsicherheit.jpg Graphic file (type jpg)
+<use nudes/unsicherheit.jpg>
+Package pdftex.def Info: nudes/unsicherheit.jpg  used on input line 487.
+(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 492.
  (C:\Users\Philip Waldl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) 
+) [15 <./nudes/unsicherheit.jpg>]
+Overfull \hbox (15.74358pt too wide) in paragraph at lines 492--492
+[]\T1/cmr/m/n/12 Wikipedia. \T1/cmr/m/it/12 Sac-cha-ri-me-trie\T1/cmr/m/n/12 . (be-sucht am 21.10.2023). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / de . wikipedia .
+ []
+
+
 AED: lastpage setting LastPage
-[13 <./nudes/3d kino aufbau.jpg>] (main.aux)
+[16] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 82F0D2B2092772CADA411EE65D4F6011;1309.
+(rerunfilecheck)             Checksum: D2EB44ADF6DC7F99DCD964E76188D4F4;1383.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40890 strings out of 476339
- 820481 string characters out of 5784779
+ 40913 strings out of 476339
+ 820980 string characters out of 5784779
  1877340 words of memory out of 5000000
- 60640 multiletter control sequences out of 15000+600000
+ 60653 multiletter control sequences out of 15000+600000
  522440 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,736b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (13 pages, 27414232 bytes).
+Output written on main.pdf (16 pages, 30386517 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 528 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -375,8 +375,8 @@ Für die Zuckerlösung wird aus den Messdaten der Tabelle \ref{tab:Messdaten Zuc
 \end{equation}
 
 \noindent
-Daraus erfolgt der Mittelwert für den Winkel ohne Zuckerlösung $\bar{\varphi_{ohne}} = (312.36)$° mit der Standardabweichung $\sigma_{\varphi_ohne} = (0.17)$°. 
-Für die Winkel mit Zuckerlösung erhält man den Mittelwert $\bar{\varphi_{mit}} = (336.48)$° mit der Standardabweichung $\sigma_{\varphi_mit} = (1.23)$°.
+Daraus erfolgt der Mittelwert für den Winkel ohne Zuckerlösung $\bar{\varphi_{ohne}} = (312.36)$° mit der Standardabweichung $\sigma_{\varphi_{ohne}} = (0.17)$°. 
+Für die Winkel mit Zuckerlösung erhält man den Mittelwert $\bar{\varphi_{mit}} = (336.48)$° mit der Standardabweichung $\sigma_{\varphi_{mit}} = (1.23)$°.
 \\
 Formt man die Gleichung \ref{eq:Konzentration Zucker} auf die Konzentration $c$ um, so erhält man die Gleichung
 
@@ -416,7 +416,7 @@ Diese Berechnung stimmt mit dem Diagramm überein.
 \end{figure}
 
 \noindent
-Wie man in diesen Graphen sehen kann, weisen beide Brillengläser die gleiche Polarisationsachse von $(160 \pm 0.09)$ ° und $(340 \pm 0.09)$ vor. 
+Wie man in diesen Graphen sehen kann, weisen beide Brillengläser die gleiche Polarisationsachse von $(160 \pm 0.09)$ ° und $(340 \pm 0.09)$° vor. 
 \\
 \\
 Für den letzten Teil erfolgt der Aufbau laut Abbildung \ref{fig:3D Kino aufbau}. 
@@ -426,18 +426,68 @@ Mit dem fertigen Aufbau kann man durch die 3D Brille ein 3D Bild erkennen.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{nudes/3d kino aufbau.jpg}
-    \caption{Polardiagramm für beide Augen. Der rote Graph representiert das rechte Auge und der blaue Graph das linke Auge}
+    \caption{Finale 3D Projektion mit 3D Bild}
     \label{fig:3D Projektion}
 \end{figure}
 
 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
-Polarisation ist ein wichtiger bestandteil der Optik. 
+Polarisation ist ein wichtiger bestandteil der Optik. \\
+\\
+Die bestimmung der Zuckerkonzentration in einer Flüssigkeit ist ein wichtiger Teil der Industrie. Es haben sich viele verfahren dazu etabliert, unter anderem auch das im Experiment verwendete Verfahren der Saccharimetrie. 
+Dadurch dass Zuckerkristalle die Polarisation in unterschiedliche Richtungen drehen, kann auch die Art des Zuckers bestimmt werden. 
+In Indrustriellen Anwendungen ist jedoch kein Laser im einsatz, sondern eine Natrium Lampe, bzw. die gelbe Wellenlänge $\lambda = 589 nm$ bei Raumtemperatur \cite{wikisacc}. 
+\\
+\\
+Früher kannte man 3D Filme noch mit Roter und Blauer Folie. Das Prinizp ist dabei so ähnlich. Ein Bild wird überlagert projeziert, einmal in Rot und einmal in Blau. Durch die 3D Brille wird jeweils für ein Auge eine Farbe blockiert. Das Gehirn erschafft somit einen 3D-Effekt. 
+Solch Bilder kann man auch zuhause nachmachen. Man nimmt seine Kamera und nimmt ein Bild des Objektes auf. Mit einen kurzen Schritt nach rechts wird das Bild erneut aufgenommen. Wichtig ist jedoch die Kamera darf nicht geneigt werden und muss auf selber Höhe sein. 
+In Photoshop werden die Bilder übereinandergelegt und das eine in eine Rot und das andere in eine Cyan Ebene konvertiert. 
+\\
+In modernen Kinos wird dieses Verfahren nicht mehr verwendet. Heutzutage erfolgt die 3D Projektion durch zirkular polarisiertes Licht, wie in diesen Experiment gezeigt wird. 
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+Hier nocheinmal die gesuchten Größen der Aufgabenstellung zusammengefasst. 
+\\
+\\
+Gesetz von Malus
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/malusplot.jpg}
+    \caption{Gesetz von Malus aus den Messdaten}
+    \label{fig:malus beweis zus}
+\end{figure}
 
+\noindent
+Konzentration der Zuckerlösung $c = (0.169 \pm 0.003) cm^{-1}$
+\\
+\\
+Polarisationsachse der 3D Brille
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/Polardiagramm 3D Brille beide Augen.png}
+    \caption{Polardiagramm für beide Augen. Der rote Graph representiert das rechte Auge und der blaue Graph das linke Auge. Die Polarisationsachse befindet sich bei $(160 \pm 0.09)$ ° und $(340 \pm 0.09)$°}
+    \label{fig:Polardiagramm zus}
+\end{figure}
+
+\noindent
+3D Projektion 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/3d kino aufbau.jpg}
+    \caption{Finale 3D Projektion mit 3D Bild}
+    \label{fig:3D Projektion zus}
+\end{figure}
+
+\section{Anhang}
+Berechnung der Unsicherheit
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/unsicherheit.jpg}
+    \caption{Unsicherheitsberechnung der Zuckerkonzentration $c$}
+    \label{fig:Unsicherheitswix}
+\end{figure}
 
 \printbibliography[heading=bibintoc]
 \end{document}

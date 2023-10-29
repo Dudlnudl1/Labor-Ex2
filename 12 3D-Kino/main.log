@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.10)  27 OCT 2023 00:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.10)  28 OCT 2023 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1597,43 +1597,80 @@ Package pdftex.def Info: nudes/brille links.jpg  used on input line 179.
 <nudes/3d kino aufbau hell.jpg, id=145, 4047.12pt x 3035.34pt>
 File: nudes/3d kino aufbau hell.jpg Graphic file (type jpg)
 <use nudes/3d kino aufbau hell.jpg>
-Package pdftex.def Info: nudes/3d kino aufbau hell.jpg  used on input line 191.
+Package pdftex.def Info: nudes/3d kino aufbau hell.jpg  used on input line 194.
 (pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
-<nudes/3d kino aufbau.jpg, id=146, 765.86125pt x 955.57pt>
-File: nudes/3d kino aufbau.jpg Graphic file (type jpg)
-<use nudes/3d kino aufbau.jpg>
-Package pdftex.def Info: nudes/3d kino aufbau.jpg  used on input line 198.
-(pdftex.def)             Requested size: 273.14923pt x 340.81174pt.
- [7 <./nudes/brille rechts.jpg> <./nudes/brille links.jpg> <./nudes/3d kino aufbau hell.jpg>] [8 <./nudes/3d kino aufbau.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 287--320
+ [7 <./nudes/brille rechts.jpg> <./nudes/brille links.jpg>] [8 <./nudes/3d kino aufbau hell.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 283--317
 
  []
 
-[9] [10]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 367.
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 353--359
+
+ []
+
+[10]
+<nudes/malusplot.jpg, id=174, 367.3725pt x 303.38344pt>
+File: nudes/malusplot.jpg Graphic file (type jpg)
+<use nudes/malusplot.jpg>
+Package pdftex.def Info: nudes/malusplot.jpg  used on input line 362.
+(pdftex.def)             Requested size: 273.14923pt x 225.58809pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--409
+
+ []
+
+[11 <./nudes/malusplot.jpg>]
+<nudes/Polardiagramm 3D Brille beide Augen.png, id=193, 431.6125pt x 372.39125pt>
+File: nudes/Polardiagramm 3D Brille beide Augen.png Graphic file (type png)
+<use nudes/Polardiagramm 3D Brille beide Augen.png>
+Package pdftex.def Info: nudes/Polardiagramm 3D Brille beide Augen.png  used on input line 413.
+(pdftex.def)             Requested size: 273.14923pt x 235.67598pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--425
+
+ []
+
+<nudes/3d kino aufbau.jpg, id=196, 765.86125pt x 955.57pt>
+File: nudes/3d kino aufbau.jpg Graphic file (type jpg)
+<use nudes/3d kino aufbau.jpg>
+Package pdftex.def Info: nudes/3d kino aufbau.jpg  used on input line 428.
+(pdftex.def)             Requested size: 273.14923pt x 340.81174pt.
+[12 <./nudes/Polardiagramm 3D Brille beide Augen.png>]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 442.
  (C:\Users\Philip Waldl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) 
 AED: lastpage setting LastPage
-[11] (main.aux)
+[13 <./nudes/3d kino aufbau.jpg>] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E1099960E7F4BBF5F73058C652A08BD8;1309.
+(rerunfilecheck)             Checksum: 82F0D2B2092772CADA411EE65D4F6011;1309.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40864 strings out of 476339
- 819779 string characters out of 5784779
+ 40890 strings out of 476339
+ 820481 string characters out of 5784779
  1877340 words of memory out of 5000000
- 60623 multiletter control sequences out of 15000+600000
+ 60640 multiletter control sequences out of 15000+600000
  522440 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,736b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (11 pages, 27288792 bytes).
+{C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (13 pages, 27414232 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

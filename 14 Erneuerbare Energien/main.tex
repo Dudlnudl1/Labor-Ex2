@@ -46,8 +46,8 @@ Bei dem Teil der Brennstoffzelle wird an die Zelle Spannung angelegt und gemesse
 Im zweiten Teil mit der Brennstoffzelle gilt es den Wirkungsgrad zu bestimmen. Dazu wird die Volumensänderung pro Zeit im Gastank gemessen. \\
 Beim dritten Teil wird die Kennlinie der Brennstoffzelle ermittelt. Durch schrittweises verringern des Widerstandes an einem Potentiometer lässt sich die Spannung und der Strom messen und daraus die Leistung berechnen. 
 
-\subsection{Windmaschine}
-Im ersten Teil wird die Windmaschine vor ein Windrad gestellt und mit unterschiedlichen Eingangsspannungen wird die Leerlaufspannung am Windrad gemessen. 
+\subsection{Windkraft}
+Im ersten Teil wird eine Windmaschine vor ein Windrad gestellt und mit unterschiedlichen Eingangsspannungen wird die Leerlaufspannung am Windrad gemessen. 
 Anschließend wird die Eingangsspannungen an der Windmaschine fixiert und das Windrad in gewissen Abständen davon entfernt und erneut die Leerlaufspannung gemessen. \\
 Im zweiten Teil wird Beobachtet, was bei einzelnen Extremfällen passiert. Dazu wird der Luftstrom abbrupt gestoppt und die Leerlaufspannung am Windrad wird gemessen. 
 Anschließend wird der Luftstrom abbrupt gestartet und es wird erneut die Leerlaufspannung gemessen. die beiden Extremfälle werden anschließend mit einer Kapazität zwischen Windrad und Multimeter wiederholt. 
@@ -58,22 +58,98 @@ Durch ein Windrad wird Energie erzeugt, welche genutzt wird um an der Brennstoff
 \\
 Alle Informationen und Methodiken wurden uns von der Technischen Universität bereitgestellt \cite{teachcenter2}. 
 
-
-
 \section{Voraussetzungen \& Grundlagen} %Grundlagen erklären, Formeln mit erklärung
+\subsection{Photovoltaik}
+Eine Solarzelle wandelt Sonnenenergie (Strahlungsenergie) in elektrische Energie um. Sie besteht aus einer Photodiode, welche aus n-dotierten und p-dotierten Halbleitern besteht. 
+N-dotierte Halbleiter bestehen aus Atomen mit 5 Valenzelektronen. Diese werden auf ein Gitter aus Atomen mit 4 Valenzelektronen angebracht. 
+P-dotierte Halbleiter bestehen aus Atomen mit 3 Valenzelektronen, welche an das Gitter angeordnet werden. So entstehen ''Löcher''. Kombiniert man nun die beiden Halbleiter so können Elektronen aus n-dotierten Halbleitern in die freien Löcher der p-dotierten Halbleiter. 
+Dadurch entsteht Ladung an der Grenzfläche der Halbleiter und erzeugen ein elektrisches Feld. Die Grenzfläche ist nun die Raumladungszone. . 
+Einfallende Photonen erzeugen Elektronen und Löcher. Diese müssen an der Grenzfläche getrennt werden, somit fließt Strom. 
 
-    \begin{equation}
-        \label{eq:Müll}
-        \centerline{$M=\frac{muell}{malle}$}
-    \end{equation}
+\subsection{Brennstoffzelle}
+Eine Brennstoffzelle kann elektrischer Energie aus Wasserstoff und Sauerstoff erzeugen. 
+Dieser prozess lässt sich auch umkehren. Fügt man der Zelle el. Energie zu, so kann aus Wasser Wasserstoff und Sauerstoff erzeugt werden. 
+Die Zelle besitzt eine protonenleitende Membran (PEM) und benötigt daher keine Säuren oder Laugen. 
+Der Vorgang, in dem elektrische Energie aus Wasserstoff und Sauerstoff erzeugt wird nennt man kalte Verbrennung. Der reverse Prozess, wo aus el. Energie Wasserstoff und Sauerstoff erzeugt wird nennt man Elektrolyse. 
+\\
+\\ 
+Nutzt man die Brennstoffzelle für Elektrolyse, so wird an einer Anode Wasserstoff in Protonen und Elektronen geteilt. Die Protonen reagieren an der Kathode mit Sauerstoff und Elektronen und bilden Wasser. Die Elektronen fließen an einen äußeren Stromkreis und leisten dabei elektrische Arbeit. 
+\\
+Für die erzeugung von Wasserstoff wird el. Energie in das System gespeist. Wasser wird dadurch in Wasserstoff und Sauerstoff gespalten. 
+
+\subsection{Windkraft}
+Bei einem Windrad wird aus Bewegungsenergie el. Energie erzeugt. Ein Windrad ist in Rotor und Generator geteilt. Dabei unterscheidet man zwischen horizontalen und vertikalen Ausrichtungen. Bei vertikal ausgerichteten Windrädern ist die Windrichtung nicht relevant. Bei horizontalen Windrädern, wie man sie Heutzutage sieht, ist die Windrichtung entscheident. Der große Vorteil von horizontalen gegenüber Vertikalen ist der Wirkungsgrad, welcher mehr als 50\% beträgt. 
+\\
+Man unterscheidet bei Wind zwei arten von Strömung. Laminare, welche gleichmäßig verläuft, und nicht laminare (turbulente) Strömung. 
+Ein weiterer Punkt von Strömungen ist die Einteilung in stationäre und nicht stationäre Strömung. Bei stationärer Strömung ist die Geschwindigkeit überall im Strom konstant. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/strömung.png}
+    \caption{Laminare Strömung (A, B) um verschiedene Objekte. Nicht laminare Strömung (C). Entnommen aus Skriptum Erneuerbare Energien \cite{teachcenter2}}
+    \label{fig:strömung}
+\end{figure}
+
+\noindent
+Um zu beschreiben, wie sich die Drücke $p$ in der laminaren Strömung verhalten, verwendet man die Bernoulli-Gleichung. Dabei entspricht $\rho$ der Dichte und $u$ der Geschwindigkeit.  
+
+\begin{equation}
+    \label{eq:bernoulli}
+    \centerline{$p + \frac{1}{2} \rho u^2 = p_0 = konst. $}
+\end{equation}
+
+\noindent
+Für den aerodynamischen Auftrieb werden Flügel unsymmetrischer Form verwendet, welche zu unterschiedliche Strömungsgeschwindigkeiten über und unter dem Flügel führen. Von der Bernoulli-Gleichung beschrieben führt die unterschiedliche Geschwindigkeit auch zu unterschiedlichen Drücken. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/tragfläche.png}
+    \caption{Aerodynamischer Auftrieb am Beispiel einer Tragfläche. Entnommen aus Skriptum Erneuerbare Energien \cite{teachcenter2}}
+    \label{fig:tragfläche}
+\end{figure} 
+
+\noindent
+Daraus lässt sich die Auftriebskraft $F$ berechnen. 
+
+\begin{equation}
+    \label{eq:auftriebskraft}
+    \centerline{$F = (p_2 - p_1) * A \approx \frac{1}{2} \rho_L (u_1^2 - u_2^2)*A $}
+\end{equation}
+
+\noindent
+Diese Tragflächen als Flügel am Windrad führen zu Drehmoment, und erzeugen dadurch am Generator Strom. 
+
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
+Der Versuch Erneuerbare Energien ist in mehrere Teilbereiche aufgeteilt. Im Ersten wird mit einer Solarzelle gearbeitet. Im Zweiten mit einer Brennstoffzelle. Der dritte Teil besteht aus Windmaschine und Windrad. 
+Im letzten Abschnitt wird das Windrad und die Brennstoffzelle kombiniert. Genauere Beschreibungen des Aufbaus werden im Abschnitt Versuchsdurchführung beschrieben.
 
     \begin{figure}[H]
         \centering
-        %\includegraphics[width=0.6\linewidth, angle=-90]{nudes/bild.jpg}
-        \caption{müll}
-        \label{fig:müllbild}
+        \includegraphics[width=0.6\linewidth]{nudes/solarzelle aufbau.jpg}
+        \caption{Aufbau des Teilversuches Photovoltaik}
+        \label{fig:aufbau Photovoltaik}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\linewidth]{nudes/brennstoff aufbau.jpg}
+        \caption{Aufbau des Teilversuches Brennstoffzelle}
+        \label{fig:aufbau Brennstoffzelle}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\linewidth]{nudes/wind aufbau.jpg}
+        \caption{Aufbau des Teilversuches Windkraft}
+        \label{fig:aufbau Windkraft}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\linewidth]{nudes/wind und brennstoff.jpg}
+        \caption{Aufbau des Teilversuches Speicherung der Energie}
+        \label{fig:aufbau Speicherung Energie}
     \end{figure}
 
 \section{Geräteliste} %jo holt a listn ------------------------------
@@ -82,9 +158,23 @@ Alle Informationen und Methodiken wurden uns von der Technischen Universität be
         \centering
         \caption{Im Versuch verwendete Geräte und Utensilien.}
         \label{tab:geraete}
-        \begin{tabular}{| l | l | l | l |}
+        \begin{tabular}{| l | l | l |}
             \hline
-            Gerät   & Typ   & Gerätenummer  & Unsicherheit \\
+            Gerät  & Gerätenummer  & Unsicherheit \\
+            \hline
+            Leybold AC/DC PSU PRO 0...12 V/3 A& 521 487 & {n.a} \\
+            Multimeter (Spannung) UNI-T & UT51 & $\pm (0.5 \% + 1 dig.)V$ \cite{multimeter1} \\
+            Multimeter (Strom) UNI-T & UT51 & $\pm (0.8 \% + 1 dig.)A$  \cite{multimeter1} \\
+            Multimeter Voltcraft & VC170-1 & $\pm (0.5 \% + 8 dig.)V$ \cite{multimeter2} \\
+            Lineal & {n.a} & $\pm 1mm $ \\
+            Stoppuhr Samsung S10+ & SM-G975F & $\pm 0.01s$ \\
+            Kondensator & {n.a} & {n.a} \\
+            Leuchte & {n.a} & {n.a} \\
+            Solarzelle & {n.a} & {n.a} \\
+            Brennstoffzelle & {n.a} & {n.a} \\
+            Windmaschine & {n.a} & {n.a} \\
+            Windrad & {n.a} & {n.a} \\
+            Schaltboard & {n.a} & {n.a} \\
             \hline
         \end{tabular}
     \end{table}
@@ -92,6 +182,195 @@ Alle Informationen und Methodiken wurden uns von der Technischen Universität be
 
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
 
+\subsection{Photovoltaik}
+Im ersten Teilversuch wird die Schaltung laut Abbildung \ref{fig:aufbau Photovoltaik} aufgebaut. Der Abstand zwischen Lampe und Solarmodul beträgt $(30.0 \pm 0.1)cm $. 
+Die Eingangsspannung beträgt 12V. 
+Jeweils für die linke Solarzelle, die rechte Solarzelle, eine Parallelschaltung und eine Serienschaltung wird die Leerlaufspannung $U$ und der Kurzschlussstrom $I$ gemessen. 
+\\
+Aus den Messungen erhält man: 
+\begin{itemize}
+    \item $U_{Links} = (1.103 \pm 0.007)V$
+    \item $U_{Rechts} = (1.098 \pm 0.007)V$
+    \item $U_{Seriell} = (2.20 \pm 0.03)V$
+    \item $U_{Parallel} = (1.10 \pm 0.02)V$
+    
+    \item $I_{Links} = (33.4 \pm 0.4)mA$
+    \item $I_{Rechts} = (35.7 \pm 0.4)mA$
+    \item $I_{Seriell} = (33.6 \pm 0.4)mA$
+    \item $I_{Parallel} = (69.1 \pm 0.7)mA$
+\end{itemize}
+
+\noindent
+Der Versuch ist für unterschiedliche Abstände $d$ der Lampe zum Solarmodul zu wiederholen. Die änderung des Abstandes erfolgt in 5cm Schritten. 
+
+\begin{table}[H]
+    \centering
+    \caption{Leerlaufspannung $U$ des Solarmoduls bei verschiedenen Abständen $d$}
+    \label{tab:Messdaten Spannung Solar}
+    \begin{tabular}{| l | l | l | l | l | l |}
+        \hline
+        Nr. & $d \pm 0.1 $ / cm & $U_{L}$ / V & $U_{R}$ / V & $U_{Seriell}$ / V & $U_{Parallel}$ / V \\
+        \hline
+        1  & 5.0  & 1.149 $\pm$ 0.007 & 1.152 $\pm$ 0.007 & 2.30 $\pm$ 0.03 & 1.16 $\pm$ 0.02   \\
+        2  & 10.0 & 1.142 $\pm$ 0.007 & 1.148 $\pm$ 0.007 & 2.30 $\pm$ 0.03 & 1.15 $\pm$ 0.02   \\
+        3  & 15.0 & 1.109 $\pm$ 0.007 & 1.120 $\pm$ 0.007 & 2.24 $\pm$ 0.03 & 1.12 $\pm$ 0.02   \\
+        4  & 20.0 & 1.082 $\pm$ 0.007 & 1.089 $\pm$ 0.007 & 2.18 $\pm$ 0.03 & 1.09 $\pm$ 0.02   \\
+        5  & 25.0 & 1.060 $\pm$ 0.007 & 1.062 $\pm$ 0.007 & 2.13 $\pm$ 0.03 & 1.07 $\pm$ 0.02   \\
+        6  & 30.0 & 1.042 $\pm$ 0.007 & 1.040 $\pm$ 0.007 & 2.09 $\pm$ 0.03 & 1.05 $\pm$ 0.02   \\
+        7  & 35.0 & 1.028 $\pm$ 0.007 & 1.021 $\pm$ 0.007 & 2.06 $\pm$ 0.03 & 1.03 $\pm$ 0.02   \\
+        8  & 40.0 & 1.014 $\pm$ 0.007 & 1.005 $\pm$ 0.007 & 2.02 $\pm$ 0.03 & 1.01 $\pm$ 0.02   \\
+        9  & 45.0 & 1.004 $\pm$ 0.007 & 0.991 $\pm$ 0.006 & 2.00 $\pm$ 0.03 & 1.00 $\pm$ 0.02   \\
+        10 & 50.0 & 0.995 $\pm$ 0.006 & 0.978 $\pm$ 0.006 & 1.97 $\pm$ 0.02 & 0.99 $\pm$ 0.02   \\
+        11 & 55.0 & 0.987 $\pm$ 0.006 & 0.965 $\pm$ 0.006 & 1.95 $\pm$ 0.02 & 0.97 $\pm$ 0.02   \\
+        12 & 60.0 & 0.980 $\pm$ 0.006 & 0.952 $\pm$ 0.006 & 1.93 $\pm$ 0.02 & 0.96 $\pm$ 0.02   \\
+        13 & 65.0 & 0.974 $\pm$ 0.006 & 0.943 $\pm$ 0.006 & 1.91 $\pm$ 0.02 & 0.95 $\pm$ 0.02   \\
+        14 & 70.0 & 0.968 $\pm$ 0.006 & 0.931 $\pm$ 0.006 & 1.89 $\pm$ 0.02 & 0.94 $\pm$ 0.02   \\
+        15 & 75.0 & 0.963 $\pm$ 0.006 & 0.921 $\pm$ 0.006 & 1.87 $\pm$ 0.02 & 0.93 $\pm$ 0.02   \\
+        16 & 80.0 & 0.953 $\pm$ 0.006 & 0.913 $\pm$ 0.006 & 1.86 $\pm$ 0.02 & 0.92 $\pm$ 0.02   \\
+        17 & 85.0 & 0.944 $\pm$ 0.006 & 0.907 $\pm$ 0.006 & 1.84 $\pm$ 0.02 & 0.92 $\pm$ 0.02   \\
+        18 & 90.0 & 0.938 $\pm$ 0.006 & 0.899 $\pm$ 0.006 & 1.82 $\pm$ 0.02 & 0.91 $\pm$ 0.02   \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Kurzschlussstrom $I$ des Solarmoduls bei verschiedenen Abständen $d$}
+    \label{tab:Messdaten Strom Solar}
+    \begin{tabular}{| l | l | l | l | l | l |}
+        \hline
+        Nr. & $d \pm 0.1 $ / cm & $I_{L}$ / mA & $I_{R}$ / mA & $I_{Seriell}$ / mA & $I_{Parallel}$ / A \\
+        \hline
+        1  & 5.0  & 142.2 $\pm$ 1.3  & 79.6  $\pm$ 0.8 & 61.0  $\pm$ 0.6 & 0.265 $\pm$ 0.004  \\
+        2  & 10.0 & 167.8 $\pm$ 1.5  & 155.1 $\pm$ 1.4 & 127.0 $\pm$ 1.1 & 0.261 $\pm$ 0.003  \\
+        3  & 15.0 & 116.4 $\pm$ 1.1  & 111.8 $\pm$ 1.1 & 79.0  $\pm$ 0.8 & 0.202 $\pm$ 0.003  \\
+        4  & 20.0 &  73.3 $\pm$ 0.7  & 71.8  $\pm$ 0.7 & 58.0  $\pm$ 0.5 & 0.136 $\pm$ 0.002  \\
+        5  & 25.0 &  50.5 $\pm$ 0.5  & 50.2  $\pm$ 0.5 & 44.1  $\pm$ 0.4 & 0.096 $\pm$ 0.002  \\
+        6  & 30.0 &  36.7 $\pm$ 0.4  & 37.1  $\pm$ 0.4 & 31.3  $\pm$ 0.4 & 0.071 $\pm$ 0.002  \\
+        7  & 35.0 &  27.8 $\pm$ 0.4  & 28.3  $\pm$ 0.4 & 23.7  $\pm$ 0.4 & 0.054 $\pm$ 0.002  \\
+        8  & 40.0 &  21.7 $\pm$ 0.3  & 22.1  $\pm$ 0.3 & 21.8  $\pm$ 0.3 & 0.043 $\pm$ 0.002  \\
+        9  & 45.0 &  17.7 $\pm$ 0.3  & 17.7  $\pm$ 0.3 & 18.2  $\pm$ 0.3 & 0.034 $\pm$ 0.002  \\
+        10 & 50.0 &  14.8 $\pm$ 0.3  & 15.0  $\pm$ 0.3 & 15.8  $\pm$ 0.3 & 0.028 $\pm$ 0.002  \\
+        11 & 55.0 &  12.7 $\pm$ 0.2  & 13.6  $\pm$ 0.2 & 13.4  $\pm$ 0.2 & 0.024 $\pm$ 0.002  \\
+        12 & 60.0 &  11.2 $\pm$ 0.2  & 11.7  $\pm$ 0.2 & 11.3  $\pm$ 0.2 & 0.021 $\pm$ 0.002  \\
+        13 & 65.0 &  10.1 $\pm$ 0.2  & 10.1  $\pm$ 0.2 & 10.0  $\pm$ 0.2 & 0.018 $\pm$ 0.002  \\
+        14 & 70.0 &   9.1 $\pm$ 0.2  & 9.0   $\pm$ 0.2 & 8.9   $\pm$ 0.2 & 0.016 $\pm$ 0.002  \\
+        15 & 75.0 &   8.0 $\pm$ 0.2  & 8.1   $\pm$ 0.2 & 7.9   $\pm$ 0.2 & 0.015 $\pm$ 0.002  \\
+        16 & 80.0 &   7.1 $\pm$ 0.2  & 7.4   $\pm$ 0.2 & 7.1   $\pm$ 0.2 & 0.013 $\pm$ 0.002  \\
+        17 & 85.0 &   6.5 $\pm$ 0.2  & 6.7   $\pm$ 0.2 & 6.5   $\pm$ 0.2 & 0.013 $\pm$ 0.002  \\
+        18 & 90.0 &   6.0 $\pm$ 0.2  & 6.1   $\pm$ 0.2 & 6.0   $\pm$ 0.2 & 0.012 $\pm$ 0.001  \\
+        \hline  
+    \end{tabular}
+\end{table}
+
+\subsection{Brennstoffzelle}
+Bei dem Versuch mit der Brennstoffzelle wird die Schaltung wie in Abbildung \ref{fig:aufbau Brennstoffzelle} gezeigt aufgebaut. 
+Die Brennstoffzelle wird mit Wasser befüllt. Die beiden Tanks werden bis zur 0-Linie mit Wasser gefüllt und die Gastanks werden eingesetzt und über Schläuche mit der Brennstoffzelle verbunden. 
+Die Brennstoffzelle wird mit Spannung versorgt, es findet also eine kalte Verbrennung statt und Wasserstoff wird hergestellt. 
+Die Eingangsspannung $U_{ein}$ wird langsam erhöht und der Strom $I_{gem}$ wird mit dem Multimeter gemessen. 
+Dabei ist zu beobachten, ab welcher angelegten Spannung sich die Gastanks anfangen zu befüllen. Bei dem Versuch ist ein befüllen ab einer Eingangsspannung von $U_{ein} = (1.72 \pm 0.01) V$ beobachtbar gewesen. 
+Ist das geschehen, so wird die Spannung erhöht, bis die Strömstärke 500 mA erreicht. 
+\\
+Die Unsicherheit der Spannung $U_{ein}$ ist die Ableseunsicherheit des Gerätes. 
+\begin{table}[H]
+    \centering
+    \caption{Strom $I_{gem}$ in abhängigkeit der Eingangsspannung $U_{ein}$ der Brennstoffzelle bei kalter Verbrennung. }
+    \label{tab:Messdaten Brennstoffzelle}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & $U_{ein} \pm 0.01 $  / V & $I_{gem}$ / mA  \\
+        \hline
+        1  & 1.72  & 54  $\pm$ 2  \\
+        2  & 1.80  & 84  $\pm$ 2  \\
+        3  & 1.92  & 117 $\pm$ 2  \\
+        4  & 2.00  & 144 $\pm$ 3  \\
+        5  & 2.12  & 171 $\pm$ 3  \\
+        6  & 2.24  & 214 $\pm$ 3  \\
+        7  & 2.32  & 225 $\pm$ 3  \\
+        8  & 2.44  & 259 $\pm$ 4  \\
+        9  & 2.52  & 284 $\pm$ 4  \\
+        10 & 2.64  & 315 $\pm$ 4  \\
+        11 & 2.72  & 339 $\pm$ 4  \\
+        12 & 2.80  & 369 $\pm$ 4  \\
+        13 & 2.92  & 418 $\pm$ 5  \\
+        14 & 3.00  & 444 $\pm$ 5  \\
+        15 & 3.12  & 495 $\pm$ 5  \\
+        \hline  
+    \end{tabular}
+\end{table}
+Speicher füllen sich ab 1.72V
+
+4.6
+\begin{table}[H]
+    \centering
+    \caption{ditlwix = ditl * wix}
+    \label{tab:Messdaten d Solar}
+    \begin{tabular}{| l | l | l | l | l | l |}
+        \hline
+        Nr. & Potentiometer & $U_{ohneR}$  / V & $I_{ohneR}$ / A & $U_{mitR}$ / V & $I_{mitR}$ / A \\
+        \hline
+        1  & g    & 0     & 0.949 & 0.14 & 0.720  \\
+        2  & g-f  & 0     & 0.947 & 0.13 & 0.635  \\
+        3  & f    & 0.001 & 0.944 & 0.12 & 0.590  \\
+        4  & f-e  & 0.001 & 0.938 & 0.11 & 0.540  \\
+        5  & e    & 0.001 & 0.934 & 0.10 & 0.481  \\
+        6  & e-d  & 0.001 & 0.928 & 0.09 & 0.414  \\
+        7  & d    & 0.001 & 0.923 & 0.08 & 0.400  \\
+        8  & d-c  & 0.001 & 0.916 & 0.08 & 0.381  \\
+        9  & c    & 0.001 & 0.905 & 0.07 & 0.352  \\
+        10 & c-b  & 0.002 & 0.892 & 0.07 & 0.304  \\
+        11 & b    & 0.003 & 0.875 & 0.06 & 0.276  \\
+        12 & b-a  & 0.008 & 0.818 & 0.06 & 0.215  \\
+        13 & a    & 0.030 & 0.250 & 0.06 & 0.040  \\
+        \hline  
+    \end{tabular}
+\end{table}
+
+4.8 
+\begin{table}[H]
+    \centering
+    \caption{ditlwix = ditl * wix}
+    \label{tab:Messdaten 4.8}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & $U_{eingang}$ / V & $U_{gemessen}$ / mA \\
+        \hline
+        1  & 5.28  & 3.12 \\
+        2  & 5.79  & 3.50 \\
+        3  & 6.12  & 3.77  \\
+        4  & 6.76  & 4.22  \\
+        5  & 7.20  & 4.51  \\
+        6  & 7.68  & 4.82  \\
+        7  & 8.12  & 5.13  \\
+        8  & 8.76  & 5.57  \\
+        9  & 9.30  & 5.94  \\
+        10 & 9.69  & 6.19  \\
+ 
+        \hline  
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{ditlwix = ditl * wix}
+    \label{tab:Messdaten 4.8 2}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Nr. & $U_{eingang}$ / V & $U_{gemessen}$ / mA & d / cm \\
+        \hline
+        1  & 10.0  & 6.45 & 5 \\
+        2  & 10.0  & 6.07 & 7 \\
+        3  & 10.0  & 5.64 & 9 \\
+        4  & 10.0  & 4.76 & 11 \\
+        5  & 10.0  & 4.40 & 13 \\
+        6  & 10.0  & 4.25 & 15 \\
+        7  & 10.0  & 3.67 & 17 \\
+        8  & 10.0  & 2.91 & 19 \\
+        9  & 10.0  & 2.42 & 21 \\
+        10 & 10.0  & 2.05 & 23 \\
+        \hline  
+    \end{tabular}
+\end{table}
 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
 

@@ -3,17 +3,17 @@
 \contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{4}{section.2}%
 \contentsline {section}{\numberline {3}Versuchsanordnung}{5}{section.3}%
 \contentsline {section}{\numberline {4}Geräteliste}{7}{section.4}%
-\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Leerlauf}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Ohm'sche Last sekundärseitig}{7}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Ohm'sche-induktive Last}{7}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{7}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Leerlauf}{8}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Ohm'sche Last sekundärseitig}{8}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Ohm'sche-induktive Last}{8}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Diskussion}{8}{section.7}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{8}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Leerlauf}{8}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Ohm'sche Last sekundärseitig}{8}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Ohm'sche-induktive Last}{8}{subsection.8.3}%
-\contentsline {section}{Literatur}{8}{section*.11}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Leerlauf}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Ohm'sche Last sekundärseitig}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Ohm'sche-induktive Last}{10}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Leerlauf}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Ohm'sche Last sekundärseitig}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Ohm'sche-induktive Last}{11}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Diskussion}{11}{section.7}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{11}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Leerlauf}{11}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Ohm'sche Last sekundärseitig}{11}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Ohm'sche-induktive Last}{11}{subsection.8.3}%
+\contentsline {section}{Literatur}{11}{section*.17}%

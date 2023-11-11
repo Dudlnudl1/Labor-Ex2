@@ -126,15 +126,37 @@ Sollte die Magnetisierungskurve $\Phi = \Phi(t)$ eine Hysterese, also eine verz�
 Die Fläche innerhalb der in Abbildung \ref{fig:Hystere} gezeigten Hystereseschleife gibt Auskunft über die Hystereseverluste, welche gemeinsam mit den Wirbelstromverlusten die Eisenverluste am Trafo ergeben. \newline
 
 \noindent
-Zur Berechnung der Wirkleistung wird außerdem der Zusammenhang
+Außerdem werden für die Auswertung noch folgende Zusammenhänge benötigt:
+
+\begin{equation}
+    \label{eq:Scheinleistung}
+    \centerline{$P_{S1} = U_{1}*I_{1}$}
+\end{equation}
+
+\begin{equation}
+    \label{eq:Leistungsfaktor}
+    \centerline{$cos(\Phi) = \frac{P_{1}}{S_{1}}$}
+\end{equation}
+
+\begin{equation}
+    \label{eq:Verlustleistung}
+    \centerline{$P_{V} = P_{1} - P_{2}$}
+\end{equation}
+
+\begin{equation}
+    \label{eq:Blindleistung}
+    \centerline{$Q_{1} = \sqrt{S_{1}^2 - P_{1}^2}$}
+\end{equation}
 
 \begin{equation}
     \label{eq:Wirkleistung}
-    \centerline{$P_{W} = U*I$}
+    \centerline{$P_{W2} = U_{2}*I_{2}$}
 \end{equation}
 
-\noindent
-benötigt.
+\begin{equation}
+    \label{eq:Wirkungsgrad}
+    \centerline{$\eta = \frac{P_{2}}{S_{1}}$}
+\end{equation}
 
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
@@ -182,14 +204,14 @@ Für die letzte Erweiterung der Grundschaltung wurde nun noch eine Spule seriell
     \centering
     \includegraphics[width=0.2\linewidth, angle=0]{nudes/Versuchsaufbau c.png}
     \caption{Potentiometer und Spule als zusätzliche Verbraucher}
-    \label{fig:AufbauB}
+    \label{fig:AufbauC}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth, angle=0]{nudes/Aufbau c.png}
     \caption{Realer Aufbau mit Potentiometer und Spule}
-    \label{fig:RealerAufbauB}
+    \label{fig:RealerAufbauC}
 \end{figure}
 
 
@@ -223,8 +245,112 @@ Für die letzte Erweiterung der Grundschaltung wurde nun noch eine Spule seriell
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
 
 \subsection{Leerlauf}
+
+Zu Beginn des ersten Teiles des Versuches wurde die grundlegende Schaltung laut \ref{fig:AufbauDerGrundschaltung} aufgebaut und vom Betreuer kontrolliert.
+Wie in der Aufgabenstellung erwähnt befindet sich hier noch kein Lastwiderstand im System, weshalb kein Sekundärstrom $I_{2}$ fließt. Sobald der Aufbau abgeschlossen war, wurde der Stromkreis durch einschalten des Trafo 1 geschlossen und es konnten alle benötigten Werte von den Messgeräten abgelesen werden.
+Hierbei galt noch zu Beachten, dass die angezeigten Werte der alten Volt- und Amperemeter nicht einfach zu übernehmen waren. Der Maximalwert der Skala war gleich dem Wert des jeweiligen Anschlusses (in Abbildung \ref{fig:MessgerätWerte} grün markiert):
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth, angle=0]{nudes/VoltmeterBeschriftung.png}
+    \caption{Messgeräte Werte}
+    \label{fig:MessgerätWerte}
+\end{figure}
+
+\noindent
+Somit ergibt sich als Beispiel für dieses Voltmeter aus Abbildung \ref{fig:MessgerätWerte} ein Maximalwert von 240V. Wenn der Zeiger also beispielsweiße bei der Hälfte wäre, dann hätte die Spannung nicht wie beschriftet 60V, sondern 120V ($\frac{240}{2}$). Diese Umrechnung wurde für die gemessenen Werte bei den jeweiligen Messgeräten bereits durchgeführt und nur die tatsächlichen Zahlen in die Tabelle eingetragen.
+
+\begin{table}[H]
+    \centering
+    \caption{Messwerte Leerlauf}
+    \label{tab:messwerteLeerlauf}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Primärstrom $I_{1}$ [A]  & Primärspannung $U_{1}$ [V] & Sekundärspannung $U_{2}$ [V] & Wirkleistung $P_{1}$ [W] \\
+        \hline
+        0.17 $\pm$  & 160 $\pm$  & 17.25 $\pm$  & 6.9 $\pm$  \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Die oszillographische Darstellung des Primärstromes und der Sekundärspannung werden in folgender Abbildung grafisch dargestellt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/A1 Oszi.jpg}
+    \caption{Oszillographische Darstellung Primärstromes und Sekundärspannung}
+    \label{fig:OszilloskopA}
+\end{figure}
+
+
 \subsection{Ohm'sche Last sekundärseitig}
+
+Im nächsten Aufgabenteil wurde nun die Grundschaltung mit dem Potentiometer (Abbildung \ref{fig:AufbauB}) erweitert. Nachdem die Schaltung wieder kontrolliert wurde, konnten die Werte mit dem selben System wie im vorherigen Punkt abgelesen und umgerechnet werden.
+Jedoch konnte nun auch der Sekundärstrom $I_{2}$ bestimmt werden. Der Schieberegler des Potentiometers wurde dabei ungefähr auf die Mitte geschoben, was einem Widerstand von etwa 42 Ohm entspricht.
+
+\begin{table}[H]
+    \centering
+    \caption{Messwerte Ohm'sche Last}
+    \label{tab:messwerteLeerlauf}
+    \begin{tabular}{| l | l | l | l | l |}
+        \hline
+        P. Strom $I_{1}$ [A]  & P. Spannung $U_{1}$ [V] & Strom $I_{2}$ [A] & S. Spannung $U_{2}$ [V] & Wirkleistung $P_{1}$ [W] \\
+        \hline
+        0.195 $\pm$  & 160 $\pm$  & 0.64 $\pm$  & 17 $\pm$  & 17.9 $\pm$  \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Die grafische Darstellung des Primärstromes und der Sekundärspannung mittels Oszilloskop sind in folgendem Bild ersichtlich.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/A2 Oszi.jpg}
+    \caption{Oszillographische Darstellung Primärstromes und Sekundärspannung}
+    \label{fig:OszilloskopB}
+\end{figure}
+
+
 \subsection{Ohm'sche-induktive Last}
+
+Beim dritten Abschnitt des Versuches wird die Schaltung wieder etwas erweitert. Nun kommt zum Potentiometer noch eine Spule L (Abbildung \ref{fig:AufbauC}) hinzu.
+Außerdem wird nun kein fester Widerstand am Potentiometer eingestellt, sondern dieser wird Schrittweiße verschoben, sodass 22 Messungen entstehen. Weiters wurde zur späteren Bestimmung der Wirkleistung $P_{2}$ die Spannung $U_{R}$ am Potentiometer gemessen.
+
+\begin{table}[H]
+    \centering
+    \caption{Messwerte Ohm'sche und induktive Last}
+    \label{tab:messwerteLeerlauf}
+    \begin{tabular}{| l | l | l | l | l | l | l |}
+        \hline
+        Nr. & $I_{1}$ [A]  & $U_{1}$ [V] & $I_{2}$ [A] & $U_{2}$ [V] & $P_{1}$ [W] & $U_{R}$ [V] \\
+        \hline
+        1 & 0.1800 $\pm$  & 160 $\pm$  & 0.22 $\pm$  & 17.00 $\pm$  & 10.4 $\pm$ & 15.2 $\pm$  \\
+        2 & 0.1825 $\pm$  & 160 $\pm$  & 0.22 $\pm$  & 17.00 $\pm$  & 10.5 $\pm$ & 15.2 $\pm$  \\
+        3 & 0.1850 $\pm$  & 160 $\pm$  & 0.23 $\pm$  & 17.00 $\pm$  & 10.6 $\pm$ & 15.0 $\pm$  \\
+        4 & 0.1850 $\pm$  & 160 $\pm$  & 0.24 $\pm$  & 17.00 $\pm$  & 10.6 $\pm$ & 15.0 $\pm$  \\
+        5 & 0.1885 $\pm$  & 160 $\pm$  & 0.24 $\pm$  & 17.00 $\pm$  & 10.7 $\pm$ & 14.9 $\pm$  \\
+        6 & 0.1885 $\pm$  & 160 $\pm$  & 0.25 $\pm$  & 17.00 $\pm$  & 10.8 $\pm$ & 14.8 $\pm$  \\
+        7 & 0.1885 $\pm$  & 160 $\pm$  & 0.25 $\pm$  & 17.00 $\pm$  & 10.8 $\pm$ & 14.6 $\pm$  \\
+        8 & 0.1885 $\pm$  & 160 $\pm$  & 0.26 $\pm$  & 17.00 $\pm$  & 10.9 $\pm$ & 14.4 $\pm$  \\
+        9 & 0.1875 $\pm$  & 160 $\pm$  & 0.27 $\pm$  & 17.00 $\pm$  & 11.0 $\pm$ & 14.3 $\pm$  \\
+        10 & 0.1900 $\pm$  & 160 $\pm$  & 0.28 $\pm$  & 17.00 $\pm$  & 11.1 $\pm$ & 14.1 $\pm$  \\
+        11 & 0.1900 $\pm$  & 160 $\pm$  & 0.29 $\pm$  & 17.00 $\pm$  & 11.3 $\pm$ & 13.8 $\pm$  \\
+        12 & 0.1900 $\pm$  & 160 $\pm$  & 0.30 $\pm$  & 17.00 $\pm$  & 11.4 $\pm$ & 13.6 $\pm$  \\
+        13 & 0.1925 $\pm$  & 160 $\pm$  & 0.32 $\pm$  & 17.00 $\pm$  & 11.5 $\pm$ & 13.2 $\pm$  \\
+        14 & 0.1950 $\pm$  & 160 $\pm$  & 0.33 $\pm$  & 17.00 $\pm$  & 11.5 $\pm$ & 13.0 $\pm$  \\
+        15 & 0.1950 $\pm$  & 160 $\pm$  & 0.34 $\pm$  & 17.00 $\pm$  & 11.6 $\pm$ & 12.6 $\pm$  \\
+        16 & 0.1975 $\pm$  & 160 $\pm$  & 0.36 $\pm$  & 17.25 $\pm$  & 11.7 $\pm$ & 12.2 $\pm$  \\
+        17 & 0.2000 $\pm$  & 160 $\pm$  & 0.38 $\pm$  & 17.00 $\pm$  & 11.8 $\pm$ & 11.6 $\pm$  \\
+        18 & 0.2025 $\pm$  & 160 $\pm$  & 0.40 $\pm$  & 17.00 $\pm$  & 11.8 $\pm$ & 11.0 $\pm$  \\
+        19 & 0.2050 $\pm$  & 160 $\pm$  & 0.42 $\pm$  & 17.00 $\pm$  & 11.7 $\pm$ & 10.4 $\pm$  \\
+        20 & 0.2050 $\pm$  & 160 $\pm$  & 0.43 $\pm$  & 17.00 $\pm$  & 11.8 $\pm$ & 10.0 $\pm$  \\
+        21 & 0.2100 $\pm$  & 160 $\pm$  & 0.45 $\pm$  & 17.00 $\pm$  & 11.7 $\pm$ & 9.3 $\pm$  \\
+        21 & 0.2150 $\pm$  & 160 $\pm$  & 0.48 $\pm$  & 17.00 $\pm$  & 11.4 $\pm$ & 8.0 $\pm$  \\
+        \hline
+    \end{tabular}
+\end{table}
 
 
 

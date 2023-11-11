@@ -130,32 +130,32 @@ Außerdem werden für die Auswertung noch folgende Zusammenhänge benötigt:
 
 \begin{equation}
     \label{eq:Scheinleistung}
-    \centerline{$P_{S1} = U_{1}*I_{1}$}
+    \centerline{$P_{S1} = U_{1}*I_{1}$ \\ $\Delta P_{S1} = \vert \frac{\partial P_{S1}}{\partial U_{1}} * \Delta U_{1} \vert + \vert \frac{\partial P_{S1}}{\partial I_{1}} * \Delta I_{1} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:Leistungsfaktor}
-    \centerline{$cos(\Phi) = \frac{P_{1}}{S_{1}}$}
+    \centerline{$cos(\Phi) = \frac{P_{1}}{S_{1}}$ \\ $\Delta cos(\Phi) = \vert \frac{\partial cos(\Phi)}{\partial P_{1}} * \Delta P_{1} \vert + \vert \frac{\partial cos(\Phi)}{\partial S_{1}} * \Delta S_{1} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:Verlustleistung}
-    \centerline{$P_{V} = P_{1} - P_{2}$}
+    \centerline{$P_{V} = P_{1} - P_{2}$ \\ $\Delta P_{V} = \vert \frac{\partial P_{V}}{\partial P_{1}} * \Delta P_{1} \vert + \vert \frac{\partial P_{V}}{\partial P_{2}} * \Delta P_{2} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:Blindleistung}
-    \centerline{$Q_{1} = \sqrt{S_{1}^2 - P_{1}^2}$}
+    \centerline{$Q_{1} = \sqrt{S_{1}^2 - P_{1}^2}$ \\ $\Delta Q_{1} = \vert \frac{\partial Q_{1}}{\partial S_{1}} * \Delta S_{1} \vert + \vert \frac{\partial Q_{1}}{\partial P_{1}} * \Delta P_{1} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:Wirkleistung}
-    \centerline{$P_{W2} = U_{2}*I_{2}$}
+    \centerline{$P_{W2} = U_{2}*I_{2}$ \\ $\Delta P_{S1} = \vert \frac{\partial P_{W2}}{\partial U_{2}} * \Delta U_{2} \vert + \vert \frac{\partial P_{W2}}{\partial I_{2}} * \Delta I_{2} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:Wirkungsgrad}
-    \centerline{$\eta = \frac{P_{2}}{S_{1}}$}
+    \centerline{$\eta = \frac{P_{2}}{S_{1}}$ \\ $\Delta \eta = \vert \frac{\partial \eta}{\partial P_{2}} * \Delta P_{2} \vert + \vert \frac{\partial \eta}{\partial S_{1}} * \Delta S_{1} \vert $}
 \end{equation}
 
 
@@ -266,7 +266,7 @@ Somit ergibt sich als Beispiel für dieses Voltmeter aus Abbildung \ref{fig:Mess
     \label{tab:messwerteLeerlauf}
     \begin{tabular}{| l | l | l | l |}
         \hline
-        Primärstrom $I_{1}$ [A]  & Primärspannung $U_{1}$ [V] & Sekundärspannung $U_{2}$ [V] & Wirkleistung $P_{1}$ [W] \\
+        Primärstrom $I_{1}$ / A  & Primärspannung $U_{1}$ / V & Sekundärspannung $U_{2}$ / V & Wirkleistung $P_{1}$ / W \\
         \hline
         0.17 $\pm$  & 160 $\pm$  & 17.25 $\pm$  & 6.9 $\pm$  \\
         \hline
@@ -292,10 +292,10 @@ Jedoch konnte nun auch der Sekundärstrom $I_{2}$ bestimmt werden. Der Schiebere
 \begin{table}[H]
     \centering
     \caption{Messwerte Ohm'sche Last}
-    \label{tab:messwerteLeerlauf}
+    \label{tab:messwerteOhm}
     \begin{tabular}{| l | l | l | l | l |}
         \hline
-        P. Strom $I_{1}$ [A]  & P. Spannung $U_{1}$ [V] & Strom $I_{2}$ [A] & S. Spannung $U_{2}$ [V] & Wirkleistung $P_{1}$ [W] \\
+        P. Strom $I_{1}$ / A  & P. Spannung $U_{1}$ / V & Strom $I_{2}$ / A & S. Spannung $U_{2}$ / V & Wirkleistung $P_{1}$ / W \\
         \hline
         0.195 $\pm$  & 160 $\pm$  & 0.64 $\pm$  & 17 $\pm$  & 17.9 $\pm$  \\
         \hline
@@ -321,10 +321,10 @@ Außerdem wird nun kein fester Widerstand am Potentiometer eingestellt, sondern 
 \begin{table}[H]
     \centering
     \caption{Messwerte Ohm'sche und induktive Last}
-    \label{tab:messwerteLeerlauf}
+    \label{tab:messwerteOhmInduktiv}
     \begin{tabular}{| l | l | l | l | l | l | l |}
         \hline
-        Nr. & $I_{1}$ [A]  & $U_{1}$ [V] & $I_{2}$ [A] & $U_{2}$ [V] & $P_{1}$ [W] & $U_{R}$ [V] \\
+        Nr. & $I_{1}$ / A  & $U_{1}$ / V & $I_{2}$ / A & $U_{2}$ / V & $P_{1}$ / W & $U_{R}$ / V \\
         \hline
         1 & 0.1800 $\pm$  & 160 $\pm$  & 0.22 $\pm$  & 17.00 $\pm$  & 10.4 $\pm$ & 15.2 $\pm$  \\
         2 & 0.1825 $\pm$  & 160 $\pm$  & 0.22 $\pm$  & 17.00 $\pm$  & 10.5 $\pm$ & 15.2 $\pm$  \\
@@ -347,7 +347,7 @@ Außerdem wird nun kein fester Widerstand am Potentiometer eingestellt, sondern 
         19 & 0.2050 $\pm$  & 160 $\pm$  & 0.42 $\pm$  & 17.00 $\pm$  & 11.7 $\pm$ & 10.4 $\pm$  \\
         20 & 0.2050 $\pm$  & 160 $\pm$  & 0.43 $\pm$  & 17.00 $\pm$  & 11.8 $\pm$ & 10.0 $\pm$  \\
         21 & 0.2100 $\pm$  & 160 $\pm$  & 0.45 $\pm$  & 17.00 $\pm$  & 11.7 $\pm$ & 9.3 $\pm$  \\
-        21 & 0.2150 $\pm$  & 160 $\pm$  & 0.48 $\pm$  & 17.00 $\pm$  & 11.4 $\pm$ & 8.0 $\pm$  \\
+        22 & 0.2150 $\pm$  & 160 $\pm$  & 0.48 $\pm$  & 17.00 $\pm$  & 11.4 $\pm$ & 8.0 $\pm$  \\
         \hline
     \end{tabular}
 \end{table}
@@ -360,9 +360,89 @@ In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte
 Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
 
 \subsection{Leerlauf}
+
+Mittels Formeln \ref{eq:Scheinleistung}, \ref{eq:Leistungsfaktor} und \ref{eq:Blindleistung} werden nun gemeinsam mit den gemessenen Werten aus Tabelle \ref{tab:messwerteLeerlauf} die Scheinleistung $P_{S1}$, die Blindleistung $P_{Q1}$ und der Leistungsfaktor $cos(\Phi)$ berechnet.
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnungen Leerlauf}
+    \label{tab:BerechnungenLeerlauf}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        $P_{S1}$ / W & $P_{Q1}$ / W & $cos(\Phi)$ / \\
+        \hline
+        27.2 $\pm$  & 26.31 $\pm$  & 0.25367 $\pm$  \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
 \subsection{Ohm'sche Last sekundärseitig}
+
+Auch hier sollen mit den Formeln \ref{eq:Scheinleistung}, \ref{eq:Leistungsfaktor}, \ref{eq:Blindleistung}, \ref{eq:Verlustleistung}, \ref{eq:Wirkleistung} und \ref{eq:Wirkungsgrad} werden nun gemeinsam mit den gemessenen Werten aus Tabelle \ref{tab:messwerteOhm} die Scheinleistung $P_{S1}$, die Blindleistung $P_{Q1}$, der Leistungsfaktor $cos(\Phi)$, die Verlustleistung $P_{V}$, die sekundärseitige Wirkleistung $P_{2}$ und der Wirkungsgrad $\eta$ berechnet.
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnungen Leerlauf}
+    \label{tab:BerechnungenLeerlauf}
+    \begin{tabular}{| l | l | l | l | l | l |}
+        \hline
+        $P_{S1}$ / W & $P_{Q1}$ / W & $cos(\Phi)$ / & $P_{V}$ / W & $P_{2}$ / W & $\eta$ / \\
+        \hline
+        31.2 $\pm$  & 25.5545 $\pm$  & 0.5737 $\pm$  & 7.02 $\pm$  & 10.88 $\pm$  & 0.39217 $\pm$   \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
 \subsection{Ohm'sche-induktive Last}
 
+Für den letzten Aufgabenpunkt soll nun ein Leistung-Lastwiderstand-Diagramm erstellt werden. Hierzu wird mittels Formel \ref{eq:Wirkleistung} und den gemessenen Werten zu jedem Widerstandswert aus Tabelle \ref{tab:messwerteOhmInduktiv} die Leistung an den jeweiligen Potentiometerpositionen ermittelt.
+Außerdem wurde mittels Ohm'schen Gesetz $R_{Pot} = U_{R}*I_{2}$ der eingestellte Widerstand am Potentiometer berechnet.
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnete Werte für $R_{Pot}$ und $P_{2}$}
+    \label{tab:berechnungenRPotP2}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr.  & $R_{Pot}$ / $\Omega$ & $P_{2}$ / W \\
+        \hline
+        1 & 69.0909 $\pm$  & 3.344 $\pm$  \\
+        2 & 69.0909 $\pm$  & 3.344 $\pm$  \\
+        3 & 65.2174 $\pm$  & 3.450 $\pm$  \\
+        4 & 62.5 $\pm$  & 3.600 $\pm$  \\
+        5 & 62.0833 $\pm$  & 3.576 $\pm$  \\
+        6 & 59.2 $\pm$  & 3.700 $\pm$  \\
+        7 & 58.4 $\pm$  & 3.650 $\pm$  \\
+        8 & 55.3846 $\pm$  & 3.744 $\pm$  \\
+        9 & 52.963 $\pm$  & 3.861 $\pm$  \\
+        10 & 50.3571 $\pm$  & 3.948 $\pm$  \\
+        11 & 47.5862 $\pm$  & 4.002 $\pm$  \\
+        12 & 45.3333 $\pm$  & 4.080 $\pm$  \\
+        13 & 41.25 $\pm$  & 4.224 $\pm$  \\
+        14 & 39.3939 $\pm$  & 4.290 $\pm$  \\
+        15 & 37.0588 $\pm$  & 4.284 $\pm$  \\
+        16 & 33.8889 $\pm$  & 4.392 $\pm$  \\
+        \textbf{17} & \textbf{30.5263 $\pm$ } & \textbf{4.408 $\pm$ } \\
+        18 & 27.5 $\pm$  & 4.400 $\pm$  \\
+        19 & 24.7619 $\pm$  & 4.368 $\pm$  \\
+        20 & 23.2558 $\pm$  & 4.300 $\pm$  \\
+        21 & 20.6667 $\pm$  & 4.185 $\pm$  \\
+        22 & 16.6667 $\pm$  & 3.840 $\pm$  \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Die fett markierte Zeile ist jene mit der höchsten Leistung. Sie stellt weiters das Maximum in dem mit den Werten aus Tabelle \ref{berechnungenRPotP2} erstellten Leistung-Lastwiderstand-Diagramm dar.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/Leistung-Lastwiderstand-Diagramm.jpg}
+    \caption{Leistung-Lastwiderstand-Diagramm}
+    \label{fig:LeistungLastwiderstandDiagramm}
+\end{figure}
 
 
 

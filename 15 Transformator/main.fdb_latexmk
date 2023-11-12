@@ -1,12 +1,11 @@
 # Fdb version 4
-["biber main"] 1699732355 "main.bcf" "main.bbl" "main" 1699734662 0
-  "bibliography.bib" 1699705597 9769 5cef977f08efea419941be7dec7e9b32 ""
-  "main.bcf" 1699734661 107904 392334e753e290c5ec407c4e0841c36e "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1699819384 -1
+  "main.bcf" 1699819383 107966 9dac8c0ecc41ed186d1a21d870fbcce8 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1699734650 "c:/Uni/Semester 3/ExP2-Labor/15 Transformator/main.tex" "main.pdf" "main" 1699734662 0
+["pdflatex"] 1699819371 "c:/Uni/Semester 3/ExP2-Labor/15 Transformator/main.tex" "main.pdf" "main" 1699819384 0
   "../Deckblätter/Deckblatt_Transformator.pdf" 1699705597 3070484 0d4973429a6abdba630c85cb97c6ac2e ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682275748 82705 9cc9f144eacd499bc23a611703921467 ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1679857363 31952 1c8e29bd2aff213fa93173c8fb45733a ""
@@ -249,14 +248,14 @@
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656233319 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Uni/Semester 3/ExP2-Labor/15 Transformator/main.tex" 1699734649 21910 08499cdc0e5f436f0296b4054073813a ""
+  "c:/Uni/Semester 3/ExP2-Labor/15 Transformator/main.tex" 1699819361 23944 14f206dc828506f6c97826e6f380369e ""
   "labor.sty" 1699705597 7223 0e5f3462a1a12aa9c2ec850941c0dcb5 ""
-  "main.aux" 1699734661 9300 82480a9711e5cf4154add2ca9682f9aa "pdflatex"
-  "main.bbl" 1699732360 1762 dc38c958ea71be8db64b02c085fc3e8b "biber main"
-  "main.out" 1699734661 2752 46181372db00137f7291d433a5d40fe4 "pdflatex"
-  "main.run.xml" 1699734661 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
-  "main.tex" 1699734649 21910 08499cdc0e5f436f0296b4054073813a ""
-  "main.toc" 1699734661 1488 09301a58182a6621a5ccca4fbc05fe7b "pdflatex"
+  "main.aux" 1699819383 10668 48148a1e8b292149f7d2deb58640aa6e "pdflatex"
+  "main.bbl" 1699792799 2886 b2224aff3051ade4ea4e6cc97f469f89 "biber main"
+  "main.out" 1699819383 2826 5a48ffed7dd79e481245960a8d9c94c2 "pdflatex"
+  "main.run.xml" 1699819383 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
+  "main.tex" 1699819361 23944 14f206dc828506f6c97826e6f380369e ""
+  "main.toc" 1699819383 1551 08aa6374ecd1cad4b35b70b2a84043d0 "pdflatex"
   "nudes/A1 Oszi.jpg" 1699726588 95256 6c13112398f9268a021b9ee52622e426 ""
   "nudes/A2 Oszi.jpg" 1699726627 95624 581dc7a9509f646a07bfcc8148b54ea6 ""
   "nudes/Aufbau a.png" 1699710505 14096006 14595a245470f7bfa093fbe508a739e4 ""
@@ -264,7 +263,7 @@
   "nudes/Aufbau c.png" 1699711660 14956433 7dfa9bc86b85362705b18edde1ae17c3 ""
   "nudes/GL-Hysterese.png" 1699708065 30190 a47b7ac8b9ddc98a45904914cb7060bd ""
   "nudes/GL-TrafoAufbau.png" 1699708035 8948 24f6761d10da495943578fd4428d27df ""
-  "nudes/Leistung-Lastwiderstand-Diagramm.jpg" 1699732413 54800 252d4b12339dc1f27f29e05a55957091 ""
+  "nudes/Leistung-Lastwiderstand-Diagramm.jpg" 1699815507 104978 5daf0ffa449b43674f7a708a95cbb21c ""
   "nudes/Versuchsaufbau a.png" 1699708097 25725 0fd5fc784b89e65ffaecce09fdc53302 ""
   "nudes/Versuchsaufbau b.png" 1699708107 3108 a231c3dac7c30c9a5f82ec1d9c02bd3d ""
   "nudes/Versuchsaufbau c.png" 1699708118 6789 f96b8618dea5dc893e11d833529545b4 ""

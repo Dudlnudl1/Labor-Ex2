@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  11 NOV 2023 21:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  12 NOV 2023 21:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1368,6 +1368,9 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 
 LaTeX Warning: Label `tab:BerechnungenLeerlauf' multiply defined.
 
+
+LaTeX Warning: Label `tab:BerechnungenLeerlaufAW' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1489,7 +1492,7 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 3.
 
 \c@lstlisting=\count502
-<../Deckblätter/Deckblatt_Transformator.pdf, id=78, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Transformator.pdf, id=82, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Transformator.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Transformator.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Transformator.pdf  used on input line 33.
@@ -1498,7 +1501,7 @@ File: ../Deckblätter/Deckblatt_Transformator.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Transformator.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Transformator.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../Deckblätter/Deckblatt_Transformator.pdf, id=81, page=1, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Transformator.pdf, id=85, page=1, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Transformator.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Transformator.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Transformator.pdf , page1 used on input line 33.
@@ -1534,13 +1537,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout6 = `main.toc'.
 
  [2{C:/Users/nicoe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<nudes/GL-TrafoAufbau.png, id=140, 213.04594pt x 103.13531pt>
+<nudes/GL-TrafoAufbau.png, id=145, 213.04594pt x 103.13531pt>
 File: nudes/GL-TrafoAufbau.png Graphic file (type png)
 <use nudes/GL-TrafoAufbau.png>
 Package pdftex.def Info: nudes/GL-TrafoAufbau.png  used on input line 85.
 (pdftex.def)             Requested size: 227.62206pt x 110.19788pt.
  [3]
-<nudes/GL-Hysterese.png, id=154, 380.92313pt x 185.19188pt>
+<nudes/GL-Hysterese.png, id=159, 380.92313pt x 185.19188pt>
 File: nudes/GL-Hysterese.png Graphic file (type png)
 <use nudes/GL-Hysterese.png>
 Package pdftex.def Info: nudes/GL-Hysterese.png  used on input line 120.
@@ -1551,104 +1554,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--127
  []
 
 [4 <./nudes/GL-TrafoAufbau.png> <./nudes/GL-Hysterese.png>]
-<nudes/Versuchsaufbau a.png, id=170, 540.51938pt x 173.89969pt>
+<nudes/Versuchsaufbau a.png, id=175, 540.51938pt x 173.89969pt>
 File: nudes/Versuchsaufbau a.png Graphic file (type png)
 <use nudes/Versuchsaufbau a.png>
-Package pdftex.def Info: nudes/Versuchsaufbau a.png  used on input line 168.
+Package pdftex.def Info: nudes/Versuchsaufbau a.png  used on input line 173.
 (pdftex.def)             Requested size: 273.14923pt x 87.881pt.
-<nudes/Aufbau a.png, id=171, 3035.34pt x 2276.505pt>
+<nudes/Aufbau a.png, id=176, 3035.34pt x 2276.505pt>
 File: nudes/Aufbau a.png Graphic file (type png)
 <use nudes/Aufbau a.png>
-Package pdftex.def Info: nudes/Aufbau a.png  used on input line 178.
+Package pdftex.def Info: nudes/Aufbau a.png  used on input line 183.
 (pdftex.def)             Requested size: 273.14923pt x 204.84187pt.
  [5 <./nudes/Versuchsaufbau a.png>]
-<nudes/Versuchsaufbau b.png, id=188, 115.18031pt x 137.01187pt>
+<nudes/Versuchsaufbau b.png, id=194, 115.18031pt x 137.01187pt>
 File: nudes/Versuchsaufbau b.png Graphic file (type png)
 <use nudes/Versuchsaufbau b.png>
-Package pdftex.def Info: nudes/Versuchsaufbau b.png  used on input line 188.
+Package pdftex.def Info: nudes/Versuchsaufbau b.png  used on input line 193.
 (pdftex.def)             Requested size: 91.04742pt x 108.30508pt.
-<nudes/Aufbau b.png, id=189, 3035.34pt x 2276.505pt>
+<nudes/Aufbau b.png, id=195, 3035.34pt x 2276.505pt>
 File: nudes/Aufbau b.png Graphic file (type png)
 <use nudes/Aufbau b.png>
-Package pdftex.def Info: nudes/Aufbau b.png  used on input line 195.
+Package pdftex.def Info: nudes/Aufbau b.png  used on input line 200.
 (pdftex.def)             Requested size: 273.14923pt x 204.84187pt.
  [6 <./nudes/Aufbau a.png> <./nudes/Versuchsaufbau b.png> <./nudes/Aufbau b.png>]
-<nudes/Versuchsaufbau c.png, id=200, 152.82094pt x 134.75343pt>
+<nudes/Versuchsaufbau c.png, id=206, 152.82094pt x 134.75343pt>
 File: nudes/Versuchsaufbau c.png Graphic file (type png)
 <use nudes/Versuchsaufbau c.png>
-Package pdftex.def Info: nudes/Versuchsaufbau c.png  used on input line 205.
+Package pdftex.def Info: nudes/Versuchsaufbau c.png  used on input line 210.
 (pdftex.def)             Requested size: 91.04742pt x 80.28311pt.
-<nudes/Aufbau c.png, id=201, 3035.34pt x 2276.505pt>
+<nudes/Aufbau c.png, id=207, 3035.34pt x 2276.505pt>
 File: nudes/Aufbau c.png Graphic file (type png)
 <use nudes/Aufbau c.png>
-Package pdftex.def Info: nudes/Aufbau c.png  used on input line 212.
+Package pdftex.def Info: nudes/Aufbau c.png  used on input line 217.
 (pdftex.def)             Requested size: 273.14923pt x 204.84187pt.
  [7 <./nudes/Versuchsaufbau c.png> <./nudes/Aufbau c.png>]
-<nudes/VoltmeterBeschriftung.png, id=214, 240.9pt x 283.0575pt>
+<nudes/VoltmeterBeschriftung.png, id=222, 240.9pt x 283.0575pt>
 File: nudes/VoltmeterBeschriftung.png Graphic file (type png)
 <use nudes/VoltmeterBeschriftung.png>
-Package pdftex.def Info: nudes/VoltmeterBeschriftung.png  used on input line 255.
+Package pdftex.def Info: nudes/VoltmeterBeschriftung.png  used on input line 260.
 (pdftex.def)             Requested size: 182.09486pt x 213.9684pt.
 
-Overfull \hbox (64.29947pt too wide) in paragraph at lines 267--274
+Overfull \hbox (64.29947pt too wide) in paragraph at lines 272--279
  [][] 
  []
 
-<nudes/A1 Oszi.jpg, id=216, 699.61375pt x 499.8675pt>
+<nudes/A1 Oszi.jpg, id=224, 699.61375pt x 499.8675pt>
 File: nudes/A1 Oszi.jpg Graphic file (type jpg)
 <use nudes/A1 Oszi.jpg>
-Package pdftex.def Info: nudes/A1 Oszi.jpg  used on input line 281.
+Package pdftex.def Info: nudes/A1 Oszi.jpg  used on input line 286.
 (pdftex.def)             Requested size: 273.14923pt x 195.1611pt.
 [8 <./nudes/VoltmeterBeschriftung.png>]
-Overfull \hbox (72.07426pt too wide) in paragraph at lines 296--303
+Overfull \hbox (75.06885pt too wide) in paragraph at lines 301--308
  [][] 
  []
 
-<nudes/A2 Oszi.jpg, id=226, 699.61375pt x 499.8675pt>
+<nudes/A2 Oszi.jpg, id=234, 699.61375pt x 499.8675pt>
 File: nudes/A2 Oszi.jpg Graphic file (type jpg)
 <use nudes/A2 Oszi.jpg>
-Package pdftex.def Info: nudes/A2 Oszi.jpg  used on input line 310.
+Package pdftex.def Info: nudes/A2 Oszi.jpg  used on input line 315.
 (pdftex.def)             Requested size: 273.14923pt x 195.1611pt.
-[9 <./nudes/A1 Oszi.jpg> <./nudes/A2 Oszi.jpg>] [10]
+[9 <./nudes/A1 Oszi.jpg> <./nudes/A2 Oszi.jpg>]
+Overfull \hbox (87.79495pt too wide) in paragraph at lines 330--358
+ [][] 
+ []
 
-LaTeX Warning: Reference `berechnungenRPotP2' on page 11 undefined on input line 438.
-
-[11]
-<nudes/Leistung-Lastwiderstand-Diagramm.jpg, id=260, 364.36125pt x 303.38344pt>
+[10] [11]
+<nudes/Leistung-Lastwiderstand-Diagramm.jpg, id=270, 563.10374pt x 420.06938pt>
 File: nudes/Leistung-Lastwiderstand-Diagramm.jpg Graphic file (type jpg)
 <use nudes/Leistung-Lastwiderstand-Diagramm.jpg>
-Package pdftex.def Info: nudes/Leistung-Lastwiderstand-Diagramm.jpg  used on input line 442.
-(pdftex.def)             Requested size: 273.14923pt x 227.44443pt.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 462.
+Package pdftex.def Info: nudes/Leistung-Lastwiderstand-Diagramm.jpg  used on input line 447.
+(pdftex.def)             Requested size: 273.14923pt x 203.76546pt.
+ [12 <./nudes/Leistung-Lastwiderstand-Diagramm.jpg>]
+File: nudes/Leistung-Lastwiderstand-Diagramm.jpg Graphic file (type jpg)
+<use nudes/Leistung-Lastwiderstand-Diagramm.jpg>
+Package pdftex.def Info: nudes/Leistung-Lastwiderstand-Diagramm.jpg  used on input line 531.
+(pdftex.def)             Requested size: 273.14923pt x 203.76546pt.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 542.
  (C:\Users\nicoe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [12 <./nudes/Leistung-Lastwiderstand-Diagramm.jpg>] 
+) [13] [14] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (main.aux)
-
-LaTeX Warning: There were undefined references.
-
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 46181372DB00137F7291D433A5D40FE4;2752.
+(rerunfilecheck)             Checksum: 5A48FFED7DD79E481245960A8D9C94C2;2826.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41003 strings out of 476334
- 819674 string characters out of 5787971
- 1877382 words of memory out of 5000000
- 60739 multiletter control sequences out of 15000+600000
+ 41019 strings out of 476334
+ 820009 string characters out of 5787971
+ 1874382 words of memory out of 5000000
+ 60746 multiletter control sequences out of 15000+600000
  523983 words of font info for 62 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,725b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (12 pages, 68083787 bytes).
+Output written on main.pdf (14 pages, 68143408 bytes).
 PDF statistics:
- 579 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 608 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

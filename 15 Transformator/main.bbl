@@ -19,6 +19,31 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{leybold}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7e9f1742731a45db809b8dd7f64299f8}{%
+           family={leybold-shop.at},
+           familyi={l\bibinithyphendelim s\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e9f1742731a45db809b8dd7f64299f8}
+      \strng{fullhash}{7e9f1742731a45db809b8dd7f64299f8}
+      \strng{bibnamehash}{7e9f1742731a45db809b8dd7f64299f8}
+      \strng{authorbibnamehash}{7e9f1742731a45db809b8dd7f64299f8}
+      \strng{authornamehash}{7e9f1742731a45db809b8dd7f64299f8}
+      \strng{authorfullhash}{7e9f1742731a45db809b8dd7f64299f8}
+      \field{sortinit}{l}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Digitalmultimeter P Betriebsanleitung. Kurs: PHYD20UF}
+      \verb{urlraw}
+      \verb https://www.ld-didactic.de/documents/de-DE/GA/GA/5/531/531832d.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ld-didactic.de/documents/de-DE/GA/GA/5/531/531832d.pdf
+      \endverb
+    \endentry
     \entry{teachcenter1}{online}{}
       \name{author}{1}{}{%
         {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%

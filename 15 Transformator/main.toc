@@ -15,5 +15,6 @@
 \contentsline {section}{\numberline {8}Zusammenfassung}{12}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Leerlauf}{12}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Ohm'sche Last sekundärseitig}{12}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Ohm'sche-induktive Last}{12}{subsection.8.3}%
-\contentsline {section}{Literatur}{12}{section*.21}%
+\contentsline {subsection}{\numberline {8.3}Ohm'sche-induktive Last}{13}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Anhang}{14}{section.9}%
+\contentsline {section}{Literatur}{14}{section*.25}%

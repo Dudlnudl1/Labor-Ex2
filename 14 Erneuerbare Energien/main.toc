@@ -3,7 +3,6 @@
 \contentsline {subsection}{\numberline {1.1}Photovoltaik}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Brennstoffzelle}{3}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Windkraft}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Speicherung der Energie}{3}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Photovoltaik}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Brennstoffzelle}{4}{subsection.2.2}%
@@ -14,6 +13,6 @@
 \contentsline {subsection}{\numberline {5.1}Photovoltaik}{8}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Brennstoffzelle}{9}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Windkraft}{11}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{12}{section.6}%
-\contentsline {section}{\numberline {7}Diskussion}{12}{section.7}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{12}{section.8}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{13}{section.6}%
+\contentsline {section}{\numberline {7}Diskussion}{14}{section.7}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{14}{section.8}%

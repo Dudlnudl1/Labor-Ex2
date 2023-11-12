@@ -51,9 +51,9 @@ Im ersten Teil wird eine Windmaschine vor ein Windrad gestellt und mit unterschi
 Anschließend wird die Eingangsspannungen an der Windmaschine fixiert und das Windrad in gewissen Abständen davon entfernt und erneut die Leerlaufspannung gemessen. \\
 Im zweiten Teil wird Beobachtet, was bei einzelnen Extremfällen passiert. Dazu wird der Luftstrom abbrupt gestoppt und die Leerlaufspannung am Windrad wird gemessen. 
 Anschließend wird der Luftstrom abbrupt gestartet und es wird erneut die Leerlaufspannung gemessen. die beiden Extremfälle werden anschließend mit einer Kapazität zwischen Windrad und Multimeter wiederholt. 
-
-\subsection{Speicherung der Energie}
-Durch ein Windrad wird Energie erzeugt, welche genutzt wird um an der Brennstoffzelle Elektrolyse zu betreiben. Hierbei wird die Energie als chemisches Potential gespeichert. 
+Die Energie wird in Form eines elektrischen Potentials gespeichert. 
+\\
+Im letzten Teil wird durch ein Windrad Energie erzeugt, welche genutzt wird um an der Brennstoffzelle Elektrolyse zu betreiben. Hierbei wird die Energie als chemisches Potential gespeichert. 
 \\
 \\
 Alle Informationen und Methodiken wurden uns von der Technischen Universität bereitgestellt \cite{teachcenter2}. 
@@ -387,6 +387,100 @@ Die Leerlaufspannung $U_{leer}$ wird gemessen.
         \hline  
     \end{tabular}
 \end{table}
+
+\noindent
+In diesen Teil werden mehrere Szenarien getestet. Dabei wird die Energie, welche das Windrad erzeugt in Form von einem elektrischen Potential gespeichert.
+Die Schaltung wird wie bei Teil 1 laut Abbildung \ref{fig:aufbau Windkraft} aufgebaut. Der Abstand $d$ wird dabei auf $(15 \pm 0.1)cm$ festgelegt. 
+Durch den gewählten Abstand beträgt die Maximale Spannung $(4.52 \pm 0.04)V$. 
+\\
+Im ersten Szenario wird getestet, wie sich die Spannung $U$ verhält, wenn der Luftstrom abrupt gestoppt wird. 
+Dabei wird die Zeit $t$ jede Sekunde nach dem Abschalten, sowie die Spannung $U$ gemessen. 
+
+\begin{table}[H]
+    \centering
+    \caption{Spannung $U$ pro Sekunde nach abbrupten Abschalten}
+    \label{tab:Messdaten Windkraft abbrupt stop}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & $t$ $\pm $ 0.1 / s & $U$ / V \\
+        \hline
+        1  & 0  & 4.52 $\pm$ 0.04   \\
+        2  & 1  & 3.53 $\pm$ 0.03   \\
+        3  & 2  & 2.37 $\pm$ 0.03   \\
+        4  & 3  & 1.87 $\pm$ 0.02   \\
+        5  & 4  & 1.50 $\pm$ 0.02   \\
+        6  & 5  & 1.21 $\pm$ 0.02   \\
+        7  & 6  & 0.98 $\pm$ 0.02   \\
+        8  & 7  & 0.69 $\pm$ 0.02   \\
+        9  & 8  & 0.54 $\pm$ 0.02   \\
+        10 & 9  & 0.32 $\pm$ 0.02  \\
+        11 & 10 & 0.19 $\pm$ 0.02   \\
+        12 & 11 & 0.00 $\pm$ 0.01   \\
+        \hline  
+    \end{tabular}
+\end{table}
+
+\noindent
+Das zweite Szenario testet, was passiert, wenn der Luftstrom abbrupt startet. 
+\begin{table}[H]
+    \centering
+    \caption{Spannung $U$ pro Sekunde nach abbrupten Start}
+    \label{tab:Messdaten Windkraft abbrupt start}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & $t$ $\pm $ 0.1 / s & $U$ / V \\
+        \hline
+        1  & 0  & 0.00 $\pm$ 0.01   \\
+        2  & 1  & 0.03 $\pm$ 0.02   \\
+        3  & 2  & 0.26 $\pm$ 0.02   \\
+        4  & 3  & 0.56 $\pm$ 0.02   \\
+        5  & 4  & 0.88 $\pm$ 0.02   \\
+        6  & 5  & 1.26 $\pm$ 0.02   \\
+        7  & 6  & 2.02 $\pm$ 0.02   \\
+        8  & 7  & 2.83 $\pm$ 0.03   \\
+        9  & 8  & 3.50 $\pm$ 0.03   \\
+        10 & 9  & 4.10 $\pm$ 0.04   \\
+        11 & 10 & 4.36 $\pm$ 0.04   \\
+        12 & 11 & 4.52 $\pm$ 0.04   \\
+        \hline  
+    \end{tabular}
+\end{table}
+
+\noindent
+Im dritten Szenario werden die beiden vorherigen Szenarios erneut getestet, nur mit einem Kondensator von 1$\mu$F zwischen Windrad und Multimeter. 
+Hierbei wird die Spannung $U$ alle 5 Sekunden gemessen. 
+
+\begin{table}[H]
+    \centering
+    \caption{Spannung $U$ nach abbrupten Stop und Start mit Kondensator}
+    \label{tab:Messdaten Windkraft abbrupt stop kondensator}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Nr. & $t$ $\pm $ 0.1 / s & $U_{Stop}$ / V & $U_{Start}$ / V \\
+        \hline
+        1  & 0  & 3.05 $\pm$ 0.03  & 0.00 $\pm$ 0.01  \\
+        2  & 5  & 1.79 $\pm$ 0.02  & 0.45 $\pm$ 0.02  \\
+        3  & 10 & 1.48 $\pm$ 0.02  & 1.11 $\pm$ 0.02  \\
+        4  & 15 & 1.33 $\pm$ 0.02  & 1.92 $\pm$ 0.02  \\
+        5  & 20 & 1.21 $\pm$ 0.02  & 2.44 $\pm$ 0.03  \\
+        6  & 25 & 1.12 $\pm$ 0.02  & 2.78 $\pm$ 0.03  \\
+        7  & 30 & 1.03 $\pm$ 0.02  & 2.98 $\pm$ 0.03  \\
+        8  & 35 & 0.95 $\pm$ 0.02  & 3.16 $\pm$ 0.03  \\
+        9  & 40 & 0.87 $\pm$ 0.02  & 3.32 $\pm$ 0.03  \\
+        10 & 45 & 0.80 $\pm$ 0.02  & 3.48 $\pm$ 0.03  \\
+        11 & 50 & 0.72 $\pm$ 0.02  & 3.58 $\pm$ 0.03  \\
+        12 & 55 & 0.65 $\pm$ 0.02  &   \\
+        13 & 60 & 0.58 $\pm$ 0.02  &   \\
+        \hline  
+    \end{tabular}
+\end{table}
+
+\noindent
+Im letzten Teil wird die erzeugte Spannung des Windrades als Spannungsquelle für die Brennstoffzelle verwendet. 
+Die Schaltung wird wie in Abbildung \ref{fig:aufbau Speicherung Energie} aufgebaut. 
+Die Eingangsspannung $U_{ein}$ beträgt $(10.0 \pm 0.1)V$. Bei Start der Messung betrug der Stand Wasserstofftank $(8 \pm 1)ml$ und im Sauerstofftank $(5 \pm 1)ml$
+Beim Stoppen der Messung betrug der Stand im Wasserstofftank $(12 \pm 1)ml$ und im Sauerstofftank $(7 \pm 1)ml$. Dies dauerte insgesamt $(267.5 \pm 0.1) s$. 
+
 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
 

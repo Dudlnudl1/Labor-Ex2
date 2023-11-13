@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	3
 <table>
 Table1	30	4	11/11/2023 20:32:31
-geometry	0	0	445	538	active
+geometry	0	0	445	538	
 header	1[X]	2[Y]	3[xEr]	4[yEr]
 ColWidth	100	100	100	100	
 <com>
@@ -76,8 +76,8 @@ WindowLabel	Forward FFT of Table1_2	2
 </data>
 </table>
 <multiLayer>
-Graph1	1	1	12/11/2023 20:42:57
-geometry	445	0	746	568	
+Graph1	1	1	13/11/2023 12:48:40
+geometry	445	0	729	542	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -86,19 +86,19 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	7	6	715	495
-PlotTitle	Title	#000000	4228
+ggeometry	5	11	690	459
+PlotTitle	Leistung-Lastwiderstand-Diagramm	#000000	4228
 <Antialiasing>0</Antialiasing>
 Background	#ffffff	255
 Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)			
+AxesTitles	Lastwiderstand / Ohm	Leistung / W			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
-TitleFont	MS Shell Dlg 2	13	75	0	0	0
+TitleFont	MS Shell Dlg 2	12	75	0	0	0
 ScaleFont0	MS Shell Dlg 2	10	75	0	0	0
 ScaleFont1	MS Shell Dlg 2	10	75	0	0	0
 ScaleFont2	MS Shell Dlg 2	10	75	0	0	0
@@ -114,6 +114,29 @@ CanvasBackground	#ffffff	255
 curve	Table1_1	Table1_2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
 ErrorBars	0	Table1_1	Table1_2	Table1_3	1	8	#000000	1	1	1
 ErrorBars	1	Table1_1	Table1_2	Table1_4	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>GaussFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>16.7	69</Range>
+<Points>100</Points>
+<Constant>A	49.0356395830115</Constant>
+<Constant>w	34.6275833711852</Constant>
+<Constant>xc	32.7008516414314</Constant>
+<Constant>y0	3.26537193092379</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
 scale	0	3.2	4.6	0	8	5	0	0
 scale	1	3.2	4.6	0	8	5	0	0
 scale	2	10	80	0	8	5	0	0
@@ -129,30 +152,8 @@ LabelsRotation	0	0
 LabelsPrefix				
 LabelsSuffix				
 TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	1782059168	0	8
+ShowTicksPolicy	0	1782059168	0	76248496
 EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>11.754385964912</x>
-<y>4.5531772575251</y>
-<right>29.1228070175439</right>
-<bottom>4.41739130434783</bottom>
-<attachTo>0</attachTo>
-<onTop>1</onTop>
-<Text>
-\l(1)%(1)
-</Text>
-<Font>MS Shell Dlg 2	10	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
 </graph>
 <LinkXAxes>0</LinkXAxes>
 </multiLayer>
@@ -283,5 +284,82 @@ R^2 = 0.914857513272469
 Adjusted R^2 = 0.900667098817881
 RMSE (Root Mean Squared Error) = 0.793403377670372
 RSS (Residual Sum of Squares) = 11.9602894742763
+---------------------------------------------------------------------------------------
+
+[13/11/2023 12:48:05	Plot: ''Graph1'']
+Exponential decay of dataset: Table1_2, using function: A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+Weighting Method: Instrumental, using error bars dataset: Table1_4
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.900000000000000e+01 to x = 1.670000000000000e+01
+A1 (first amplitude) = 5.200609610373582e+06 +/- 1.925649719010901e+15
+t1 (first lifetime) = 5.921204127180799e+08 +/- 4.014966969815128e+19
+A2 (second amplitude) = 5.318442805545662e+06 +/- 3.654513746890784e+14
+t2 (second lifetime) = 5.938124266281836e+08 +/- 3.970951681078777e+19
+y0 (offset) = -1.051904766574653e+07 +/- 2.013454230061688e+15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.664797295850442e+00
+R^2 = 0.677508895500793
+Adjusted R^2 = 0.576730425344791
+RMSE (Root Mean Squared Error) = 1.63242068592947
+RSS (Residual Sum of Squares) = 45.3015540294575
+---------------------------------------------------------------------------------------
+Iterations = 156
+Status = success
+---------------------------------------------------------------------------------------
+[13/11/2023 12:48:14	Plot: ''Graph1'']
+Exponential growth of dataset: Table1_2, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table1_4
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.900000000000000e+01 to x = 1.670000000000000e+01
+A (amplitude) = -7.290699011909130e-31 +/- 3.327932198041703e-28
+t (lifetime) = 1.000000000000078e+00 +/- 6.615057134126572e+00
+y0 (offset) = 4.019164991420442e+00 +/- 7.315147894732985e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.171862457403567e+00
+R^2 = -0.0302239113258812
+Adjusted R^2 = -0.201927896546861
+RMSE (Root Mean Squared Error) = 2.7598577158553
+RSS (Residual Sum of Squares) = 144.719477623555
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[13/11/2023 12:48:26	Plot: ''Graph1'']
+Gauss Fit of dataset: Table1_2, using function: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Weighting Method: Instrumental, using error bars dataset: Table1_4
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.900000000000000e+01 to x = 1.670000000000000e+01
+A (area) = 4.903563958301151e+01 +/- 7.331624157244808e+00
+xc (center) = 3.270085164143141e+01 +/- 5.829785524225986e-01
+w (width) = 3.462758337118518e+01 +/- 3.046900959549422e+00
+y0 (offset) = 3.265371930923792e+00 +/- 8.648982766187806e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.100739590598779e-01
+R^2 = 0.97308159241702
+Adjusted R^2 = 0.966747849456318
+RMSE (Root Mean Squared Error) = 0.458338258341891
+RSS (Residual Sum of Squares) = 3.7813312630778
+---------------------------------------------------------------------------------------
+Iterations = 6
+Status = success
+---------------------------------------------------------------------------------------
+[13/11/2023 12:48:45	Plot: ''Graph1'']
+Gauss Fit of dataset: Table1_2, using function: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Weighting Method: Instrumental, using error bars dataset: Table1_4
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.900000000000000e+01 to x = 1.670000000000000e+01
+A (area) = 4.903563958301151e+01 +/- 7.331624157244808e+00
+xc (center) = 3.270085164143141e+01 +/- 5.829785524225986e-01
+w (width) = 3.462758337118518e+01 +/- 3.046900959549422e+00
+y0 (offset) = 3.265371930923792e+00 +/- 8.648982766187806e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.100739590598779e-01
+R^2 = 0.97308159241702
+Adjusted R^2 = 0.966747849456318
+RMSE (Root Mean Squared Error) = 0.458338258341891
+RSS (Residual Sum of Squares) = 3.7813312630778
+---------------------------------------------------------------------------------------
+Iterations = 6
+Status = success
 ---------------------------------------------------------------------------------------
 </log>

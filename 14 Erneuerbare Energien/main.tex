@@ -478,7 +478,7 @@ Hierbei wird die Spannung $U$ alle 5 Sekunden gemessen.
 \noindent
 Im letzten Teil wird die erzeugte Spannung des Windrades als Spannungsquelle für die Brennstoffzelle verwendet. 
 Die Schaltung wird wie in Abbildung \ref{fig:aufbau Speicherung Energie} aufgebaut. 
-Die Eingangsspannung $U_{ein}$ beträgt $(10.0 \pm 0.1)V$. Bei Start der Messung betrug der Stand Wasserstofftank $(8 \pm 1)ml$ und im Sauerstofftank $(5 \pm 1)ml$
+Die Eingangsspannung $U_{ein}$ beträgt $(10.0 \pm 0.1)V$. Bei Start der Messung betrug der Stand im Wasserstofftank $(8 \pm 1)ml$ und im Sauerstofftank $(5 \pm 1)ml$
 Beim Stoppen der Messung betrug der Stand im Wasserstofftank $(12 \pm 1)ml$ und im Sauerstofftank $(7 \pm 1)ml$. Dies dauerte insgesamt $(267.5 \pm 0.1) s$. 
 
 
@@ -487,6 +487,30 @@ Beim Stoppen der Messung betrug der Stand im Wasserstofftank $(12 \pm 1)ml$ und 
 In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
 Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
 
+\subsection{Photovoltaik}
+Wie man aus der Aufzählung der Messergebnisse in Sektion Photovoltaik der Versuchsdurchführung erkennen kann, 
+addieren sich die Spannungen $U$, wenn man die beiden Solarmodule in Serie schaltet. Bei der Strommessung lässt sich erkennen, dass bei Parallelschaltung der Strom $I$ der einzelnen Module addiert wird. 
+\\
+\\
+Die Spannungen $U$ und Ströme $I$ der Abstandsmessungen werden in den nachfolgenden Diagrammen dargestellt. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/u-d diagramm.jpg}
+    \caption{Spannungen $U$ der einzelnen Schaltungen des Solarmoduls bei verschiedenen Abständen $d$}
+    \label{fig:diagramm Photovoltaik U-d}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/i-d diagramm.jpg}
+    \caption{Ströme $I$ der einzelnen Schaltungen des Solarmoduls bei verschiedenen Abständen $d$}
+    \label{fig:diagramm Photovoltaik I-d}
+\end{figure}
+
+\noindent
+Bei den Diagramm der Spannung $U$ lässt sich erkennen, dass die Spannung $U$ linear abfällt mit dem Abstand $d$ zur Lichtquelle. Bei der seriell Schaltung (grün) erkennt man, dass die einzelnen Spannungen $U_{Links}$ (schwarz) und $U_{Rechts}$ (rot) addiert werden, die Parallelschaltung (blau) hingegen wird nicht addiert. 
+Im gegenzug bei dem Diagramm der Stromstärke $I$ erkennt man einen exponentiellen Abfall der Stromstärke $I$. Bei der Parallelschaltung (blau) erkennt man, dass die einzelnen Ströme $I_{Links}$ (schwarz) und $I_{Rechts}$ (rot) addiert werden. 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 

@@ -1,0 +1,205 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+Table1	30	4	13.11.2023 13:24:05
+geometry	0	0	464	376	
+header	u[X]	du[xEr]	i[Y]	di[yEr]
+ColWidth	100	100	100	100	
+<com>
+<col nr="1">
+0.01
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	1.72000000000000e+00	1.00000000000000e-02	5.40000000000000e+01	2.00000000000000e+00
+1	1.80000000000000e+00	1.00000000000000e-02	8.40000000000000e+01	2.00000000000000e+00
+2	1.92000000000000e+00	1.00000000000000e-02	1.17000000000000e+02	2.00000000000000e+00
+3	2.00000000000000e+00	1.00000000000000e-02	1.44000000000000e+02	3.00000000000000e+00
+4	2.12000000000000e+00	1.00000000000000e-02	1.71000000000000e+02	3.00000000000000e+00
+5	2.24000000000000e+00	1.00000000000000e-02	2.14000000000000e+02	3.00000000000000e+00
+6	2.32000000000000e+00	1.00000000000000e-02	2.25000000000000e+02	3.00000000000000e+00
+7	2.44000000000000e+00	1.00000000000000e-02	2.59000000000000e+02	4.00000000000000e+00
+8	2.52000000000000e+00	1.00000000000000e-02	2.84000000000000e+02	4.00000000000000e+00
+9	2.64000000000000e+00	1.00000000000000e-02	3.15000000000000e+02	4.00000000000000e+00
+10	2.72000000000000e+00	1.00000000000000e-02	3.39000000000000e+02	4.00000000000000e+00
+11	2.80000000000000e+00	1.00000000000000e-02	3.69000000000000e+02	4.00000000000000e+00
+12	2.92000000000000e+00	1.00000000000000e-02	4.18000000000000e+02	5.00000000000000e+00
+13	3.00000000000000e+00	1.00000000000000e-02	4.44000000000000e+02	5.00000000000000e+00
+14	3.12000000000000e+00	1.00000000000000e-02	4.95000000000000e+02	5.00000000000000e+00
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	13.11.2023 13:26:35
+geometry	464	4	504	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	478	388
+PlotTitle	Kennlinie Brennstoffzelle kalte Verbrennung	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Spannung U / V	Strom I /mA			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_u	Table1_i	1	0	#000000	0	1	5	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	Table1_u	Table1_i	Table1_du	1	8	#000000	1	1	1
+ErrorBars	1	Table1_u	Table1_i	Table1_di	1	8	#000000	1	1	1
+scale	0	0	500	0	8	5	0	0
+scale	1	0	500	0	8	5	0	0
+scale	2	1.6	3.2	0	8	5	0	0
+scale	3	1.6	3.2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<table>
+Table2	30	4	13.11.2023 13:37:36
+geometry	5	464	886	438	
+header	i[X]	di[xEr]	u[Y]	du[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	9.49000000000000e-01	9.00000000000000e-03	0.00000000000000e+00	8.00000000000000e-03
+1	9.47000000000000e-01	9.00000000000000e-03	0.00000000000000e+00	8.00000000000000e-03
+2	9.44000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
+3	9.38000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
+4	9.34000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
+5	9.28000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
+6	9.23000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
+7	9.16000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
+8	9.05000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
+9	8.92000000000000e-01	9.00000000000000e-03	2.00000000000000e-03	9.00000000000000e-03
+10	8.75000000000000e-01	8.00000000000000e-03	3.00000000000000e-03	9.00000000000000e-03
+11	8.18000000000000e-01	8.00000000000000e-03	8.00000000000000e-03	9.00000000000000e-03
+12	2.50000000000000e-01	3.00000000000000e-03	3.00000000000000e-02	9.00000000000000e-03
+</data>
+</table>
+<multiLayer>
+Graph2	1	1	13.11.2023 13:44:58
+geometry	968	0	520	457	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	494	388
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table2_i	Table2_u	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	Table2_i	Table2_u	Table2_di	1	8	#000000	1	1	1
+ErrorBars	1	Table2_i	Table2_u	Table2_du	1	8	#000000	1	1	1
+scale	0	-0.01	0.04	0	8	5	0	0
+scale	1	-0.01	0.04	0	8	5	0	0
+scale	2	0.2	1	0	8	5	0	0
+scale	3	0.2	1	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.22005012531328</x>
+<y>0.038327759197324</y>
+<right>0.418546365914787</right>
+<bottom>0.0334782608695652</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>

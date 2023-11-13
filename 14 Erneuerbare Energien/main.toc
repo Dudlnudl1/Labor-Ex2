@@ -14,5 +14,6 @@
 \contentsline {subsection}{\numberline {5.2}Brennstoffzelle}{9}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Windkraft}{11}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{13}{section.6}%
-\contentsline {section}{\numberline {7}Diskussion}{14}{section.7}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{14}{section.8}%
+\contentsline {subsection}{\numberline {6.1}Photovoltaik}{14}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Diskussion}{15}{section.7}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{15}{section.8}%

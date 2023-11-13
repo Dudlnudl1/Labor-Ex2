@@ -269,13 +269,13 @@ Somit ergibt sich als Beispiel für dieses Voltmeter aus Abbildung \ref{fig:Mess
     \centering
     \caption{Messwerte Leerlauf}
     \label{tab:messwerteLeerlauf}
-    \begin{tabular}{| l | l | l | l |}
+    \resizebox{\columnwidth}{!}{\begin{tabular}{|l|l|l|l|l|}
         \hline
         Primärstrom $I_{1}$ / A  & Primärspannung $U_{1}$ / V & Sekundärspannung $U_{2}$ / V & Wirkleistung $P_{1}$ / W \\
         \hline
         0.170 $\pm$ 0.011 & 160.0 $\pm$ 1.4 & 17.3 $\pm$ 0.5 & 6.90 $\pm$ 0.01 \\
         \hline
-    \end{tabular}
+    \end{tabular}}
 \end{table}
 
 \noindent
@@ -298,13 +298,13 @@ Jedoch konnte nun auch der Sekundärstrom $I_{2}$ bestimmt werden. Der Schiebere
     \centering
     \caption{Messwerte Ohm'sche Last}
     \label{tab:messwerteOhm}
-    \begin{tabular}{| l | l | l | l | l |}
+    \resizebox{\columnwidth}{!}{\begin{tabular}{|l|l|l|l|l|}
         \hline
         P. Strom $I_{1}$ / A  & P. Spannung $U_{1}$ / V & Strom $I_{2}$ / A & S. Spannung $U_{2}$ / V & Wirkleistung $P_{1}$ / W \\
         \hline
         0.195 $\pm$ 0.011 & 160.0 $\pm$ 1.4 & 0.640 $\pm$ 0.007 & 17.0 $\pm$ 0.5 & 17.90 $\pm$ 0.01 \\
         \hline
-    \end{tabular}
+    \end{tabular}}
 \end{table}
 
 \noindent
@@ -327,19 +327,19 @@ Außerdem wird nun kein fester Widerstand am Potentiometer eingestellt, sondern 
     \centering
     \caption{Messwerte Ohm'sche und induktive Last}
     \label{tab:messwerteOhmInduktiv}
-    \begin{tabular}{| l | l | l | l | l | l | l |}
+    \resizebox{\columnwidth}{!}{\begin{tabular}{|l|l|l|l|l|l|l|}
         \hline
         Nr. & $I_{1}$ $\pm$ 0.011 / A & $U_{1}$ $\pm$ 1.4 / V & $I_{2}$ $\pm$ 0.007 / A & $U_{2}$ $\pm$ 0.5 / V & $P_{1}$ $\pm$ 0.01 / W & $U_{R}$ $\pm$ 0.14 / V \\
         \hline
-        1 & 0.180 & 160.0 & 0.220 & 17.0 & 10.40 & 15.20 \\
-        2 & 0.183 & 160.0 & 0.220 & 17.0 & 10.50 & 15.20 \\
-        3 & 0.185 & 160.0 & 0.230 & 17.0 & 10.60 & 15.00 \\
-        4 & 0.185 & 160.0 & 0.240 & 17.0 & 10.60 & 15.00 \\
-        5 & 0.189 & 160.0 & 0.240 & 17.0 & 10.70 & 14.90 \\
-        6 & 0.189 & 160.0 & 0.250 & 17.0 & 10.80 & 14.80 \\
-        7 & 0.189 & 160.0 & 0.250 & 17.0 & 10.80 & 14.60 \\
-        8 & 0.189 & 160.0 & 0.260 & 17.0 & 10.90 & 14.40 \\
-        9 & 0.188 & 160.0 & 0.270 & 17.0 & 11.00 & 14.30 \\
+        1  & 0.180 & 160.0 & 0.220 & 17.0 & 10.40 & 15.20 \\
+        2  & 0.183 & 160.0 & 0.220 & 17.0 & 10.50 & 15.20 \\
+        3  & 0.185 & 160.0 & 0.230 & 17.0 & 10.60 & 15.00 \\
+        4  & 0.185 & 160.0 & 0.240 & 17.0 & 10.60 & 15.00 \\
+        5  & 0.189 & 160.0 & 0.240 & 17.0 & 10.70 & 14.90 \\
+        6  & 0.189 & 160.0 & 0.250 & 17.0 & 10.80 & 14.80 \\
+        7  & 0.189 & 160.0 & 0.250 & 17.0 & 10.80 & 14.60 \\
+        8  & 0.189 & 160.0 & 0.260 & 17.0 & 10.90 & 14.40 \\
+        9  & 0.188 & 160.0 & 0.270 & 17.0 & 11.00 & 14.30 \\
         10 & 0.190 & 160.0 & 0.280 & 17.0 & 11.10 & 14.10 \\
         11 & 0.190 & 160.0 & 0.290 & 17.0 & 11.30 & 13.80 \\
         12 & 0.190 & 160.0 & 0.300 & 17.0 & 11.40 & 13.60 \\
@@ -351,10 +351,10 @@ Außerdem wird nun kein fester Widerstand am Potentiometer eingestellt, sondern 
         18 & 0.203 & 160.0 & 0.400 & 17.0 & 11.80 & 11.00 \\
         19 & 0.205 & 160.0 & 0.420 & 17.0 & 11.70 & 10.40 \\
         20 & 0.205 & 160.0 & 0.430 & 17.0 & 11.80 & 10.00 \\
-        21 & 0.210 & 160.0 & 0.450 & 17.0 & 11.70 & 9.30 \\
-        22 & 0.215 & 160.0 & 0.480 & 17.0 & 11.40 & 8.00 \\
+        21 & 0.210 & 160.0 & 0.450 & 17.0 & 11.70 &  9.30 \\
+        22 & 0.215 & 160.0 & 0.480 & 17.0 & 11.40 &  8.00 \\
         \hline
-    \end{tabular}
+    \end{tabular}}
 \end{table}
 
 
@@ -388,8 +388,8 @@ Auch hier sollen mit den Formeln \ref{eq:Scheinleistung}, \ref{eq:Leistungsfakto
 
 \begin{table}[H]
     \centering
-    \caption{Berechnungen Leerlauf}
-    \label{tab:BerechnungenLeerlauf}
+    \caption{Berechnungen Ohm}
+    \label{tab:BerechnungenOhm}
     \begin{tabular}{| l | l | l | l | l | l |}
         \hline
         $P_{S1}$ / W & $P_{Q1}$ / W & $cos(\Phi)$ / & $P_{V}$ / W & $P_{2}$ / W & $\eta$ / \\
@@ -413,15 +413,15 @@ Außerdem wurde mittels Ohm'schen Gesetz \ref{eq:OhmschesGesetz} der eingestellt
         \hline
         Nr.  & $R_{Pot}$ / $\Omega$ & $P_{2}$ / W \\
         \hline
-        1 & 69 $\pm$ 3 & 3.35 $\pm$ 0.14 \\
-        2 & 69 $\pm$ 3 & 3.35 $\pm$ 0.14 \\
-        3 & 65 $\pm$ 3 & 3.45 $\pm$ 0.14 \\
-        4 & 62 $\pm$ 3 & 3.60 $\pm$ 0.14 \\
-        5 & 62 $\pm$ 3 & 3.58 $\pm$ 0.14 \\
-        6 & 59 $\pm$ 3 & 3.70 $\pm$ 0.14 \\
-        7 & 58 $\pm$ 3 & 3.65 $\pm$ 0.14 \\
-        8 & 55 $\pm$ 3 & 3.75 $\pm$ 0.14 \\
-        9 & 52.9 $\pm$ 1.9 & 3.87 $\pm$ 0.14 \\
+        1  & 69 $\pm$ 3 & 3.35 $\pm$ 0.14 \\
+        2  & 69 $\pm$ 3 & 3.35 $\pm$ 0.14 \\
+        3  & 65 $\pm$ 3 & 3.45 $\pm$ 0.14 \\
+        4  & 62 $\pm$ 3 & 3.60 $\pm$ 0.14 \\
+        5  & 62 $\pm$ 3 & 3.58 $\pm$ 0.14 \\
+        6  & 59 $\pm$ 3 & 3.70 $\pm$ 0.14 \\
+        7  & 58 $\pm$ 3 & 3.65 $\pm$ 0.14 \\
+        8  & 55 $\pm$ 3 & 3.75 $\pm$ 0.14 \\
+        9  & 52.9 $\pm$ 1.9 & 3.87 $\pm$ 0.14 \\
         10 & 50.4 $\pm$ 1.8 & 3.95 $\pm$ 0.14 \\
         11 & 47.6 $\pm$ 1.7 & 4.01 $\pm$ 0.14 \\
         12 & 45.4 $\pm$ 1.6 & 4.08 $\pm$ 0.14 \\
@@ -449,14 +449,37 @@ Die fett markierte Zeile ist jene mit der höchsten Leistung. Sie stellt weiters
     \label{fig:LeistungLastwiderstandDiagramm}
 \end{figure}
 
+\noindent
+Die bereits im zweiten Aufgabenpunkt geforderten Parameter wurden auch hier mittels Formeln \ref{eq:Scheinleistung}, \ref{eq:Leistungsfaktor}, \ref{eq:Blindleistung}, \ref{eq:Verlustleistung}, \ref{eq:Wirkleistung} und \ref{eq:Wirkungsgrad} und den Werten aus Tabelle \ref{tab:messwerteOhmInduktiv} berechnet. Einige Werte wurden auch der Tabelle \ref{tab:berechnungenRPotP2} entnommen, wobei in beiden Fällen nur jene aus dem Maximum verwendet wurden.
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnungen Ohm'sche-Induktive Last}
+    \label{tab:BerechnungenOhmInd}
+    \begin{tabular}{| l | l | l | l | l | l |}
+        \hline
+        $P_{S1}$ / W & $P_{Q1}$ / W & $cos(\Phi)$ / & $P_{V}$ / W & $P_{2}$ / W & $\eta$ / \\
+        \hline
+        32 $\pm$ 3 & 29.8 $\pm$ 3.3 & 0.37 $\pm$ 0.04 & 7.39 $\pm$ 0.15 & 4.41 $\pm$ 0.14 & 0.374 $\pm$ 0.018 \\
+        \hline
+    \end{tabular}
+\end{table}
 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 
+Die berechneten Werte der Wirkleistung $P_{2}$ bilden wie erwartet eine Kurve, welche in etwa beim Punkt (30.6/4.41) ein Maximum besitzt. Da das Potentiometer in relativ großen Abständen verschoben wurde, könnte das tatsächliche Maximum auch im umliegenden Bereich dieses Punktes (aber auf jeden Fall zwischen den benachbarten Punkten) liegen.
+Dieses Maximum kommt zustande, da der Sekundärstrom $I_{2}$ immer größer- und die Spannung $U_{R}$ immer kleiner wird. Dadurch, dass die beiden Größen multipliziert werden, ergibt sich ein Maximumspunkt. \newline
 
+\noindent
+Die exportierten Oszilloskopbilder weißen eine sehr ungewöhnliche Form des Primärstromes auf, dessen Verschulden nach gezieltem herumbasteln, messen und mit Hilfe von letztendlichem Ausschlussverfahren wahrscheinlich auf das Shunt fällt. Womöglich ist dieses-, oder das dazugehörige Oszilloskop-Interface (womöglich auf ein Kabel davon) defekt, was sich bei erneuter Versuchsdurchführung mit Ersatzgeräten vermeiden liese. Auch ein genauer Vergleich der Phasenverschiebung wird durch dieses Problem zusätzlich erschwert. \newline
 
+\noindent
+Da sich für eine solche Schaltung keinerlei Literaturwerte finden liesen, kann auch nur Schwer über die Richtigkeit der Berechnungen geurteilt werden. Jedoch wurden die Messwerte bereits während der Versuchsdurchführung mit den Erwartungswerten des Laborleiters verglichen, wodurch auf eine fehlerfreie Ausführung des Experimentes geschlossen werden kann.
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+
+Alle berechneten Werte und resultierende Diagramme werden in diesem Kaptiel noch einmal übersichtlich dargestellt und zusammengefasst. 
 
 \subsection{Leerlauf}
 
@@ -532,6 +555,19 @@ Die fett markierte Zeile ist jene mit der höchsten Leistung. Sie stellt weiters
     \caption{Leistung-Lastwiderstand-Diagramm}
     \label{fig:LeistungLastwiderstandDiagrammAW}
 \end{figure}
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnungen Ohm'sche-Induktive Last}
+    \label{tab:BerechnungenOhmIndAW}
+    \begin{tabular}{| l | l | l | l | l | l |}
+        \hline
+        $P_{S1}$ / W & $P_{Q1}$ / W & $cos(\Phi)$ / & $P_{V}$ / W & $P_{2}$ / W & $\eta$ / \\
+        \hline
+        32 $\pm$ 3 & 29.8 $\pm$ 3.3 & 0.37 $\pm$ 0.04 & 7.39 $\pm$ 0.15 & 4.41 $\pm$ 0.14 & 0.374 $\pm$ 0.018 \\
+        \hline
+    \end{tabular}
+\end{table}
 
 
 

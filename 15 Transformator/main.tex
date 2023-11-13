@@ -105,7 +105,7 @@ Die resultierende Spannung ist dabei abhängig vom Wicklungsverhältnis der Spul
 \end{equation}
 
 \noindent
-beschreiben lässt. Der magnetische Fluss $\Phi$ setzt socj weiters in folgender Form zusammen:
+beschreiben lässt. Der magnetische Fluss $\Phi$ setzt sich weiters in folgender Form zusammen:
 
 \begin{equation}
     \label{eq:Magnetischer Fluss}
@@ -118,7 +118,7 @@ Sollte die Magnetisierungskurve $\Phi = \Phi(t)$ eine Hysterese, also eine verz�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{nudes/GL-Hysterese.png}
-    \caption{Magentischer Fluss mit Hysterese}
+    \caption{Magentischer Fluss mit Hysterese \cite{teachcenter2}}
     \label{fig:Hystere}
 \end{figure}
 
@@ -130,37 +130,37 @@ Außerdem werden für die Auswertung noch folgende Zusammenhänge benötigt:
 
 \begin{equation}
     \label{eq:Scheinleistung}
-    \centerline{$P_{S1} = U_{1}*I_{1}$ \\ $\Delta P_{S1} = \vert \frac{\partial P_{S1}}{\partial U_{1}} * \Delta U_{1} \vert + \vert \frac{\partial P_{S1}}{\partial I_{1}} * \Delta I_{1} \vert $}
+    \centerline{Scheinleistung primär \\ $P_{S1} = U_{1}*I_{1}$ \\ $\Delta P_{S1} = \vert \frac{\partial P_{S1}}{\partial U_{1}} * \Delta U_{1} \vert + \vert \frac{\partial P_{S1}}{\partial I_{1}} * \Delta I_{1} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:Leistungsfaktor}
-    \centerline{$cos(\Phi) = \frac{P_{1}}{S_{1}}$ \\ $\Delta cos(\Phi) = \vert \frac{\partial cos(\Phi)}{\partial P_{1}} * \Delta P_{1} \vert + \vert \frac{\partial cos(\Phi)}{\partial S_{1}} * \Delta S_{1} \vert $}
+    \centerline{Leistungsfaktor \\ $cos(\Phi) = \frac{P_{1}}{S_{1}}$ \\ $\Delta cos(\Phi) = \vert \frac{\partial cos(\Phi)}{\partial P_{1}} * \Delta P_{1} \vert + \vert \frac{\partial cos(\Phi)}{\partial S_{1}} * \Delta S_{1} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:Verlustleistung}
-    \centerline{$P_{V} = P_{1} - P_{2}$ \\ $\Delta P_{V} = \vert \frac{\partial P_{V}}{\partial P_{1}} * \Delta P_{1} \vert + \vert \frac{\partial P_{V}}{\partial P_{2}} * \Delta P_{2} \vert $}
+    \centerline{Verlustleistung gesamt \\ $P_{V} = P_{1} - P_{2}$ \\ $\Delta P_{V} = \vert \frac{\partial P_{V}}{\partial P_{1}} * \Delta P_{1} \vert + \vert \frac{\partial P_{V}}{\partial P_{2}} * \Delta P_{2} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:Blindleistung}
-    \centerline{$P_{Q1} = \sqrt{S_{1}^2 - P_{1}^2}$ \\ $\Delta P_{Q1} = \vert \frac{\partial P_{Q1}}{\partial S_{1}} * \Delta S_{1} \vert + \vert \frac{\partial P_{Q1}}{\partial P_{1}} * \Delta P_{1} \vert $}
+    \centerline{Blindleistung primär \\ $P_{Q1} = \sqrt{S_{1}^2 - P_{1}^2}$ \\ $\Delta P_{Q1} = \vert \frac{\partial P_{Q1}}{\partial S_{1}} * \Delta S_{1} \vert + \vert \frac{\partial P_{Q1}}{\partial P_{1}} * \Delta P_{1} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:Wirkleistung}
-    \centerline{$P_{W2} = U_{2}*I_{2}$ \\ $\Delta P_{S1} = \vert \frac{\partial P_{W2}}{\partial U_{2}} * \Delta U_{2} \vert + \vert \frac{\partial P_{W2}}{\partial I_{2}} * \Delta I_{2} \vert $}
+    \centerline{Wirkleistung sekundär \\ $P_{W2} = U_{2}*I_{2}$ \\ $\Delta P_{S1} = \vert \frac{\partial P_{W2}}{\partial U_{2}} * \Delta U_{2} \vert + \vert \frac{\partial P_{W2}}{\partial I_{2}} * \Delta I_{2} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:Wirkungsgrad}
-    \centerline{$\eta = \frac{P_{2}}{S_{1}}$ \\ $\Delta \eta = \vert \frac{\partial \eta}{\partial P_{2}} * \Delta P_{2} \vert + \vert \frac{\partial \eta}{\partial S_{1}} * \Delta S_{1} \vert $}
+    \centerline{Wirkungsgrad \\ $\eta = \frac{P_{2}}{S_{1}}$ \\ $\Delta \eta = \vert \frac{\partial \eta}{\partial P_{2}} * \Delta P_{2} \vert + \vert \frac{\partial \eta}{\partial S_{1}} * \Delta S_{1} \vert $}
 \end{equation}
 
 \begin{equation}
     \label{eq:OhmschesGesetz}
-    \centerline{$R = \frac{U}{I}$ \\ $\Delta R = \vert \frac{\partial R}{\partial U} * \Delta U \vert + \vert \frac{\partial R}{\partial I} * \Delta I \vert $}
+    \centerline{Ohm'sche Gesetz \\ $R = \frac{U}{I}$ \\ $\Delta R = \vert \frac{\partial R}{\partial U} * \Delta U \vert + \vert \frac{\partial R}{\partial I} * \Delta I \vert $}
 \end{equation}
 
 
@@ -358,7 +358,6 @@ Außerdem wird nun kein fester Widerstand am Potentiometer eingestellt, sondern 
 \end{table}
 
 
-
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
 
 In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
@@ -394,7 +393,7 @@ Auch hier sollen mit den Formeln \ref{eq:Scheinleistung}, \ref{eq:Leistungsfakto
         \hline
         $P_{S1}$ / W & $P_{Q1}$ / W & $cos(\Phi)$ / & $P_{V}$ / W & $P_{2}$ / W & $\eta$ / \\
         \hline
-        31.2 $\pm$ 2.1 & 25.5545 $\pm$ 3 & 0.58 $\pm$ 0.04 & 7.1 $\pm$ 0.6 & 10.9 $\pm$ 0.5 & 0.40 $\pm$ 0.04 \\
+        32 $\pm$ 3 & 26 $\pm$ 3 & 0.58 $\pm$ 0.04 & 7.1 $\pm$ 0.6 & 10.9 $\pm$ 0.5 & 0.40 $\pm$ 0.04 \\
         \hline
     \end{tabular}
 \end{table}
@@ -460,10 +459,21 @@ Die bereits im zweiten Aufgabenpunkt geforderten Parameter wurden auch hier mitt
         \hline
         $P_{S1}$ / W & $P_{Q1}$ / W & $cos(\Phi)$ / & $P_{V}$ / W & $P_{2}$ / W & $\eta$ / \\
         \hline
-        32 $\pm$ 3 & 29.8 $\pm$ 3.3 & 0.37 $\pm$ 0.04 & 7.39 $\pm$ 0.15 & 4.41 $\pm$ 0.14 & 0.374 $\pm$ 0.018 \\
+        32 $\pm$ 3 & 30 $\pm$ 4 & 0.37 $\pm$ 0.04 & 7.39 $\pm$ 0.15 & 4.41 $\pm$ 0.14 & 0.374 $\pm$ 0.018 \\
         \hline
     \end{tabular}
 \end{table}
+
+\noindent
+Das Oszilloskopbild an der Stelle, an der die Leistung maximal wird, lässt sich in folgender Grafik erkennen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth, angle=0]{nudes/A3 Oszi Pmax.jpg}
+    \caption{Oszilloskop Diagramm am Maximum}
+    \label{fig:OszilloskopDiagrammMax}
+\end{figure}
+
 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
@@ -507,7 +517,7 @@ Alle berechneten Werte und resultierende Diagramme werden in diesem Kaptiel noch
         \hline
         $P_{S1}$ / W & $P_{Q1}$ / W & $cos(\Phi)$ / & $P_{V}$ / W & $P_{2}$ / W & $\eta$ / \\
         \hline
-        31.2 $\pm$ 2.1 & 25.5545 $\pm$ 3 & 0.58 $\pm$ 0.04 & 7.1 $\pm$ 0.6 & 10.9 $\pm$ 0.5 & 0.40 $\pm$ 0.04 \\
+        32 $\pm$ 3 & 26 $\pm$ 3 & 0.58 $\pm$ 0.04 & 7.1 $\pm$ 0.6 & 10.9 $\pm$ 0.5 & 0.40 $\pm$ 0.04 \\
         \hline
     \end{tabular}
 \end{table}
@@ -564,15 +574,37 @@ Alle berechneten Werte und resultierende Diagramme werden in diesem Kaptiel noch
         \hline
         $P_{S1}$ / W & $P_{Q1}$ / W & $cos(\Phi)$ / & $P_{V}$ / W & $P_{2}$ / W & $\eta$ / \\
         \hline
-        32 $\pm$ 3 & 29.8 $\pm$ 3.3 & 0.37 $\pm$ 0.04 & 7.39 $\pm$ 0.15 & 4.41 $\pm$ 0.14 & 0.374 $\pm$ 0.018 \\
+        32 $\pm$ 3 & 30 $\pm$ 4 & 0.37 $\pm$ 0.04 & 7.39 $\pm$ 0.15 & 4.41 $\pm$ 0.14 & 0.374 $\pm$ 0.018 \\
         \hline
     \end{tabular}
 \end{table}
 
 
-
+\newpage
 \section{Anhang}
 
+In diesem Abteil werden die Unsicherheitsrechnungen zur eventuellen Fehlersuche abgebildet. Für Unsicherheiten von Größeren Tabellen wird jeweils die Rechnung des ersten Wertes als Beispiel für die restlichen Größen gezeigt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth, angle=0]{nudes/Unsicherheiten1.jpg}
+    \caption{Unsicherheitsrechnungen}
+    \label{fig:Unsicherheitsrechnungen1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth, angle=0]{nudes/Unsicherheiten2.jpg}
+    \caption{Unsicherheitsrechnungen}
+    \label{fig:Unsicherheitsrechnungen2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth, angle=0]{nudes/Unsicherheiten3.jpg}
+    \caption{Unsicherheitsrechnungen}
+    \label{fig:Unsicherheitsrechnungen3}
+\end{figure}
 
 
 \printbibliography[heading=bibintoc]

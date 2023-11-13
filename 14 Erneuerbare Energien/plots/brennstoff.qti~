@@ -1,6 +1,6 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	4
+<windows>	8
 <table>
 Table1	30	4	13.11.2023 13:24:05
 geometry	0	0	464	376	
@@ -34,9 +34,77 @@ WindowLabel		2
 14	3.12000000000000e+00	1.00000000000000e-02	4.95000000000000e+02	5.00000000000000e+00
 </data>
 </table>
+<table>
+Table2	30	6	13.11.2023 13:37:36
+geometry	568	86	667	506	
+header	i[X]	di[xEr]	u[Y]	du[yEr]	P[Y]	1[yEr]
+ColWidth	100	100	100	100	100	100	
+<com>
+<col nr="4">
+col("i")*col("u")
+</col>
+<col nr="5">
+col("u")*col("di") + col("i")*col("du")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	9.49000000000000e-01	9.00000000000000e-03	0.00000000000000e+00	8.00000000000000e-03	0.00000000000000e+00	7.59200000000000e-03
+1	9.47000000000000e-01	9.00000000000000e-03	0.00000000000000e+00	8.00000000000000e-03	0.00000000000000e+00	7.57600000000000e-03
+2	9.44000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03	9.44000000000000e-04	8.50500000000000e-03
+3	9.38000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03	9.38000000000000e-04	8.45100000000000e-03
+4	9.34000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03	9.34000000000000e-04	8.41500000000000e-03
+5	9.28000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03	9.28000000000000e-04	8.36100000000000e-03
+6	9.23000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03	9.23000000000000e-04	8.31600000000000e-03
+7	9.16000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03	9.16000000000000e-04	8.25300000000000e-03
+8	9.05000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03	9.05000000000000e-04	8.15400000000000e-03
+9	8.92000000000000e-01	9.00000000000000e-03	2.00000000000000e-03	9.00000000000000e-03	1.78400000000000e-03	8.04600000000000e-03
+10	8.75000000000000e-01	8.00000000000000e-03	3.00000000000000e-03	9.00000000000000e-03	2.62500000000000e-03	7.89900000000000e-03
+11	8.18000000000000e-01	8.00000000000000e-03	8.00000000000000e-03	9.00000000000000e-03	6.54400000000000e-03	7.42600000000000e-03
+12	2.50000000000000e-01	3.00000000000000e-03	3.00000000000000e-02	9.00000000000000e-03	7.50000000000000e-03	2.34000000000000e-03
+</data>
+</table>
+<table>
+Table3	30	6	13.11.2023 18:56:20
+geometry	122	207	646	499	active
+header	i[X]	di[xEr]	u[Y]	du[yEr]	P[Y]	dP[yEr]
+ColWidth	100	100	100	100	100	100	
+<com>
+<col nr="4">
+col("i")*col("u")
+</col>
+<col nr="5">
+col("i")*col("du")+col("u")*col("di")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	7.20000000000000e-01	7.00000000000000e-03	1.40000000000000e-01	9.00000000000000e-03	1.00800000000000e-01	7.46000000000000e-03
+1	6.35000000000000e-01	7.00000000000000e-03	1.30000000000000e-01	9.00000000000000e-03	8.25500000000000e-02	6.62500000000000e-03
+2	5.90000000000000e-01	6.00000000000000e-03	1.20000000000000e-01	9.00000000000000e-03	7.08000000000000e-02	6.03000000000000e-03
+3	5.40000000000000e-01	6.00000000000000e-03	1.10000000000000e-01	9.00000000000000e-03	5.94000000000000e-02	5.52000000000000e-03
+4	4.81000000000000e-01	5.00000000000000e-03	1.00000000000000e-01	9.00000000000000e-03	4.81000000000000e-02	4.82900000000000e-03
+5	4.14000000000000e-01	5.00000000000000e-03	9.00000000000000e-02	9.00000000000000e-03	3.72600000000000e-02	4.17600000000000e-03
+6	4.00000000000000e-01	5.00000000000000e-03	8.00000000000000e-02	9.00000000000000e-03	3.20000000000000e-02	4.00000000000000e-03
+7	3.81000000000000e-01	5.00000000000000e-03	8.00000000000000e-02	9.00000000000000e-03	3.04800000000000e-02	3.82900000000000e-03
+8	3.52000000000000e-01	4.00000000000000e-03	7.00000000000000e-02	9.00000000000000e-03	2.46400000000000e-02	3.44800000000000e-03
+9	3.04000000000000e-01	4.00000000000000e-03	7.00000000000000e-02	9.00000000000000e-03	2.12800000000000e-02	3.01600000000000e-03
+10	2.76000000000000e-01	4.00000000000000e-03	6.00000000000000e-02	9.00000000000000e-03	1.65600000000000e-02	2.72400000000000e-03
+11	2.15000000000000e-01	3.00000000000000e-03	6.00000000000000e-02	9.00000000000000e-03	1.29000000000000e-02	2.11500000000000e-03
+12	4.00000000000000e-02	2.00000000000000e-03	6.00000000000000e-02	9.00000000000000e-03	2.40000000000000e-03	4.80000000000000e-04
+</data>
+</table>
 <multiLayer>
 Graph1	1	1	13.11.2023 13:26:35
-geometry	464	4	504	457	
+geometry	458	-70	504	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -93,37 +161,9 @@ EnabledTickLabels	1	1	1	1
 </graph>
 <LinkXAxes>0</LinkXAxes>
 </multiLayer>
-<table>
-Table2	30	4	13.11.2023 13:37:36
-geometry	5	464	886	438	
-header	i[X]	di[xEr]	u[Y]	du[yEr]
-ColWidth	100	100	100	100	
-<com>
-</com>
-ColType	0;0/13	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0	0
-HiddenColumn	0	0	0	0
-Comments					
-WindowLabel		2
-<data>
-0	9.49000000000000e-01	9.00000000000000e-03	0.00000000000000e+00	8.00000000000000e-03
-1	9.47000000000000e-01	9.00000000000000e-03	0.00000000000000e+00	8.00000000000000e-03
-2	9.44000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
-3	9.38000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
-4	9.34000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
-5	9.28000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
-6	9.23000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
-7	9.16000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
-8	9.05000000000000e-01	9.00000000000000e-03	1.00000000000000e-03	9.00000000000000e-03
-9	8.92000000000000e-01	9.00000000000000e-03	2.00000000000000e-03	9.00000000000000e-03
-10	8.75000000000000e-01	8.00000000000000e-03	3.00000000000000e-03	9.00000000000000e-03
-11	8.18000000000000e-01	8.00000000000000e-03	8.00000000000000e-03	9.00000000000000e-03
-12	2.50000000000000e-01	3.00000000000000e-03	3.00000000000000e-02	9.00000000000000e-03
-</data>
-</table>
 <multiLayer>
-Graph2	1	1	13.11.2023 13:44:58
-geometry	968	0	520	457	active
+Graph4	1	1	13.11.2023 19:02:30
+geometry	837	1	520	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -133,14 +173,14 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	494	388
-PlotTitle	Title	#000000	4228
+PlotTitle	Kennlinie Brennstoffzelle ohne Widerstand	#000000	4228
 <Antialiasing>0</Antialiasing>
 Background	#ffffff	255
 Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)			
+AxesTitles	Strom I / A	Spannung U / V			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
@@ -160,6 +200,27 @@ CanvasBackground	#ffffff	255
 curve	Table2_i	Table2_u	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
 ErrorBars	0	Table2_i	Table2_u	Table2_di	1	8	#000000	1	1	1
 ErrorBars	1	Table2_i	Table2_u	Table2_du	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0.25	0.949</Range>
+<Points>2</Points>
+<Constant>A	-0.0430807936464033</Constant>
+<Constant>B	0.0410176435007237</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
 scale	0	-0.01	0.04	0	8	5	0	0
 scale	1	-0.01	0.04	0	8	5	0	0
 scale	2	0.2	1	0	8	5	0	0
@@ -175,31 +236,321 @@ LabelsRotation	0	0
 LabelsPrefix				
 LabelsSuffix				
 TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
+ShowTicksPolicy	0	1782059124	0	1782059124
 EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>0.22005012531328</x>
-<y>0.038327759197324</y>
-<right>0.418546365914787</right>
-<bottom>0.0334782608695652</bottom>
-<attachTo>0</attachTo>
-<onTop>1</onTop>
-<Text>
-\l(1)%(1)
-</Text>
-<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph3	1	1	13.11.2023 19:17:20
+geometry	704	470	512	448	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	486	380
+PlotTitle	Kennlinie Brennstoffzelle mit Widerstand	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Strom I / A	Spannung U / V			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table3_i	Table3_u	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	Table3_i	Table3_u	Table3_di	1	8	#000000	1	1	1
+ErrorBars	1	Table3_i	Table3_u	Table3_du	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0.04	0.72</Range>
+<Points>2</Points>
+<Constant>A	0.141277059708883</Constant>
+<Constant>B	0.0318807911289917</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0.02	0.16	0	8	5	0	0
+scale	1	0.02	0.16	0	8	5	0	0
+scale	2	0	0.8	0	8	5	0	0
+scale	3	0	0.8	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	130024584
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph5	1	1	13.11.2023 20:39:14
+geometry	1368	4	532	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	506	388
+PlotTitle	Leistung Brennstoffzelle ohne Widerstand	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Strom I / A	Leistung P / W			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table2_i	Table2_P	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Table2_i	Table2_P	Table2_1	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>PolynomialFit1</Title>
+<Expression>a0+a1*x+a2*x^2</Expression>
+<Variable>x</Variable>
+<Range>0.25	0.949</Range>
+<Points>100</Points>
+<Constant>a0	-0.00323876753683677</Constant>
+<Constant>a1	0.0571728596184134</Constant>
+<Constant>a2	-0.0568365580931729</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.01	0.015	0	8	5	0	0
+scale	1	-0.01	0.015	0	8	5	0	0
+scale	2	0.2	1	0	8	5	0	0
+scale	3	0.2	1	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	1782059168
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph6	1	1	13.11.2023 20:40:53
+geometry	1332	134	512	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	486	388
+PlotTitle	Leistung Brennstoffzelle mit Widerstand	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Strom I / A	Leistung P / W			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table3_i	Table3_P	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Table3_i	Table3_P	Table3_dP	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>PolynomialFit1</Title>
+<Expression>a0+a1*x+a2*x^2</Expression>
+<Variable>x</Variable>
+<Range>0.04	0.72</Range>
+<Points>100</Points>
+<Constant>a0	0.00193371175243953</Constant>
+<Constant>a1	0.00456483092482872</Constant>
+<Constant>a2	0.187553288790257</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	0.12	0	8	5	0	0
+scale	1	0	0.12	0	8	5	0	0
+scale	2	0	0.8	0	8	5	0	0
+scale	3	0	0.8	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	7077993
+EnabledTickLabels	1	1	1	1
 </graph>
 <LinkXAxes>0</LinkXAxes>
 </multiLayer>
 <open>1</open>
+<log>
+[13.11.2023 19:07:37	Plot: ''Graph3'']
+Linear Regression of dataset: Table3_u, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table3_du
+From x = 7.2000000000000e-01 to x = 4.0000000000000e-02
+B (y-intercept) = 3.1880791128992e-02 +/- 6.3014276131671e-03
+A (slope) = 1.4127705970888e-01 +/- 1.4064576241915e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1527745183402e+00
+R^2 = 0.8883562939303
+Adjusted R^2 = 0.8660275527164
+RMSE (Root Mean Squared Error) = 1.073673376004
+RSS (Residual Sum of Squares) = 12.68051970174
+---------------------------------------------------------------------------------------
+[13.11.2023 19:09:00	Plot: ''Graph4'']
+Linear Regression of dataset: Table2_u, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table2_du
+From x = 9.4900000000000e-01 to x = 2.5000000000000e-01
+B (y-intercept) = 4.1017643500724e-02 +/- 1.2186567598556e-02
+A (slope) = -4.3080793646403e-02 +/- 1.3780358968658e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8.5251395047779e-03
+R^2 = 0.9904997943077
+Adjusted R^2 = 0.9885997531693
+RMSE (Root Mean Squared Error) = 0.09233168202073
+RSS (Residual Sum of Squares) = 0.09377653455256
+---------------------------------------------------------------------------------------
+
+[13.11.2023 19:17:26	Plot: ''Graph3'']
+Linear Regression of dataset: Table3_u, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table3_du
+From x = 7.2000000000000e-01 to x = 4.0000000000000e-02
+B (y-intercept) = 3.1880791128992e-02 +/- 6.3014276131671e-03
+A (slope) = 1.4127705970888e-01 +/- 1.4064576241915e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1527745183402e+00
+R^2 = 0.8883562939303
+Adjusted R^2 = 0.8660275527164
+RMSE (Root Mean Squared Error) = 1.073673376004
+RSS (Residual Sum of Squares) = 12.68051970174
+---------------------------------------------------------------------------------------
+
+[13.11.2023 20:44:11	Plot: ''Graph6'']
+Polynomial Fit of dataset: Table3_P, using function: a0+a1*x+a2*x^2
+Weighting Method: Instrumental, using error bars dataset: Table3_dP
+From x = 7.2000000000000e-01 to x = 4.0000000000000e-02
+a0 = 1.9337117524395e-03 +/- 7.2661879772537e-04
+a1 = 4.5648309248287e-03 +/- 1.1692376028240e-02
+a2 = 1.8755328879026e-01 +/- 2.2432092567839e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4204005363479e-01
+R^2 = 0.9998003469001
+Adjusted R^2 = 0.9997337958668
+RMSE (Root Mean Squared Error) = 0.3768820155364
+RSS (Residual Sum of Squares) = 1.420400536348
+---------------------------------------------------------------------------------------
+[13.11.2023 20:44:31	Plot: ''Graph5'']
+Polynomial Fit of dataset: Table2_P, using function: a0+a1*x+a2*x^2
+Weighting Method: Instrumental, using error bars dataset: Table2_1
+From x = 9.4900000000000e-01 to x = 2.5000000000000e-01
+a0 = -3.2387675368368e-03 +/- 2.3347308918011e-02
+a1 = 5.7172859618413e-02 +/- 1.1700125271547e-01
+a2 = -5.6836558093173e-02 +/- 1.0001181368031e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.3344129015972e-03
+R^2 = 0.9883810614207
+Adjusted R^2 = 0.9845080818942
+RMSE (Root Mean Squared Error) = 0.08564118694645
+RSS (Residual Sum of Squares) = 0.07334412901597
+---------------------------------------------------------------------------------------
+
+</log>

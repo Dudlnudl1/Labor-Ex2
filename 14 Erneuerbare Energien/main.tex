@@ -75,7 +75,14 @@ Der Vorgang, in dem elektrische Energie aus Wasserstoff und Sauerstoff erzeugt w
 \\ 
 Nutzt man die Brennstoffzelle für Elektrolyse, so wird an einer Anode Wasserstoff in Protonen und Elektronen geteilt. Die Protonen reagieren an der Kathode mit Sauerstoff und Elektronen und bilden Wasser. Die Elektronen fließen an einen äußeren Stromkreis und leisten dabei elektrische Arbeit. 
 \\
-Für die erzeugung von Wasserstoff wird el. Energie in das System gespeist. Wasser wird dadurch in Wasserstoff und Sauerstoff gespalten. 
+Für die Erzeugung von Wasserstoff wird el. Energie in das System gespeist. Wasser wird dadurch in Wasserstoff und Sauerstoff gespalten. 
+\\
+\\
+Die Leistung, welche bei Elektrolyse entsteht, wird mit folgender Formel berechnet. 
+\begin{equation}
+    \label{eq:leistung}
+    \centerline{$P = U*I$  \\ $\Delta P = \vert \frac{\partial }{\partial U} * \Delta U \vert + \vert \frac{\partial }{\partial I} * \Delta I \vert$}
+\end{equation}
 
 \subsection{Windkraft}
 Bei einem Windrad wird aus Bewegungsenergie el. Energie erzeugt. Ein Windrad ist in Rotor und Generator geteilt. Dabei unterscheidet man zwischen horizontalen und vertikalen Ausrichtungen. Bei vertikal ausgerichteten Windrädern ist die Windrichtung nicht relevant. Bei horizontalen Windrädern, wie man sie Heutzutage sieht, ist die Windrichtung entscheident. Der große Vorteil von horizontalen gegenüber Vertikalen ist der Wirkungsgrad, welcher mehr als 50\% beträgt. 
@@ -274,7 +281,7 @@ Ist das geschehen, so wird die Spannung erhöht, bis die Strömstärke 500 mA er
 Die Unsicherheit der Spannung $U_{ein}$ ist die Ableseunsicherheit des Gerätes. 
 \begin{table}[H]
     \centering
-    \caption{Strom $I_{gem}$ in abhängigkeit der Eingangsspannung $U_{ein}$ der Brennstoffzelle bei kalter Verbrennung. }
+    \caption{Strom $I_{gem}$ in Abhängigkeit der Eingangsspannung $U_{ein}$ der Brennstoffzelle bei kalter Verbrennung. }
     \label{tab:Messdaten Brennstoffzelle}
     \begin{tabular}{| l | l | l |}
         \hline
@@ -511,6 +518,123 @@ Die Spannungen $U$ und Ströme $I$ der Abstandsmessungen werden in den nachfolge
 \noindent
 Bei den Diagramm der Spannung $U$ lässt sich erkennen, dass die Spannung $U$ linear abfällt mit dem Abstand $d$ zur Lichtquelle. Bei der seriell Schaltung (grün) erkennt man, dass die einzelnen Spannungen $U_{Links}$ (schwarz) und $U_{Rechts}$ (rot) addiert werden, die Parallelschaltung (blau) hingegen wird nicht addiert. 
 Im gegenzug bei dem Diagramm der Stromstärke $I$ erkennt man einen exponentiellen Abfall der Stromstärke $I$. Bei der Parallelschaltung (blau) erkennt man, dass die einzelnen Ströme $I_{Links}$ (schwarz) und $I_{Rechts}$ (rot) addiert werden. 
+
+\subsection{Brennstoffzelle}
+Die Daten aus der Tabelle \ref{tab:Messdaten Brennstoffzelle} werden als Diagramm dargestellt. Dabei ist anzumerken, dass die Gastanks sich ab einer Spannung von $U = (1.72 \pm 0.01)V$ zu füllen beginnen. 
+Die Brennstoffzelle wandelt in diesen Versuch elektrische Energie in chemische Energie um. Es findet daher eine kalte Verbrennung statt. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/brennstoff diagramm i-u.jpg}
+    \caption{Kennlinie der Brennstoffzelle bei kalter Verbrennung. Der Strom $I$ in Abhängigkeit der Eingangsspannung $U$}
+    \label{fig:diagramm Brennstoffzelle I-U}
+\end{figure}
+
+\noindent
+Um die Leistung der Brennstoffzelle zu berrechnen, benötigt man die Spannung $U$ und den Strom $I$. 
+Eingesetzt in die Formel \ref{eq:leistung} kann man die Leistung berrechnen. 
+\\
+\\
+Für die Werte aus der Tabelle \ref{tab:Messdaten Kennlinie Brennstoffzelle} wird die Spannung $U$ in Abhängigkeit des Stromes $I$ dargestellt. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/brennstoff diagramm ohne r.jpg}
+    \caption{Kennlinie der Brennstoffzelle bei Elektrolyse ohne Widerstand $R$. Die Spannung $U$ in Abhängigkeit des Stromes $I$. Mit der Steigung (rote Linie) von $(-0.043 \pm 0.014)$}
+    \label{fig:diagramm Brennstoffzelle ohne R}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/brennstoff diagramm mit r.jpg}
+    \caption{Kennlinie der Brennstoffzelle bei Elektrolyse mit Widerstand $R$. Die Spannung $U$ in Abhängigkeit des Stromes $I$. Mit der Steigung (rote Linie) von $(0.142 \pm 0.014)$}
+    \label{fig:diagramm Brennstoffzelle mit R}
+\end{figure}
+
+\noindent
+Desweiteren wird die Leistung $P$, welche mit der Formel \ref{eq:leistung} berechnet wird in einen Diagramm in Abhängigkeit des Stromes $I$ dargestellt und quadratisch genähert. 
+
+\begin{table}[H]
+    \centering
+    \caption{Leistung $P$ der Brennstoffzelle in Abhängigkeit des Stromes $I$}
+    \label{tab:Leistung Brennstoffzelle}
+    \begin{tabular}{| l | l | l | l | l |}
+        \hline
+        Nr. & $P_{ohneR}$  / W & $I_{ohneR}$ / A & $P_{mitR}$ / W & $I_{mitR}$ / A \\
+        \hline
+        1   & 0       $\pm$ 0.008  & 0.949 $\pm$ 0.009 & 0.109   $\pm$ 0.008  & 0.720 $\pm$ 0.007 \\
+        2   & 0       $\pm$ 0.008  & 0.947 $\pm$ 0.009 & 0.087   $\pm$ 0.007  & 0.635 $\pm$ 0.007 \\
+        3   & 0.001   $\pm$ 0.009  & 0.944 $\pm$ 0.009 & 0.079   $\pm$ 0.007  & 0.590 $\pm$ 0.006 \\
+        4   & 0.001   $\pm$ 0.009  & 0.938 $\pm$ 0.009 & 0.060   $\pm$ 0.006  & 0.540 $\pm$ 0.006 \\
+        5   & 0.001   $\pm$ 0.009  & 0.934 $\pm$ 0.009 & 0.049   $\pm$ 0.005  & 0.481 $\pm$ 0.005 \\
+        6   & 0.001   $\pm$ 0.009  & 0.928 $\pm$ 0.009 & 0.038   $\pm$ 0.005  & 0.414 $\pm$ 0.005 \\
+        7   & 0.001   $\pm$ 0.009  & 0.923 $\pm$ 0.009 & 0.033   $\pm$ 0.004  & 0.400 $\pm$ 0.005 \\
+        8   & 0.001   $\pm$ 0.009  & 0.916 $\pm$ 0.009 & 0.031   $\pm$ 0.004  & 0.381 $\pm$ 0.005 \\
+        9   & 0.001   $\pm$ 0.009  & 0.905 $\pm$ 0.009 & 0.025   $\pm$ 0.004  & 0.352 $\pm$ 0.004 \\
+        10  & 0.002   $\pm$ 0.009  & 0.892 $\pm$ 0.009 & 0.022   $\pm$ 0.004  & 0.304 $\pm$ 0.004 \\
+        11  & 0.003   $\pm$ 0.008  & 0.875 $\pm$ 0.008 & 0.017   $\pm$ 0.003  & 0.276 $\pm$ 0.004 \\
+        12  & 0.007   $\pm$ 0.008  & 0.818 $\pm$ 0.008 & 0.013   $\pm$ 0.003  & 0.215 $\pm$ 0.003 \\
+        13  & 0.008   $\pm$ 0.003  & 0.250 $\pm$ 0.003 & 0.003   $\pm$ 0.001  & 0.040 $\pm$ 0.002 \\
+        \hline  
+    \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/brennstoff leistung ohne r.jpg}
+    \caption{Leistung $P$ der Brennstoffzelle bei Elektrolyse ohne Widerstand $R$. Die Leistung $P$ wird in Abhängigkeit des Stromes $I$ dargestellt und quadratisch genähert (rote Kurve).}
+    \label{fig:diagramm Leistung ohne R}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/brennstoff leistung mit r.jpg}
+    \caption{Leistung $P$ der Brennstoffzelle bei Elektrolyse mit Widerstand $R$. Die Leistung $P$ wird in Abhängigkeit des Stromes $I$ dargestellt und quadratisch genähert (rote Kurve).}
+    \label{fig:diagramm Leistung mit R}
+\end{figure}
+
+\subsection{Windkraft}
+Bei dem Versuch Windkraft wird im ersten Teil die Eingangsspannung $U_{ein}$ erhöht. Die Leerlaufspannung $U_{leer}$ steigt linear dazu an. Sieht man sich das folgende Diagramm an, welches die Leerlaufspannung $U_{leer}$ in relation zur Eingangsspannung $U_{ein}$ aus den Daten der Tabelle \ref{tab:Messdaten Windkraft stationär} zeigt, 
+erkennt man einen linearen Anstieg. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/wind spannung.jpg}
+    \caption{Spannungen U der Windkraft bei fixem Abstand $d$ von 5cm}
+    \label{fig:windkraft stationär diagramm}
+\end{figure}
+
+\noindent
+Hingegen bei fixer Eingangsspannung $U_{ein}$ von $(10.0 \pm 0.1)V$ und steigenden Abstand $d$ sinkt die Leerlaufspannung $U_{leer}$ linear. 
+Aus den Messdaten der Tabelle \ref{tab:Messdaten Windkraft mit d} wird das Diagramm bebildet, was einen linearen Abfall der Leerlaufspannung $U_{leer}$ mit zunehmenden Abstand $d$ zeigt. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/wind abstand.jpg}
+    \caption{Leerlaufspannung $U_{leer}$ der Windkraft bei fixer Eingangsspannung $U_{ein}$ und steigenden Abstand $d$}
+    \label{fig:windkraft abstand diagramm}
+\end{figure}
+
+\noindent
+Bricht man den Luftstrom abbrupt ab, so fällt die Leerlaufspannung $U_{leer}$ anfangs schneller ab, als nach einer gewissen Zeit $t$, da das Windrad noch ein gewisses Drehmoment besitzt. 
+Mit den Messdaten der Tabelle \ref{tab:Messdaten Windkraft abbrupt stop} wird ein Diagramm geplottet, in welchem man den Verlauf der Leerlaufspannung $U_{leer}$ pro Zeit $t$ sieht. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/wind stopp.jpg}
+    \caption{Leerlaufspannung $U_{leer}$ der Windkraft bei abbrupten Stopp des Luftstromes pro Sekunde.}
+    \label{fig:windkraft stopp diagramm}
+\end{figure}
+
+\noindent
+Hingegen startet man den Luftstrom abbrupt, so lässt sich ein erst langsamer Anstieg der Leerlaufspannung $U_{leer}$ erkennen, welcher sich über zeit linearisiert und sich der maximalen Leerlaufspannung $U_{leer}$ nähert und diese dann erreicht. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/wind start.jpg}
+    \caption{Leerlaufspannung $U_{leer}$ der Windkraft bei abbrupten Start des Luftstromes pro Sekunde.}
+    \label{fig:windkraft start diagramm}
+\end{figure}
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 

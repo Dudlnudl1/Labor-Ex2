@@ -1,0 +1,411 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	6
+<table>
+Table1	30	6	13.11.2023 22:01:46
+geometry	0	-215	785	316	
+header	t[X]	dt[xEr]	aus[Y]	daus[yEr]	ein[Y]	dein[yEr]
+ColWidth	100	100	100	100	100	100	
+<com>
+<col nr="1">
+0.1
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	0.00000000000000e+00	1.00000000000000e-01	4.52000000000000e+00	4.00000000000000e-02	0.00000000000000e+00	1.00000000000000e-02
+1	1.00000000000000e+00	1.00000000000000e-01	3.53000000000000e+00	3.00000000000000e-02	3.00000000000000e-02	2.00000000000000e-02
+2	2.00000000000000e+00	1.00000000000000e-01	2.37000000000000e+00	3.00000000000000e-02	2.60000000000000e-01	2.00000000000000e-02
+3	3.00000000000000e+00	1.00000000000000e-01	1.87000000000000e+00	2.00000000000000e-02	5.60000000000000e-01	2.00000000000000e-02
+4	4.00000000000000e+00	1.00000000000000e-01	1.50000000000000e+00	2.00000000000000e-02	8.80000000000000e-01	2.00000000000000e-02
+5	5.00000000000000e+00	1.00000000000000e-01	1.21000000000000e+00	2.00000000000000e-02	1.26000000000000e+00	2.00000000000000e-02
+6	6.00000000000000e+00	1.00000000000000e-01	9.80000000000000e-01	2.00000000000000e-02	2.02000000000000e+00	2.00000000000000e-02
+7	7.00000000000000e+00	1.00000000000000e-01	6.90000000000000e-01	2.00000000000000e-02	2.83000000000000e+00	3.00000000000000e-02
+8	8.00000000000000e+00	1.00000000000000e-01	5.40000000000000e-01	2.00000000000000e-02	3.50000000000000e+00	3.00000000000000e-02
+9	9.00000000000000e+00	1.00000000000000e-01	3.20000000000000e-01	2.00000000000000e-02	4.10000000000000e+00	4.00000000000000e-02
+10	1.00000000000000e+01	1.00000000000000e-01	1.90000000000000e-01	2.00000000000000e-02	4.36000000000000e+00	4.00000000000000e-02
+11	1.10000000000000e+01	1.00000000000000e-01	0.00000000000000e+00	1.00000000000000e-02	4.52000000000000e+00	4.00000000000000e-02
+</data>
+</table>
+<table>
+Table2	30	6	13.11.2023 22:15:55
+geometry	0	101	792	351	
+header	t[X]	dt[xEr]	aus[Y]	daus[yEr]	ein[Y]	dein[yEr]
+ColWidth	100	100	100	100	100	100	
+<com>
+<col nr="1">
+0.1
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	0.00000000000000e+00	1.00000000000000e-01	3.05000000000000e+00	3.00000000000000e-02	0.00000000000000e+00	1.00000000000000e-02
+1	5.00000000000000e+00	1.00000000000000e-01	1.79000000000000e+00	2.00000000000000e-02	4.50000000000000e-01	2.00000000000000e-02
+2	1.00000000000000e+01	1.00000000000000e-01	1.48000000000000e+00	2.00000000000000e-02	1.11000000000000e+00	2.00000000000000e-02
+3	1.50000000000000e+01	1.00000000000000e-01	1.33000000000000e+00	2.00000000000000e-02	1.92000000000000e+00	2.00000000000000e-02
+4	2.00000000000000e+01	1.00000000000000e-01	1.21000000000000e+00	2.00000000000000e-02	2.44000000000000e+00	3.00000000000000e-02
+5	2.50000000000000e+01	1.00000000000000e-01	1.12000000000000e+00	2.00000000000000e-02	2.78000000000000e+00	3.00000000000000e-02
+6	3.00000000000000e+01	1.00000000000000e-01	1.03000000000000e+00	2.00000000000000e-02	2.98000000000000e+00	3.00000000000000e-02
+7	3.50000000000000e+01	1.00000000000000e-01	9.50000000000000e-01	2.00000000000000e-02	3.16000000000000e+00	3.00000000000000e-02
+8	4.00000000000000e+01	1.00000000000000e-01	8.70000000000000e-01	2.00000000000000e-02	3.32000000000000e+00	3.00000000000000e-02
+9	4.50000000000000e+01	1.00000000000000e-01	8.00000000000000e-01	2.00000000000000e-02	3.48000000000000e+00	3.00000000000000e-02
+10	5.00000000000000e+01	1.00000000000000e-01	7.20000000000000e-01	2.00000000000000e-02	3.58000000000000e+00	3.00000000000000e-02
+11	5.50000000000000e+01	1.00000000000000e-01	6.50000000000000e-01	2.00000000000000e-02		
+12	6.00000000000000e+01	1.00000000000000e-01	5.80000000000000e-01	2.00000000000000e-02		
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	13.11.2023 22:04:28
+geometry	1343	-212	488	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	462	388
+PlotTitle	Abbrupter Stopp des Luftstromes	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Zeit t / s	Leerlaufspannung U / V			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_t	Table1_aus	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	Table1_t	Table1_aus	Table1_dt	1	8	#000000	1	1	1
+ErrorBars	1	Table1_t	Table1_aus	Table1_daus	1	8	#000000	1	1	1
+scale	0	-1	5	0	8	5	0	0
+scale	1	-1	5	0	8	5	0	0
+scale	2	-2	12	0	8	5	0	0
+scale	3	-2	12	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	102995512
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	13.11.2023 22:04:42
+geometry	847	-219	488	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	462	388
+PlotTitle	Abbrupter Start des Luftstromes	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Zeit t / s	Leerlaufspannung U / V			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_t	Table1_ein	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Table1_t	Table1_ein	Table1_dein	1	8	#000000	1	1	1
+scale	0	-1	5	0	8	5	0	0
+scale	1	-1	5	0	8	5	0	0
+scale	2	-2	12	0	8	5	0	0
+scale	3	-2	12	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	132030208
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph3	1	1	13.11.2023 22:18:20
+geometry	1386	252	500	457	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	474	388
+PlotTitle	Abbrupter Stopp des Luftstromes mit Kondensator	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Zeit t / s	Leerlaufspannung U / V			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table2_t	Table2_aus	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	Table2_t	Table2_aus	Table2_dt	1	8	#000000	1	1	1
+ErrorBars	1	Table2_t	Table2_aus	Table2_daus	1	8	#000000	1	1	1
+scale	0	0.5	3.5	0	8	5	0	0
+scale	1	0.5	3.5	0	8	5	0	0
+scale	2	-10	70	0	8	5	0	0
+scale	3	-10	70	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	129704160	0	1782059124
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph4	1	1	13.11.2023 22:18:27
+geometry	820	251	508	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	482	388
+PlotTitle	Abbrupter Start des Luftstromes mit Kondensator	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Zeit t / s	Leerlaufspannung U / V			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table2_t	Table2_ein	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Table2_t	Table2_ein	Table2_dein	1	8	#000000	1	1	1
+scale	0	-0.5	4	0	8	5	0	0
+scale	1	-0.5	4	0	8	5	0	0
+scale	2	-10	60	0	8	5	0	0
+scale	3	-10	60	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	133726104	0	131220
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<open>1</open>
+<log>
+[13.11.2023 22:25:33	Plot: ''Graph2'']
+Polynomial Fit of dataset: Table1_ein, using function: a0+a1*x+a2*x^2
+Weighting Method: Instrumental, using error bars dataset: Table1_dein
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+a0 = -5.8182791355739e-02 +/- 9.2101555957686e-03
+a1 = 1.4607174446391e-01 +/- 5.4755276950745e-03
+a2 = 3.0493688937036e-02 +/- 6.0908126425283e-04
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1425319184092e+02
+R^2 = 0.9874724760968
+Adjusted R^2 = 0.982774654633
+RMSE (Root Mean Squared Error) = 10.68892847019
+RSS (Residual Sum of Squares) = 1028.278726568
+---------------------------------------------------------------------------------------
+[13.11.2023 22:25:41	Plot: ''Graph1'']
+Polynomial Fit of dataset: Table1_aus, using function: a0+a1*x+a2*x^2
+Weighting Method: Instrumental, using error bars dataset: Table1_daus
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+a0 = 3.9293171697934e+00 +/- 2.3053375112317e-02
+a1 = -6.9418131455939e-01 +/- 7.8391030112010e-03
+a2 = 3.1160989767311e-02 +/- 5.7718064644115e-04
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.1632197103075e+01
+R^2 = 0.9819035986695
+Adjusted R^2 = 0.9751174481706
+RMSE (Root Mean Squared Error) = 9.572470794057
+RSS (Residual Sum of Squares) = 824.6897739277
+---------------------------------------------------------------------------------------
+[13.11.2023 22:25:51	Plot: ''Graph4'']
+Polynomial Fit of dataset: Table2_ein, using function: a0+a1*x+a2*x^2
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+a0 = -4.0715991781293e-02 +/- 9.3272696439945e-03
+a1 = 1.4487098547972e-01 +/- 1.3296966164350e-03
+a2 = -1.4684118409330e-03 +/- 2.9837652145553e-05
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.3728208121360e+01
+R^2 = 0.9962064758583
+Adjusted R^2 = 0.9945806797976
+RMSE (Root Mean Squared Error) = 5.80759917017
+RSS (Residual Sum of Squares) = 269.8256649709
+---------------------------------------------------------------------------------------
+[13.11.2023 22:25:57	Plot: ''Graph3'']
+Polynomial Fit of dataset: Table2_aus, using function: a0+a1*x+a2*x^2
+Weighting Method: Instrumental, using error bars dataset: Table2_daus
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+01
+a0 = 2.2460102739726e+00 +/- 1.7021340352547e-02
+a1 = -5.9784403952212e-02 +/- 1.2559711908552e-03
+a2 = 5.6929987820399e-04 +/- 1.9490871671739e-05
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1153413474368e+02
+R^2 = 0.8625333541681
+Adjusted R^2 = 0.8167111388908
+RMSE (Root Mean Squared Error) = 10.56097224424
+RSS (Residual Sum of Squares) = 1115.341347437
+---------------------------------------------------------------------------------------
+[13.11.2023 22:26:24	Plot: ''Graph4'']
+Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = 4.6339262872318e-22 +/- 6.2264734179958e-19
+t (lifetime) = 1.0000050606262e+00 +/- 2.6872968070211e+01
+y0 (offset) = 1.1934855706373e+00 +/- 4.6646449902800e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.0100778611708e+03
+R^2 = 0.3463738361284
+Adjusted R^2 = 0.06624833732623
+RMSE (Root Mean Squared Error) = 76.23245788106
+RSS (Residual Sum of Squares) = 46491.1010767
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[13.11.2023 22:26:41	Plot: ''Graph4'']
+Exponential decay of dataset: Table2_ein, using function: y0+A*exp(-x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = -4.4776321545462e+00 +/- 3.8005176144942e-01
+t (e-folding time) = 2.7955638178230e+01 +/- 4.6516612093839e+00
+y0 (offset) = 4.4297148399357e+00 +/- 3.9267034830299e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4.8069522102049e+01
+R^2 = 0.994593460408
+Adjusted R^2 = 0.9922763720115
+RMSE (Root Mean Squared Error) = 6.933218740387
+RSS (Residual Sum of Squares) = 384.5561768164
+---------------------------------------------------------------------------------------
+Iterations = 12
+Status = success
+---------------------------------------------------------------------------------------
+[13.11.2023 22:27:21	Plot: ''Graph4'']
+Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = 4.6339262872318e-22 +/- 6.2264734179958e-19
+t (lifetime) = 1.0000050606262e+00 +/- 2.6872968070211e+01
+y0 (offset) = 1.1934855706373e+00 +/- 4.6646449902800e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.0100778611708e+03
+R^2 = 0.3463738361284
+Adjusted R^2 = 0.06624833732623
+RMSE (Root Mean Squared Error) = 76.23245788106
+RSS (Residual Sum of Squares) = 46491.1010767
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+</log>

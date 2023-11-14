@@ -2,19 +2,19 @@
 \contentsline {section}{\numberline {1}Aufgabenstellung}{3}{section.1}%
 \contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{4}{section.2}%
 \contentsline {section}{\numberline {3}Versuchsanordnung}{5}{section.3}%
-\contentsline {section}{\numberline {4}Geräteliste}{7}{section.4}%
+\contentsline {section}{\numberline {4}Geräteliste}{8}{section.4}%
 \contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{8}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Leerlauf}{8}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Ohm'sche Last sekundärseitig}{9}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Ohm'sche-induktive Last}{10}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{10}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Leerlauf}{10}{subsection.6.1}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Leerlauf}{11}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Ohm'sche Last sekundärseitig}{11}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Ohm'sche-induktive Last}{11}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Diskussion}{12}{section.7}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{13}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Leerlauf}{13}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Ohm'sche Last sekundärseitig}{13}{subsection.8.2}%
+\contentsline {section}{\numberline {7}Diskussion}{13}{section.7}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{14}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Leerlauf}{14}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Ohm'sche Last sekundärseitig}{14}{subsection.8.2}%
 \contentsline {subsection}{\numberline {8.3}Ohm'sche-induktive Last}{14}{subsection.8.3}%
-\contentsline {section}{\numberline {9}Anhang}{15}{section.9}%
-\contentsline {section}{Literatur}{17}{section*.31}%
+\contentsline {section}{\numberline {9}Anhang}{16}{section.9}%
+\contentsline {section}{Literatur}{18}{section*.31}%

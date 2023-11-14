@@ -44,34 +44,6 @@
       \verb https://www.ld-didactic.de/documents/de-DE/GA/GA/5/531/531832d.pdf
       \endverb
     \endentry
-    \entry{teachcenter1}{online}{}
-      \name{author}{1}{}{%
-        {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%
-           family={TeachCenter},
-           familyi={T\bibinitperiod},
-           given={TU\bibnamedelima Graz},
-           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \strng{namehash}{7663fb89adfe5a989937e85c5fbf7aa7}
-      \strng{fullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
-      \strng{bibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
-      \strng{authorbibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
-      \strng{authornamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
-      \strng{authorfullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
-      \field{extraname}{1}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{(besucht am \thedate)}
-      \field{title}{"Laborübungen 1: Mechanik und Wärme". Kurs: PHYD20UF}
-      \verb{urlraw}
-      \verb https://tc.tugraz.at/main/course/view.php?id=127
-      \endverb
-      \verb{url}
-      \verb https://tc.tugraz.at/main/course/view.php?id=127
-      \endverb
-    \endentry
     \entry{teachcenter2}{online}{}
       \name{author}{1}{}{%
         {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%
@@ -86,7 +58,6 @@
       \strng{authorbibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
       \strng{authornamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
       \strng{authorfullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
-      \field{extraname}{2}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{labelnamesource}{author}

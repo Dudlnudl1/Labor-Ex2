@@ -16,5 +16,169 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{teachcenter2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%
+           family={TeachCenter},
+           familyi={T\bibinitperiod},
+           given={TU\bibnamedelima Graz},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{fullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{bibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authorbibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authornamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authorfullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{"Laborübungen 2: Elektrizität, Magnetismus, Optik". Kurs: PHYD30UF}
+      \verb{urlraw}
+      \verb https://tc.tugraz.at/main/course/view.php?id=796
+      \endverb
+      \verb{url}
+      \verb https://tc.tugraz.at/main/course/view.php?id=796
+      \endverb
+    \endentry
+    \entry{multimeter1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d8bf9577db7a14fc0908161ed9cbbb39}{%
+           family={UNI-T},
+           familyi={U\bibinithyphendelim T\bibinitperiod},
+           given={Multimeter},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8bf9577db7a14fc0908161ed9cbbb39}
+      \strng{fullhash}{d8bf9577db7a14fc0908161ed9cbbb39}
+      \strng{bibnamehash}{d8bf9577db7a14fc0908161ed9cbbb39}
+      \strng{authorbibnamehash}{d8bf9577db7a14fc0908161ed9cbbb39}
+      \strng{authornamehash}{d8bf9577db7a14fc0908161ed9cbbb39}
+      \strng{authorfullhash}{d8bf9577db7a14fc0908161ed9cbbb39}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Herner Elektronik Shop}
+      \verb{urlraw}
+      \verb https://www.herner-elektronik-shop.de/ut51-digital-multimeter-uni-t.html
+      \endverb
+      \verb{url}
+      \verb https://www.herner-elektronik-shop.de/ut51-digital-multimeter-uni-t.html
+      \endverb
+    \endentry
+    \entry{multimeter2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=812618bd2969fcb0821d90a755ec03a1}{%
+           family={Voltcraft},
+           familyi={V\bibinitperiod},
+           given={Multimeter},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{812618bd2969fcb0821d90a755ec03a1}
+      \strng{fullhash}{812618bd2969fcb0821d90a755ec03a1}
+      \strng{bibnamehash}{812618bd2969fcb0821d90a755ec03a1}
+      \strng{authorbibnamehash}{812618bd2969fcb0821d90a755ec03a1}
+      \strng{authornamehash}{812618bd2969fcb0821d90a755ec03a1}
+      \strng{authorfullhash}{812618bd2969fcb0821d90a755ec03a1}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Manualslib}
+      \verb{urlraw}
+      \verb https://www.manualslib.de/manual/317833/Voltcraft-Vc130-1.html?page=24#manual
+      \endverb
+      \verb{url}
+      \verb https://www.manualslib.de/manual/317833/Voltcraft-Vc130-1.html?page=24#manual
+      \endverb
+    \endentry
+    \entry{wiki2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Albert Einstein}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Albert_Einstein#Verleihung_des_Nobelpreises_(1922)
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Albert_Einstein#Verleihung_des_Nobelpreises_(1922)
+      \endverb
+    \endentry
+    \entry{wiki3}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Brennstoffzelle}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Brennstoffzelle#Elektrischer_Wirkungsgrad,_Kosten,_Lebensdauer
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Brennstoffzelle#Elektrischer_Wirkungsgrad,_Kosten,_Lebensdauer
+      \endverb
+    \endentry
+    \entry{wiki1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Photoelektrischer Effekt}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Photoelektrischer_Effekt
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Photoelektrischer_Effekt
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

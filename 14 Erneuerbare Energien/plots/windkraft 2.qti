@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	6
 <table>
 Table1	30	6	13.11.2023 22:01:46
-geometry	0	-215	785	316	
+geometry	0	4	785	316	
 header	t[X]	dt[xEr]	aus[Y]	daus[yEr]	ein[Y]	dein[yEr]
 ColWidth	100	100	100	100	100	100	
 <com>
@@ -33,7 +33,7 @@ WindowLabel		2
 </table>
 <table>
 Table2	30	6	13.11.2023 22:15:55
-geometry	0	101	792	351	
+geometry	0	320	792	351	
 header	t[X]	dt[xEr]	aus[Y]	daus[yEr]	ein[Y]	dein[yEr]
 ColWidth	100	100	100	100	100	100	
 <com>
@@ -64,7 +64,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph1	1	1	13.11.2023 22:04:28
-geometry	1343	-212	488	457	
+geometry	1343	7	488	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -98,9 +98,31 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
-curve	Table1_t	Table1_aus	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	Table1_t	Table1_aus	1	0	#000000	0	1	5	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
 ErrorBars	0	Table1_t	Table1_aus	Table1_dt	1	8	#000000	1	1	1
 ErrorBars	1	Table1_t	Table1_aus	Table1_daus	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>ExpDecay1Fit1</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	11.11</Range>
+<Points>100</Points>
+<Constant>A	4.65285340526933</Constant>
+<Constant>t	4.3313037571196</Constant>
+<Constant>y0	-0.307008763288883</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
 scale	0	-1	5	0	8	5	0	0
 scale	1	-1	5	0	8	5	0	0
 scale	2	-2	12	0	8	5	0	0
@@ -123,7 +145,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph2	1	1	13.11.2023 22:04:42
-geometry	847	-219	488	457	
+geometry	847	0	488	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -157,9 +179,31 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
-curve	Table1_t	Table1_ein	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	Table1_t	Table1_ein	1	0	#000000	0	1	5	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
 ErrorBars	1	Table1_t	Table1_ein	Table1_dein	1	8	#000000	1	1	1
-scale	0	-1	5	0	8	5	0	0
+<Function>
+<Type>0</Type>
+<Title>ExpGrowthFit1</Title>
+<Expression>y0+A*exp(x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	11.11</Range>
+<Points>100</Points>
+<Constant>A	1.92559128557745</Constant>
+<Constant>t	8.31983647931493</Constant>
+<Constant>y0	-2.03233837421444</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-1	6	0	8	5	0	0
 scale	1	-1	5	0	8	5	0	0
 scale	2	-2	12	0	8	5	0	0
 scale	3	-2	12	0	8	5	0	0
@@ -181,7 +225,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph3	1	1	13.11.2023 22:18:20
-geometry	1386	252	500	457	active
+geometry	1386	471	500	457	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -215,9 +259,31 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
-curve	Table2_t	Table2_aus	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	Table2_t	Table2_aus	1	0	#000000	0	1	5	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
 ErrorBars	0	Table2_t	Table2_aus	Table2_dt	1	8	#000000	1	1	1
 ErrorBars	1	Table2_t	Table2_aus	Table2_daus	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>ExpDecay1Fit1</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	60.6</Range>
+<Points>100</Points>
+<Constant>A	1.95971518260327</Constant>
+<Constant>t	11.9841439887612</Constant>
+<Constant>y0	0.743683193808072</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
 scale	0	0.5	3.5	0	8	5	0	0
 scale	1	0.5	3.5	0	8	5	0	0
 scale	2	-10	70	0	8	5	0	0
@@ -239,8 +305,8 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 </multiLayer>
 <multiLayer>
-Graph4	1	1	13.11.2023 22:18:27
-geometry	820	251	508	457	
+Graph5	1	1	14.11.2023 12:54:30
+geometry	851	463	508	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -274,9 +340,31 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
-curve	Table2_t	Table2_ein	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	Table2_t	Table2_ein	1	0	#000000	0	1	5	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
 ErrorBars	1	Table2_t	Table2_ein	Table2_dein	1	8	#000000	1	1	1
-scale	0	-0.5	4	0	8	5	0	0
+<Function>
+<Type>0</Type>
+<Title>ExpGrowthFit1</Title>
+<Expression>y0+A*exp(x/t)</Expression>
+<Variable>x</Variable>
+<Range>0	50.5</Range>
+<Points>100</Points>
+<Constant>A	4.63392628723181e-22</Constant>
+<Constant>t	1.00000506062622</Constant>
+<Constant>y0	1.19348557063728</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-1	6	0	8	5	0	0
 scale	1	-0.5	4	0	8	5	0	0
 scale	2	-10	60	0	8	5	0	0
 scale	3	-10	60	0	8	5	0	0
@@ -291,7 +379,7 @@ LabelsRotation	0	0
 LabelsPrefix				
 LabelsSuffix				
 TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	133726104	0	131220
+ShowTicksPolicy	0	136805656	0	135520568
 EnabledTickLabels	1	1	1	1
 </graph>
 <LinkXAxes>0</LinkXAxes>
@@ -391,6 +479,382 @@ Iterations = 12
 Status = success
 ---------------------------------------------------------------------------------------
 [13.11.2023 22:27:21	Plot: ''Graph4'']
+Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = 4.6339262872318e-22 +/- 6.2264734179958e-19
+t (lifetime) = 1.0000050606262e+00 +/- 2.6872968070211e+01
+y0 (offset) = 1.1934855706373e+00 +/- 4.6646449902800e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.0100778611708e+03
+R^2 = 0.3463738361284
+Adjusted R^2 = 0.06624833732623
+RMSE (Root Mean Squared Error) = 76.23245788106
+RSS (Residual Sum of Squares) = 46491.1010767
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+
+[14.11.2023 12:46:54	Plot: ''Graph2'']
+Exponential growth of dataset: Table1_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table1_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+A (amplitude) = 1.9255912855775e+00 +/- 8.8226741025936e-01
+t (lifetime) = 8.3198364793149e+00 +/- 2.2875282073867e+00
+y0 (offset) = -2.0323383742144e+00 +/- 9.4967610269647e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5298557645874e+02
+R^2 = -0.9047711563469
+Adjusted R^2 = -1.619060339977
+RMSE (Root Mean Squared Error) = 131.8022893277
+RSS (Residual Sum of Squares) = 156346.5912482
+---------------------------------------------------------------------------------------
+Iterations = 15
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:47:19	Plot: ''Graph1'']
+Exponential decay of dataset: Table1_aus, using function: A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+Weighting Method: Instrumental, using error bars dataset: Table1_daus
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+A1 (first amplitude) = 1.0981159647415e+07 +/- 1.4687405994117e+14
+t1 (first lifetime) = 6.8717099593841e+07 +/- 9.1909791313164e+14
+A2 (second amplitude) = 2.8748303933158e+00 +/- 1.5924718821905e+00
+t2 (second lifetime) = 2.0064984875511e+00 +/- 1.1113035464864e+00
+y0 (offset) = -1.0981157898397e+07 +/- 1.4687405994117e+14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1577301563641e+01
+R^2 = 0.9982216919449
+Adjusted R^2 = 0.9967397685656
+RMSE (Root Mean Squared Error) = 3.402543396291
+RSS (Residual Sum of Squares) = 81.04111094548
+---------------------------------------------------------------------------------------
+Iterations = 86
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:47:47	Plot: ''Graph2'']
+Exponential decay of dataset: Table1_ein, using function: A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+Weighting Method: Instrumental, using error bars dataset: Table1_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+A1 (first amplitude) = -1.1289737167664e+00 +/- 2.2249294630531e+32
+t1 (first lifetime) = 7.4538215755950e+00 +/- 3.7525468984640e+21
+A2 (second amplitude) = -1.1289737167670e+00 +/- 2.1298796165775e+16
+t2 (second lifetime) = 7.4538215755951e+00 +/- 2.9315090243740e+21
+A3 (third amplitude) = -1.1289737167664e+00 +/- 2.2249294630531e+32
+t3 (third lifetime) = 7.4538215755950e+00 +/- 9.4981124669735e+20
+y0 (offset) = 3.3870082063926e+00 +/- 4.0101492737484e+15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.3565064857664e+03
+R^2 = 0.8564533595521
+Adjusted R^2 = 0.6052467387681
+RMSE (Root Mean Squared Error) = 48.54386146328
+RSS (Residual Sum of Squares) = 11782.53242883
+---------------------------------------------------------------------------------------
+Iterations = 63
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:47:57	Plot: ''Graph2'']
+Exponential growth of dataset: Table1_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table1_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+A (amplitude) = 1.9255912855775e+00 +/- 8.8226741025936e-01
+t (lifetime) = 8.3198364793149e+00 +/- 2.2875282073867e+00
+y0 (offset) = -2.0323383742144e+00 +/- 9.4967610269647e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5298557645874e+02
+R^2 = -0.9047711563469
+Adjusted R^2 = -1.619060339977
+RMSE (Root Mean Squared Error) = 131.8022893277
+RSS (Residual Sum of Squares) = 156346.5912482
+---------------------------------------------------------------------------------------
+Iterations = 15
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:48:47	Plot: ''Graph2'']
+Exponential growth of dataset: Table1_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table1_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+A (amplitude) = 1.9255912855775e+00 +/- 8.8226741025936e-01
+t (lifetime) = 8.3198364793149e+00 +/- 2.2875282073867e+00
+y0 (offset) = -2.0323383742144e+00 +/- 9.4967610269647e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5298557645874e+02
+R^2 = -0.9047711563469
+Adjusted R^2 = -1.619060339977
+RMSE (Root Mean Squared Error) = 131.8022893277
+RSS (Residual Sum of Squares) = 156346.5912482
+---------------------------------------------------------------------------------------
+Iterations = 15
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:49:49	Plot: ''Graph4'']
+Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = 4.6339262872318e-22 +/- 6.2264734179958e-19
+t (lifetime) = 1.0000050606262e+00 +/- 2.6872968070211e+01
+y0 (offset) = 1.1934855706373e+00 +/- 4.6646449902800e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.0100778611708e+03
+R^2 = 0.3463738361284
+Adjusted R^2 = 0.06624833732623
+RMSE (Root Mean Squared Error) = 76.23245788106
+RSS (Residual Sum of Squares) = 46491.1010767
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:50:27	Plot: ''Graph4'']
+Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = 4.6339262872318e-22 +/- 6.2264734179958e-19
+t (lifetime) = 1.0000050606262e+00 +/- 2.6872968070211e+01
+y0 (offset) = 1.1934855706373e+00 +/- 4.6646449902800e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.0100778611708e+03
+R^2 = 0.3463738361284
+Adjusted R^2 = 0.06624833732623
+RMSE (Root Mean Squared Error) = 76.23245788106
+RSS (Residual Sum of Squares) = 46491.1010767
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:50:49	Plot: ''Graph1'']
+Exponential decay of dataset: Table1_aus, using function: A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+Weighting Method: Instrumental, using error bars dataset: Table1_daus
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+A1 (first amplitude) = 1.0981159647415e+07 +/- 1.4687405994117e+14
+t1 (first lifetime) = 6.8717099593841e+07 +/- 9.1909791313164e+14
+A2 (second amplitude) = 2.8748303933158e+00 +/- 1.5924718821905e+00
+t2 (second lifetime) = 2.0064984875511e+00 +/- 1.1113035464864e+00
+y0 (offset) = -1.0981157898397e+07 +/- 1.4687405994117e+14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1577301563641e+01
+R^2 = 0.9982216919449
+Adjusted R^2 = 0.9967397685656
+RMSE (Root Mean Squared Error) = 3.402543396291
+RSS (Residual Sum of Squares) = 81.04111094548
+---------------------------------------------------------------------------------------
+Iterations = 86
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:52:02	Plot: ''Graph1'']
+Exponential decay of dataset: Table1_aus, using function: y0+A*exp(-x/t)
+Weighting Method: Instrumental, using error bars dataset: Table1_daus
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+A (amplitude) = 4.6528534052693e+00 +/- 1.5301235837333e-01
+t (e-folding time) = 4.3313037571196e+00 +/- 3.9762768719747e-01
+y0 (offset) = -3.0700876328888e-01 +/- 1.2165995789221e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.4236945946759e+01
+R^2 = 0.9932385609669
+Adjusted R^2 = 0.9907030213295
+RMSE (Root Mean Squared Error) = 5.851234566035
+RSS (Residual Sum of Squares) = 308.1325135208
+---------------------------------------------------------------------------------------
+Iterations = 7
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:53:18	Plot: ''Graph1'']
+Exponential decay of dataset: Table1_aus, using function: A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+Weighting Method: Instrumental, using error bars dataset: Table1_daus
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+A1 (first amplitude) = 1.5803732203168e+00 +/- 1.3461962302561e+32
+t1 (first lifetime) = 3.9843838949207e+00 +/- 1.7666276459831e+18
+A2 (second amplitude) = 1.5803732203168e+00 +/- 1.6688982811819e+16
+t2 (second lifetime) = 3.9843838949207e+00 +/- 5.5396921445991e+17
+A3 (third amplitude) = 1.5803732203168e+00 +/- 1.3461962302561e+32
+t3 (third lifetime) = 3.9843838949207e+00 +/- 2.1370364301929e+18
+y0 (offset) = -2.2103036827985e-01 +/- 2.4041125753096e+14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6.8497543768813e+01
+R^2 = 0.9924846949642
+Adjusted R^2 = 0.9793329111516
+RMSE (Root Mean Squared Error) = 8.276324290941
+RSS (Residual Sum of Squares) = 342.4877188441
+---------------------------------------------------------------------------------------
+Iterations = 29
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:53:59	Plot: ''Graph4'']
+Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = 4.6339262872318e-22 +/- 6.2264734179958e-19
+t (lifetime) = 1.0000050606262e+00 +/- 2.6872968070211e+01
+y0 (offset) = 1.1934855706373e+00 +/- 4.6646449902800e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.0100778611708e+03
+R^2 = 0.3463738361284
+Adjusted R^2 = 0.06624833732623
+RMSE (Root Mean Squared Error) = 76.23245788106
+RSS (Residual Sum of Squares) = 46491.1010767
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:55:35	Plot: ''Graph5'']
+Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = 4.6339262872318e-22 +/- 6.2264734179958e-19
+t (lifetime) = 1.0000050606262e+00 +/- 2.6872968070211e+01
+y0 (offset) = 1.1934855706373e+00 +/- 4.6646449902800e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.0100778611708e+03
+R^2 = 0.3463738361284
+Adjusted R^2 = 0.06624833732623
+RMSE (Root Mean Squared Error) = 76.23245788106
+RSS (Residual Sum of Squares) = 46491.1010767
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:55:50	Plot: ''Graph1'']
+Exponential decay of dataset: Table1_aus, using function: A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+Weighting Method: Instrumental, using error bars dataset: Table1_daus
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+A1 (first amplitude) = 1.0981159647415e+07 +/- 1.4687405994117e+14
+t1 (first lifetime) = 6.8717099593841e+07 +/- 9.1909791313164e+14
+A2 (second amplitude) = 2.8748303933158e+00 +/- 1.5924718821905e+00
+t2 (second lifetime) = 2.0064984875511e+00 +/- 1.1113035464864e+00
+y0 (offset) = -1.0981157898397e+07 +/- 1.4687405994117e+14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1577301563641e+01
+R^2 = 0.9982216919449
+Adjusted R^2 = 0.9967397685656
+RMSE (Root Mean Squared Error) = 3.402543396291
+RSS (Residual Sum of Squares) = 81.04111094548
+---------------------------------------------------------------------------------------
+Iterations = 86
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:56:27	Plot: ''Graph1'']
+Exponential decay of dataset: Table1_aus, using function: y0+A*exp(-x/t)
+Weighting Method: Instrumental, using error bars dataset: Table1_daus
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 1.1000000000000e+01
+A (amplitude) = 4.6528534052693e+00 +/- 1.5301235837333e-01
+t (e-folding time) = 4.3313037571196e+00 +/- 3.9762768719747e-01
+y0 (offset) = -3.0700876328888e-01 +/- 1.2165995789221e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.4236945946759e+01
+R^2 = 0.9932385609669
+Adjusted R^2 = 0.9907030213295
+RMSE (Root Mean Squared Error) = 5.851234566035
+RSS (Residual Sum of Squares) = 308.1325135208
+---------------------------------------------------------------------------------------
+Iterations = 7
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:56:47	Plot: ''Graph3'']
+Exponential decay of dataset: Table2_aus, using function: y0+A*exp(-x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_daus
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+01
+A (amplitude) = 1.9597151826033e+00 +/- 1.8621400685178e-01
+t (e-folding time) = 1.1984143988761e+01 +/- 2.3539829131867e+00
+y0 (offset) = 7.4368319380807e-01 +/- 7.9360345620817e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.7653871295817e+01
+R^2 = 0.9289411772954
+Adjusted R^2 = 0.9052549030605
+RMSE (Root Mean Squared Error) = 7.593014638193
+RSS (Residual Sum of Squares) = 576.5387129582
+---------------------------------------------------------------------------------------
+Iterations = 11
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:57:09	Plot: ''Graph5'']
+Gauss Fit of dataset: Table2_ein, using function: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (area) = 2.3070619294594e+03 +/- 4.4853228395821e+03
+xc (center) = 4.6019334678146e+01 +/- 4.3726971665958e+00
+w (width) = 1.2450630830353e+02 +/- 9.4225990597687e+01
+y0 (offset) = -1.1278942378300e+01 +/- 1.7557560022559e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.5978904883398e+01
+R^2 = 0.9964591659212
+Adjusted R^2 = 0.9940986098686
+RMSE (Root Mean Squared Error) = 5.998241816016
+RSS (Residual Sum of Squares) = 251.8523341838
+---------------------------------------------------------------------------------------
+Iterations = 47
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:57:37	Plot: ''Graph5'']
+Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = 1.1120979706291e+08 +/- 1.5776880079665e+15
+t (lifetime) = 1.3498748947436e+09 +/- 1.9150123842239e+16
+y0 (offset) = -1.1120979689480e+08 +/- 1.5776880079665e+15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.3647286969020e+02
+R^2 = -3.305427740109
+Adjusted R^2 = -5.150611057299
+RMSE (Root Mean Squared Error) = 195.6515805905
+RSS (Residual Sum of Squares) = 306236.3279006
+---------------------------------------------------------------------------------------
+Iterations = 79
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:57:52	Plot: ''Graph5'']
+Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = 1.5012236700657e+08 +/- 2.7802144442737e+15
+t (lifetime) = 1.8221992916516e+09 +/- 3.3746501583597e+16
+y0 (offset) = -1.5012236683846e+08 +/- 2.7802144442737e+15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.3647286642853e+02
+R^2 = -3.305427774932
+Adjusted R^2 = -5.150611107045
+RMSE (Root Mean Squared Error) = 195.6515813818
+RSS (Residual Sum of Squares) = 306236.3303775
+---------------------------------------------------------------------------------------
+Iterations = 97
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:58:43	Plot: ''Graph5'']
+Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
+Weighting Method: Instrumental, using error bars dataset: Table2_dein
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 5.0000000000000e+01
+A (amplitude) = 4.6339262872318e-22 +/- 6.2264734179958e-19
+t (lifetime) = 1.0000050606262e+00 +/- 2.6872968070211e+01
+y0 (offset) = 1.1934855706373e+00 +/- 4.6646449902800e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.0100778611708e+03
+R^2 = 0.3463738361284
+Adjusted R^2 = 0.06624833732623
+RMSE (Root Mean Squared Error) = 76.23245788106
+RSS (Residual Sum of Squares) = 46491.1010767
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[14.11.2023 12:59:10	Plot: ''Graph5'']
 Exponential growth of dataset: Table2_ein, using function: y0+A*exp(x/t)
 Weighting Method: Instrumental, using error bars dataset: Table2_dein
 Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001

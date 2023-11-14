@@ -78,11 +78,30 @@ Nutzt man die Brennstoffzelle für Elektrolyse, so wird an einer Anode Wassersto
 Für die Erzeugung von Wasserstoff wird el. Energie in das System gespeist. Wasser wird dadurch in Wasserstoff und Sauerstoff gespalten. 
 \\
 \\
-Die Leistung, welche bei Elektrolyse entsteht, wird mit folgender Formel berechnet. 
+Die Leistung $P$, welche bei Elektrolyse entsteht, wird mit folgender Formel mit Unsicherheit berechnet. 
 \begin{equation}
     \label{eq:leistung}
     \centerline{$P = U*I$  \\ $\Delta P = \vert \frac{\partial }{\partial U} * \Delta U \vert + \vert \frac{\partial }{\partial I} * \Delta I \vert$}
 \end{equation}
+
+\noindent
+Desweiteren wird die Energie $E$ benötigt. Sie lässt sich mit der Formel
+
+\begin{equation}
+    \label{eq:energie}
+    \centerline{$E = P*t$  \\ $\Delta E = \vert \frac{\partial }{\partial P} * \Delta P \vert + \vert \frac{\partial }{\partial t} * \Delta t \vert$}
+\end{equation}
+\noindent
+und dazugehöriger Unsicherheit berechnen.
+\\
+\\
+Um den Wirkungsgrad $\eta$ zu berechnen benötigt man die Leistung $P$, die Energie $E$ sowie die Masse $m$. Um den Wirkungsgrad $\eta$ in Prozent anzuschreiben multipliziert man das Ergebnis nochmals mit 100.  
+
+\begin{equation}
+    \label{eq:wirkungsgrad}
+    \centerline{$\eta  = \frac{P}{E_{zu}} = \frac{P}{E*\frac{m}{molmasse}}$  \\ $\Delta \eta = \vert \frac{\partial }{\partial P} * \Delta P \vert + \vert \frac{\partial }{\partial E_{zu}} * \Delta E_{zu} \vert$}
+\end{equation}
+
 
 \subsection{Windkraft}
 Bei einem Windrad wird aus Bewegungsenergie el. Energie erzeugt. Ein Windrad ist in Rotor und Generator geteilt. Dabei unterscheidet man zwischen horizontalen und vertikalen Ausrichtungen. Bei vertikal ausgerichteten Windrädern ist die Windrichtung nicht relevant. Bei horizontalen Windrädern, wie man sie Heutzutage sieht, ist die Windrichtung entscheident. Der große Vorteil von horizontalen gegenüber Vertikalen ist der Wirkungsgrad, welcher mehr als 50\% beträgt. 
@@ -125,7 +144,13 @@ Daraus lässt sich die Auftriebskraft $F$ berechnen.
 
 \noindent
 Diese Tragflächen als Flügel am Windrad führen zu Drehmoment, und erzeugen dadurch am Generator Strom. 
-
+\\
+\\
+Für die Auswertung wird die erzeugte Menge an Wasserstoff/Sauerstoff pro Minute benötigt. Mit der folgenden Formel lässt sich diese, sowie dessen Unsicherheit berechnen. 
+\begin{equation}
+    \label{eq:prominute}
+    \centerline{$Menge/min = \frac{Gesamtmenge}{Gesamtzeit}$ \\ $\Delta M/min = \vert \frac{\partial }{\partial M} * \Delta M \vert + \vert \frac{\partial }{\partial t} * \Delta t \vert$}
+\end{equation}
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
 Der Versuch Erneuerbare Energien ist in mehrere Teilbereiche aufgeteilt. Im Ersten wird mit einer Solarzelle gearbeitet. Im Zweiten mit einer Brennstoffzelle. Der dritte Teil besteht aus Windmaschine und Windrad. 
@@ -157,6 +182,13 @@ Im letzten Abschnitt wird das Windrad und die Brennstoffzelle kombiniert. Genaue
         \includegraphics[width=0.6\linewidth]{nudes/wind und brennstoff.jpg}
         \caption{Aufbau des Teilversuches Speicherung der Energie}
         \label{fig:aufbau Speicherung Energie}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\linewidth]{nudes/schaltpläne.png}
+        \caption{Zu vorbereitende Schaltpläne}
+        \label{fig:schaltpläne}
     \end{figure}
 
 \section{Geräteliste} %jo holt a listn ------------------------------
@@ -454,7 +486,7 @@ Das zweite Szenario testet, was passiert, wenn der Luftstrom abbrupt startet.
 \end{table}
 
 \noindent
-Im dritten Szenario werden die beiden vorherigen Szenarios erneut getestet, nur mit einem Kondensator von 1$\mu$F zwischen Windrad und Multimeter. 
+Im dritten Szenario werden die beiden vorherigen Szenarios erneut getestet, nur mit einem Kondensator zwischen Windrad und Multimeter. 
 Hierbei wird die Spannung $U$ alle 5 Sekunden gemessen. 
 
 \begin{table}[H]
@@ -485,7 +517,7 @@ Hierbei wird die Spannung $U$ alle 5 Sekunden gemessen.
 \noindent
 Im letzten Teil wird die erzeugte Spannung des Windrades als Spannungsquelle für die Brennstoffzelle verwendet. 
 Die Schaltung wird wie in Abbildung \ref{fig:aufbau Speicherung Energie} aufgebaut. 
-Die Eingangsspannung $U_{ein}$ beträgt $(10.0 \pm 0.1)V$. Bei Start der Messung betrug der Stand im Wasserstofftank $(8 \pm 1)ml$ und im Sauerstofftank $(5 \pm 1)ml$
+Die Eingangsspannung $U_{ein}$ beträgt $(10.0 \pm 0.1)V$, der Abstand $d = (5 \pm 0.1)cm$ beträgt . Bei Start der Messung betrug der Stand im Wasserstofftank $(8 \pm 1)ml$ und im Sauerstofftank $(5 \pm 1)ml$
 Beim Stoppen der Messung betrug der Stand im Wasserstofftank $(12 \pm 1)ml$ und im Sauerstofftank $(7 \pm 1)ml$. Dies dauerte insgesamt $(267.5 \pm 0.1) s$. 
 
 
@@ -516,7 +548,7 @@ Die Spannungen $U$ und Ströme $I$ der Abstandsmessungen werden in den nachfolge
 \end{figure}
 
 \noindent
-Bei den Diagramm der Spannung $U$ lässt sich erkennen, dass die Spannung $U$ linear abfällt mit dem Abstand $d$ zur Lichtquelle. Bei der seriell Schaltung (grün) erkennt man, dass die einzelnen Spannungen $U_{Links}$ (schwarz) und $U_{Rechts}$ (rot) addiert werden, die Parallelschaltung (blau) hingegen wird nicht addiert. 
+Bei den Diagramm der Spannung $U$ lässt sich erkennen, dass die Spannung $U$ linear abfällt mit dem Abstand $d$ zur Lichtquelle. Bei der Seriellschaltung (grün) erkennt man, dass die einzelnen Spannungen $U_{Links}$ (schwarz) und $U_{Rechts}$ (rot) addiert werden, die Parallelschaltung (blau) hingegen wird nicht addiert. 
 Im gegenzug bei dem Diagramm der Stromstärke $I$ erkennt man einen exponentiellen Abfall der Stromstärke $I$. Bei der Parallelschaltung (blau) erkennt man, dass die einzelnen Ströme $I_{Links}$ (schwarz) und $I_{Rechts}$ (rot) addiert werden. 
 
 \subsection{Brennstoffzelle}
@@ -531,11 +563,16 @@ Die Brennstoffzelle wandelt in diesen Versuch elektrische Energie in chemische E
 \end{figure}
 
 \noindent
-Um die Leistung der Brennstoffzelle zu berrechnen, benötigt man die Spannung $U$ und den Strom $I$. 
-Eingesetzt in die Formel \ref{eq:leistung} kann man die Leistung berrechnen. 
+Im zweiten Teil gilt es die Leistung der Brennstoffzelle zu berrechnen. Dazu benötigt man die Spannung $U$ und den Strom $I$. 
+Eingesetzt in die Formel \ref{eq:leistung} kann man die Leistung $P$ berrechnen und kommt auf einen Wert von $P = (0.10 \pm 0.02)W$. 
+\\
+Die Energie $E$ lässt sich aus der Leistung $P$ und der Zeit $t$ pro Volumeneinheit berrechnen. Die Zeit $t$ pro Volumeneinheit lässt sich mit dem Kehrwert Formel \ref{eq:prominute} berrechnen und man erhält für die Zeit $t = (0.63 \pm 0.09)min$, was in Sekunden $t = (36.2 \pm 5.4)s$ entspricht. 
+Mit diesen Werten und der Formel \ref{eq:energie} kommt man für die Energie $E$ auf den Wert von $E = (3.7 \pm 1.3)J$. 
+Um den Wirkungsgrad zu berrechnen benötigt man die Leistung $P$, sowie die zugeführte Energie $E_{zu}$. Diese lässt sich aus der Energie $E$ sowie der Molzahl des verbrauchten Wasserstoffes berrechnen. Eine Volumeneinheit beträgt dabei 1ml, was 0.09g entspricht. 
+Eingesetzt in die Formel \ref{eq:wirkungsgrad} mit einer Molaren Masse des Wasserstoff von 2.016 g/mol, erhält man einen Wirkungsgrad von $\eta = (60.6 \pm 40.1)\%$. 
 \\
 \\
-Für die Werte aus der Tabelle \ref{tab:Messdaten Kennlinie Brennstoffzelle} wird die Spannung $U$ in Abhängigkeit des Stromes $I$ dargestellt. 
+Im dritten Teil wird für die Werte aus der Tabelle \ref{tab:Messdaten Kennlinie Brennstoffzelle} die Spannung $U$ in Abhängigkeit des Stromes $I$ dargestellt. 
 
 \begin{figure}[H]
     \centering
@@ -627,7 +664,7 @@ Mit den Messdaten der Tabelle \ref{tab:Messdaten Windkraft abbrupt stop} wird ei
 \end{figure}
 
 \noindent
-Hingegen startet man den Luftstrom abbrupt, so lässt sich ein erst langsamer Anstieg der Leerlaufspannung $U_{leer}$ erkennen, welcher sich über zeit linearisiert und sich der maximalen Leerlaufspannung $U_{leer}$ nähert und diese dann erreicht. 
+Hingegen startet man den Luftstrom abbrupt, so lässt sich ein erst langsamer Anstieg der Leerlaufspannung $U_{leer}$ erkennen, welcher sich über Zeit der maximalen Leerlaufspannung $U_{leer}$ nähert und diese dann erreicht. 
 
 \begin{figure}[H]
     \centering
@@ -636,11 +673,166 @@ Hingegen startet man den Luftstrom abbrupt, so lässt sich ein erst langsamer An
     \label{fig:windkraft start diagramm}
 \end{figure}
 
-\section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
+\noindent
+Bei hinzugefügten Kondensator lässt sich ein ähnlicher Anstieg/Abfall der Leerlaufspannung $U_{leer}$ erkennen. 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/wind kondensator stopp.jpg}
+    \caption{Leerlaufspannung $U_{leer}$ der Windkraft bei abbrupten Stopp des Luftstromes pro Sekunde mit zugeschaltetem Kondensator.}
+    \label{fig:windkraft stopp kondensator diagramm}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/wind kondensator start.jpg}
+    \caption{Leerlaufspannung $U_{leer}$ der Windkraft bei abbrupten Start des Luftstromes pro Sekunde mit zugeschaltetem Kondensator.}
+    \label{fig:windkraft start kondensatordiagramm}
+\end{figure}
+
+\noindent
+Aus den obigen Graphen wird die Zeitkonstante $t$ über einen exponentiellen Fit (rote Kurve) ermittelt. Dabei ergeben sich folgende Werte: 
+
+\begin{itemize}
+    \item Start ohne Kondensator: $t = (8.4 \pm 2.3)s$
+    \item Stopp ohne Kondensator: $t = (4.41 \pm 0.4)s$
+    \item Start mit Kondensator: $t = (1.0 \pm 26.9)s$
+    \item Stopp mit Kondensator: $t = (0.2 \pm 2.4)s$
+\end{itemize}
+
+\noindent
+Der letzte Teil verwendet die erzeugte Spannung des Windrades als Spannungsquelle für die Brennstoffzelle. Die Zelle speichert die Energie als chemisches Potential, indem Wasserstoff und Sauerstoff erzeugt wird. 
+Laut den Messdaten erzeugt die Zelle in $(256.5 \pm 0.1)s$ $(4 \pm 1)ml$ Wasserstoff und $(2 \pm 1)ml$ Sauerstoff. 
+Eingesetzt in die Formel \ref{eq:prominute} sieht man, dass die Brennstoffzelle pro Minute eine Wasserstoffmenge von $(1.0 \pm 0.3)ml$ und eine Sauerstoffmenge von $(0.5 \pm 0.3)ml$ erzeugt. 
+
+\section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
+Anmerkung, in einigen Diagrammen sind die Unsicherheitsbalken teilweise nicht erkennbar, weil die Unsicherheiten teilweise sehr klein sind. 
+
+\subsection{Photovoltaik}
+Die Photovoltaik revolutionierte die Energieherstellung. Alles was dafür benötigt war, ist eine Solarzelle und gutes Wetter. Die Energei der Sonne kann zur Stromerzeugung genutzt werden. 
+Möglich mach dies der photoelektrische Effekt, welcher von dem bekannten Physiker Albert Einstein gedeutet wurde \cite{wiki1}. Dieser erhielt dafür auch den Nobelpreis im Jahre 1921 \cite{wiki2}. 
+\\
+\\
+In dem Experiment Photovoltaik wird gemessen, wie sich die Spannung und der Strom in verschiedenen Schaltungen verhalten. 
+Dabei ist zu beobachten, dass sich bei einer Seriellschaltung die Spannung verdoppelt und bei einer Parallelschaltung der Strom. 
+\\
+Bei der Strommessung (Diagramm \ref{fig:diagramm Photovoltaik I-d}) ist zu erkennen, dass bei geringsten Abstand nicht der höchste Strom gemessen wurde. 
+Dies kann verschiedene Gründe zufolge haben. Zu einem kann die Zelle überhitzen, da die Lichtquelle auch Wärmeenergie abstrahlt, es könnte aber auch die Lichtintensität zu hoch für dieses Solarmodul sein. 
+Es gibt einen Punkt, wo zuviel Licht negative Auswirkungen auf die Solarzelle hat. Laut dem Diagramm \ref{fig:diagramm Photovoltaik I-d} ist dieser Punkt bei einen Abstand kleiner als 5cm. Der optimale Abstand liegt laut dem Diagramm zwischen 10 und 15 cm. 
+\\
+\\
+Es lässt sich jedoch auf eine fehlerfreie Durchführung schließen. 
+
+\subsection{Brennstoffzelle}
+Brennstoffzellen gewinnen immer mehr an Popularität. Besonders Autos, welche über Brennstoffzellen betrieben werden haben einen hohen Wert in der aktuellen Forschung. 
+\\
+\\
+In diesem Experiment wird eine Brennstoffzelle als Elektrolyse betrieben um Strom zu erzeugen, sowohl auch als kalter Verbrenner um Wasserstoff und Sauerstoff herzustellen. 
+Bei der Elektrolyse ist zu beobachte, je höher die Eingangsspannung ist, umso schneller wird Wasserstoff und Sauerstoff erzeugt und umso höher der Strom. 
+Dabei wird elektrische Energie in chemische Energie umgewandelt. 
+\\
+\\
+Im zweiten Teil wird aus der vorhandenen chemischen Energie elektrische Energie erzeugt. 
+Dadurch lässt sich der Wirkungsgrad bestimmen. Eine Brennstoffzelle besitzt einen Wirkungsgrad von 35-62\% \cite{wiki3}, was auch in diesem Experiment das Ergebnis ist. 
+\\
+Es lässt sich daher auf eine fehlerfreie Durchführung schließen. 
+
+\subsection{Windkraft}
+Windkraft nutzt die Energie des Windes um elektrische Energie zu erzeugen. Dabei werden die Flügel des Windrades Tragflächenförmig angeordnet. 
+Durch diese Form entstehen unterschiedliche Strömungsgeschwindigkeiten, wie in Abbildung \ref{fig:tragfläche} der Grundlagen ersichtlich ist. 
+\\
+\\
+Bei diesem Versuch wird gezeigt, dass je stärker der Wind, desto stärker der Energieoutput des Windrades. Laut der Tabelle \ref{tab:Messdaten Windkraft stationär} sieht man mit steigender Eingangsspannung, also ein stärkerer Wind, einen linear ansteigenden Energieoutput. 
+Auch wie in Tabelle \ref{tab:Messdaten Windkraft mit d} gezeigt wird, nimmt die Leistung mit zunehmenden Abstand zur Windmaschine annähernd linear ab. 
+\\
+\\
+Bei abbrupten Stoppen des Luftstromes kommt es durch die Drehimpulserhaltung nicht sofort zu einem stopp der Energieerzeugung, sondern erst nach gewisser Zeit. Dies lässt sich auch bei zugeschaltenem Kondensator beobachten. 
+Auch bei abbrupten Starten des Luftstromes läuft das Windrad nicht sofort auf maximalem Energieoutput, erst nach gewisser Zeit. 
+\\
+\\
+Es lässt sich auf eine Fehlerfreie Durchführung schließen. 
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+\subsection{Photovoltaik}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/u-d diagramm.jpg}
+    \includegraphics[width=0.6\linewidth]{nudes/i-d diagramm.jpg}
+    \caption{Diagramme der Spannung $U$ und Stromstärke $I$ in Abhängigkeit des Abstands $d$.}
+    \label{fig:zusammenfassung Photovoltaik}
+\end{figure}
+
+\subsection{Brennstoffzelle}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/brennstoff diagramm i-u.jpg}
+    \caption{Diagramm der Brennstoffzelle. Kennlinie bei kalter Verbrennung.}
+    \label{fig:zusammenfassung Brennstoffzelle kennlinie verbrennung}
+\end{figure}
+
+\begin{itemize}
+    \item $P = (0.10 \pm 0.02)W$
+    \item $E = (3.7 \pm 1.3)J$ 
+    \item $\eta = (60.6 \pm 40.1)\%$
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/brennstoff diagramm ohne r.jpg}
+    \includegraphics[width=0.6\linewidth]{nudes/brennstoff diagramm mit r.jpg}
+    \caption{Kennlinie der Brennstoffzelle bei Elektrolyse mit und ohne Widerstand.}
+    \label{fig:zusammenfassung Brennstoffzelle Widerstand}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/brennstoff leistung ohne r.jpg}
+    \includegraphics[width=0.6\linewidth]{nudes/brennstoff leistung mit r.jpg}
+    \caption{Leistung der Brennstoffzelle bei Elektrolyse mit und ohne Widerstand.}
+    \label{fig:zusammenfassung Brennstoffzelle Leistung}
+\end{figure}
+
+\subsection{Windkraft}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/wind spannung.jpg}
+    \includegraphics[width=0.6\linewidth]{nudes/wind abstand.jpg}
+    \caption{Windkraft bei steigender Eingangsspannung $U_{ein}$ und bei steigendem Abstand $d$. }
+    \label{fig:zusammenfassung Windkraft steigend und fallend}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/wind stopp.jpg}
+    \includegraphics[width=0.6\linewidth]{nudes/wind start.jpg}
+    \caption{Leerlaufspannung $U_{leer}$ bei abbrupten Stopp/Start ohne Kondensator}
+    \label{fig:zusammenfassung Windkraft stopp start ohne}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/wind kondensator stopp.jpg}
+    \includegraphics[width=0.6\linewidth]{nudes/wind kondensator start.jpg}
+    \caption{Leerlaufspannung $U_{leer}$ bei abbrupten Stopp/Start mit Kondensator}
+    \label{fig:zusammenfassung Windkraft stopp start mit}
+\end{figure}
+
+Zeitkonstanten bei 
+
+\begin{itemize}
+    \item Start ohne Kondensator: $t = (8.4 \pm 2.3)s$
+    \item Stopp ohne Kondensator: $t = (4.41 \pm 0.4)s$
+    \item Start mit Kondensator: $t = (1.0 \pm 26.9)s$
+    \item Stopp mit Kondensator: $t = (0.2 \pm 2.4)s$
+\end{itemize}
+
+\begin{itemize}
+    \item Erzeugte Wasserstoffmenge pro Minute: $(1.0 \pm 0.3)ml$
+    \item Erzeugte Sauerstoffmenge pro Minute: $(0.5 \pm 0.3)ml$
+\end{itemize}
 
 \printbibliography[heading=bibintoc]
 \end{document}

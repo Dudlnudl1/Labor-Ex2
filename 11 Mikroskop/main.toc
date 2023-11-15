@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{8}{section.5}%
 \contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{11}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Objektivvergrößerung altes Mikroskop und Diagramm}{11}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Okularvergrößerung}{12}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Okularvergrößerung}{13}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Objektivbrennweite}{13}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Gesamtvergrößerung neues Mikroskop}{13}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}Vergleich Mikroskope alt/neu}{13}{subsection.6.5}%

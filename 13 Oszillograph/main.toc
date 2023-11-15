@@ -3,9 +3,9 @@
 \contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{3}{section.2}%
 \contentsline {section}{\numberline {3}Versuchsanordnung}{5}{section.3}%
 \contentsline {section}{\numberline {4}Geräteliste}{9}{section.4}%
-\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Serienschaltung}{9}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Serienschwingkreis}{10}{subsection.5.2}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Serienschaltung}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Serienschwingkreis}{11}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Eigenfrequenz}{12}{subsection.5.3}%
 \contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{13}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Serienschaltung}{13}{subsection.6.1}%

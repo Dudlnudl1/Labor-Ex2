@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  18 OCT 2023 17:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  15 NOV 2023 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1562,62 +1562,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--121
  []
 
 [4 <./nudes/Brechung.png>]
-<nudes/versuch.jpg, id=174, 4047.12pt x 3035.34pt>
+<nudes/versuch.jpg, id=174, 1517.67pt x 2023.56pt>
 File: nudes/versuch.jpg Graphic file (type jpg)
 <use nudes/versuch.jpg>
 Package pdftex.def Info: nudes/versuch.jpg  used on input line 135.
-(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
-<nudes/messskala.jpg, id=175, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 273.14923pt x 364.19421pt.
+<nudes/messskala.jpg, id=175, 1517.67pt x 2023.56pt>
 File: nudes/messskala.jpg Graphic file (type jpg)
 <use nudes/messskala.jpg>
 Package pdftex.def Info: nudes/messskala.jpg  used on input line 144.
-(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
+(pdftex.def)             Requested size: 273.14923pt x 364.19421pt.
  [5 <./nudes/versuch.jpg>]
-<nudes/gitter.jpg, id=183, 4047.12pt x 3035.34pt>
+<nudes/gitter.jpg, id=183, 1517.67pt x 2023.56pt>
 File: nudes/gitter.jpg Graphic file (type jpg)
 <use nudes/gitter.jpg>
 Package pdftex.def Info: nudes/gitter.jpg  used on input line 151.
-(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
-<nudes/prisma.jpg, id=184, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 273.14923pt x 364.19421pt.
+<nudes/prisma.jpg, id=184, 1517.67pt x 2023.56pt>
 File: nudes/prisma.jpg Graphic file (type jpg)
 <use nudes/prisma.jpg>
 Package pdftex.def Info: nudes/prisma.jpg  used on input line 152.
-(pdftex.def)             Requested size: 273.14923pt x 204.85345pt.
- [6 <./nudes/messskala.jpg> <./nudes/gitter.jpg> <./nudes/prisma.jpg>]
-<nudes/na-lampe1.jpg, id=192, 2136.98375pt x 2134.97626pt>
+(pdftex.def)             Requested size: 273.14923pt x 364.19421pt.
+ [6 <./nudes/messskala.jpg>] [7 <./nudes/gitter.jpg> <./nudes/prisma.jpg>]
+<nudes/na-lampe1.jpg, id=197, 1069.9975pt x 1067.99pt>
 File: nudes/na-lampe1.jpg Graphic file (type jpg)
 <use nudes/na-lampe1.jpg>
 Package pdftex.def Info: nudes/na-lampe1.jpg  used on input line 209.
-(pdftex.def)             Requested size: 273.14923pt x 272.86555pt.
- [7]
-<nudes/stacked.png, id=200, 2032.59375pt x 940.51375pt>
+(pdftex.def)             Requested size: 273.14923pt x 272.63533pt.
+ [8]
+<nudes/stacked.png, id=204, 2032.59375pt x 940.51375pt>
 File: nudes/stacked.png Graphic file (type png)
 <use nudes/stacked.png>
 Package pdftex.def Info: nudes/stacked.png  used on input line 251.
 (pdftex.def)             Requested size: 273.14923pt x 126.38983pt.
- [8 <./nudes/na-lampe1.jpg>] [9 <./nudes/stacked.png>]
-<nudes/rgb wand.jpg, id=217, 1764.5925pt x 2191.18625pt>
+ [9 <./nudes/na-lampe1.jpg>] [10 <./nudes/stacked.png>]
+<nudes/rgb wand.jpg, id=221, 883.3pt x 1096.095pt>
 File: nudes/rgb wand.jpg Graphic file (type jpg)
 <use nudes/rgb wand.jpg>
 Package pdftex.def Info: nudes/rgb wand.jpg  used on input line 319.
-(pdftex.def)             Requested size: 273.14923pt x 339.16228pt.
- [10 <./nudes/rgb wand.jpg>]
+(pdftex.def)             Requested size: 273.14923pt x 338.94969pt.
+ [11 <./nudes/rgb wand.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 353--359
 
  []
 
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 429--435
 
  []
 
-[12]
-<nudes/Dispersion.png, id=257, 382.42876pt x 303.38344pt>
+[13]
+<nudes/Dispersion.png, id=262, 382.42876pt x 303.38344pt>
 File: nudes/Dispersion.png Graphic file (type png)
 <use nudes/Dispersion.png>
 Package pdftex.def Info: nudes/Dispersion.png  used on input line 484.
 (pdftex.def)             Requested size: 273.14923pt x 216.69994pt.
- [13 <./nudes/Dispersion.png (PNG copy)>]
+ [14 <./nudes/Dispersion.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 507--516
 
  []
@@ -1627,17 +1627,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 542--548
 
  []
 
-<nudes/Dispersionskurve.png, id=274, 655.44875pt x 541.02126pt>
+<nudes/Dispersionskurve.png, id=278, 655.44875pt x 541.02126pt>
 File: nudes/Dispersionskurve.png Graphic file (type png)
 <use nudes/Dispersionskurve.png>
 Package pdftex.def Info: nudes/Dispersionskurve.png  used on input line 551.
 (pdftex.def)             Requested size: 273.14923pt x 225.46074pt.
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 587--589
 
  []
 
-[15 <./nudes/Dispersionskurve.png>]
+[16 <./nudes/Dispersionskurve.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 607--609
 
  []
@@ -1646,20 +1646,23 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 630
 (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-<nudes/uns2.jpg, id=294, 2127.95pt x 2413.015pt>
+<nudes/uns2.jpg, id=298, 2127.95pt x 2413.015pt>
 File: nudes/uns2.jpg Graphic file (type jpg)
 <use nudes/uns2.jpg>
 Package pdftex.def Info: nudes/uns2.jpg  used on input line 634.
 (pdftex.def)             Requested size: 455.24411pt x 516.21075pt.
- [16]
-<nudes/uns1.jpg, id=308, 3064.44875pt x 3035.34pt>
+ [17]
+<nudes/uns1.jpg, id=312, 3064.44875pt x 3035.34pt>
 File: nudes/uns1.jpg Graphic file (type jpg)
 <use nudes/uns1.jpg>
 Package pdftex.def Info: nudes/uns1.jpg  used on input line 641.
 (pdftex.def)             Requested size: 455.24411pt x 450.8814pt.
- [17 <./nudes/uns2.jpg>] 
+ [18 <./nudes/uns2.jpg>] 
 AED: lastpage setting LastPage
-[18 <./nudes/uns1.jpg>] (main.aux)
+[19 <./nudes/uns1.jpg>] (main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 10E925D37499595F718CE9C3788FE74E;2189.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1667,17 +1670,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40946 strings out of 476339
- 817231 string characters out of 5788120
+ 40947 strings out of 476339
+ 817238 string characters out of 5788120
  1865340 words of memory out of 5000000
  60664 multiletter control sequences out of 15000+600000
  523646 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,735b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (18 pages, 26087104 bytes).
+Output written on main.pdf (19 pages, 14256856 bytes).
 PDF statistics:
- 632 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
+ 637 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
  245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

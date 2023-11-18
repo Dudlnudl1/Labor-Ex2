@@ -1,0 +1,87 @@
+\documentclass[12pt,a4paper,twoside]{article}
+\usepackage{labor}
+\begin{document}
+
+%fill for cover and header creation
+\newcommand\laboratorynumber{2}
+\title{Fallrohr}
+\newcommand\supervisor{Ditlbacher, Harald}
+\newcommand\groupnumber{42}
+
+\newcommand\participantonelastname{Eisner}
+\newcommand\participantonefirstname{Nico}
+\newcommand\participantoneid{12214121}
+\newcommand\participanttwolastname{Waldl}
+\newcommand\participanttwofirstname{Philip}
+\newcommand\participanttwoid{12214120}
+\author{\participantonelastname \ \& \participanttwolastname}
+
+\newcommand\degreeid{UB 033 678}
+\newcommand\semester{23WS}
+\date{14.10.2023}
+
+%select correct course title
+%\newcommand\coursetitle{Einführung in die \\ physikalischen Messmethoden}
+%\newcommand\coursetitle{Laborübungen 1: \\ Mechanik und Wärme}
+\newcommand\coursetitle{Laborübungen 2: \\ Elektrizität, Magnetismus, Optik}
+%\newcommand\coursetitle{Fortgeschrittenen Praktikum 1: \\ Technische Physik}
+%\newcommand\coursetitle{Fortgeschrittenen Praktikum 2: \\ Allgemeine Physik}
+
+%\input{cover}
+%\maketitle %short title alternative
+
+\includepdf[pages={1}]{../Deckblätter/Deckblatt_Gitter.pdf}
+
+\tableofcontents
+\newpage
+
+\section{Aufgabenstellung} %jo beschreibn wos gmocht host ------------------------------
+
+
+\section{Voraussetzungen \& Grundlagen} %Grundlagen erklären, Formeln mit erklärung
+
+    \begin{equation}
+        \label{eq:Müll}
+        \centerline{$M=\frac{muell}{malle}$}
+    \end{equation}
+
+\section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
+
+    \begin{figure}[H]
+        \centering
+        %\includegraphics[width=0.6\linewidth, angle=-90]{nudes/bild.jpg}
+        \caption{müll}
+        \label{fig:müllbild}
+    \end{figure}
+
+\section{Geräteliste} %jo holt a listn ------------------------------
+
+    \begin{table}[H]
+        \centering
+        \caption{Im Versuch verwendete Geräte und Utensilien.}
+        \label{tab:geraete}
+        \begin{tabular}{| l | l | l | l |}
+            \hline
+            Gerät   & Typ   & Gerätenummer  & Unsicherheit \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+
+\section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
+
+
+\section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
+
+In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
+Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
+
+
+\section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
+
+
+\section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+
+
+\printbibliography[heading=bibintoc]
+\end{document}

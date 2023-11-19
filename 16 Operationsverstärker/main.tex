@@ -4,7 +4,7 @@
 
 %fill for cover and header creation
 \newcommand\laboratorynumber{2}
-\title{Fallrohr}
+\title{Operationsverstärker}
 \newcommand\supervisor{Ditlbacher, Harald}
 \newcommand\groupnumber{42}
 
@@ -18,7 +18,7 @@
 
 \newcommand\degreeid{UB 033 678}
 \newcommand\semester{23WS}
-\date{18.11.2023}
+\date{17.11.2023}
 
 %select correct course title
 %\newcommand\coursetitle{Einführung in die \\ physikalischen Messmethoden}
@@ -30,7 +30,7 @@
 %\input{cover}
 %\maketitle %short title alternative
 
-\includepdf[pages={1}]{../Deckblätter/Deckblatt_Gitter.pdf}
+\includepdf[pages={1}]{../Deckblätter/Deckblatt_Operationsverstärker.pdf}
 
 \tableofcontents
 \newpage
@@ -80,6 +80,14 @@ Wie bereits im Kapitel Aufgabenstellung eingeleitet ist der Operationsverstärke
 
 \noindent
 In Abbildung \ref{fig:OpvAufbau} lassen sich die beiden Eingänge 1 (invertiert) und 2 (nicht invertiert) und der Ausgang 3 erkennen. Weiters befindet sich im OPV (meist dargestellt als Dreieck) ein Differenzenverstärker 6 und ein Impedanzwandler 7. Für den Betrieb ist außerdem eine Spannungsversorgung 5 und ein gemeinsamer Groundpunkt 4 von nöten. \newline
+
+\noindent
+Die Verstärkung eines OPV wird oft auch in Dezibel angegeben, wofür folgende Formel zur Umrechnung verwendet wurde:
+
+\begin{equation}
+    \label{eq:VerstärkungDezibel}
+    \centerline{$V_{L} = 20*log(\frac{U_{2}}{U_{1}}) = 20*log(V)$}
+\end{equation}
 
 \noindent
 Mit dem beschriebenen Operationsverstärker lassen sich nun einige Grundschaltungen darstellen:
@@ -202,8 +210,8 @@ Zu Beginn des Versuches wurden zwei grundlegende Schaltungen realisiert, welche 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\linewidth]{nudes/GrundschaltungAufbau1.jpg}
-    \includegraphics[width=0.4\linewidth]{nudes/GrundschaltungAufbau2.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/GrundschaltungIRL1.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/GrundschaltungIRL2.jpg}
     \caption{Grundschaltungen realer Aufbau}
     \label{fig:GrundschaltungenAufbauIRL}
 \end{figure}
@@ -214,7 +222,7 @@ Folgend dazu wurde dann der invertierende Verstärker realisiert. Der Schaltungs
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\linewidth]{nudes/InvertierenderVerstärkerSchaltungAufbau.jpg}
-    \includegraphics[width=0.4\linewidth]{nudes/InvertierenderVerstärkerSchaltungAufbau.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/InvertierenderVerstIRL.jpg}
     \caption{Invertierender Verstärker Schaltung und realer Aufbau \cite{teachcenter2}}
     \label{fig:SchaltungInvertierenderVerstärker}
 \end{figure}
@@ -225,7 +233,7 @@ Natürlich wurde dann auch der nichtinvertierende Verstärker in Realität umges
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\linewidth]{nudes/NichtInvertierenderVerstärkerSchaltungAufbau.jpg}
-    \includegraphics[width=0.4\linewidth]{nudes/NichtInvertierenderVerstärkerSchaltungAufbau.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/NichtinvertierenderIRL.jpg}
     \caption{Nichtinvertierender Verstärker Schaltung und realer Aufbau \cite{teachcenter2}}
     \label{fig:SchaltungNichtInvertierenderVerstärker}
 \end{figure}
@@ -236,7 +244,7 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\linewidth]{nudes/DifferenziererSchaltungAufbau.jpg}
-    \includegraphics[width=0.4\linewidth]{nudes/DifferenziererSchaltungAufbau.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/DifferenziererIRL.jpg}
     \caption{Differenzierer Schaltung und realer Aufbau \cite{teachcenter2}}
     \label{fig:SchaltungDifferenzierer}
 \end{figure}
@@ -244,7 +252,7 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.4\linewidth]{nudes/IntegriererSchaltungAufbau.jpg}
-    \includegraphics[width=0.4\linewidth]{nudes/IntegriererSchaltungAufbau.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/IntegriererIRL.jpg}
     \caption{Integrierer Schaltung und realer Aufbau \cite{teachcenter2}}
     \label{fig:SchaltungIntegrierer}
 \end{figure}
@@ -359,7 +367,7 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
     \label{tab:NioVerstärkungenGemessen}
     \begin{tabular}{| l | l | l | l | l |}
         \hline
-        Nr. & $R_{2}$ / $k \Omega$ & V ($\frac{Kästchen}{Kästchen}$) / & V / dB & U pro Kästchen / V \\
+        Nr. & $R_{2}$ / $k \Omega$ & V ($\frac{Kaestchen}{Kaestchen}$) / & V / dB & U pro Kästchen / V \\
         \hline
         1 &  0.00 $\pm$  & $\frac{1.0}{1.0}$ =  1.000 $\pm$  &  $\pm$  & 0.5 $\pm$  \\
         2 &  0.47 $\pm$  & $\frac{2.2}{1.5}$ =  1.467 $\pm$  &  $\pm$  & 0.5 $\pm$  \\

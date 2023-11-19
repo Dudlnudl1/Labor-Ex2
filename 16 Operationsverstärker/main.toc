@@ -1,15 +1,15 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Aufgabenstellung}{4}{section.1}%
-\contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Invertierender Verstärker}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Nichtinvertierender Verstärker}{6}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Addierer, Subtrahierer}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Differenzierer}{7}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Integrierer}{7}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Versuchsanordnung}{7}{section.3}%
-\contentsline {section}{\numberline {4}Geräteliste}{10}{section.4}%
-\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{10}{section.5}%
-\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{11}{section.6}%
-\contentsline {section}{\numberline {7}Diskussion}{11}{section.7}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{11}{section.8}%
-\contentsline {section}{Literatur}{11}{section*.20}%
+\contentsline {section}{\numberline {1}Aufgabenstellung}{3}{section.1}%
+\contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Invertierender Verstärker}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Nichtinvertierender Verstärker}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Addierer, Subtrahierer}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Differenzierer}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Integrierer}{6}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Versuchsanordnung}{6}{section.3}%
+\contentsline {section}{\numberline {4}Geräteliste}{9}{section.4}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{9}{section.5}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{10}{section.6}%
+\contentsline {section}{\numberline {7}Diskussion}{10}{section.7}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{10}{section.8}%
+\contentsline {section}{Literatur}{10}{section*.20}%

@@ -4,7 +4,7 @@
 
 %fill for cover and header creation
 \newcommand\laboratorynumber{2}
-\title{Fallrohr}
+\title{Dünne Linsen}
 \newcommand\supervisor{Ditlbacher, Harald}
 \newcommand\groupnumber{42}
 
@@ -18,7 +18,7 @@
 
 \newcommand\degreeid{UB 033 678}
 \newcommand\semester{23WS}
-\date{14.10.2023}
+\date{17.11.2023}
 
 %select correct course title
 %\newcommand\coursetitle{Einführung in die \\ physikalischen Messmethoden}
@@ -30,20 +30,79 @@
 %\input{cover}
 %\maketitle %short title alternative
 
-\includepdf[pages={1}]{../Deckblätter/Deckblatt_Gitter.pdf}
+\includepdf[pages={1}]{../Deckblätter/Deckblatt_Dünne_Linsen.pdf}
 
 \tableofcontents
 \newpage
 
 \section{Aufgabenstellung} %jo beschreibn wos gmocht host ------------------------------
+Im Experiment Dünne Linsen gilt es Brennweite einer Sammellinse über zwei verschiedene Metoden zu bestimmen. 
+Die Erste Methode ist jene nach der Laplace'sche Methode, die zweite nach dem Bessel'schen Verfahren. 
+Desweiteren ist die Brennweite einer Zerstreuungslinse zu bestimmen. 
+Zum schluss sollen noch einige Linsenfehler veranschaulicht werden. 
+\\
+\\
+Gesuche Größen: 
+\begin{itemize}
+    \item Brennweite Laplace Sammellinse
+    \item Brennweite Bessel Sammellinse
+    \item Brennweite Zerstreuungslinse
+\end{itemize}
 
+\noindent
+Alle Informationen und Methodiken wurden uns von der Technischen Universität bereitgestellt \cite{teachcenter2}. 
 
 \section{Voraussetzungen \& Grundlagen} %Grundlagen erklären, Formeln mit erklärung
+Für die Bestimmung der Brennweite einer Sammellinse gibt es, wie im vorherigen Kapitel erwähnt, mehrere Verfahren. 
+\\
+\\
+Bei der Laplace'sche Methode Methode wird durch Messung der Längen $g$ und $b$ bei fokussierten Bild die Brennweite $f$ bestimmt. 
+In der folgenden Abbildung \ref{fig:laplace_theorie} sieht man die Längen dargestellt. Dabei ist die Bildweite $b$ jene zwischen Linse und Schirm und die Gegenstandweite $g$ jene zwischen Projektor und Linse. 
 
-    \begin{equation}
-        \label{eq:Müll}
-        \centerline{$M=\frac{muell}{malle}$}
-    \end{equation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/laplace_theorie.jpg}
+    \caption{Theoretischer Aufbau der Laplace'schen Methode. Bild aus Skriptum Dünne Linsen Seite 2 entnommen \cite{teachcenter2}. }
+    \label{fig:laplace_theorie}
+\end{figure}
+
+\noindent
+Mit der Formel \ref{eq:laplace} lässt sich aus der Bildweite $b$ und der Gegenstandweite $g$ die Brennweite $f$ berrechnen. 
+
+\begin{equation}
+    \label{eq:laplace}
+    \centerline{$\frac{1}{f}=\frac{1}{g} + \frac{1}{b}$}
+\end{equation}
+
+\noindent
+Ähnlich sieht es bei dem Bessel'schen Verfahren aus. Das Bild wird fokussiert. Durch bestimmung der Bildweite $b$ und der Gegenstandweite $g$ lässt sich der Gesamtabstand $a = g+b$ berrechnen. 
+Die Linse wird verschoben, bis das Bild erneut scharf zu erkennen ist. Diese Strecke ist die Verschiebung $e$ wie in Abbildung \ref{fig:bessel_theorie} zu erkennen ist.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/bessel_theorie.jpg}
+    \caption{Theoretischer Aufbau des Bessel'schen Verfahrens. Bild aus Skriptum Dünne Linsen Seite 3 entnommen \cite{teachcenter2}. }
+    \label{fig:bessel_theorie}
+\end{figure}
+
+\noindent
+Durch die Formel \ref{eq:bessel} lässt sich die Brennweite $f$ berrechnen. 
+
+\begin{equation}
+    \label{eq:bessel}
+    \centerline{$\frac{1}{f}=\frac{1}{4} (\frac{a^2 - e^2}{a})$}
+\end{equation}
+
+\noindent
+Um die Brennweite $f_s$ einer Zerstreuungslinse zu bestimmen benötigt man die Gegenstandweite $g'$ sowie die Bildweite $b$. 
+Um diese zu bestimmen, wird die Linse in einer Gegenstandweite $g'$ zum Schirm aufgestellt. Durch Verschieben des Schirmes, bis das Bild scharf zu erkennen ist wird die Bildweite $b$ bestimmt. Die Brennweite $f_s$ wird mit folgender Formel bestimmt. 
+
+\begin{equation}
+    \label{eq:Zerstreuungslinse}
+    \centerline{$\frac{1}{f_s}=\frac{1}{g'} + \frac{1}{b}$}
+\end{equation}
+\noindent
+Hierbei ist jedoch anzumerken, dass die Brennweite $f_s$ ein negativer Wert ist. 
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
 

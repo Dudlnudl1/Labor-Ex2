@@ -287,10 +287,17 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
 
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
 
+In diesem Kapitel wird die Versuchsdurchführung dokumentiert. An den resultierenden Oszilloskopbildern stellt die rote Funktion das Eingangssignal und die gelbe Funktion das Ausgangssignal dar.
+
+\subsection{Komperatorschaltungen}
+
+Eingeleitet wurde der Versuch mit dem Aufbau zweier Komperatorschaltungen, welche in Abbildungen \ref{fig:GrundschaltungenAufbauIRL} zu erkennen sind. Hier soll die Funktion des OPVs als Differenzverstärker praktisch gezeigt werden.
+Als Widerstände kamen zwei 47 k$\Omega$ Bauteile zum Einsatz. Das Eingangssignal der ersten Schaltung kommt von zwei mittig eingestellten 100 k$\Omega$ Potentiometern mit angelegter Netzspannung von $\pm 15 $ V, an welchen mit je einem Digitalmultimeter die Eingangsspannung festgehalten wird. Die Ausgangsspannung wird dann am OPV-Ausgang mit einem weiteren Digitalmultimeter gemessen. Die ermittelten Werte sind aus folgender Tabelle zu entnehmen.
+
 \begin{table}[H]
     \centering
-    \caption{Grundschaltung Messungen}
-    \label{tab:GrundschaltungMessungen}
+    \caption{Grundschaltung1 Messungen}
+    \label{tab:Grundschaltung1Messungen}
     \begin{tabular}{| l | l | l | l |}
         \hline
         Nr. & $U_{Ein1}$ / V & $U_{Ein2}$ / V & $U_{Aus1}$ / V \\
@@ -304,9 +311,39 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
     \end{tabular}
 \end{table}
 
+\noindent
+Bei der zweiten Komperatorschaltung wurde ein Potentiometer entfernt und durch ein Eingangssignal mit den Werten für $U{2S}$ = 3 V Sinus mit einer Frequenz von 1 kHz vom Funktionsgenerator ersetzt. Außerdem wird das resultierende Signal nun mittels Oszilloskop bildlich dargestellt:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg}
+    \caption{Oszilloskopbild der zweiten Komperatorschaltung}
+    \label{fig:Grundschaltung2Ergebniss}
+\end{figure}
+
+\noindent
+Durch drehen am Potentiometer wird der Widerstand erhöht bzw. verringert, was zu einer Änderung am Ausgangssignal führt, auf welche im Kapitel Diskussion noch näher eingegangen wird:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg}
+    \caption{Oszilloskopbild der zweiten Komperatorschaltung mit größer/kleiner gestellten Widerstand}
+    \label{fig:Grundschaltung2ErgebnissPoti}
+\end{figure}
+
+\subsection{Invertierender Verstärker}
+
+Nachdem die Funktion eines OPVs nun nicht nur grundlegend bekannt war, sondern nun auch anhand eines Experimentes nachgewiesen wurde, konnten die ersten größeren Schaltungen realisiert werden. \newline
+
+\noindent
+Als erstes wurde dabei ein invertierender Verstärker laut Abbildungen \ref{fig:SchaltungInvertierenderVerstärker} in die Tat umgesetzt. Auch hier wurde wieder auf zwei 47 k$\Omega$ Widerstände mit einer eingehenden Netzspannung von $\pm$ 15 V vom Netzgerät gesetzt.
+Dabei wurden drei verschiedene Widerstände $R_{2}$ mit einmal 10 k$\Omega$, einmal 33 10 k$\Omega$ und einmal 100 k$\Omega$ verwendet. Zu jedem Widerstand wurde die Eingangsspannung jeweils mit dem Potentiometer so verändert, dasss ungefähr 1.5 V, 1.0 V, 0.5 V, 0 V, -0.5 V, -1.0 V und -1.5 V in den OPV fließen. 
+Somit konnten zu jedem der drei verwendeten Widerstände $R_{2}$ jeweils sieben Werte in folgenden Tabellen festgehalten werden:
+
 \begin{table}[H]
     \centering
-    \caption{Invertierender OPV 10 k$\Omega$ Verstärkungen gemessen}
+    \caption{Invertierender OPV 10 k$\Omega$ $U_{Aus}$ Messung}
     \label{tab:IoVerstärkungenGemessen10}
     \begin{tabular}{| l | l | l | l |}
         \hline
@@ -325,7 +362,7 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
 
 \begin{table}[H]
     \centering
-    \caption{Invertierender OPV 33 k$\Omega$ Verstärkungen gemessen}
+    \caption{Invertierender OPV 33 k$\Omega$ $U_{Aus}$ Messung}
     \label{tab:IoVerstärkungenGemessen33}
     \begin{tabular}{| l | l | l | l |}
         \hline
@@ -344,7 +381,7 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
 
 \begin{table}[H]
     \centering
-    \caption{Invertierender OPV 100 k$\Omega$ Verstärkungen gemessen}
+    \caption{Invertierender OPV 100 k$\Omega$ $U_{Aus}$ Messung}
     \label{tab:IoVerstärkungenGemessen100}
     \begin{tabular}{| l | l | l | l |}
         \hline
@@ -361,6 +398,67 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
     \end{tabular}
 \end{table}
 
+
+\subsection{Nichtinvertierender Verstärker}
+
+Das Gegenstück zum invertierenden Verstärker bilder der nichtinvertierende Verstärker, welcher ebenfalls laut Abbildung \ref{fig:SchaltungNichtInvertierenderVerstärker} zusammengebaut wurde. \newline
+
+\noindent
+Zunächst wurden $R_{1}$ und $R_{2}$ gleich mit 10 k$\Omega$ gewählt. Am Funktionsgenerator wurde eine Eingangsspannung von 4 V Sinus mit einer Frequenz von 200 Hz gewählt. Das resultierende Oszilloskopbild ist in folgender Abbildung ersichtlich:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/NichtInv10kund10kErgebniss.jpg}
+    \caption{Oszilloskopbild des nichtinvertierenden OPVs mit $R_{1}$ = $R_{2}$ = 10 k$\Omega$}
+    \label{fig:Nichtinvertierender10k10kOszibild}
+\end{figure}
+
+\noindent
+Nun wurden die Widerstände etwas variiert. $R_{2}$ wurde zwischen 0 k$\Omega$, 0.47 k$\Omega$, 1.5 k$\Omega$, 2.2 k$\Omega$, 4.7 k$\Omega$ und 10 k$\Omega$ gewechselt, der Widerstand $R_{1}$ blieb dauerhaft bei 1 k$\Omega$. Als Eingangssignal vom Funktionsgenerator wurden 1 V Sinus mit 1 kHz eingestellt.
+Die daraus resultierenden Oszilloskopbilder wurden bildlich und schriftlich in folgenden Bildern und Tabelle festgehalten. Das Oszilloskop wurde dabei immer so eingestellt, dass die beiden Amplitudenpeaks zur Bestimmung der Verhältnisse gut sichtbar sind.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/NichtInv1kund0kErgebnis.jpg}
+    \caption{Oszilloskopbild des nichtinvertierenden OPVs mit $R_{2}$ = 0 k$\Omega$}
+    \label{fig:Nichtinvertierender1k0kOszibild}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/NichtInv1kund0.47kErgebnis.jpg}
+    \caption{Oszilloskopbild des nichtinvertierenden OPVs mit $R_{2}$ = 0.47 k$\Omega$}
+    \label{fig:Nichtinvertierender1k0.47kOszibild}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/NichtInv1kund1.5kErgebnis.jpg}
+    \caption{Oszilloskopbild des nichtinvertierenden OPVs mit $R_{2}$ = 1.5 k$\Omega$}
+    \label{fig:Nichtinvertierender1k1.5kOszibild}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/NichtInv1kund2.2kErgebnis.jpg}
+    \caption{Oszilloskopbild des nichtinvertierenden OPVs mit $R_{2}$ = 2.2 k$\Omega$}
+    \label{fig:Nichtinvertierender1k2.2kOszibild}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/NichtInv1kund4.7kErgebnis.jpg}
+    \caption{Oszilloskopbild des nichtinvertierenden OPVs mit $R_{2}$ = 4.7 k$\Omega$}
+    \label{fig:Nichtinvertierender1k4.7kOszibild}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/NichtInv1kund10kErgebnis.jpg}
+    \caption{Oszilloskopbild des nichtinvertierenden OPVs mit $R_{2}$ = 10 k$\Omega$}
+    \label{fig:Nichtinvertierender1k10kOszibild}
+\end{figure}
+
 \begin{table}[H]
     \centering
     \caption{NichtInvertierender OPV Verstärkungen}
@@ -373,12 +471,80 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
         2 &  0.47 $\pm$  & $\frac{2.2}{1.5}$ =  1.467 $\pm$  &  $\pm$  & 0.5 $\pm$  \\
         3 &  1.50 $\pm$  & $\frac{3.7}{1.5}$ =  2.467 $\pm$  &  $\pm$  & 0.5 $\pm$  \\
         4 &  2.20 $\pm$  & $\frac{4.8}{1.5}$ =  3.200 $\pm$  &  $\pm$  & 0.5 $\pm$  \\
-        5 &  4-70 $\pm$  & $\frac{4.4}{0.7}$ =  6.290 $\pm$  &  $\pm$  & 1.0 $\pm$  \\
+        5 &  4.70 $\pm$  & $\frac{4.4}{0.7}$ =  6.290 $\pm$  &  $\pm$  & 1.0 $\pm$  \\
         6 & 10.00 $\pm$  & $\frac{4.1}{0.4}$ = 10.250 $\pm$  &  $\pm$  & 2.0 $\pm$  \\
         \hline
     \end{tabular}
 \end{table}
 
+
+\subsection{Differenzierer}
+
+Mit dem Differenzierer, aufgebaut laut Abbildungen \ref{fig:SchaltungDifferenzierer}, wurde es nun etwas spannender und komplexer. 
+Durch den eingebauten Kondensator am Eingang des OPVs kann die Schaltung tatsächlich dazu verwendet werden, eingehende Funktionen abzuleiten. 
+Um dies in Realität nachweißen zu können, wurde ein Eingangssignal mit 0.1 V Rechteck mit 500 Hz an die Schaltung angelegt. Zunächst wurden als Widerstand $R_{1}$ 0 k$\Omega$, als R 10 K$\Omega$ und als Kapazität 1 $mu$F gewählt.
+Das daraus folgende Oszilloskopbild lässt sich in nachfolgender Abbildung \ref{fig:Differenzierer0R1} erkennen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/DifferenziererOhneEingangsR.jpg}
+    \caption{Differenzierer ohne Eingangswiderstand}
+    \label{fig:Differenzierer0R1}
+\end{figure}
+
+\noindent
+Nun soll der Eingangswiderstand $R_{1}$ auf 1 k$\Omega$ und die Kapazität auf 10 nF verändert werden. Daraus resultierte folgendes Oszilloskopbild:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/DifferenziererMitEingangsR.jpg}
+    \caption{Differenzierer mit Eingangswiderstand 1 k$\Omega$}
+    \label{fig:Differenzierer1R1}
+\end{figure}
+
+\noindent
+Außerdem wurde selber Prozess noch mit einer Sinusspannung und einer Dreiecksspannung ausprobiert. Die Frequenz wurde hierfür auf 500 Hz gestellt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/DifferenziererSinus.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/DifferenziererDreieck.jpg}
+    \caption{Differenzierer mit Eingangswiderstand 1 k$\Omega$ Sinus/Dreieck}
+    \label{fig:Differenzierer1R1}
+\end{figure}
+
+
+\subsection{Integrierer}
+Zum Schluss wurde der Versuch Operationsverstärker mit einer Schaltung zur Integration laut Abbildungen \ref{fig:SchaltungIntegrierer} abgerundet. Hierfür wurde der Kondensator nicht mehr beim Eingangssignal angeschlossen, sondern paralell zum Widerstand R.
+Die verwendeten Utensilien waren zum einen ein 10 nF Kondensator, ein 1 M$\Omega$ Widerstand R und ein 10 k$\Omega$ Widerstand $R_{1}$. Betrieben wurde die Schaltung mit einer rechteckigen Wechselspannung von 2 V mit einer Frequenz von 1 kHz. Als Ergebniss dient wiederum ein Oszilloskopbild.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/IntegriererRechteck10nF.jpg}
+    \caption{Integrierer 10 nF}
+    \label{fig:IntegriererResultat1}
+\end{figure}
+
+\noindent
+Danach wurde der Kondensator von 10 nF auf 2.2 nF verändert und die Eingangsspannung auf 200 mV mit 100 Hz gesetzt. Das resultierende Oszilloskopbild sieht wie folgt aus:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/IntegriererRechteck2.2.jpg}
+    \caption{Integrierer 2.2 nF}
+    \label{fig:IntegriererResultat2}
+\end{figure}
+
+\noindent
+Am Ende wurd nun noch selbiges für Sinus- und Dreiecksspannungen durchgeführt. Dabei wurde das Eingangssignal auf 2 V mit 1 kHz gesetzt und die Ergebnisse als Oszilloskopbilder exportiert.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/IntegriererSinusResultat.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/IntegriererDreieckResultat.jpg}
+    \caption{Integrierer Sinus/Dreieck}
+    \label{fig:IntegriererResultat3}
+\end{figure}
 
 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------

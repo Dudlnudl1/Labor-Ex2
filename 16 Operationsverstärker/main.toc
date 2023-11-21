@@ -32,5 +32,5 @@
 \contentsline {subsection}{\numberline {8.3}Nichtinvertierender Verstärker}{22}{subsection.8.3}%
 \contentsline {subsection}{\numberline {8.4}Differenzierer}{23}{subsection.8.4}%
 \contentsline {subsection}{\numberline {8.5}Integrierer}{23}{subsection.8.5}%
-\contentsline {section}{\numberline {9}Anhang}{24}{section.9}%
-\contentsline {section}{Literatur}{24}{section*.53}%
+\contentsline {section}{\numberline {9}Anhang}{25}{section.9}%
+\contentsline {section}{Literatur}{26}{section*.55}%

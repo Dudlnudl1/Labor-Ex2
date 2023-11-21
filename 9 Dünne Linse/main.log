@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  21 NOV 2023 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  21 NOV 2023 17:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1566,12 +1566,12 @@ File: nudes/komprimert/bild.jpg Graphic file (type jpg)
 Package pdftex.def Info: nudes/komprimert/bild.jpg  used on input line 154.
 (pdftex.def)             Requested size: 273.14923pt x 204.91913pt.
  [5 <./nudes/komprimert/aufbau sammellinse.jpg> <./nudes/komprimert/aufbau zerstreuungslinse.jpg>] [6 <./nudes/komprimert/bild.jpg>] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 259--267
+Underfull \hbox (badness 10000) in paragraph at lines 260--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--297
+Underfull \hbox (badness 10000) in paragraph at lines 292--298
 
  []
 
@@ -1579,49 +1579,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--297
 <nudes/dioptrin laplace.jpg, id=169, 382.42876pt x 303.38344pt>
 File: nudes/dioptrin laplace.jpg Graphic file (type jpg)
 <use nudes/dioptrin laplace.jpg>
-Package pdftex.def Info: nudes/dioptrin laplace.jpg  used on input line 300.
+Package pdftex.def Info: nudes/dioptrin laplace.jpg  used on input line 301.
 (pdftex.def)             Requested size: 273.14923pt x 216.69994pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--333
+Underfull \hbox (badness 10000) in paragraph at lines 326--334
 
  []
 
 [9 <./nudes/dioptrin laplace.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 356--362
+Underfull \hbox (badness 10000) in paragraph at lines 357--363
 
  []
 
 <nudes/komprimert/verzerrung.jpg, id=187, 1654.18pt x 1240.635pt>
 File: nudes/komprimert/verzerrung.jpg Graphic file (type jpg)
 <use nudes/komprimert/verzerrung.jpg>
-Package pdftex.def Info: nudes/komprimert/verzerrung.jpg  used on input line 365.
+Package pdftex.def Info: nudes/komprimert/verzerrung.jpg  used on input line 366.
 (pdftex.def)             Requested size: 273.14923pt x 204.84738pt.
 <nudes/komprimert/chr abb.jpg, id=188, 2276.505pt x 1707.37875pt>
 File: nudes/komprimert/chr abb.jpg Graphic file (type jpg)
 <use nudes/komprimert/chr abb.jpg>
-Package pdftex.def Info: nudes/komprimert/chr abb.jpg  used on input line 372.
+Package pdftex.def Info: nudes/komprimert/chr abb.jpg  used on input line 373.
 (pdftex.def)             Requested size: 273.14923pt x 204.85056pt.
 [10 <./nudes/komprimert/verzerrung.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 378--395
+Underfull \hbox (badness 10000) in paragraph at lines 379--396
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--395
+Underfull \hbox (badness 10000) in paragraph at lines 379--396
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--395
+Underfull \hbox (badness 10000) in paragraph at lines 379--396
 
  []
 
 [11 <./nudes/komprimert/chr abb.jpg>]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 405.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 406.
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (7.81772pt too wide) in paragraph at lines 405--405
+Overfull \hbox (7.81772pt too wide) in paragraph at lines 406--406
 []\T1/cmr/m/n/12 Wikipedia. \T1/cmr/m/it/12 Ver-zeich-nung\T1/cmr/m/n/12 . (be-sucht am 17.11.2023). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / de . wikipedia .
  []
 
@@ -1643,7 +1643,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,733b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (12 pages, 5459191 bytes).
+Output written on main.pdf (12 pages, 6485872 bytes).
 PDF statistics:
  506 PDF objects out of 1000 (max. 8388607)
  47 named destinations out of 1000 (max. 500000)

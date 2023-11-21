@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  19 NOV 2023 21:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  21 NOV 2023 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1481,7 +1481,7 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 3.
 
 \c@lstlisting=\count502
-<../Deckblätter/Deckblatt_Dünne_Linsen.pdf, id=38, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Dünne_Linsen.pdf, id=42, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Dünne_Linsen.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Dünne_Linsen.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Dünne_Linsen.pdf  used on input line 33.
@@ -1490,7 +1490,7 @@ File: ../Deckblätter/Deckblatt_Dünne_Linsen.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Dünne_Linsen.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Dünne_Linsen.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../Deckblätter/Deckblatt_Dünne_Linsen.pdf, id=41, page=1, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Dünne_Linsen.pdf, id=45, page=1, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Dünne_Linsen.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Dünne_Linsen.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Dünne_Linsen.pdf , page1 used on input line 33.
@@ -1522,9 +1522,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--47
 
  []
 
-
-LaTeX Warning: Citation 'teachcenter2' on page 3 undefined on input line 53.
-
 LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
 (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1537,64 +1534,118 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--61
 
  []
 
-<nudes/laplace_theorie.jpg, id=90, 1124.40076pt x 389.0535pt>
+<nudes/laplace_theorie.jpg, id=96, 1124.40076pt x 389.0535pt>
 File: nudes/laplace_theorie.jpg Graphic file (type jpg)
 <use nudes/laplace_theorie.jpg>
 Package pdftex.def Info: nudes/laplace_theorie.jpg  used on input line 64.
 (pdftex.def)             Requested size: 273.14923pt x 94.5086pt.
-
-LaTeX Warning: Citation 'teachcenter2' on page 3 undefined on input line 65.
-
-
-LaTeX Warning: Citation 'teachcenter2' on page 3 undefined on input line 65.
-
-<nudes/bessel_theorie.jpg, id=93, 549.85425pt x 413.1435pt>
+<nudes/bessel_theorie.jpg, id=101, 549.85425pt x 413.1435pt>
 File: nudes/bessel_theorie.jpg Graphic file (type jpg)
 <use nudes/bessel_theorie.jpg>
 Package pdftex.def Info: nudes/bessel_theorie.jpg  used on input line 83.
 (pdftex.def)             Requested size: 273.14923pt x 205.23477pt.
+[3 <./nudes/laplace_theorie.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
 
-LaTeX Warning: Citation 'teachcenter2' on page 3 undefined on input line 84.
+ []
+
+[4 <./nudes/bessel_theorie.jpg>]
+<nudes/komprimert/aufbau sammellinse.jpg, id=134, 1798.72pt x 1011.78pt>
+File: nudes/komprimert/aufbau sammellinse.jpg Graphic file (type jpg)
+<use nudes/komprimert/aufbau sammellinse.jpg>
+Package pdftex.def Info: nudes/komprimert/aufbau sammellinse.jpg  used on input line 140.
+(pdftex.def)             Requested size: 273.14923pt x 153.64394pt.
+<nudes/komprimert/aufbau zerstreuungslinse.jpg, id=135, 2023.56pt x 1138.2525pt>
+File: nudes/komprimert/aufbau zerstreuungslinse.jpg Graphic file (type jpg)
+<use nudes/komprimert/aufbau zerstreuungslinse.jpg>
+Package pdftex.def Info: nudes/komprimert/aufbau zerstreuungslinse.jpg  used on input line 147.
+(pdftex.def)             Requested size: 273.14923pt x 153.64009pt.
+<nudes/komprimert/bild.jpg, id=136, 1953.2975pt x 1465.475pt>
+File: nudes/komprimert/bild.jpg Graphic file (type jpg)
+<use nudes/komprimert/bild.jpg>
+Package pdftex.def Info: nudes/komprimert/bild.jpg  used on input line 154.
+(pdftex.def)             Requested size: 273.14923pt x 204.91913pt.
+ [5 <./nudes/komprimert/aufbau sammellinse.jpg> <./nudes/komprimert/aufbau zerstreuungslinse.jpg>] [6 <./nudes/komprimert/bild.jpg>] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 259--267
+
+ []
 
 
-LaTeX Warning: Citation 'teachcenter2' on page 3 undefined on input line 84.
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
 
-[3 <./nudes/laplace_theorie.jpg>] [4 <./nudes/bessel_theorie.jpg>]
+ []
 
-LaTeX Warning: Empty bibliography on input line 145.
+[8]
+<nudes/dioptrin laplace.jpg, id=169, 382.42876pt x 303.38344pt>
+File: nudes/dioptrin laplace.jpg Graphic file (type jpg)
+<use nudes/dioptrin laplace.jpg>
+Package pdftex.def Info: nudes/dioptrin laplace.jpg  used on input line 300.
+(pdftex.def)             Requested size: 273.14923pt x 216.69994pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--333
+
+ []
+
+[9 <./nudes/dioptrin laplace.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 356--362
+
+ []
+
+<nudes/komprimert/verzerrung.jpg, id=187, 1654.18pt x 1240.635pt>
+File: nudes/komprimert/verzerrung.jpg Graphic file (type jpg)
+<use nudes/komprimert/verzerrung.jpg>
+Package pdftex.def Info: nudes/komprimert/verzerrung.jpg  used on input line 365.
+(pdftex.def)             Requested size: 273.14923pt x 204.84738pt.
+<nudes/komprimert/chr abb.jpg, id=188, 2276.505pt x 1707.37875pt>
+File: nudes/komprimert/chr abb.jpg Graphic file (type jpg)
+<use nudes/komprimert/chr abb.jpg>
+Package pdftex.def Info: nudes/komprimert/chr abb.jpg  used on input line 372.
+(pdftex.def)             Requested size: 273.14923pt x 204.85056pt.
+[10 <./nudes/komprimert/verzerrung.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 378--395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--395
+
+ []
+
+[11 <./nudes/komprimert/chr abb.jpg>]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 405.
+ (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Overfull \hbox (7.81772pt too wide) in paragraph at lines 405--405
+[]\T1/cmr/m/n/12 Wikipedia. \T1/cmr/m/it/12 Ver-zeich-nung\T1/cmr/m/n/12 . (be-sucht am 17.11.2023). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / de . wikipedia .
+ []
 
 
 AED: lastpage setting LastPage
-[5] (main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+[12] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 25ED8802B80BB1A7A61A0F2F0F75017F;1219.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 400FB58B54A8B512C8BF36A62728CC54;1309.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40691 strings out of 476339
- 812722 string characters out of 5788120
- 1861340 words of memory out of 5000000
- 60487 multiletter control sequences out of 15000+600000
- 520460 words of font info for 56 fonts, out of 8000000 for 9000
+ 40854 strings out of 476339
+ 816420 string characters out of 5788120
+ 1869340 words of memory out of 5000000
+ 60611 multiletter control sequences out of 15000+600000
+ 522440 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,733b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (5 pages, 3363137 bytes).
+{C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (12 pages, 5459191 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 506 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

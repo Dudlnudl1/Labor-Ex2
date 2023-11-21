@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  21 NOV 2023 16:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  21 NOV 2023 18:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1788,61 +1788,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 694--697
 [19]
 File: nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg>
-Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg  used on input line 751.
+Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg  used on input line 756.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+ [20]
 File: nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg>
-Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg  used on input line 758.
+Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg  used on input line 763.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
 File: nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg>
-Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg  used on input line 759.
+Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg  used on input line 764.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
- [20] [21]
+ [21]
 File: nudes/NivVerstärkungR2Diagramm.jpg Graphic file (type jpg)
 <use nudes/NivVerstärkungR2Diagramm.jpg>
-Package pdftex.def Info: nudes/NivVerstärkungR2Diagramm.jpg  used on input line 849.
+Package pdftex.def Info: nudes/NivVerstärkungR2Diagramm.jpg  used on input line 854.
 (pdftex.def)             Requested size: 227.62206pt x 192.71577pt.
 File: nudes/messergebnisse/DifferenziererMitEingangsR.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererMitEingangsR.jpg>
-Package pdftex.def Info: nudes/messergebnisse/DifferenziererMitEingangsR.jpg  used on input line 858.
+Package pdftex.def Info: nudes/messergebnisse/DifferenziererMitEingangsR.jpg  used on input line 863.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+ [22]
 File: nudes/messergebnisse/DifferenziererSinus.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererSinus.jpg>
-Package pdftex.def Info: nudes/messergebnisse/DifferenziererSinus.jpg  used on input line 865.
+Package pdftex.def Info: nudes/messergebnisse/DifferenziererSinus.jpg  used on input line 870.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
 File: nudes/messergebnisse/DifferenziererDreieck.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererDreieck.jpg>
-Package pdftex.def Info: nudes/messergebnisse/DifferenziererDreieck.jpg  used on input line 866.
+Package pdftex.def Info: nudes/messergebnisse/DifferenziererDreieck.jpg  used on input line 871.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
- [22]
 File: nudes/messergebnisse/IntegriererRechteck10nF.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererRechteck10nF.jpg>
-Package pdftex.def Info: nudes/messergebnisse/IntegriererRechteck10nF.jpg  used on input line 875.
+Package pdftex.def Info: nudes/messergebnisse/IntegriererRechteck10nF.jpg  used on input line 880.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
 File: nudes/messergebnisse/IntegriererRechteck2.2.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererRechteck2.2.jpg>
-Package pdftex.def Info: nudes/messergebnisse/IntegriererRechteck2.2.jpg  used on input line 882.
+Package pdftex.def Info: nudes/messergebnisse/IntegriererRechteck2.2.jpg  used on input line 887.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+ [23]
 File: nudes/messergebnisse/IntegriererSinusResultat.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererSinusResultat.jpg>
-Package pdftex.def Info: nudes/messergebnisse/IntegriererSinusResultat.jpg  used on input line 889.
+Package pdftex.def Info: nudes/messergebnisse/IntegriererSinusResultat.jpg  used on input line 894.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
 File: nudes/messergebnisse/IntegriererDreieckResultat.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererDreieckResultat.jpg>
-Package pdftex.def Info: nudes/messergebnisse/IntegriererDreieckResultat.jpg  used on input line 890.
+Package pdftex.def Info: nudes/messergebnisse/IntegriererDreieckResultat.jpg  used on input line 895.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
- [23]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 901.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 906.
  (C:\Users\nicoe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (6.82275pt too wide) in paragraph at lines 901--901
+Overfull \hbox (6.82275pt too wide) in paragraph at lines 906--906
 []\T1/cmr/m/n/12 docplayer.org. \T1/cmr/m/it/12 MY68. Hand-mul-ti-me-ter. Be-die-nungs-an-lei-tung\T1/cmr/m/n/12 . (be-sucht am 17.11.2023).
  []
 
 
-Overfull \hbox (15.4993pt too wide) in paragraph at lines 901--901
+Overfull \hbox (15.4993pt too wide) in paragraph at lines 906--906
 []\T1/cmr/m/n/12 peaktech.de. \T1/cmr/m/it/12 Deut-sche An-lei-tung Pe-ak-Tech 1200\T1/cmr/m/n/12 . (be-sucht am 17.11.2023). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/pcr/m/n/12 https :
  []
 
@@ -1867,7 +1868,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,733b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (24 pages, 60484973 bytes).
+Output written on main.pdf (24 pages, 60493847 bytes).
 PDF statistics:
  838 PDF objects out of 1000 (max. 8388607)
  121 named destinations out of 1000 (max. 500000)

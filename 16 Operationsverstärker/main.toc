@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {6.3}Nicht invertierender Verstärker}{18}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Differenzierer}{19}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}Integrierer}{19}{subsection.6.5}%
-\contentsline {section}{\numberline {7}Diskussion}{20}{section.7}%
+\contentsline {section}{\numberline {7}Diskussion}{19}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Komperatorschaltungen}{20}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Invertierender Verstärker}{20}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Nichtinvertierender Verstärker}{20}{subsection.7.3}%
@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {8.1}Komperatorschaltungen}{20}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Invertierender Verstärker}{21}{subsection.8.2}%
 \contentsline {subsection}{\numberline {8.3}Nichtinvertierender Verstärker}{22}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Differenzierer}{22}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.4}Differenzierer}{23}{subsection.8.4}%
 \contentsline {subsection}{\numberline {8.5}Integrierer}{23}{subsection.8.5}%
 \contentsline {section}{\numberline {9}Anhang}{24}{section.9}%
 \contentsline {section}{Literatur}{24}{section*.53}%

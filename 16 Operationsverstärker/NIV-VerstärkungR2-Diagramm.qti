@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	2
 <table>
 Table1	30	4	21/11/2023 14:09:52
-geometry	0	0	698	420	active
+geometry	0	0	698	420	
 header	1[X]	2[Y]	3[xEr]	4[yEr]
 ColWidth	100	100	100	100	
 <com>
@@ -24,7 +24,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph1	1	1	21/11/2023 14:11:09
-geometry	698	0	492	457	
+geometry	698	0	492	457	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -124,6 +124,27 @@ ErrorBars	1	Table1_1	Table1_2	Table1_4	1	8	#000000	1	1	1
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
+<Function>
+<Type>0</Type>
+<Title>LinearFit4</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0	10</Range>
+<Points>2</Points>
+<Constant>A	0.984238785547712</Constant>
+<Constant>B	1.03626343014766</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
 scale	0	0	12	0	8	5	0	0
 scale	1	0	12	0	8	5	0	0
 scale	2	-2	12	0	8	5	0	0
@@ -184,5 +205,18 @@ R^2 = nan
 Adjusted R^2 = nan
 RMSE (Root Mean Squared Error) = nan
 RSS (Residual Sum of Squares) = nan
+---------------------------------------------------------------------------------------
+[21/11/2023 17:55:56	Plot: ''Graph1'']
+Linear Regression of dataset: Table1_2, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table1_4
+From x = 0.000000000000000e+00 to x = 1.000000000000000e+01
+B (y-intercept) = 1.036263430147664e+00 +/- 2.778307512947896e-01
+A (slope) = 9.842387855477116e-01 +/- 1.435457690506687e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.015320659471244e-01
+R^2 = 0.996758891754114
+Adjusted R^2 = 0.994598152923523
+RMSE (Root Mean Squared Error) = 0.318640967151313
+RSS (Residual Sum of Squares) = 0.406128263788498
 ---------------------------------------------------------------------------------------
 </log>

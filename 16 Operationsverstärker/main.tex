@@ -86,7 +86,7 @@ Die Verstärkung eines OPV wird oft auch in Dezibel angegeben, wofür folgende F
 
 \begin{equation}
     \label{eq:VerstärkungDezibel}
-    \centerline{$V_{L} = 20*log(\frac{U_{2}}{U_{1}}) = 20*log(V)$}
+    \centerline{$V_{L} = 20*log(\frac{U_{2}}{U_{1}}) = 20*log(V)$ \\ $\Delta V_{L} = \vert \frac{\partial V_{L}}{\partial V} * \Delta V \vert$}
 \end{equation}
 
 \noindent
@@ -107,7 +107,7 @@ Die Verstärkung lässt sich dabei so ausdrücken:
 
 \begin{equation}
     \label{eq:InvertierenderVerstärkerVerstärkung}
-    \centerline{$V=-\frac{R_{2}}{R_{1}}$}
+    \centerline{$V=-\frac{R_{2}}{R_{1}} = -\frac{U_{Aus}}{U_{Ein}}$ \\ $\Delta V = \vert \frac{\partial V}{\partial U_{Aus}} * \Delta U_{Aus} \vert + \vert \frac{\partial V}{\partial U_{Ein}} * \Delta U_{Ein} \vert $}
 \end{equation}
 
 \noindent
@@ -128,7 +128,7 @@ Beim nichtinvertierenden Verstärker verlässt das Signal die Schaltung nur vers
 
 \begin{equation}
     \label{eq:NichtinvertierenderVerstärkerVerstärkung}
-    \centerline{$V=1 + \frac{R_{2}}{R_{1}}$}
+    \centerline{$V=1 + \frac{R_{2}}{R_{1}} = \frac{U_{A}}{U_{E}}$  \\ $\Delta V = \vert \frac{\partial V}{\partial U_{Aus}} * \Delta U_{Aus} \vert + \vert \frac{\partial V}{\partial U_{Ein}} * \Delta U_{Ein} \vert $}
 \end{equation}
 
 \noindent
@@ -269,7 +269,7 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
             \hline
             Gerät   & Gerätenummer  & Unsicherheit \\
             \hline
-            Oszilloskop                                                                          & {n.a} & {n.a} \\
+            Oszilloskop                                                                          & {n.a} & $\pm$3\% horizontal \cite{Oszi}\\
             Steckboard                                                                           & {n.a} & {n.a} \\
             Widerstände (0$\Omega$, 0.1 k$\Omega$, 0.47 k$\Omega$, 1 k$\Omega$, 1.5 k$\Omega$, 
             2.2 k$\Omega$, 4.7 k$\Omega$, 10 k$\Omega$, 15 k$\Omega$, 1 M$\Omega$)               & {n.a} & $\pm$1\% \\
@@ -277,7 +277,7 @@ Am Ende des Versuches wurde es dann etwas komplexer, da nun Differenzierer und I
             Netzgerät                                                                            & {n.a} & {n.a} \\
             Operationsverstärker                                                                 & {n.a} & {n.a} \\
             2x Potentiometer (100 k$\Omega$)                                                     & {n.a} & $\pm$10\% \\
-            3x Digitalmultimeter                                                                 & {n.a} & $\pm$1.2\% + 2 sigit\\
+            3x Digitalmultimeter                                                                 & {n.a} & $\pm$0.8\% + 3 digit \cite{DMM}\\
             Kondensatoren (10 nF, 2.2 nF, 1 $\mu F$)                                             & {n.a} & $\pm$10\% \\
             Verbindungskabel                                                                     & {n.a} & {n.a} \\
             \hline
@@ -292,7 +292,7 @@ In diesem Kapitel wird die Versuchsdurchführung dokumentiert. An den resultiere
 \subsection{Komperatorschaltungen}
 
 Eingeleitet wurde der Versuch mit dem Aufbau zweier Komperatorschaltungen, welche in Abbildungen \ref{fig:GrundschaltungenAufbauIRL} zu erkennen sind. Hier soll die Funktion des OPVs als Differenzverstärker praktisch gezeigt werden.
-Als Widerstände kamen zwei 47 k$\Omega$ Bauteile zum Einsatz. Das Eingangssignal der ersten Schaltung kommt von zwei mittig eingestellten 100 k$\Omega$ Potentiometern mit angelegter Netzspannung von $\pm 15 $ V, an welchen mit je einem Digitalmultimeter die Eingangsspannung festgehalten wird. Die Ausgangsspannung wird dann am OPV-Ausgang mit einem weiteren Digitalmultimeter gemessen. Die ermittelten Werte sind aus folgender Tabelle zu entnehmen.
+Als Widerstände kamen zwei 47 k$\Omega$ Bauteile zum Einsatz. Das Eingangssignal der ersten Schaltung kommt von zwei mittig eingestellten 100 k$\Omega$ Potentiometern mit angelegter Netzspannung von $\pm 15 $ V, an welchen mit je einem Digitalmultimeter die Eingangsspannung festgehalten wird. Die Ausgangsspannung wird dann am OPV-Ausgang für fünf verschiedenen Potentiometerpositionen mit einem weiteren Digitalmultimeter gemessen. Die ermittelten Werte sind aus folgender Tabelle zu entnehmen.
 
 \begin{table}[H]
     \centering
@@ -300,13 +300,13 @@ Als Widerstände kamen zwei 47 k$\Omega$ Bauteile zum Einsatz. Das Eingangssigna
     \label{tab:Grundschaltung1Messungen}
     \begin{tabular}{| l | l | l | l |}
         \hline
-        Nr. & $U_{Ein1}$ / V & $U_{Ein2}$ / V & $U_{Aus1}$ / V \\
+        Nr. & $U_{Ein1}$ / V & $U_{Ein2}$ $\pm$ 0.01 / V & $U_{Aus1}$ $\pm$ 0.16 / V \\
         \hline
-        1 & -0.0461 $\pm$  & -0.789 $\pm$  & -13.15 $\pm$  \\
-        2 & -0.0833 $\pm$  & -0.790 $\pm$  & -13.15 $\pm$  \\
-        3 & -0.0612 $\pm$  & -0.789 $\pm$  & -13.15 $\pm$  \\
-        4 & -0.1069 $\pm$  & -0.789 $\pm$  & -13.15 $\pm$  \\
-        5 & -0.0890 $\pm$  & -0.790 $\pm$  & -13.15 $\pm$  \\
+        1 & -0.0461 $\pm$ 0.0007 & -0.789 & -13.15 \\
+        2 & -0.0833 $\pm$ 0.0010 & -0.790 & -13.15 \\
+        3 & -0.0612 $\pm$ 0.0008 & -0.789 & -13.15 \\
+        4 & -0.1069 $\pm$ 0.0013 & -0.789 & -13.15 \\
+        5 & -0.0890 $\pm$ 0.0011 & -0.790 & -13.15 \\
         \hline
     \end{tabular}
 \end{table}
@@ -349,13 +349,13 @@ Somit konnten zu jedem der drei verwendeten Widerstände $R_{2}$ jeweils sieben 
         \hline
         Nr. & Zieleingangsspannungen / V & $U_{Ein}$ / V & $U_{Aus}$ / V \\
         \hline
-        1 &  1.5 &  1.511 $\pm$  & -1.530 $\pm$  \\
-        2 &  1.0 &  1.022 $\pm$  & -1.035 $\pm$  \\
-        3 &  0.5 &  0.499 $\pm$  & -0.505 $\pm$  \\
-        4 &  0.0 &  0.024 $\pm$  & -0.234 $\pm$  \\
-        5 & -0.5 & -0.521 $\pm$  &  0.521 $\pm$  \\
-        6 & -1.0 & -1.039 $\pm$  &  1.039 $\pm$  \\
-        7 & -1.5 & -1.532 $\pm$  &  1.532 $\pm$  \\
+        1 &  1.5 &  1.511 $\pm$ 0.016 & -1.530 $\pm$ 0.016 \\
+        2 &  1.0 &  1.022 $\pm$ 0.012 & -1.035 $\pm$ 0.012 \\
+        3 &  0.5 &  0.499 $\pm$ 0.007 & -0.505 $\pm$ 0.008 \\
+        4 &  0.0 &  0.024 $\pm$ 0.005 & -0.024 $\pm$ 0.005 \\
+        5 & -0.5 & -0.521 $\pm$ 0.008 &  0.521 $\pm$ 0.008 \\
+        6 & -1.0 & -1.039 $\pm$ 0.012 &  1.039 $\pm$ 0.012 \\
+        7 & -1.5 & -1.532 $\pm$ 0.016 &  1.532 $\pm$ 0.016 \\
         \hline
     \end{tabular}
 \end{table}
@@ -368,13 +368,13 @@ Somit konnten zu jedem der drei verwendeten Widerstände $R_{2}$ jeweils sieben 
         \hline
         Nr. & Zieleingangsspannungen / V & $U_{Ein}$ / V & $U_{Aus}$ / V \\
         \hline
-        1 &  1.5 &  1.486 $\pm$  & -4.950 $\pm$  \\
-        2 &  1.0 &  1.011 $\pm$  & -3.358 $\pm$  \\
-        3 &  0.5 &  0.511 $\pm$  & -1.706 $\pm$  \\
-        4 &  0.0 &  0.010 $\pm$  & -0.031 $\pm$  \\
-        5 & -0.5 & -0.511 $\pm$  &  1.699 $\pm$  \\
-        6 & -1.0 & -1.013 $\pm$  &  3.368 $\pm$  \\
-        7 & -1.5 & -1.496 $\pm$  &  4.980 $\pm$  \\
+        1 &  1.5 &  1.486 $\pm$ 0.015 & -4.95  $\pm$  0.07 \\
+        2 &  1.0 &  1.011 $\pm$ 0.012 & -3.36  $\pm$  0.06 \\
+        3 &  0.5 &  0.511 $\pm$ 0.008 & -1.706 $\pm$ 0.017 \\
+        4 &  0.0 &  0.010 $\pm$ 0.004 & -0.031 $\pm$ 0.001 \\
+        5 & -0.5 & -0.511 $\pm$ 0.008 &  1.699 $\pm$ 0.017 \\
+        6 & -1.0 & -1.013 $\pm$ 0.012 &  3.368 $\pm$ 0.06  \\
+        7 & -1.5 & -1.496 $\pm$ 0.015 &  4.980 $\pm$ 0.07  \\
         \hline
     \end{tabular}
 \end{table}
@@ -387,13 +387,13 @@ Somit konnten zu jedem der drei verwendeten Widerstände $R_{2}$ jeweils sieben 
         \hline
         Nr. & Zieleingangsspannungen / V & $U_{Ein}$ / V & $U_{Aus}$ / V \\
         \hline
-        1 &  1.5 &  1.464 $\pm$  & -13.140 $\pm$  \\
-        2 &  1.0 &  1.054 $\pm$  & -10.700 $\pm$  \\
-        3 &  0.5 &  0.519 $\pm$  &  -5.260 $\pm$  \\
-        4 &  0.0 & -0.009 $\pm$  &  -0.094 $\pm$  \\
-        5 & -0.5 & -0.493 $\pm$  &   5.010 $\pm$  \\
-        6 & -1.0 & -1.036 $\pm$  &  10.530 $\pm$  \\
-        7 & -1.5 & -1.656 $\pm$  &  14.330 $\pm$  \\
+        1 &  1.5 &  1.464 $\pm$ 0.015 & -13.14  $\pm$ 0.14  \\
+        2 &  1.0 &  1.054 $\pm$ 0.012 & -10.70  $\pm$ 0.12  \\
+        3 &  0.5 &  0.519 $\pm$ 0.008 &  -5.26  $\pm$ 0.08  \\
+        4 &  0.0 & -0.009 $\pm$ 0.004 &  -0.094 $\pm$ 0.001 \\
+        5 & -0.5 & -0.493 $\pm$ 0.007 &   5.01  $\pm$ 0.08  \\
+        6 & -1.0 & -1.036 $\pm$ 0.012 &  10.53  $\pm$ 0.12  \\
+        7 & -1.5 & -1.656 $\pm$ 0.017 &  14.33  $\pm$ 0.15  \\
         \hline
     \end{tabular}
 \end{table}
@@ -461,18 +461,18 @@ Die daraus resultierenden Oszilloskopbilder wurden bildlich und schriftlich in f
 
 \begin{table}[H]
     \centering
-    \caption{NichtInvertierender OPV Verstärkungen}
+    \caption{Nichtinvertierender OPV Messungen}
     \label{tab:NioVerstärkungenGemessen}
-    \begin{tabular}{| l | l | l | l | l |}
+    \begin{tabular}{| l | l | l | l |}
         \hline
-        Nr. & $R_{2}$ / $k \Omega$ & V ($\frac{Kaestchen}{Kaestchen}$) / & V / dB & U pro Kästchen / V \\
+        Nr. & $R_{2}$ / $k \Omega$ & $\frac{Kaestchen}{Kaestchen}$ $\pm$ 0.215 / & U pro Kästchen / V \\
         \hline
-        1 &  0.00 $\pm$  & $\frac{1.0}{1.0}$ =  1.000 $\pm$  &  $\pm$  & 0.5 $\pm$  \\
-        2 &  0.47 $\pm$  & $\frac{2.2}{1.5}$ =  1.467 $\pm$  &  $\pm$  & 0.5 $\pm$  \\
-        3 &  1.50 $\pm$  & $\frac{3.7}{1.5}$ =  2.467 $\pm$  &  $\pm$  & 0.5 $\pm$  \\
-        4 &  2.20 $\pm$  & $\frac{4.8}{1.5}$ =  3.200 $\pm$  &  $\pm$  & 0.5 $\pm$  \\
-        5 &  4.70 $\pm$  & $\frac{4.4}{0.7}$ =  6.290 $\pm$  &  $\pm$  & 1.0 $\pm$  \\
-        6 & 10.00 $\pm$  & $\frac{4.1}{0.4}$ = 10.250 $\pm$  &  $\pm$  & 2.0 $\pm$  \\
+        1 &  0 $\pm$ 0 & $\frac{1.000}{1.000}$ & 0.500 $\pm$ 0.015 \\
+        2 &  0.470 $\pm$ 0.005 & $\frac{2.200}{1.500}$ & 0.500 $\pm$ 0.015 \\
+        3 &  1.500 $\pm$ 0.016 & $\frac{3.700}{1.500}$ & 0.500 $\pm$ 0.015 \\
+        4 &  2.20 $\pm$  0.03  & $\frac{4.800}{1.500}$ & 0.500 $\pm$ 0.015 \\
+        5 &  4.70 $\pm$  0.05  & $\frac{4.400}{0.700}$ & 1.00 $\pm$ 0.03 \\
+        6 & 10.00 $\pm$  0.1   & $\frac{4.100}{0.400}$ & 2.00 $\pm$ 0.06 \\
         \hline
     \end{tabular}
 \end{table}
@@ -510,7 +510,7 @@ Außerdem wurde selber Prozess noch mit einer Sinusspannung und einer Dreieckssp
     \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/DifferenziererSinus.jpg}
     \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/DifferenziererDreieck.jpg}
     \caption{Differenzierer mit Eingangswiderstand 1 k$\Omega$ Sinus/Dreieck}
-    \label{fig:Differenzierer1R1}
+    \label{fig:Differenzierer1R1Sinus/Dreieck}
 \end{figure}
 
 
@@ -553,19 +553,349 @@ In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte
 Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
 
 \subsection{Komperatorschaltungen}
+
+Die OPV-Schaltung dient als Komperator, wenn sie anzeigt, welche der beiden Eingangsspannungen größer ist. Ist die Spannung am invertierenden Eingang größer, so nähert sich die Ausgangsspannung der positiven Sättigungsspannung (in unserem Fall 15 V) an. 
+Ist das eingehende Signal am nichtinvertierenden Eingang größer, so nähert sich die Ausgangsspannung der negativen Sättigungsspannung (in unserem Fall -15 V) an. \newline
+
+\noindent
+Da die laut Tabelle \ref{tab:Grundschaltung1Messungen} größere Spannung $U_{Ein2}$ an die nichtinvertierenden eingespeist wird, müssen für eine Komperatorwirkung genäherte Werte an -15 V am Ausgang gemessen werden. Dies trifft mit -13,15 $\pm$  V auch zu, was die Schaltung als funktionstüchtigen Komperator bestätigt. \newline
+
+\noindent
+Die Ausgangswerte der zweiten Komperatorschaltung werden am Oszilloskop wie in Abbildung \ref{fig:Grundschaltung2Ergebniss} ersichtlich als Rechteckspannung angezeigt. 
+Eine Variation des Widerstandswertes am Potentiometer führt zu einer Vergrößerung bzw. Verkleinerung des positiven bzw. des negativen Spannungsanteils. Wird der Wert des Potentiometers stark verändert, so ergibt sich als Ausgangssignal ab einem gewissen Punkt eine horizontale Linie, was im Prinzip einer Gleichspannung entspricht. 
+
+
 \subsection{Invertierender Verstärker}
+
+Aus den Tabellen \ref{tab:IoVerstärkungenGemessen10} - \ref{tab:IoVerstärkungenGemessen100} ergeben sich mit Formel \ref{eq:InvertierenderVerstärkerVerstärkung} (und Formel \ref{eq:VerstärkungDezibel} die Verstärkung in dB) folgende Verstärkungen für die jeweiligen Widerstände $R_{2}$:
+
+\begin{table}[H]
+    \centering
+    \caption{Invertierender OPV 10 k$\Omega$ Verstärkung Berechnung}
+    \label{tab:IoVerstärkungenBerechnet10}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & Verstärkung / & Verstärkung / dB \\
+        \hline
+        1 & -1.02 $\pm$ 0.03 & -0.2 $\pm$ 0.3 \\
+        2 & -1.02 $\pm$ 0.03 & -0.2 $\pm$ 0.3 \\
+        3 & -1.02 $\pm$ 0.03 & -0.2 $\pm$ 0.3 \\
+        4 & -1.00 $\pm$ 0.05 &  0 $\pm$ 0.5 \\
+        5 & -1.00 $\pm$ 0.05 &  0 $\pm$ 0.5 \\
+        6 & -1.00 $\pm$ 0.05 &  0 $\pm$ 0.5 \\
+        7 & -1.00 $\pm$ 0.05 &  0 $\pm$ 0.5 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Invertierender OPV 33 k$\Omega$ Verstärkung Berechnung}
+    \label{tab:IoVerstärkungenBerechnet33}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & Verstärkung / & Verstärkung / dB \\
+        \hline
+        1 & -3.31 $\pm$ 0.04 & -10.40 $\pm$ 0.11 \\
+        2 & -3.30 $\pm$ 0.10 & -10.4 $\pm$ 0.3 \\
+        3 & -3.34 $\pm$ 0.09 & -10.5 $\pm$ 0.3 \\
+        4 & -3.10 $\pm$ 0.18 & -9.8 $\pm$ 0.6 \\
+        5 & -3.3248 $\pm$ 0.09 & -10.4 $\pm$ 0.3 \\
+        6 & -3.3247 $\pm$ 0.10 & -10.4 $\pm$ 0.3 \\
+        7 & -3.3288 $\pm$ 0.04 & -10.45 $\pm$ 0.11 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Invertierender OPV 100 k$\Omega$ Verstärkung Berechnung}
+    \label{tab:IoVerstärkungenBerechnet100}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & Verstärkung / & Verstärkung / dB \\
+        \hline
+        1 & -8.98 $\pm$ 0.19 & 19.06 $\pm$ 0.19 \\
+        2 & -10.2 $\pm$ 0.3 & 20.1 $\pm$ 0.3 \\
+        3 & -10.1 $\pm$ 0.4 & 20.1 $\pm$ 0.4 \\
+        4 & -10.4 $\pm$ 0.6 & 20.4 $\pm$ 0.6 \\
+        5 & -10.2 $\pm$ 0.4 & 20.1398 $\pm$ 0.4 \\
+        6 & -10.2 $\pm$ 0.3 & 20.1414 $\pm$ 0.3 \\
+        7 & -8.65 $\pm$ 0.18 & 18.74 $\pm$ 0.19 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Wie in den Tabellen ersichtlich ist, bestätigt sich die Beziehung für $U_{Ein}$ und $U_{Aus}$ aus Gleichung \ref{eq:InvertierenderVerstärkerVerstärkung}.
+Die invertierende Verstärkerschaltung gibt ein invertiertes und je nach Widerstand $R_{2}$ verstärktes Signal aus. Somit ergibt sich eine Phasendifferenz von 180° zwischen Ein- und Ausgangssignal.
+
+
 \subsection{Nicht invertierender Verstärker}
+
+Wie in Abbildung \ref{fig:Nichtinvertierender10k10kOszibild} ersichtlich, haben $U_{Ein}$ und $U_{Aus}$ eine Phase von 0° zueinander, dass heißt sie schwingen gleichphasig.
+Der Eingangswiderstand $R_{1}$ dient dazu, die Eingangsspannung klein zu halten, damit die Signalquelle nicht alzusehr belastet werden muss. Der Rückkopplungswiderstand $R_{2}$ bestimmt die Verstärkung des invertierenden OPVs. \newline
+
+\noindent
+Werden $R_{1}$ und $R_{2}$ nun unterschiedlich gewählt, so bleibt die Phasendifferenz zwar bei 0°, jedoch lassen sich unterschiedliche Verstärkungen feststellen. 
+Mit den Werten aus Tabelle \ref{tab:NioVerstärkungenGemessen} kann mittels Formeln \ref{eq:NichtinvertierenderVerstärkerVerstärkung} und \ref{eq:VerstärkungDezibel} die Verstärkung berechnet werden. Da für diese lediglich das Verhältnis der beiden Signale benötigt wird, kann anstelle der tatsächlichen Spannungswerte auch die Amplitudenhöhe (in "Oszilloskop-Kästchen") verwendet werden.
+Zu der Oszilloskopunsicherheit von $\pm$ 0.015 V wurde noch eine Ableseungenauigkeit von 0.2 Kästchen addiert.
+
+\begin{table}[H]
+    \centering
+    \caption{NichtInvertierender OPV Verstärkungen Berechnungen}
+    \label{tab:NioVerstärkungenBerechnet}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & $\frac{Kaestchen}{Kaestchen}$ = V / & V / dB \\
+        \hline
+        1 & $\frac{1.0}{1.0}$ =  1.00 $\pm$ 0.43 & 0    $\pm$ 0.4 \\
+        2 & $\frac{2.2}{1.5}$ =  1.5 $\pm$ 0.4 & 3.3 $\pm$ 0.3 \\
+        3 & $\frac{3.7}{1.5}$ =  2.5 $\pm$ 0.5 & 7.84 $\pm$ 0.18 \\
+        4 & $\frac{4.8}{1.5}$ =  3.2 $\pm$ 0.7 & 10.10 $\pm$ 0.20 \\
+        5 & $\frac{4.4}{0.7}$ =  6.3 $\pm$ 1.2 & 15.97 $\pm$ 0.17 \\
+        6 & $\frac{4.1}{0.4}$ = 10.3 $\pm$ 1.7 & 20.22 $\pm$ 0.15 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Auch hier lässt sich der Zusammenhang \ref{eq:NichtinvertierenderVerstärkerVerstärkung} bestätigen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{nudes/NivVerstärkungR2Diagramm.jpg}
+    \caption{Diagramm Verstärkung / Widerstand $R_{2}$ beim nichtinvertierenden Verstärker}
+    \label{fig:Verstärkung/R2NIV}
+\end{figure}
+
+
 \subsection{Differenzierer}
+
+Nun gilt es zu überprüfen, ob der Differenzierer tatsächlich das tut, was sein Name vermuten lässt - Differenzieren. Hierfür wird zunächst die Abbildung \ref{fig:Differenzierer0R1} untersucht.
+Dabei stellt man fest, dass ohne einen Eingangswiderstand ein sehr ungenaues und zur Auswertung fast schon ungeeignetes Ergebniss geliefert wird. \newline
+
+\noindent
+Dieses Problem wurde jedoch mit einem Eingangswiderstand wie in Abbildung \ref{fig:Differenzierer1R1} gelöst.
+Hier lässt sich nun ein schöneres und brauchbares Ergebniss beobachten. Da die Ableitung die Steigung der Eingangsfunktion darstellt, lässt sich das Ergebnis so auch grob kontrollieren. 
+Bei der Rechteckspannung ist die Steigung an den Punkten, an denen sich das Signal umkehrt sehr hoch bzw. sehr niedrig und an den restlichen Stellen 0. Dies ist in Abbildung \ref{fig:Differenzierer1R1} sehr gut erkennbar und bestätigt die Funktion der Schaltung als Differenzierer. \newline
+
+\noindent
+Das Gleiche lässt sich auch über Abbildungen \ref{fig:Differenzierer1R1Sinus/Dreieck} sagen. Die Ableitung des Sinus ist der Cosinus, der auch als Ausgangssignal im eben genannten Bild abgebildet ist.
+Bei der Dreiecksspannung resultiert ein Rechteckssignal, welches wiederum die abwechselnd positive- und negative Steigung der Dreiecke darstellt. 
+
+
+
 \subsection{Integrierer}
 
+Das große Finale des Versuches war am Ende noch der Integrierer, welcher in Theorie das Gegenstück zum Differenzierer darstellen und Eingangssignale integrieren sollte. 
+Wie in Abbildung \ref{fig:IntegriererResultat1} erkennbar, wird das eingespeiste Rechteckssignal nun zur Dreiecksspannung, also genau die umgekehrte Funktion des Differenzierer. Aus den konstanten Signalen des Eingangs werden nun Funktionen erster Ordnung am Ausgang. \newline
+
+\noindent
+Der Widerstand R, welcher paralell zum Kondensator geschaltet wird, stellt dabei die Stabilität der Schaltung sicher und verhindert überbetonte Frequenzen. Wird der Kondensator nun auf 2.2 nF verringert, so erhält man ein Oszilloskopbild laut Abbildung \ref{fig:IntegriererResultat2}.
+Da durch die kleinere Kapazität die Zeitkonstante (RC) kleiner wird, reagiert die Schaltung auf Veränderungen am Eingang schneller. Der Lade- und Entladevorgang ist in eben genannter Abbildung \ref{fig:IntegriererResultat2} außerdem an den Ausgangssignalen deutlicher zu erkennen. \newline
+
+\noindent
+Ein Blick auf Abbildungen \ref{fig:IntegriererResultat3} zeigt selbiges Prinzip für Sinus- und Dreiecksspannungen. Der integrierte Sinus ergibt als Ausgangssignal einen Cosinus, aus der Dreiecksspannung (Funktionen ersten Grades) wird eine Welle aus Parabeln (Funktionen zweiten Grades).
+Diese Resultate spiegeln sich außerdem mit erwarteten Werten laut Gleichung \ref{eq:IntegriererAusgang} wieder. Die Ausgangsfunktion bildet also die Stammfunktion des Eingangssignales.
 
 
 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 
+\subsection{Komperatorschaltungen}
+
+
+
+\subsection{Invertierender Verstärker}
+
+
+
+\subsection{Nichtinvertierender Verstärker}
+
+
+
+\subsection{Differenzierer}
+
+
+
+\subsection{Integrierer}
+
+
+
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+
+\subsection{Komperatorschaltungen}
+
+\begin{table}[H]
+    \centering
+    \caption{Grundschaltung1 Messungen}
+    \label{tab:Grundschaltung1MessungenAW}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Nr. & $U_{Ein1}$ / V & $U_{Ein2}$ $\pm$ 0.01 / V & $U_{Aus1}$ $\pm$ 0.16 / V \\
+        \hline
+        1 & -0.0461 $\pm$ 0.0007 & -0.789 & -13.15 \\
+        2 & -0.0833 $\pm$ 0.0010 & -0.790 & -13.15 \\
+        3 & -0.0612 $\pm$ 0.0008 & -0.789 & -13.15 \\
+        4 & -0.1069 $\pm$ 0.0013 & -0.789 & -13.15 \\
+        5 & -0.0890 $\pm$ 0.0011 & -0.790 & -13.15 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg}
+    \caption{Oszilloskopbild der zweiten Komperatorschaltung}
+    \label{fig:Grundschaltung2ErgebnissAW}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg}
+    \caption{Oszilloskopbild der zweiten Komperatorschaltung mit größer/kleiner gestellten Widerstand}
+    \label{fig:Grundschaltung2ErgebnissPotiAW}
+\end{figure}
+
+
+\subsection{Invertierender Verstärker}
+
+\begin{table}[H]
+    \centering
+    \caption{Invertierender OPV 10 k$\Omega$ Verstärkung Berechnung}
+    \label{tab:IoVerstärkungenBerechnet10AW}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & Verstärkung / & Verstärkung / dB \\
+        \hline
+        1 & -1.02 $\pm$ 0.03 & -0.2 $\pm$ 0.3 \\
+        2 & -1.02 $\pm$ 0.03 & -0.2 $\pm$ 0.3 \\
+        3 & -1.02 $\pm$ 0.03 & -0.2 $\pm$ 0.3 \\
+        4 & -1.00 $\pm$ 0.05 &  0 $\pm$ 0.5 \\
+        5 & -1.00 $\pm$ 0.05 &  0 $\pm$ 0.5 \\
+        6 & -1.00 $\pm$ 0.05 &  0 $\pm$ 0.5 \\
+        7 & -1.00 $\pm$ 0.05 &  0 $\pm$ 0.5 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Invertierender OPV 33 k$\Omega$ Verstärkung Berechnung}
+    \label{tab:IoVerstärkungenBerechnet33AW}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & Verstärkung / & Verstärkung / dB \\
+        \hline
+        1 & -3.31 $\pm$ 0.04 & -10.40 $\pm$ 0.11 \\
+        2 & -3.30 $\pm$ 0.10 & -10.4 $\pm$ 0.3 \\
+        3 & -3.34 $\pm$ 0.09 & -10.5 $\pm$ 0.3 \\
+        4 & -3.10 $\pm$ 0.18 & -9.8 $\pm$ 0.6 \\
+        5 & -3.3248 $\pm$ 0.09 & -10.4 $\pm$ 0.3 \\
+        6 & -3.3247 $\pm$ 0.10 & -10.4 $\pm$ 0.3 \\
+        7 & -3.3288 $\pm$ 0.04 & -10.45 $\pm$ 0.11 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Invertierender OPV 100 k$\Omega$ Verstärkung Berechnung}
+    \label{tab:IoVerstärkungenBerechnet100AW}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & Verstärkung / & Verstärkung / dB \\
+        \hline
+        1 & -8.98 $\pm$ 0.19 & 19.06 $\pm$ 0.19 \\
+        2 & -10.2 $\pm$ 0.3 & 20.1 $\pm$ 0.3 \\
+        3 & -10.1 $\pm$ 0.4 & 20.1 $\pm$ 0.4 \\
+        4 & -10.4 $\pm$ 0.6 & 20.4 $\pm$ 0.6 \\
+        5 & -10.2 $\pm$ 0.4 & 20.1398 $\pm$ 0.4 \\
+        6 & -10.2 $\pm$ 0.3 & 20.1414 $\pm$ 0.3 \\
+        7 & -8.65 $\pm$ 0.18 & 18.74 $\pm$ 0.19 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Nichtinvertierender Verstärker}
+
+\begin{table}[H]
+    \centering
+    \caption{Nichtinvertierender OPV Verstärkungen Berechnungen}
+    \label{tab:NioVerstärkungenBerechnetAW}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & $\frac{Kaestchen}{Kaestchen}$ = V / & V / dB \\
+        \hline
+        1 & $\frac{1.0}{1.0}$ =  1.00 $\pm$ 0.43 & 0    $\pm$ 0.4 \\
+        2 & $\frac{2.2}{1.5}$ =  1.5 $\pm$ 0.4 & 3.3 $\pm$ 0.3 \\
+        3 & $\frac{3.7}{1.5}$ =  2.5 $\pm$ 0.5 & 7.84 $\pm$ 0.18 \\
+        4 & $\frac{4.8}{1.5}$ =  3.2 $\pm$ 0.7 & 10.10 $\pm$ 0.20 \\
+        5 & $\frac{4.4}{0.7}$ =  6.3 $\pm$ 1.2 & 15.97 $\pm$ 0.17 \\
+        6 & $\frac{4.1}{0.4}$ = 10.3 $\pm$ 1.7 & 20.22 $\pm$ 0.15 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Auch hier lässt sich der Zusammenhang \ref{eq:NichtinvertierenderVerstärkerVerstärkung} bestätigen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{nudes/NivVerstärkungR2Diagramm.jpg}
+    \caption{Diagramm Verstärkung / Widerstand $R_{2}$ beim nichtinvertierenden Verstärker}
+    \label{fig:Verstärkung/R2NIVAW}
+\end{figure}
+
+\subsection{Differenzierer}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/DifferenziererMitEingangsR.jpg}
+    \caption{Differenzierer mit Eingangswiderstand 1 k$\Omega$}
+    \label{fig:Differenzierer1R1AW}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/DifferenziererSinus.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/DifferenziererDreieck.jpg}
+    \caption{Differenzierer mit Eingangswiderstand 1 k$\Omega$ Sinus/Dreieck}
+    \label{fig:Differenzierer1R1Sinus/DreieckAW}
+\end{figure}
+
+\subsection{Integrierer}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/IntegriererRechteck10nF.jpg}
+    \caption{Integrierer 10 nF}
+    \label{fig:IntegriererResultat1AW}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/IntegriererRechteck2.2.jpg}
+    \caption{Integrierer 2.2 nF}
+    \label{fig:IntegriererResultat2AW}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/IntegriererSinusResultat.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/messergebnisse/IntegriererDreieckResultat.jpg}
+    \caption{Integrierer Sinus/Dreieck}
+    \label{fig:IntegriererResultat3AW}
+\end{figure}
+
+
+\section{Anhang}
+
+In diesem Abteil werden die Unsicherheitsrechnungen zur eventuellen Fehlersuche abgebildet. Für Unsicherheiten von Größeren Tabellen wird jeweils die Rechnung des ersten Wertes als Beispiel für die restlichen Größen gezeigt.
 
 
 \printbibliography[heading=bibintoc]

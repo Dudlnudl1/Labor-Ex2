@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1700576875 "main.bcf" "main.bbl" "main" 1700581334 0
+["biber main"] 1700576875 "main.bcf" "main.bbl" "main" 1700581564 0
   "bibliography.bib" 1700576839 10297 70cc2cb92c635a247798fbc7bd77f623 ""
-  "main.bcf" 1700581333 109377 af4700f63f8d00e6c194bf3d1c7a4a10 "pdflatex"
+  "main.bcf" 1700581563 109377 af4700f63f8d00e6c194bf3d1c7a4a10 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1700581326 "c:/Uni/Semester 3/ExP2-Labor/16 Operationsverstärker/main.tex" "main.pdf" "main" 1700581334 0
+["pdflatex"] 1700581554 "c:/Uni/Semester 3/ExP2-Labor/16 Operationsverstärker/main.tex" "main.pdf" "main" 1700581564 0
   "../Deckblätter/Deckblatt_Operationsverstärker.pdf" 1700422555 3071709 7045dfa27d4a11f98c727ef93f2fed5d ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682275748 82705 9cc9f144eacd499bc23a611703921467 ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1679857363 31952 1c8e29bd2aff213fa93173c8fb45733a ""
@@ -249,14 +249,14 @@
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656233319 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Uni/Semester 3/ExP2-Labor/16 Operationsverstärker/main.tex" 1700581315 44158 31a5d41eb36789f64dd7d144b9f28ea2 ""
+  "c:/Uni/Semester 3/ExP2-Labor/16 Operationsverstärker/main.tex" 1700581553 44168 bb678bb8da36e5db5e266340efab2194 ""
   "labor.sty" 1700422553 7223 0e5f3462a1a12aa9c2ec850941c0dcb5 ""
-  "main.aux" 1700581333 23783 7d24d91d7f37f2e935856371a892bee7 "pdflatex"
+  "main.aux" 1700581563 23783 7d24d91d7f37f2e935856371a892bee7 "pdflatex"
   "main.bbl" 1700576878 4004 c7d00bd44adefe169d9dc5110b3c311e "biber main"
-  "main.out" 1700581333 5434 cb326116c6b67325a4e6098a20fdfffa "pdflatex"
-  "main.run.xml" 1700581333 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
-  "main.tex" 1700581315 44158 31a5d41eb36789f64dd7d144b9f28ea2 ""
-  "main.toc" 1700581333 2956 6dad27da62e8188bd888f406837f5581 "pdflatex"
+  "main.out" 1700581563 5434 cb326116c6b67325a4e6098a20fdfffa "pdflatex"
+  "main.run.xml" 1700581563 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
+  "main.tex" 1700581553 44168 bb678bb8da36e5db5e266340efab2194 ""
+  "main.toc" 1700581563 2956 6dad27da62e8188bd888f406837f5581 "pdflatex"
   "nudes/AddiererSubtrahierer.jpg" 1700422553 16743 2c43863e0ca1f3fd80c3f67a92cba688 ""
   "nudes/Differenzierer.jpg" 1700422553 16259 066f54c714e743b9aa5ad7287efe8e06 ""
   "nudes/DifferenziererSchaltungAufbau.jpg" 1700422553 22055 3a71242080d222b08a55b239453b29db ""

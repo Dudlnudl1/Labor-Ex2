@@ -133,6 +133,16 @@ Für eine erfolgreiche Auswertung des Experimentes ist sind außerdem folgende Z
     \centerline{Wellenzahl \\ $v=\frac{1}{\lambda}=\frac{m}{2n_{p}d}$ \\ $\Delta v=$}
 \end{equation}
 
+\begin{equation}
+    \label{eq:Mittelwert}
+    \centerline{Mittelwert \\ $\bar{\varphi} = \frac{1}{N} \sum_{i = 1}^{N} \varphi_i $ \\}
+\end{equation}
+
+\begin{equation}
+    \label{eq:Standardabweichung}
+    \centerline{Standardabweichung \\ $\sigma_{\varphi} = \sqrt{\frac{1}{N-1} \sum_{i = 1}^{N} (\varphi_i - \bar{\varphi})^2}$ \\}
+\end{equation}
+
     
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
@@ -240,7 +250,6 @@ Am Ende resultierten also fünfmal vier CSV-Daten der Spektren, welche in den fo
     \label{fig:Alle3.1Bilder}
 \end{figure}
 
-
 \noindent
 Zur Durchführung des zweiten Versuchteiles wurden die Farbfilter dann durch Flüssigkeiten ausgetauscht. Dabei wurde zunächst Wasser als Referenzspektrum in den dafür vorgesehenen Küvettenhalter eingesetzt und als Spektrogramm dargestellt bzw. exportiert.
 Danach wurde die Methylenblaulösung in die Halterung eingesetzt und die für die Auswertung wichtigen Daten gespeichert. Auch hier wurde dieser Vorgang zur Bestimmung der Unsicherheiten fünfmal wiederholt. \newline
@@ -279,7 +288,47 @@ Wichtig bei der Handhabung der Messproben war, die Proben möglichst am Rand zu 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
 
 In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
-Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
+Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet. \newline
+
+\noindent
+Zu Beginn der Auswertung werden jeweils die fünf verschiedenen Messdaten für die Spektren mittels Formel \ref{eq:Mittelwert} in qti-Plot gemittelt und weiters mit Gleichung \ref{eq:Standardabweichung} die Standardabweichung bestimmt. Daraus ergibt sich dann ein gemittelter Graph mit den Standardabweichung als y-Unsicherheiten, welche in folgenden Abbildungen ersichtlich sind.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/qti-Intensitäten-Farbfilter-gemittelt.jpg}
+    \caption{Gemittelte Intensitäten mit Standardabweichungen für Farbfilter}
+    \label{fig:GemittelteGraphenIntensitätenFarbfilter}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/qti-Intensitäten-Flüssigkeiten-gemittelt.jpg}
+    \caption{Gemittelte Intensitäten mit Standardabweichungen für Flüssigkeiten}
+    \label{fig:GemittelteGraphenIntensitätenFlüssigkeiten}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/qti-Intensitäten-Glas-gemittelt.jpg}
+    \caption{Gemittelte Intensitäten mit Standardabweichungen für Glas}
+    \label{fig:GemittelteGraphenIntensitätenGlas}
+\end{figure}
+
+\noindent
+Die somit resultierenden Mittelwertgraphen werden für die weitere Auswertung verwendet.
+
+\subsection{Transmission/Extinktion Glasblättchen}
+\subsection{Additivität der Extinktion - Farbfilter}
+\subsection{Stoffemengenkonzentration von Methylenblaulösung}
+\subsection{Farbeindrücke der jeweiligen Proben}
+\subsection{Dicke des Glasblättchens}
+
+
+
+
+
+
+
 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------

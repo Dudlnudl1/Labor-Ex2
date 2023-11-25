@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	6
 <table>
 Table1	3648	4	24.11.2023 14:15:20
-geometry	0	-152	869	457	
+geometry	0	-23	869	457	
 header	1[X]	2	3	4[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -3669,7 +3669,7 @@ WindowLabel		2
 </table>
 <table>
 Glasspektrum1	3648	2	24.11.2023 14:51:07
-geometry	-14	322	445	220	
+geometry	-14	451	445	220	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -7332,7 +7332,7 @@ WindowLabel	E:/Spektralphotometer/3.5/Glasspektrum1.csv	2
 </table>
 <table>
 Referenzspektrum1	3648	2	24.11.2023 14:51:07
-geometry	430	323	445	220	
+geometry	430	452	445	220	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -10995,7 +10995,7 @@ WindowLabel	E:/Spektralphotometer/3.5/Referenzspektrum1.csv	2
 </table>
 <multiLayer>
 Graph1	1	1	24.11.2023 14:52:35
-geometry	869	-160	500	457	
+geometry	869	-31	500	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -11074,7 +11074,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <table>
 Table2	30	3	24.11.2023 15:06:03
-geometry	1003	313	445	387	
+geometry	1003	442	445	387	active
 header	1[X]	2	3[Y]
 ColWidth	100	100	100	
 <com>
@@ -11102,7 +11102,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph2	1	1	24.11.2023 15:19:11
-geometry	1410	0	560	457	active
+geometry	1410	129	560	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5

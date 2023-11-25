@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  21 NOV 2023 18:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  21 NOV 2023 19:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1583,74 +1583,74 @@ File: nudes/GrundschaltungAufbau2.jpg Graphic file (type jpg)
 Package pdftex.def Info: nudes/GrundschaltungAufbau2.jpg  used on input line 206.
 (pdftex.def)             Requested size: 182.09486pt x 152.48068pt.
  [6 <./nudes/Differenzierer.jpg> <./nudes/Integrierer.jpg>]
-<nudes/messergebnisse/GrundschaltungIRL1.jpg, id=291, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/GrundschaltungIRL1.jpg, id=291, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/GrundschaltungIRL1.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/GrundschaltungIRL1.jpg>
 Package pdftex.def Info: nudes/messergebnisse/GrundschaltungIRL1.jpg  used on input line 213.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/GrundschaltungIRL2.jpg, id=292, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/GrundschaltungIRL2.jpg, id=292, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/GrundschaltungIRL2.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/GrundschaltungIRL2.jpg>
 Package pdftex.def Info: nudes/messergebnisse/GrundschaltungIRL2.jpg  used on input line 214.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 <nudes/InvertierenderVerstärkerSchaltungAufbau.jpg, id=293, 286.82156pt x 259.7203pt>
 File: nudes/InvertierenderVerstärkerSchaltungAufbau.jpg Graphic file (type jpg)
 <use nudes/InvertierenderVerstärkerSchaltungAufbau.jpg>
 Package pdftex.def Info: nudes/InvertierenderVerstärkerSchaltungAufbau.jpg  used on input line 224.
 (pdftex.def)             Requested size: 182.09486pt x 164.8928pt.
-<nudes/messergebnisse/InvertierenderVerstIRL.jpg, id=294, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/InvertierenderVerstIRL.jpg, id=294, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/InvertierenderVerstIRL.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/InvertierenderVerstIRL.jpg>
 Package pdftex.def Info: nudes/messergebnisse/InvertierenderVerstIRL.jpg  used on input line 225.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 <nudes/NichtInvertierenderVerstärkerSchaltungAufbau.jpg, id=297, 265.74281pt x 256.70906pt>
 File: nudes/NichtInvertierenderVerstärkerSchaltungAufbau.jpg Graphic file (type jpg)
 <use nudes/NichtInvertierenderVerstärkerSchaltungAufbau.jpg>
 Package pdftex.def Info: nudes/NichtInvertierenderVerstärkerSchaltungAufbau.jpg  used on input line 235.
 (pdftex.def)             Requested size: 182.09486pt x 175.9073pt.
-<nudes/messergebnisse/NichtinvertierenderIRL.jpg, id=298, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/NichtinvertierenderIRL.jpg, id=298, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/NichtinvertierenderIRL.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/NichtinvertierenderIRL.jpg>
 Package pdftex.def Info: nudes/messergebnisse/NichtinvertierenderIRL.jpg  used on input line 236.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [7 <./nudes/GrundschaltungAufbau1.jpg> <./nudes/GrundschaltungAufbau2.jpg> <./nudes/messergebnisse/GrundschaltungIRL1.jpg> <./nudes/messergebnisse/GrundschaltungIRL2.jpg> <./nudes/InvertierenderVerstärkerSchaltungAufbau.jpg> <./nudes/messergebnisse/InvertierenderVerstIRL.jpg>]
 <nudes/DifferenziererSchaltungAufbau.jpg, id=309, 284.56313pt x 230.36063pt>
 File: nudes/DifferenziererSchaltungAufbau.jpg Graphic file (type jpg)
 <use nudes/DifferenziererSchaltungAufbau.jpg>
 Package pdftex.def Info: nudes/DifferenziererSchaltungAufbau.jpg  used on input line 246.
 (pdftex.def)             Requested size: 182.09486pt x 147.41621pt.
-<nudes/messergebnisse/DifferenziererIRL.jpg, id=310, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/DifferenziererIRL.jpg, id=310, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/DifferenziererIRL.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererIRL.jpg>
 Package pdftex.def Info: nudes/messergebnisse/DifferenziererIRL.jpg  used on input line 247.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 <nudes/IntegriererSchaltungAufbau.jpg, id=313, 276.28218pt x 244.66406pt>
 File: nudes/IntegriererSchaltungAufbau.jpg Graphic file (type jpg)
 <use nudes/IntegriererSchaltungAufbau.jpg>
 Package pdftex.def Info: nudes/IntegriererSchaltungAufbau.jpg  used on input line 254.
 (pdftex.def)             Requested size: 182.09486pt x 161.25478pt.
-<nudes/messergebnisse/IntegriererIRL.jpg, id=314, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/IntegriererIRL.jpg, id=314, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/IntegriererIRL.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererIRL.jpg>
 Package pdftex.def Info: nudes/messergebnisse/IntegriererIRL.jpg  used on input line 255.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [8 <./nudes/NichtInvertierenderVerstärkerSchaltungAufbau.jpg> <./nudes/messergebnisse/NichtinvertierenderIRL.jpg> <./nudes/DifferenziererSchaltungAufbau.jpg> <./nudes/messergebnisse/DifferenziererIRL.jpg> <./nudes/IntegriererSchaltungAufbau.jpg> <./nudes/messergebnisse/IntegriererIRL.jpg>]
-<nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg, id=327, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg, id=327, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg>
 Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg  used on input line 319.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [9]
-<nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg, id=336, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg, id=336, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg>
 Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg  used on input line 329.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg, id=337, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg, id=337, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg>
 Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg  used on input line 330.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 337--338
 
@@ -1661,86 +1661,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--405
 
  []
 
-<nudes/messergebnisse/NichtInv10kund10kErgebniss.jpg, id=346, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/NichtInv10kund10kErgebniss.jpg, id=346, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/NichtInv10kund10kErgebniss.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/NichtInv10kund10kErgebniss.jpg>
 Package pdftex.def Info: nudes/messergebnisse/NichtInv10kund10kErgebniss.jpg  used on input line 411.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 [11]
-<nudes/messergebnisse/NichtInv1kund0kErgebnis.jpg, id=354, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/NichtInv1kund0kErgebnis.jpg, id=354, 1011.78pt x 758.835pt>
 File: nudes/messergebnisse/NichtInv1kund0kErgebnis.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/NichtInv1kund0kErgebnis.jpg>
 Package pdftex.def Info: nudes/messergebnisse/NichtInv1kund0kErgebnis.jpg  used on input line 422.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/NichtInv1kund0.47kErgebnis.jpg, id=355, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/NichtInv1kund0.47kErgebnis.jpg, id=355, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/NichtInv1kund0.47kErgebnis.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/NichtInv1kund0.47kErgebnis.jpg>
 Package pdftex.def Info: nudes/messergebnisse/NichtInv1kund0.47kErgebnis.jpg  used on input line 429.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/NichtInv1kund1.5kErgebnis.jpg, id=356, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/NichtInv1kund1.5kErgebnis.jpg, id=356, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/NichtInv1kund1.5kErgebnis.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/NichtInv1kund1.5kErgebnis.jpg>
 Package pdftex.def Info: nudes/messergebnisse/NichtInv1kund1.5kErgebnis.jpg  used on input line 436.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [12 <./nudes/messergebnisse/NichtInv10kund10kErgebniss.jpg> <./nudes/messergebnisse/NichtInv1kund0kErgebnis.jpg> <./nudes/messergebnisse/NichtInv1kund0.47kErgebnis.jpg>]
-<nudes/messergebnisse/NichtInv1kund2.2kErgebnis.jpg, id=364, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/NichtInv1kund2.2kErgebnis.jpg, id=364, 1011.78pt x 758.835pt>
 File: nudes/messergebnisse/NichtInv1kund2.2kErgebnis.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/NichtInv1kund2.2kErgebnis.jpg>
 Package pdftex.def Info: nudes/messergebnisse/NichtInv1kund2.2kErgebnis.jpg  used on input line 443.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/NichtInv1kund4.7kErgebnis.jpg, id=365, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/NichtInv1kund4.7kErgebnis.jpg, id=365, 1011.78pt x 758.835pt>
 File: nudes/messergebnisse/NichtInv1kund4.7kErgebnis.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/NichtInv1kund4.7kErgebnis.jpg>
 Package pdftex.def Info: nudes/messergebnisse/NichtInv1kund4.7kErgebnis.jpg  used on input line 450.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/NichtInv1kund10kErgebnis.jpg, id=366, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/NichtInv1kund10kErgebnis.jpg, id=366, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/NichtInv1kund10kErgebnis.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/NichtInv1kund10kErgebnis.jpg>
 Package pdftex.def Info: nudes/messergebnisse/NichtInv1kund10kErgebnis.jpg  used on input line 457.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [13 <./nudes/messergebnisse/NichtInv1kund1.5kErgebnis.jpg> <./nudes/messergebnisse/NichtInv1kund2.2kErgebnis.jpg> <./nudes/messergebnisse/NichtInv1kund4.7kErgebnis.jpg>]
-<nudes/messergebnisse/DifferenziererOhneEingangsR.jpg, id=377, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/DifferenziererOhneEingangsR.jpg, id=377, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/DifferenziererOhneEingangsR.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererOhneEingangsR.jpg>
 Package pdftex.def Info: nudes/messergebnisse/DifferenziererOhneEingangsR.jpg  used on input line 490.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/DifferenziererMitEingangsR.jpg, id=378, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/DifferenziererMitEingangsR.jpg, id=378, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/DifferenziererMitEingangsR.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererMitEingangsR.jpg>
 Package pdftex.def Info: nudes/messergebnisse/DifferenziererMitEingangsR.jpg  used on input line 500.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [14 <./nudes/messergebnisse/NichtInv1kund10kErgebnis.jpg> <./nudes/messergebnisse/DifferenziererOhneEingangsR.jpg>]
-<nudes/messergebnisse/DifferenziererSinus.jpg, id=386, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/DifferenziererSinus.jpg, id=386, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/DifferenziererSinus.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererSinus.jpg>
 Package pdftex.def Info: nudes/messergebnisse/DifferenziererSinus.jpg  used on input line 510.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/DifferenziererDreieck.jpg, id=387, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/DifferenziererDreieck.jpg, id=387, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/DifferenziererDreieck.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererDreieck.jpg>
 Package pdftex.def Info: nudes/messergebnisse/DifferenziererDreieck.jpg  used on input line 511.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/IntegriererRechteck10nF.jpg, id=389, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/IntegriererRechteck10nF.jpg, id=389, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/IntegriererRechteck10nF.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererRechteck10nF.jpg>
 Package pdftex.def Info: nudes/messergebnisse/IntegriererRechteck10nF.jpg  used on input line 523.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/IntegriererRechteck2.2.jpg, id=390, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/IntegriererRechteck2.2.jpg, id=390, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/IntegriererRechteck2.2.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererRechteck2.2.jpg>
 Package pdftex.def Info: nudes/messergebnisse/IntegriererRechteck2.2.jpg  used on input line 533.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [15 <./nudes/messergebnisse/DifferenziererMitEingangsR.jpg> <./nudes/messergebnisse/DifferenziererSinus.jpg> <./nudes/messergebnisse/DifferenziererDreieck.jpg> <./nudes/messergebnisse/IntegriererRechteck10nF.jpg>]
-<nudes/messergebnisse/IntegriererSinusResultat.jpg, id=398, 4047.12pt x 3035.34pt>
+<nudes/messergebnisse/IntegriererSinusResultat.jpg, id=398, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/IntegriererSinusResultat.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererSinusResultat.jpg>
 Package pdftex.def Info: nudes/messergebnisse/IntegriererSinusResultat.jpg  used on input line 543.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/messergebnisse/IntegriererDreieckResultat.jpg, id=399, 4047.12pt x 3035.34pt>
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
+<nudes/messergebnisse/IntegriererDreieckResultat.jpg, id=399, 2023.56pt x 1517.67pt>
 File: nudes/messergebnisse/IntegriererDreieckResultat.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererDreieckResultat.jpg>
 Package pdftex.def Info: nudes/messergebnisse/IntegriererDreieckResultat.jpg  used on input line 544.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 557--559
 
@@ -1785,16 +1785,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 694--697
 File: nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg>
 Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnis.jpg  used on input line 756.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [20]
 File: nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg>
 Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnislinks.jpg  used on input line 763.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 File: nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg>
 Package pdftex.def Info: nudes/messergebnisse/Grundschaltung2OsziErgebnisrechts.jpg  used on input line 764.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [21]
 File: nudes/NivVerstärkungR2Diagramm.jpg Graphic file (type jpg)
 <use nudes/NivVerstärkungR2Diagramm.jpg>
@@ -1803,33 +1803,33 @@ Package pdftex.def Info: nudes/NivVerstärkungR2Diagramm.jpg  used on input line
 File: nudes/messergebnisse/DifferenziererMitEingangsR.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererMitEingangsR.jpg>
 Package pdftex.def Info: nudes/messergebnisse/DifferenziererMitEingangsR.jpg  used on input line 863.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [22]
 File: nudes/messergebnisse/DifferenziererSinus.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererSinus.jpg>
 Package pdftex.def Info: nudes/messergebnisse/DifferenziererSinus.jpg  used on input line 870.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 File: nudes/messergebnisse/DifferenziererDreieck.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/DifferenziererDreieck.jpg>
 Package pdftex.def Info: nudes/messergebnisse/DifferenziererDreieck.jpg  used on input line 871.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 File: nudes/messergebnisse/IntegriererRechteck10nF.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererRechteck10nF.jpg>
 Package pdftex.def Info: nudes/messergebnisse/IntegriererRechteck10nF.jpg  used on input line 880.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 File: nudes/messergebnisse/IntegriererRechteck2.2.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererRechteck2.2.jpg>
 Package pdftex.def Info: nudes/messergebnisse/IntegriererRechteck2.2.jpg  used on input line 887.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [23]
 File: nudes/messergebnisse/IntegriererSinusResultat.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererSinusResultat.jpg>
 Package pdftex.def Info: nudes/messergebnisse/IntegriererSinusResultat.jpg  used on input line 894.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
 File: nudes/messergebnisse/IntegriererDreieckResultat.jpg Graphic file (type jpg)
 <use nudes/messergebnisse/IntegriererDreieckResultat.jpg>
 Package pdftex.def Info: nudes/messergebnisse/IntegriererDreieckResultat.jpg  used on input line 895.
-(pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
+(pdftex.def)             Requested size: 182.09486pt x 136.56125pt.
  [24]
 <nudes/Unsicherheiten1.jpg, id=480, 1224.575pt x 1606.0pt>
 File: nudes/Unsicherheiten1.jpg Graphic file (type jpg)
@@ -1873,7 +1873,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,733b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (27 pages, 60709016 bytes).
+Output written on main.pdf (27 pages, 14894388 bytes).
 PDF statistics:
  855 PDF objects out of 1000 (max. 8388607)
  126 named destinations out of 1000 (max. 500000)

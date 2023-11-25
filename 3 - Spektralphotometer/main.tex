@@ -194,6 +194,85 @@ Durch einsetzen von verschiedenen Proben können nun die dazugehörigen Spektren
 
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
 
+Der erste Teil des Versuches bestand daraus, die optischen Transmissionen von verschiedenen Farbfiltern mittels Spektralphotometer zu ermitteln.
+Dabei wurden zunächst einige Einstellungen in der Software getätigt. Der Wellenlängenbereich wurde auf 400-800 nm beschränkt, was zienlich genau den fürs menschliche Auge sichtbaren Bereich der elektromagnetischen Strahlen (sichtbares Licht) beinhaltet.
+Weiters wurde die Integrationtime auf 1.2 ms gesetzt, damit das Spektrum des Lichtes den y-Achsenbereich gut ausfüllt, aber nicht abgeschnitten wird.
+Außerdem wurde der average-scans Wert noch auf 50 gesetzt. \newline
+
+\noindent
+Sobald die Software brauchbar eingestellt war, wurde eine Hintergrund-Korrektur durchgeführt. Hierfür musste lediglich die Lichtquelle abgeblendet werden, sodass jegliche Störquellen wie das Umgebungslicht, Thermische Effekte, ... die vom Spektralphotometer aufgezeichnet werden übrig bleiben. Durch einen Klick auf Save Background Correction wurde dieses Scenario dann gespeichert und von der Software bei folgenden Messungen automatisch abgezogen.
+Wichtig zu beachten ist, dass die Hintergrund-Korrektur nach jedem Programmneustart oder bei einer Änderung des Umgebungslichtes bzw. der Integrationszeit zu wiederholen ist. \newline
+
+\noindent
+Folgend darauf konnten nun auch schon die ersten Messungen beginnen. Zunächst wurde das Referenzspektrum für die Intensitäten ($I_{0}$) aufgenommen. Dazu wurde einfach eine Aufnahme ohne Probe, also nur mit Halogenlampe aufgezeichnet und als CSV-Datei exportiert.
+Für den Export von CSV-Daten aus Slicco wurden folgende Einstellungen für diese, als auch für alle folgenden Exporte getätigt: Seperator: Tabulator, Decimal Point ",". \newline
+
+\noindent
+Danach wurden diese Daten auch für eingesetzte Farbfilter erhoben ($I_{T}$), indem einmal ein oranger-, einmal einmal ein blauer- und schließlich beide gemeinsam eingesetzt wurden. Zur Abschätzung der Messfehler wurde dieser Vorgang (also von Referenzspektrum bis hin zu den drei Filtermessungen) fünfmal wiederholt.
+Am Ende resultierten also fünfmal vier CSV-Daten der Spektren, welche in den folgenden Abbildungen grafisch dargestellt sind:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/Verlauf-Referenzspektrum.PNG}
+    \caption{Referenzspektrum der ersten Messung}
+    \label{fig:Referenzspektrum3.1Bild}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/Verlauf-Rot.PNG}
+    \includegraphics[width=0.4\linewidth]{nudes/Verlauf-Blau.PNG}
+    \caption{Spektren des Lichtes mit oranger/blauer Filterprobe}
+    \label{fig:Orange/Blau3.1Bilder}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/Verlauf-BlauUndRot.PNG}
+    \caption{Spektrum des Lichtes mit oranger und blauer Filterproben}
+    \label{fig:OrangeUndBlau3.1Bilder}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/qti-Intensitäten-Farbfilter.jpg}
+    \caption{Spektrum des Lichtes aller Messungen des Versuchsteiles mit Farbfiltern}
+    \label{fig:Alle3.1Bilder}
+\end{figure}
+
+
+\noindent
+Zur Durchführung des zweiten Versuchteiles wurden die Farbfilter dann durch Flüssigkeiten ausgetauscht. Dabei wurde zunächst Wasser als Referenzspektrum in den dafür vorgesehenen Küvettenhalter eingesetzt und als Spektrogramm dargestellt bzw. exportiert.
+Danach wurde die Methylenblaulösung in die Halterung eingesetzt und die für die Auswertung wichtigen Daten gespeichert. Auch hier wurde dieser Vorgang zur Bestimmung der Unsicherheiten fünfmal wiederholt. \newline
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/qti-Intensitäten-Flüssigkeiten.jpg}
+    \caption{Spektrum des Lichtes aller Messungen des Versuchsteiles mit Flüssigkeiten}
+    \label{fig:Alle3.2Bilder}
+\end{figure}
+
+\noindent
+Zu guter Letzt soll nun das Glasblättchen vermessen werden. Wie bereits bei den vorherigen Messungen wurde auc hier ein Referenzspektrum ohne Probe aufgenommen. Danach selbiges mit eingesetzter Probe und das ganze fünfmal wiederholt und schon waren die Messungen abgeschlossen. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/Verlauf-ReferenzspektrumGlas.PNG}
+    \includegraphics[width=0.4\linewidth]{nudes/Verlauf-Glas.PNG}
+    \caption{Referenzspektrum für Glasblättchen / Spektrum mit eingesetztem Glasblättchen}
+    \label{fig:MessungenGlas}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/qti-Intensitäten-Glas.jpg}
+    \caption{Referenzspektrum für Glasblättchen und Spektrum mit eingesetztem Glasblättchen gemeinsam}
+    \label{fig:Alle3.5Bilder}
+\end{figure}
+
+\noindent
+Wichtig bei der Handhabung der Messproben war, die Proben möglichst am Rand zu berühren und schnell wieder in die dafür vorgesehenen Behälter zu versorgen, um sie nicht mit Schmutz zu verfälschen.
+
 
 
 

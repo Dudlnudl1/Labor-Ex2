@@ -10990,87 +10990,6 @@ WindowLabel	E:/Spektralphotometer/3.3/ReferenzWasser1.csv	2
 3647	1.01429392280000e+03	1.06161000000000e-03
 </data>
 </table>
-<multiLayer>
-Graph1	1	1	24.11.2023 13:54:51
-geometry	1047	50	534	353	active
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	6	3	510	292
-PlotTitle	Stoffmengenkonzentration Methylenblaulösung	#000000	4228
-<Antialiasing>0</Antialiasing>
-Background	#ffffff	255
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	Wellenlänge / nm	Transmission /			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-TitleFont	MS Shell Dlg 2	7	75	0	0	0
-ScaleFont0	MS Shell Dlg 2	6	75	0	0	0
-ScaleFont1	MS Shell Dlg 2	6	75	0	0	0
-ScaleFont2	MS Shell Dlg 2	6	75	0	0	0
-ScaleFont3	MS Shell Dlg 2	6	75	0	0	0
-AxisFont0	MS Shell Dlg 2	6	50	0	0	0
-AxisFont1	MS Shell Dlg 2	6	50	0	0	0
-AxisFont2	MS Shell Dlg 2	6	50	0	0	0
-AxisFont3	MS Shell Dlg 2	6	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#000000	#000000	#000000	#000000
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	255
-curve	Table1_1	Table1_Wasser	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3647	1
-curve	Table1_3	Table1_Methylenblau	0	1	#0000ff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	3647	1
-scale	0	0.693121054526727	0.73799157221341	0	8	5	0	0
-scale	1	0.693121054526727	0.73799157221341	0	8	5	0	0
-scale	2	632.336243869912	692.16360078549	0	8	5	0	0
-scale	3	632.336243869912	692.16360078549	0	8	5	0	0
-LabelsFormat	0	4	0	4	0	4	0	4
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	2	0	2
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>633.28588445587</x>
-<y>0.73651695426127</y>
-<right>646.445189718483</right>
-<bottom>0.729565183915442</bottom>
-<attachTo>0</attachTo>
-<onTop>1</onTop>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>MS Shell Dlg 2	6	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-</multiLayer>
 <table>
 Table2	3648	5	24.11.2023 14:39:35
 geometry	250	555	541	220	
@@ -14741,6 +14660,87 @@ WindowLabel		2
 </data>
 </table>
 <multiLayer>
+Graph1	1	1	24.11.2023 13:54:51
+geometry	1047	50	534	353	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	6	3	510	292
+PlotTitle	Intensitäten Flüssigkeiten	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Wellenlänge / nm	Intensität /			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	7	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	6	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	6	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	6	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	6	75	0	0	0
+AxisFont0	MS Shell Dlg 2	6	50	0	0	0
+AxisFont1	MS Shell Dlg 2	6	50	0	0	0
+AxisFont2	MS Shell Dlg 2	6	50	0	0	0
+AxisFont3	MS Shell Dlg 2	6	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_Wasser	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3647	1
+curve	Table1_3	Table1_Methylenblau	0	1	#0000ff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	3647	1
+scale	0	-0.0421372836517945	0.860362716348207	0	8	5	0	0
+scale	1	-0.0421372836517945	0.860362716348207	0	8	5	0	0
+scale	2	86.113064050943	1289.44639738428	0	8	5	0	0
+scale	3	86.113064050943	1289.44639738428	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	2	0	2
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>115.59339070276</x>
+<y>0.83097899541797</y>
+<right>375.556271177893</right>
+<bottom>0.692455739604021</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>MS Shell Dlg 2	6	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
 Graph2	1	1	24.11.2023 14:45:57
 geometry	1060	429	508	457	
 WindowLabel		2
@@ -14802,8 +14802,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>612.34865246877</x>
 <y>0.52357623907401</y>
-<right>647.720819409584</right>
-<bottom>0.469214273260445</bottom>
+<right>646.171856438427</right>
+<bottom>0.471930892448117</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>

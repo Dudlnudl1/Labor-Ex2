@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	8
 <table>
 Referenzspektrum1	3648	8	24.11.2023 13:43:06
-geometry	18	17	1055	337	
+geometry	18	-241	1055	337	
 header	1[X]	Referenz[Y]	3[X]	Orange[Y]	5[X]	Blau[Y]	7[X]	Orange&Blau[Y]
 ColWidth	100	100	100	100	100	100	100	100	
 <com>
@@ -3666,7 +3666,7 @@ WindowLabel	E:/Spektralphotometer/3.1/Referenzspektrum1.csv	2
 </table>
 <table>
 BeidesSpektrum1	3648	2	24.11.2023 13:45:00
-geometry	357	643	273	215	
+geometry	357	385	273	215	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -7329,7 +7329,7 @@ WindowLabel	E:/Spektralphotometer/3.1/BeidesSpektrum1.csv	2
 </table>
 <table>
 BlauSpektrum1	3648	2	24.11.2023 13:45:00
-geometry	12	641	298	220	
+geometry	12	383	298	220	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -10992,7 +10992,7 @@ WindowLabel	E:/Spektralphotometer/3.1/BlauSpektrum1.csv	2
 </table>
 <table>
 OrangeSpektrum1	3648	2	24.11.2023 13:45:00
-geometry	351	388	282	220	
+geometry	351	130	282	220	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -14655,7 +14655,7 @@ WindowLabel	E:/Spektralphotometer/3.1/OrangeSpektrum1.csv	2
 </table>
 <table>
 Table1	3648	2	24.11.2023 13:45:00
-geometry	26	387	287	220	
+geometry	26	129	287	220	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -18316,94 +18316,9 @@ WindowLabel	E:/Spektralphotometer/3.1/Referenzspektrum1.csv	2
 3647	1.01429392280000e+03	1.58467000000000e-03
 </data>
 </table>
-<multiLayer>
-Graph1	1	1	24.11.2023 13:45:35
-geometry	1171	20	506	345	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	4	482	280
-PlotTitle	Optische Transmission von Farbfiltern	#000000	4228
-<Antialiasing>0</Antialiasing>
-Background	#ffffff	255
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	Wellenlänge / nm	Transmission / 			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-TitleFont	MS Shell Dlg 2	7	75	0	0	0
-ScaleFont0	MS Shell Dlg 2	6	75	0	0	0
-ScaleFont1	MS Shell Dlg 2	6	75	0	0	0
-ScaleFont2	MS Shell Dlg 2	6	75	0	0	0
-ScaleFont3	MS Shell Dlg 2	6	75	0	0	0
-AxisFont0	MS Shell Dlg 2	6	50	0	0	0
-AxisFont1	MS Shell Dlg 2	6	50	0	0	0
-AxisFont2	MS Shell Dlg 2	6	50	0	0	0
-AxisFont3	MS Shell Dlg 2	6	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#000000	#000000	#000000	#000000
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	255
-curve	Referenzspektrum1_1	Referenzspektrum1_Referenz	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3647	1
-curve	Referenzspektrum1_3	Referenzspektrum1_Orange	0	1	#ff8000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	3647	1
-curve	Referenzspektrum1_5	Referenzspektrum1_Blau	0	1	#0000ff	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	3647	1
-curve	Referenzspektrum1_7	Referenzspektrum1_Orange&Blau	0	1	#00ff00	0	1	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	3647	1
-scale	0	-0.2	1	0	8	5	0	0
-scale	1	-0.2	1	0	8	5	0	0
-scale	2	0	1200	0	8	5	0	0
-scale	3	0	1200	0	8	5	0	0
-LabelsFormat	0	4	0	4	0	4	0	4
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>28.915662650602</x>
-<y>0.95862068965517</y>
-<right>309.397590361446</right>
-<bottom>0.633497536945813</bottom>
-<attachTo>0</attachTo>
-<onTop>1</onTop>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-\l(3)%(3)
-\l(4)%(4)
-</Text>
-<Font>MS Shell Dlg 2	6	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-</multiLayer>
 <table>
 Table2	3648	4	24.11.2023 14:29:37
-geometry	636	361	532	533	
+geometry	636	103	532	533	
 header	1[X]	2	3	4[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -22068,8 +21983,93 @@ WindowLabel		2
 </data>
 </table>
 <multiLayer>
+Graph1	1	1	24.11.2023 13:45:35
+geometry	1171	-238	506	345	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	4	482	280
+PlotTitle	Optische Transmission von Farbfiltern	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Wellenlänge / nm	Transmission / 			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	7	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	6	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	6	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	6	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	6	75	0	0	0
+AxisFont0	MS Shell Dlg 2	6	50	0	0	0
+AxisFont1	MS Shell Dlg 2	6	50	0	0	0
+AxisFont2	MS Shell Dlg 2	6	50	0	0	0
+AxisFont3	MS Shell Dlg 2	6	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Referenzspektrum1_1	Referenzspektrum1_Referenz	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3647	1
+curve	Referenzspektrum1_3	Referenzspektrum1_Orange	0	1	#ffd902	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	3647	1
+curve	Referenzspektrum1_5	Referenzspektrum1_Blau	0	1	#0000ff	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	3647	1
+curve	Referenzspektrum1_7	Referenzspektrum1_Orange&Blau	0	1	#00ff00	0	1	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	3647	1
+scale	0	-0.2	1	0	8	5	0	0
+scale	1	-0.2	1	0	8	5	0	0
+scale	2	0	1200	0	8	5	0	0
+scale	3	0	1200	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>28.915662650602</x>
+<y>0.95862068965517</y>
+<right>351.063829787234</right>
+<bottom>0.74869109947644</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+</Text>
+<Font>MS Shell Dlg 2	6	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
 Graph2	1	1	24.11.2023 14:31:01
-geometry	1165	365	500	457	active
+geometry	1165	107	500	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5

@@ -71,9 +71,59 @@
       \verb https://de.wikipedia.org/wiki/Spektralphotometer#/media/Datei:Photometer_mit_Monochromator.png
       \endverb
     \endentry
+    \entry{Farbwahrnehmung}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8424af74cf45f270b9e9c9efc90b1311}{%
+           family={wikipedia.org},
+           familyi={w\bibinitperiod}}}%
+      }
+      \strng{namehash}{8424af74cf45f270b9e9c9efc90b1311}
+      \strng{fullhash}{8424af74cf45f270b9e9c9efc90b1311}
+      \strng{bibnamehash}{8424af74cf45f270b9e9c9efc90b1311}
+      \strng{authorbibnamehash}{8424af74cf45f270b9e9c9efc90b1311}
+      \strng{authornamehash}{8424af74cf45f270b9e9c9efc90b1311}
+      \strng{authorfullhash}{8424af74cf45f270b9e9c9efc90b1311}
+      \field{extraname}{1}
+      \field{sortinit}{w}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Farbwahrnehmung}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Farbwahrnehmung
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Farbwahrnehmung
+      \endverb
+    \endentry
+    \entry{Methylenblau}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8424af74cf45f270b9e9c9efc90b1311}{%
+           family={wikipedia.org},
+           familyi={w\bibinitperiod}}}%
+      }
+      \strng{namehash}{8424af74cf45f270b9e9c9efc90b1311}
+      \strng{fullhash}{8424af74cf45f270b9e9c9efc90b1311}
+      \strng{bibnamehash}{8424af74cf45f270b9e9c9efc90b1311}
+      \strng{authorbibnamehash}{8424af74cf45f270b9e9c9efc90b1311}
+      \strng{authornamehash}{8424af74cf45f270b9e9c9efc90b1311}
+      \strng{authorfullhash}{8424af74cf45f270b9e9c9efc90b1311}
+      \field{extraname}{2}
+      \field{sortinit}{w}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Methylenblau}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Methylenblau
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Methylenblau
+      \endverb
+    \endentry
   \enddatalist
-  \missing{Farbwahrnehmung}
-  \missing{Methylenblaulösung}
 \endrefsection
 \endinput
 

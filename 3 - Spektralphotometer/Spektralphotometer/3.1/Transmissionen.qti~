@@ -3747,8 +3747,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>29.893238434164</x>
 <y>1.1516049382716</y>
-<right>241.281138790036</right>
-<bottom>1.05135802469136</bottom>
+<right>237.798165137615</right>
+<bottom>1.06896551724138</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>
@@ -3803,8 +3803,8 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
-curve	Table1_1	Table1_Orange	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3646	1
-curve	Table1_1	Table1_Blau	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	3646	1
+curve	Table1_1	Table1_Orange	0	1	#ff8000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3646	1
+curve	Table1_1	Table1_Blau	0	1	#0000ff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	3646	1
 curve	Table1_1	Table1_Beides	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	3646	1
 scale	0	-0.2	1	0	8	5	0	0
 scale	1	-0.2	1	0	8	5	0	0
@@ -3830,8 +3830,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>410.02506265664</x>
 <y>0.95986622073579</y>
-<right>499.248120300752</right>
-<bottom>0.759197324414716</bottom>
+<right>511.653116531165</right>
+<bottom>0.839175257731959</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>

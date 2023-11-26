@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  26 NOV 2023 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  26 NOV 2023 19:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1749,11 +1749,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 415--417
  []
 
 [13 <./nudes/qti-Transmission-FlüssigkeitenOU.jpg> <./nudes/qti-Transmission-Flüssigkeiten.jpg> <./nudes/qti-Extinktion-FlüssigkeitenOU.jpg> <./nudes/qti-Extinktion-Flüssigkeiten.jpg>]
-<nudes/qti-Transmission-GlasOU.jpg, id=307, 402.75468pt x 313.17pt>
+<nudes/qti-Transmission-GlasOU.jpg, id=307, 364.36125pt x 303.38344pt>
 File: nudes/qti-Transmission-GlasOU.jpg Graphic file (type jpg)
 <use nudes/qti-Transmission-GlasOU.jpg>
 Package pdftex.def Info: nudes/qti-Transmission-GlasOU.jpg  used on input line 429.
-(pdftex.def)             Requested size: 182.09486pt x 141.5894pt.
+(pdftex.def)             Requested size: 182.09486pt x 151.61726pt.
 <nudes/qti-Transmission-Glas.jpg, id=308, 382.42876pt x 267.24844pt>
 File: nudes/qti-Transmission-Glas.jpg Graphic file (type jpg)
 <use nudes/qti-Transmission-Glas.jpg>
@@ -1859,7 +1859,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,731b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (19 pages, 13548899 bytes).
+Output written on main.pdf (19 pages, 13550114 bytes).
 PDF statistics:
  726 PDF objects out of 1000 (max. 8388607)
  86 named destinations out of 1000 (max. 500000)

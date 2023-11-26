@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1701022347 "main.bcf" "main.bbl" "main" 1701022367 0
-  "bibliography.bib" 1700924022 10276 d54b4d195b463ad3bf0679bc474faab5 ""
-  "main.bcf" 1701022366 108138 c6abadc848f3683f315d58359cdd51fc "pdflatex"
+["biber main"] 1701022448 "main.bcf" "main.bbl" "main" 1701025209 0
+  "bibliography.bib" 1701022406 10699 6e537898799824b56d0b87c97cf83d36 ""
+  "main.bcf" 1701025207 108131 a81e25ad12d881b9ec555a74d8128cd5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1701022358 "c:/Uni/Semester 3/ExP2-Labor/3 - Spektralphotometer/main.tex" "main.pdf" "main" 1701022367 0
+["pdflatex"] 1701025197 "c:/Uni/Semester 3/ExP2-Labor/3 - Spektralphotometer/main.tex" "main.pdf" "main" 1701025209 0
   "../Deckblätter/Deckblatt_Gitter.pdf" 1697278958 2961822 1145a54550cc0922fcd95a6e9548b838 ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682275748 82705 9cc9f144eacd499bc23a611703921467 ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1679857363 31952 1c8e29bd2aff213fa93173c8fb45733a ""
@@ -250,14 +250,14 @@
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656233319 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Uni/Semester 3/ExP2-Labor/3 - Spektralphotometer/main.tex" 1701022339 28810 62857e75e309732d458645393c60a011 ""
+  "c:/Uni/Semester 3/ExP2-Labor/3 - Spektralphotometer/main.tex" 1701025196 28803 607b040995bfb033574ddf950ef52fb5 ""
   "labor.sty" 1697276689 7223 0e5f3462a1a12aa9c2ec850941c0dcb5 ""
-  "main.aux" 1701022366 14350 7d6f3f97de442cb5d4df06c5c5f94549 "pdflatex"
-  "main.bbl" 1701022350 2971 381ec6591e631f03dbb02295de9131b6 "biber main"
-  "main.out" 1701022366 4469 f38f5ea1a5589beb6b35871e332f9e93 "pdflatex"
-  "main.run.xml" 1701022366 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
-  "main.tex" 1701022339 28810 62857e75e309732d458645393c60a011 ""
-  "main.toc" 1701022366 2150 e03e6f56a7fcad6de2eb6f895ce22336 "pdflatex"
+  "main.aux" 1701025207 14481 238fd5b9b9cb20f669884cbed8b907c7 "pdflatex"
+  "main.bbl" 1701022451 5011 327047db6819820391db54f586ac0038 "biber main"
+  "main.out" 1701025207 4469 f38f5ea1a5589beb6b35871e332f9e93 "pdflatex"
+  "main.run.xml" 1701025207 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
+  "main.tex" 1701025196 28803 607b040995bfb033574ddf950ef52fb5 ""
+  "main.toc" 1701025207 2150 e03e6f56a7fcad6de2eb6f895ce22336 "pdflatex"
   "nudes/Farbwahrnehmung des menschlichen Auges.png" 1701020474 135729 abc8d20afe2082545a9b952f256c01a9 ""
   "nudes/Flüssigkeitsproben.jpg" 1700922706 3245574 3c13fe834c6297fea7c23abc8ce68b45 ""
   "nudes/MonochromatorAufbau.jpg" 1700919322 32434 4b2958a55e83c4d61ee16f8db2979c7b ""
@@ -294,7 +294,7 @@
   "nudes/qti-Transmission-Flüssigkeiten.jpg" 1701004992 98123 6db3acf0d8f41d20d8d12b3451487cb9 ""
   "nudes/qti-Transmission-FlüssigkeitenOU.jpg" 1701011734 75349 b51ba44cc5a068493609acf6e7ef9ce7 ""
   "nudes/qti-Transmission-Glas.jpg" 1701012421 57874 d35ce1b6329a067fa3783e2fae1e61c1 ""
-  "nudes/qti-Transmission-GlasOU.jpg" 1701012526 62485 cc449aeebb95a367d57833c0fa9d7686 ""
+  "nudes/qti-Transmission-GlasOU.jpg" 1701025175 63700 0b4fd13f9359a58bd9afd6a30a6f1a22 ""
   "nudes/qti-Transmissionsmaxima-Glas.jpg" 1701001768 65498 b8dfd92b522365e53f95fd227f4d88a2 ""
   (generated)
   "main.aux"

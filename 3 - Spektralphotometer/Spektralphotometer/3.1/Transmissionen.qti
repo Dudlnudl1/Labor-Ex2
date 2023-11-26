@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	3
 <table>
 Table1	3647	15	25/11/2023 21:35:48
-geometry	1	0	1860	424	
+geometry	1	0	1860	424	active
 header	1[X]	Referenz	ReferenzEr	OrangeInt	OrangeEr	BlauInt	BlauEr	BothInt	BothEr	Orange[Y]	3	Blau[Y]	5	Beides[Y]	7
 ColWidth	100	100	100	100	100	100	100	100	100	100	100	100	100	100	100	
 <com>
@@ -3769,7 +3769,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph2	1	1	26/11/2023 16:09:41
-geometry	866	-6	508	457	active
+geometry	866	-6	508	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5

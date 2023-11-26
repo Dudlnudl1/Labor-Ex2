@@ -3671,7 +3671,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph1	1	1	25/11/2023 21:55:39
-geometry	1216	125	524	409	
+geometry	1129	101	551	470	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3680,7 +3680,7 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	3	5	502	345
+ggeometry	3	5	529	405
 PlotTitle	Transmission Glas	#000000	4228
 <Antialiasing>0</Antialiasing>
 Background	#ffffff	255
@@ -3692,25 +3692,25 @@ AxesTitles	Wellenlänge / nm	Transmission /
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
-TitleFont	MS Shell Dlg 2	9	75	0	0	0
-ScaleFont0	MS Shell Dlg 2	7	75	0	0	0
-ScaleFont1	MS Shell Dlg 2	7	75	0	0	0
-ScaleFont2	MS Shell Dlg 2	7	75	0	0	0
-ScaleFont3	MS Shell Dlg 2	7	75	0	0	0
-AxisFont0	MS Shell Dlg 2	7	50	0	0	0
-AxisFont1	MS Shell Dlg 2	7	50	0	0	0
-AxisFont2	MS Shell Dlg 2	7	50	0	0	0
-AxisFont3	MS Shell Dlg 2	7	50	0	0	0
+TitleFont	MS Shell Dlg 2	11	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
-curve	Table1_1	Table1_Glas	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3646	1
+curve	Table1_1	Table1_Glas	0	1	#00ffff	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3646	1
 ErrorBars	1	Table1_1	Table1_Glas	Table1_3	0.4	8	#00ffff	0	1	1
-scale	0	0.2	1.2	0	4	5	0	0
-scale	1	0.2	1.2	0	8	5	0	0
-scale	2	0	1200	0	7	5	0	0
-scale	3	0	1200	0	8	5	0	0
+scale	0	0.6750957854406	1.075095785441	0	2	5	0	0
+scale	1	0.6750957854406	1.075095785441	0	8	5	0	0
+scale	2	398.15668202765	798.15668202765	0	7	5	0	0
+scale	3	398.15668202765	798.15668202765	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -3729,16 +3729,16 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>27.649769585253</x>
-<y>1.1655172413793</y>
-<right>223.963133640553</right>
-<bottom>1.08122605363985</bottom>
+<x>407.3732718894</x>
+<y>1.0613026819927</y>
+<right>496.517337765355</right>
+<bottom>1.01849201185604</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>
 \l(1)%(1)
 </Text>
-<Font>MS Shell Dlg 2	7	50	0	0	0</Font>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -3761,7 +3761,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	474	388
-PlotTitle	Title	#000000	4228
+PlotTitle	Transmission Glas	#000000	4228
 <Antialiasing>0</Antialiasing>
 Background	#ffffff	255
 Margin	0
@@ -3786,8 +3786,8 @@ AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
 curve	Table1_1	Table1_Glas	0	1	#00ffff	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3646	1
-scale	0	0.5	1.1	0	8	5	0	0
-scale	1	0.5	1.1	0	8	5	0	0
+scale	0	0.6563758389262	1.056375838926	0	4	5	0	0
+scale	1	0.6563758389262	1.056375838926	0	8	5	0	0
 scale	2	400	800	0	7	5	0	0
 scale	3	400	800	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4
@@ -3808,10 +3808,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>410.02506265664</x>
-<y>1.0799331103679</y>
-<right>483.208020050125</right>
-<bottom>1.03177257525084</bottom>
+<x>410.05025125628</x>
+<y>1.0429530201341</y>
+<right>514.127423822715</right>
+<bottom>0.99696989833197</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>

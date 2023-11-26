@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	3
 <table>
 Table1	3647	13	26/11/2023 12:53:37
-geometry	0	0	1554	587	
+geometry	0	0	1554	587	active
 header	1[X]	OrangeT	OrangeEr	BlauT	BlauEr	BeidesT	BeidesEr	Orange[Y]	3[yEr]	Blau[Y]	5[yEr]	Beides[Y]	7[yEr]
 ColWidth	100	100	100	100	100	100	100	100	100	100	100	100	100	
 <com>
@@ -3683,7 +3683,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph1	1	1	26/11/2023 12:58:00
-geometry	692	-28	816	558	active
+geometry	895	306	816	558	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3747,8 +3747,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>735.65217391304</x>
 <y>2.3917525773196</y>
-<right>790.724637681159</right>
-<bottom>1.91237113402062</bottom>
+<right>461.169415292354</right>
+<bottom>2.1961038961039</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>
@@ -3830,8 +3830,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>895.47738693467</x>
 <y>2.4093959731544</y>
-<right>1163.81909547739</right>
-<bottom>1.90604026845638</bottom>
+<right>353.513513513513</right>
+<bottom>2.0979381443299</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>

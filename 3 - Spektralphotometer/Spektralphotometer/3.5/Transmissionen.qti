@@ -3671,7 +3671,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph1	1	1	25/11/2023 21:55:39
-geometry	1129	101	551	470	active
+geometry	1129	101	551	470	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3731,8 +3731,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>407.3732718894</x>
 <y>1.0613026819927</y>
-<right>472.811059907834</right>
-<bottom>1.02758620689689</bottom>
+<right>496.517337765355</right>
+<bottom>1.01849201185604</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>
@@ -3751,7 +3751,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph2	1	1	26/11/2023 16:18:18
-geometry	587	110	500	457	
+geometry	587	110	500	457	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3810,8 +3810,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>410.05025125628</x>
 <y>1.0429530201341</y>
-<right>483.417085427136</right>
-<bottom>1.01073825503341</bottom>
+<right>514.127423822715</right>
+<bottom>0.99696989833197</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>

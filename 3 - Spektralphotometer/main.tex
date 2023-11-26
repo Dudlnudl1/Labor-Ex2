@@ -130,7 +130,12 @@ Für eine erfolgreiche Auswertung des Experimentes ist sind außerdem folgende Z
 
 \begin{equation}
     \label{eq:Wellenzahl}
-    \centerline{Wellenzahl \\ $v=\frac{1}{\lambda}=\frac{m}{2n_{p}d}$ \\ $\Delta v=$}
+    \centerline{Wellenzahl \\ $v=\frac{1}{\lambda}=\frac{m}{2n_{p}d}$ \\ $\Delta d=$}
+\end{equation}
+
+\begin{equation}
+    \label{eq:Stoffemengenkonzentration}
+    \centerline{Stoffemengenkonzentration \\ $c = \frac{E}{\epsilon * d}$ \\ $\Delta c=$}
 \end{equation}
 
 \begin{equation}
@@ -288,45 +293,176 @@ Wichtig bei der Handhabung der Messproben war, die Proben möglichst am Rand zu 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
 
 In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
-Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet. \newline
+Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet, bei den Graphen werden jedoch für die Unsicherheiten die Standardabweichungen der Mittelwerte herangezogen. 
+Um den Verlauf der Funktionen besser erkennen zu können wurden die Graphen jeweils einmal ohne- und einmal mit Unsicherheitsbalken dargestellt.\newline
 
 \noindent
 Zu Beginn der Auswertung werden jeweils die fünf verschiedenen Messdaten für die Spektren mittels Formel \ref{eq:Mittelwert} in qti-Plot gemittelt und weiters mit Gleichung \ref{eq:Standardabweichung} die Standardabweichung bestimmt. Daraus ergibt sich dann ein gemittelter Graph mit den Standardabweichung als y-Unsicherheiten, welche in folgenden Abbildungen ersichtlich sind.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/qti-Intensitäten-Farbfilter-gemittelt.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Intensitäten-FarbfilterOU.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Intensitäten-Farbfilter-gemittelt.jpg}
     \caption{Gemittelte Intensitäten mit Standardabweichungen für Farbfilter}
     \label{fig:GemittelteGraphenIntensitätenFarbfilter}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/qti-Intensitäten-Flüssigkeiten-gemittelt.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Intensitäten-Flüssigkeiten-gemitteltOU.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Intensitäten-Flüssigkeiten-gemittelt.jpg}
     \caption{Gemittelte Intensitäten mit Standardabweichungen für Flüssigkeiten}
     \label{fig:GemittelteGraphenIntensitätenFlüssigkeiten}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/qti-Intensitäten-Glas-gemittelt.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Intensitäten-Glas-gemitteltOU.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Intensitäten-Glas-gemittelt.jpg}
     \caption{Gemittelte Intensitäten mit Standardabweichungen für Glas}
     \label{fig:GemittelteGraphenIntensitätenGlas}
 \end{figure}
 
 \noindent
-Die somit resultierenden Mittelwertgraphen werden für die weitere Auswertung verwendet.
+Die somit resultierenden Mittelwertgraphen werden mit den Standardabweichungen als Unsicherheit für die weitere Auswertung verwendet.
 
 \subsection{Transmission/Extinktion Glasblättchen}
+
+Für den ersten Versuchsteil wird zunächst mit Formel \ref{eq:Transmission} und den exportierten Werten für $I_{T}$ und $I_{0}$ die geforderte Transmission für den orangen Farbfilter, den blauen Filter und beide gemeinsam (in folgender Abbildung grün) bestimmt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Transmission-FarbfilterOU.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Transmission-Farbfilter.jpg}
+    \caption{Resultierende Transmission der Farbfilter}
+    \label{fig:TransmissionFarbfilter}
+\end{figure}
+
+\noindent
+Darauf basierend lässt sich nun mit dem ermitteln Graphen für die Transmission unter verwendung der Gleichung \ref{eq:Extinktion} die Extinktion der Farbfilter bestimmten.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Extinktion-FarbfilterOU.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Extinktion-Farbfilter.jpg}
+    \caption{Resultierende Extinktion der Farbfilter}
+    \label{fig:ExtinktionFarbfilter}
+\end{figure}
+
+
 \subsection{Additivität der Extinktion - Farbfilter}
+
+Um die Additivität der Extinktion von zwei Farbfiltern zu zeigen, sehen wir uns nocheinmal den Extinktionsgraphen ohne Unsicherheiten (Linie besser erkennbar) an.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/qti-AdditivitätOUgekennzeichnet.jpg}
+    \caption{Additivität der Extinktion}
+    \label{fig:AdditivitätExtinktion}
+\end{figure}
+
+\noindent
+Sucht man sich einen beliebigen Punkt auf der x-Achse aus, und vergleicht die y-Werte, so lässt sich erkennen, dass der y-Wert der orangen Funktion und der y-Wert der blauen Funktion addiert den y-Wert der grünen Funktion ergeben.
+Somit spricht man von additiven Verhalten von Extinktion (grafisch veranschaulicht mit pinkem und violettem Balken an den roten Punkten 1, 2 und 3 in Abbildung \ref{fig:AdditivitätExtinktion}).
+
+
 \subsection{Stoffemengenkonzentration von Methylenblaulösung}
+
+Um die Stoffemengenkonzentration von Methylenblaulösung zu bestimmen, muss zuerst wie in Unterkapitel Transmission/Extinktion Glasblättchen die Transmission und Extinktion der Flüssigkeit berechnet werden.
+Hierzu wurden wieder die Fomel \ref{eq:Transmission} für Transmission und Gleichung \ref{eq:Extinktion} für Extinktion eingesetzt. Dabei resultierten folgende Graphen:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Transmission-FlüssigkeitenOU.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Transmission-Flüssigkeiten.jpg}
+    \caption{Resultierende Transmission von Methylenblaulösung}
+    \label{fig:TransmissionFlüssigkeiten}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Extinktion-FlüssigkeitenOU.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Extinktion-Flüssigkeiten.jpg}
+    \caption{Resultierende Extinktion von Methylenblaulösung}
+    \label{fig:ExtinktionFlüssigkeiten}
+\end{figure}
+
+\noindent
+Zur Bestimmung der Stoffemengenkonzentration werden nun noch folgende Größen benötigt:
+
+\begin{itemize}
+    \item $\lambda$ = 664 nm (zu vermessene Wellenlänge)
+    \item $\epsilon_{\lambda}$ = 77790 $\frac{Liter}{mol*cm}$ (aus Versuchsangabe entnommen)
+    \item d = 10 mm (aus Versuchsangabe entnommen)
+    \item E = (0.216 $\pm$ 0.004) (der von vorhin bestimmte Wert für die Extinktion bei einer Wellenlänge von 664 nm)
+\end{itemize}
+
+\noindent
+Unter Einbezug der eben genannten Werten, eingesetzt in Formel \ref{eq:Stoffemengenkonzentration} ergibt sich folgende Stoffemengenkonzentration für Methylenblaulösung: \newline
+
+\noindent
+c = (2.78 $\pm$ 0.06) $\frac{\mu mol}{l}$
+
+
+
+
+
 \subsection{Farbeindrücke der jeweiligen Proben}
+
+
+
+
+
 \subsection{Dicke des Glasblättchens}
 
+Um leztenendes die Dicke des Glasblättchens über die Transmissionsmaxima zu bestimmen, müssen letztere ersteinmal dargestellt werden.
+Hierfür werden wieder mit Formeln \ref{eq:Transmission} und \ref{eq:Extinktion} die Transmissions- und Extinktionsgraphen berechnet.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Transmission-GlasOU.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Transmission-Glas.jpg}
+    \caption{Resultierende Transmission von Glas}
+    \label{fig:TransmissionGlas}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Extinktion-GlasOU.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/qti-Extinktion-Glas.jpg}
+    \caption{Resultierende Extinktion von Glas}
+    \label{fig:ExtinktionGlas}
+\end{figure}
 
+\noindent
+Nun soll der Graph für die Transmission von Glas (Abbildung \ref{fig:TransmissionGlas}) genauer untersucht werden. 
+Dafür wird der Graph auf x-Achse und y-Achse so eingeschränkt, dass die Transmissionsmaxima gut zu sehen sind. In unserem Fall wurde die y-Achse auf die Werte zwischen 0.89 und 0.93 beschränkt und die x-Achse auf einen Bereich von 20 nm (von 600 - 620) begrenzt.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/qti-Transmissionsmaxima-Glas.jpg}
+    \caption{Genauere Auswertung der Transmissionsmaxima}
+    \label{fig:Transmissionsmaxima}
+\end{figure}
+
+\noindent
+Nun wurde der Transmissionswert für zehn verschiede Maxima notiert und wie in Gleichung \ref{eq:Wellenzahl} mittels Kehrwert zur Wellenzahl berechnet.
+Diese Wellenzahl wurde dann für alle zehn Messungen in einem weiteren Graphen aufgetragen und mit einem linearen Fit die Steigung bestimmmt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/qti-SteigungWellenzahl.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/WellenzahlSteigung.png}
+    \caption{Aufgetragene Wellenzahlen}
+    \label{fig:WellenzahlSteigung}
+\end{figure}
+
+\noindent
+Wie sich in vorangegangenen Abbildungen erkennen lässt, ergibt sich eine Steigung von $v_{m}$ (-2.226 $\pm$ 0.015) * $10^-6$ m.
+Unter Verwendung der Gleichung \ref{eq:Wellenzahl} geht nun mit der Brechzahl $n_{p}=1.519$ und $m=10$ die Glasdicke d hervor. \newline
+
+\noindent
+d=(0.15 $\pm$ 0.01) mm
 
 
 

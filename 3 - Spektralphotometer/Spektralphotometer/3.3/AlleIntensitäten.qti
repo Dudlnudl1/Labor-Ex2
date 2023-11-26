@@ -1,10 +1,10 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	2
+<windows>	3
 <table>
 Table1	3647	5	25/11/2023 21:01:42
-geometry	13	33	606	220	
-header	1[X]	Referenz Wasser[Y]	3[yEr]	Methylenblau[Y]	5[yEr]
+geometry	12	40	606	220	
+header	1[X]	Referenz Wasser[Y]	3	Methylenblau[Y]	5
 ColWidth	100	100	100	100	100	
 <com>
 </com>
@@ -3703,10 +3703,10 @@ curve	Table1_1	Table1_Referenz Wasser	0	1	#000000	0	1	7	0	#000000	#000000	0	#000
 curve	Table1_1	Table1_Methylenblau	0	1	#0000ff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	3646	1
 ErrorBars	1	Table1_1	Table1_Referenz Wasser	Table1_3	1	8	#000000	1	1	1
 ErrorBars	1	Table1_1	Table1_Methylenblau	Table1_5	1	8	#0000ff	1	1	1
-scale	0	-0.15662100456621	0.84337899543379	0	8	5	0	0
-scale	1	-0.15662100456621	0.84337899543379	0	8	5	0	0
-scale	2	3.09677419354839	1203.09677419355	0	8	5	0	0
-scale	3	3.09677419354839	1203.09677419355	0	8	5	0	0
+scale	0	-0.0468535469107551	0.903146453089245	0	8	5	0	0
+scale	1	-0.0468535469107551	0.903146453089245	0	8	5	0	0
+scale	2	410	790	0	7	5	0	0
+scale	3	410	790	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -3725,10 +3725,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>39.78467228272</x>
-<y>0.80913242009132</y>
-<right>288.956646805013</right>
-<bottom>0.697260273972603</bottom>
+<x>421.63265306122</x>
+<y>0.87053775743707</y>
+<right>500.637755102041</right>
+<bottom>0.764016018306636</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>
@@ -3736,6 +3736,87 @@ EnabledTickLabels	1	1	1	1
 \l(2)%(2)
 </Text>
 <Font>MS Shell Dlg 2	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	26/11/2023 16:13:11
+geometry	462	138	508	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	482	388
+PlotTitle	Intensitäten Flüssigkeiten	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Wellenlänge / nm	Intensität /			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_Referenz Wasser	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3646	1
+curve	Table1_1	Table1_Methylenblau	0	1	#0000ff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	3646	1
+scale	0	-0.11304347826087	0.886956521739131	0	8	5	0	0
+scale	1	-0.11304347826087	0.886956521739131	0	8	5	0	0
+scale	2	402.005012531328	802.005012531328	0	7	5	0	0
+scale	3	402.005012531328	802.005012531328	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	311212576
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>415.76422629054</x>
+<y>0.85351170568562</y>
+<right>519.899749373433</right>
+<bottom>0.738441670253982</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>

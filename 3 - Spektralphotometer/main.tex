@@ -94,7 +94,7 @@ Scheint Licht also auf einen teiltransperenter Körper, so wird ein Teil davon d
 
 \begin{equation}
     \label{eq:Transmission}
-    \centerline{$T=\frac{I_{T}}{I_{0}}$}
+    \centerline{$T=\frac{I_{T}}{I_{0}}$ \\ $\Delta T = \vert \frac{\partial T}{\partial I_{T}} * \Delta I_{T} \vert + \vert \frac{\partial T}{\partial I_{0}} * \Delta I_{0} \vert $}
 \end{equation}
 
 \noindent
@@ -102,7 +102,7 @@ In der Spektroskopie wird jedoch meist mit logarithmischen Werten als Maß für 
 
 \begin{equation}
     \label{eq:Extinktion}
-    \centerline{$E=-log(T)=-log(\frac{I_{T}}{I_{0}})=log(\frac{I_{0}}{I_{T}})$}
+    \centerline{$E=-log(T)=-log(\frac{I_{T}}{I_{0}})=log(\frac{I_{0}}{I_{T}})$ \\ $\Delta E = \vert \frac{\partial E}{\partial T} * \Delta T \vert$}
 \end{equation}
 
 \noindent
@@ -130,23 +130,38 @@ Für eine erfolgreiche Auswertung des Experimentes ist sind außerdem folgende Z
 
 \begin{equation}
     \label{eq:Wellenzahl}
-    \centerline{Wellenzahl \\ $v=\frac{1}{\lambda}=\frac{m}{2n_{p}d}$ \\ $\Delta d=$}
+    \centerline{Wellenzahl \\ $v=\frac{1}{\lambda}=\frac{m}{2n_{p}d}$ $\Longrightarrow$ $d=\frac{m}{2n_{p}v}$ \\ $\Delta d = \vert \frac{\partial d}{\partial v} * \Delta v \vert$}
 \end{equation}
+
+\noindent
+v ... Wellenzahl, $\lambda$ ... Wellenlänge, m ... Anzahl Maxima, $n_{p}$ ... Brechzahl, d ... Glasdicke
+
 
 \begin{equation}
     \label{eq:Stoffemengenkonzentration}
-    \centerline{Stoffemengenkonzentration \\ $c = \frac{E}{\epsilon * d}$ \\ $\Delta c=$}
+    \centerline{Stoffemengenkonzentration \\ $c = \frac{E}{\epsilon * d}$ \\ $\Delta c = \vert \frac{\partial c}{\partial E} * \Delta E \vert$}
 \end{equation}
+
+\noindent
+c ... Stoffemengenkonzentration, E ... Extinktion, $\epsilon$ ... Ext.koeffizient, d ... Flüssigkeitsdicke
+
 
 \begin{equation}
     \label{eq:Mittelwert}
     \centerline{Mittelwert \\ $\bar{\varphi} = \frac{1}{N} \sum_{i = 1}^{N} \varphi_i $ \\}
 \end{equation}
 
+\noindent
+$\bar{\varphi}$ ... Mittelwert, N ... Probenanzahl, $\varphi_i$ ... Probenwert
+
+
 \begin{equation}
     \label{eq:Standardabweichung}
     \centerline{Standardabweichung \\ $\sigma_{\varphi} = \sqrt{\frac{1}{N-1} \sum_{i = 1}^{N} (\varphi_i - \bar{\varphi})^2}$ \\}
 \end{equation}
+
+\noindent
+$\sigma_{\varphi}$ ... Standardabweichung, N ... Probenanzahl, $\varphi_i$ ... Probenwert, $\bar{\varphi}$ ... Mittelwert
 
     
 

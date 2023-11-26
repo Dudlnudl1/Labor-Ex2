@@ -54,7 +54,22 @@ Um das Reflexionsvermögen $R$ zu bestimmen, benötigt man die Detektorspannunge
 Wenn der Laserstrahl nicht auf den Detektor trifft, ist dennoch eine Spannung zu messen. Diese Spannung $U_D$ ist das Dunkelstromrauschen des Detektors und der Photostrom der Umgebungsbeleuchtung. 
 \\
 Um nun das Reflexionsvermögen $R$ zu berechnen, benötigt man die Intensität $I$ welche vom Detektor ausgebeben wird. 
-Dabei ist die Refernzintensität $I_0 \varpropto U_0 - U_D$ und die Reflexionsintensität $I_R \varpropto U_R - U_D$. 
+Dabei ist die Refernzintensität 
+
+\begin{equation}
+    \label{eq:Refernzintensität}
+    \centerline{$I_0 \varpropto U_0 - U_D$ \\ $\Delta I_0 = \vert \frac{\partial I_0}{\partial U_0} * \Delta U_0 \vert + \vert \frac{\partial I_0}{\partial U_D} * \Delta U_D \vert$}
+\end{equation}
+
+\noindent
+und die Reflexionsintensität 
+
+\begin{equation}
+    \label{eq:Reflexionsintensität}
+    \centerline{$I_R \varpropto U_R - U_D$ \\ $\Delta I_R = \vert \frac{\partial I_R}{\partial U_R} * \Delta U_R \vert + \vert \frac{\partial I_R}{\partial U_D} * \Delta U_D \vert$}
+\end{equation}
+
+\noindent 
 Daraus lässt sich das Reflexionsvermögen $R$ mit Unsicherheit $\Delta R$ berechnen. 
 
 \begin{equation}
@@ -247,14 +262,14 @@ Für eine Glas-Luft Grenzfläche wird der Versuch wiederholt. Dazu dreht man den
         4  & 826.32 & -5.543 & -2.431 $\pm$ 0.008 & 30.0 & -120.5 \\
         5  & 826.32 & -5.719 & -0.478 $\pm$ 0.008 & 35.0 & -110.0 \\
         6  & 826.32 & -5.789 & 36.692 $\pm$ 0.013 & 40.0 & -99.8  \\
-        7  & 826.32 & -5.936 & 519.59 $\pm$ 0.12 & 45.0 & -88.7  \\
-        8  & 826.32 & -5.908 & 510.97 $\pm$ 0.12 & 55.0 & -68.4  \\
-        10 & 826.32 & -5.955 & 557.28 $\pm$ 0.12 & 60.0 & -60.4  \\
-        11 & 826.32 & -5.963 & 589.87 $\pm$ 0.13 & 65.0 & -50.1  \\
-        12 & 826.32 & -5.915 & 638.36 $\pm$ 0.13 & 70.0 & -39.8  \\
-        13 & 826.32 & -5.832 & 668.14 $\pm$ 0.14 & 75.0 & -29.1  \\
-        14 & 826.32 & -5.817 & 688.48 $\pm$ 0.14 & 80.0 & -19.4  \\
-        15 & 826.32 & -5.879 & 700.82 $\pm$ 0.14 & 85.0 & -8.5   \\
+        7  & 826.32 & -5.936 & 519.59 $\pm$ 0.12  & 45.0 & -88.7  \\
+        8  & 826.32 & -5.908 & 510.97 $\pm$ 0.12  & 55.0 & -68.4  \\
+        10 & 826.32 & -5.955 & 557.28 $\pm$ 0.12  & 60.0 & -60.4  \\
+        11 & 826.32 & -5.963 & 589.87 $\pm$ 0.13  & 65.0 & -50.1  \\
+        12 & 826.32 & -5.915 & 638.36 $\pm$ 0.13  & 70.0 & -39.8  \\
+        13 & 826.32 & -5.832 & 668.14 $\pm$ 0.14  & 75.0 & -29.1  \\
+        14 & 826.32 & -5.817 & 688.48 $\pm$ 0.14  & 80.0 & -19.4  \\
+        15 & 826.32 & -5.879 & 700.82 $\pm$ 0.14  & 85.0 & -8.5   \\
         \hline
     \end{tabular}
 \end{table}
@@ -268,20 +283,20 @@ Für eine Glas-Luft Grenzfläche wird der Versuch wiederholt. Dazu dreht man den
         Nr. & $U_0 \pm 0.12 $ / mV & $U_D \pm 0.009$ / mV & $U_{R}$ / mV & $\varphi_{Ein} \pm 0.7$ / deg. & $\varphi_D \pm 0.7$ / deg.  \\
         \hline
         1  & 555.54 & -5.425 & 12.193  $\pm$ 0.010 & 15.0  & -148.6 \\
-        2  & 555.54 & -5.359 & 16.648  $\pm$ 0.010& 20.0  & -139.1 \\
+        2  & 555.54 & -5.359 & 16.648  $\pm$ 0.010 & 20.0  & -139.1 \\
         3  & 555.54 & -5.511 & 21.414  $\pm$ 0.011 & 25.0  & -128.1 \\
         4  & 555.54 & -5.543 & 29.556  $\pm$ 0.012 & 30.0  & -120.5 \\
         5  & 555.54 & -5.719 & 55.858  $\pm$ 0.015 & 35.0  & -110.0 \\
         6  & 555.54 & -5.789 & 119.634 $\pm$ 0.023 & 40.0  & -99.8  \\
-        7  & 555.54 & -5.936 & 367.57  $\pm$ 0.10 & 45.0  & -88.7  \\
-        8  & 555.54 & -5.908 & 360.52  $\pm$ 0.10 & 50.0  & -79.5  \\
-        9  & 555.54 & -5.915 & 346.67  $\pm$ 0.10 & 55.0  & -68.4  \\
-        10 & 555.54 & -5.955 & 378.43  $\pm$ 0.10 & 60.0  & -60.4  \\
-        11 & 555.54 & -5.963 & 388.25  $\pm$ 0.10 & 65.0 & -50.1  \\
-        12 & 555.54 & -5.915 & 409.67  $\pm$ 0.10 & 70.0 & -39.8  \\
-        13 & 555.54 & -5.832 & 427.86  $\pm$ 0.11 & 75.0 & -29.1  \\
-        14 & 555.54 & -5.817 & 447.67  $\pm$ 0.11 & 80.0 & -19.4  \\
-        15 & 555.54 & -5.879 & 482.37  $\pm$ 0.11 & 85.0 & -8.5   \\
+        7  & 555.54 & -5.936 & 367.57  $\pm$ 0.10  & 45.0  & -88.7  \\
+        8  & 555.54 & -5.908 & 360.52  $\pm$ 0.10  & 50.0  & -79.5  \\
+        9  & 555.54 & -5.915 & 346.67  $\pm$ 0.10  & 55.0  & -68.4  \\
+        10 & 555.54 & -5.955 & 378.43  $\pm$ 0.10  & 60.0  & -60.4  \\
+        11 & 555.54 & -5.963 & 388.25  $\pm$ 0.10  & 65.0 & -50.1  \\
+        12 & 555.54 & -5.915 & 409.67  $\pm$ 0.10  & 70.0 & -39.8  \\
+        13 & 555.54 & -5.832 & 427.86  $\pm$ 0.11  & 75.0 & -29.1  \\
+        14 & 555.54 & -5.817 & 447.67  $\pm$ 0.11  & 80.0 & -19.4  \\
+        15 & 555.54 & -5.879 & 482.37  $\pm$ 0.11  & 85.0 & -8.5   \\
         \hline
     \end{tabular}
 \end{table}
@@ -348,7 +363,7 @@ Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größt
 \\
 \\
 Für die Werte aus den Tabellen \ref{tab:mess luft glas p-pol} und \ref{tab:mess luft glas s-pol} wird das Reflexionsvermögen $R$ berechnet. 
-Mit der Formel \ref{eq:Reflexionsvermögen} und den zuvor genannten Intensitäten kommt man auf die folgenden Werte. 
+Mit der Formel \ref{eq:Reflexionsvermögen} für das Reflexionsvermögen $R$ und den Intensitäten $I_0$ und $I_R$ (Formeln \ref{eq:Refernzintensität}, \ref{eq:Reflexionsintensität}) kommt man auf die folgenden Werte. 
 
 \begin{table}[H]
     \centering
@@ -356,27 +371,54 @@ Mit der Formel \ref{eq:Reflexionsvermögen} und den zuvor genannten Intensitäte
     \label{tab:reflexionsvermögen luft glas}
     \begin{tabular}{| l | l | l | l | l | l | l |}
         \hline
-        Nr. & $I_{0-p}$ / mV & $I_{R-p}$ / mV & $R_p$ / mV & $I_{0-s}$ / deg. & $I_{R-s}$ / deg. & $R_s$ / \\
+        Nr. & $I_{0-p} \pm 9$ / mV & $I_{R-p}$ / mV & $R_p$ / mV & $I_{0-s} \pm 6$ / deg. & $I_{R-s}$ / deg. & $R_s$ / \\
         \hline
-        1  & 831.367 & 34.144    & 0.04106970808319      & 560.587 & 19.685  & 0.03511497769303  \\
-        2  & 831.504 & 20.562    & 0.02472868440801      & 560.724 & 22.128  & 0.0394632653498   \\
-        3  & 831.716 & 18.658    & 0.02243313823469      & 560.936 & 22.611  & 0.04030941141235  \\
-        4  & 831.914 & 16.392    & 0.0197039597843       & 561.134 & 23.82   & 0.04244975353481  \\
-        5  & 831.939 & 12.651    & 0.01520664375633      & 561.159 & 28.207  & 0.05026561099439  \\
-        6  & 832.183 & 9.047     & 0.01087140689007      & 561.403 & 32.973  & 0.05873320947697  \\
-        7  & 832.254 & 4.695     & 0.005641306620335     & 561.474 & 43.546  & 0.07755657430264  \\
-        8  & 832.252 & 1.791     & 0.002151992425371     & 561.472 & 52.05   & 0.09270275276416  \\
-        9  & 832.292 & 0.148     & 0.0001778222066294    & 561.512 & 64.669  & 0.1151693997635   \\
-        10 & 832.282 & 1.388     & 0.001667703975335     & 561.502 & 83.989  & 0.1495791644553   \\
-        11 & 832.274 & 10.132    & 0.01217387543045      & 561.494 & 106.588 & 0.1898292768934   \\
-        12 & 832.225 & 32.28     & 0.03878758749136      & 561.445 & 142.785 & 0.2543169856353   \\
-        13 & 832.194 & 88.22     & 0.1060089354165       & 561.414 & 213.934 & 0.3810628163886   \\
-        14 & 832.194 & 189.624   & 0.2278603306441       & 561.414 & 286.584 & 0.5104682106253   \\
-        15 & 832.172 & 425.632   & 0.5114711862452       & 561.392 & 398.272 & 0.7094365434491   \\
+        1  & 832  & 34.2  $\pm$ 0.4     & 0.1    $\pm$ 0.4    & 561 & 19.7  $\pm$ 0.2    & 0.1 $\pm$ 0.3 \\
+        2  & 832  & 20.6  $\pm$ 0.2     & 0.1    $\pm$ 0.2    & 561 & 22.2  $\pm$ 0.3    & 0.1 $\pm$ 0.3 \\
+        3  & 832  & 18.66 $\pm$ 0.18    & 0.03   $\pm$ 0.19   & 561 & 22.7  $\pm$ 0.3    & 0.1 $\pm$ 0.3 \\
+        4  & 832  & 16.40 $\pm$ 0.16    & 0.02   $\pm$ 0.17   & 562 & 23.9  $\pm$ 0.3    & 0.1 $\pm$ 0.3 \\
+        5  & 832  & 12.66 $\pm$ 0.12    & 0.02   $\pm$ 0.13   & 562 & 28.3  $\pm$ 0.3    & 0.1 $\pm$ 0.3 \\
+        6  & 833  & 9.05  $\pm$ 0.09    & 0.02   $\pm$ 0.09   & 562 & 33.0  $\pm$ 0.4    & 0.1 $\pm$ 0.4 \\
+        7  & 833  & 4.70  $\pm$ 0.04    & 0.01   $\pm$ 0.05   & 562 & 43.6  $\pm$ 0.5    & 0.1 $\pm$ 0.5 \\
+        8  & 833  & 1.791 $\pm$ 0.012   & 0.003  $\pm$ 0.018  & 562 & 52.1  $\pm$ 0.5    & 0.1 $\pm$ 0.6 \\
+        9  & 833  & 0.148 $\pm$ 0.005   & 0.001  $\pm$ 0.002  & 562 & 64.7  $\pm$ 0.7    & 0.2 $\pm$ 0.7 \\
+        10 & 833  & 1.388 $\pm$ 0.007   & 0.002  $\pm$ 0.014  & 562 & 84.0  $\pm$ 0.9    & 0.2 $\pm$ 0.9 \\
+        11 & 833  & 10.14 $\pm$ 0.10    & 0.02   $\pm$ 0.10   & 562 & 107   $\pm$ 2      & 1   $\pm$ 2 \\
+        12 & 833  & 32.3  $\pm$ 0.4     & 0.1    $\pm$ 0.4    & 562 & 143   $\pm$ 2      & 1   $\pm$ 2 \\
+        13 & 833  & 88.3  $\pm$ 0.9     & 0.2    $\pm$ 0.9    & 562 & 215   $\pm$ 3      & 1   $\pm$ 3 \\
+        14 & 833  & 190   $\pm$ 3       & 1      $\pm$ 2      & 562 & 287   $\pm$ 4      & 1   $\pm$ 4 \\
+        15 & 833  & 426   $\pm$ 5       & 1      $\pm$ 5      & 562 & 399   $\pm$ 5      & 1   $\pm$ 5 \\
         \hline
     \end{tabular}
 \end{table}
 
+
+\begin{table}[H]
+    \centering
+    \caption{Reflexionsvermögen $R$ sowie Refernzintensität $I_0$ und Reflexionsintensität $I_R$ für eine Glas-Luft Grenzfläche bei p-Polarisiertem und s-Polarisierten Licht.}
+    \label{tab:reflexionsvermögen glas luft}
+    \begin{tabular}{| l | l | l | l | l | l | l |}
+        \hline
+        Nr. & $I_{0-p} \pm 9$ / mV & $I_{R-p}$ / mV & $R_p$ / mV & $I_{0-s} \pm 6$ / deg. & $I_{R-s}$ / deg. & $R_s$ / \\
+        \hline
+        1  & 832  & 15.70 $\pm$ 0.15    & 0.02    $\pm$ 0.16 & 561 & 17.62   $\pm$ 0.17  & 0.04 $\pm$ 0.19 \\
+        2  & 832  & 12.26 $\pm$ 0.12    & 0.02    $\pm$ 0.12 & 561 & 22.1    $\pm$ 0.3   & 0.04 $\pm$ 0.3 \\
+        3  & 832  & 7.29  $\pm$ 0.07    & 0.01    $\pm$ 0.08 & 562 & 27.0    $\pm$ 0.3   & 0.05 $\pm$ 0.3 \\
+        4  & 832  & 3.12  $\pm$ 0.03    & 0.01    $\pm$ 0.04 & 562 & 35.1    $\pm$ 0.4   & 0.07 $\pm$ 0.4 \\
+        5  & 833  & 5.25  $\pm$ 0.05    & 0.01    $\pm$ 0.06 & 562 & 61.6    $\pm$ 0.6   & 0.11 $\pm$ 0.74 \\
+        6  & 833  & 42.5  $\pm$ 0.5     & 0.1     $\pm$ 0.5  & 562 & 126     $\pm$ 2     & 1    $\pm$ 2 \\
+        7  & 833  & 526   $\pm$ 6       & 1       $\pm$ 6    & 562 & 374     $\pm$ 5     & 1    $\pm$ 4 \\
+        8  & 833  & 517   $\pm$ 6       & 1       $\pm$ 6    & 562 & 367     $\pm$ 5     & 1    $\pm$ 4 \\
+        9  & 833  & 564   $\pm$ 6       & 1       $\pm$ 6    & 562 & 353     $\pm$ 5     & 1    $\pm$ 4 \\
+        10 & 833  & 596   $\pm$ 7       & 1       $\pm$ 6    & 562 & 385     $\pm$ 5     & 1    $\pm$ 5 \\
+        11 & 833  & 645   $\pm$ 7       & 1       $\pm$ 7    & 562 & 395     $\pm$ 5     & 1    $\pm$ 5 \\
+        12 & 833  & 674   $\pm$ 7       & 1       $\pm$ 7    & 562 & 416     $\pm$ 5     & 1    $\pm$ 5 \\
+        13 & 833  & 695   $\pm$ 8       & 1       $\pm$ 7    & 562 & 434     $\pm$ 5     & 1    $\pm$ 5 \\
+        14 & 833  & 707   $\pm$ 8       & 1       $\pm$ 7    & 562 & 454     $\pm$ 5     & 1    $\pm$ 5 \\
+        15 & 833  & 426   $\pm$ 5       & 1       $\pm$ 5    & 562 & 489     $\pm$ 5     & 1    $\pm$ 6 \\
+        \hline
+    \end{tabular}
+\end{table}
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 

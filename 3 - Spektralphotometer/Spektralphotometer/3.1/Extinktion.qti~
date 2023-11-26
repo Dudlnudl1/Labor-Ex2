@@ -4,7 +4,7 @@ QtiPlot 0.9.8 project file
 <table>
 Table1	3647	13	26/11/2023 12:53:37
 geometry	0	0	1554	587	
-header	1[X]	OrangeT	OrangeEr	BlauT	BlauEr	BeidesT	BeidesEr	Orange[Y]	3	Blau[Y]	5	Beides[Y]	7
+header	1[X]	OrangeT	OrangeEr	BlauT	BlauEr	BeidesT	BeidesEr	Orange[Y]	3[yEr]	Blau[Y]	5[yEr]	Beides[Y]	7[yEr]
 ColWidth	100	100	100	100	100	100	100	100	100	100	100	100	100	
 <com>
 <col nr="7">
@@ -3683,7 +3683,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph1	1	1	26/11/2023 12:58:00
-geometry	668	173	816	558	
+geometry	692	-28	816	558	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3723,10 +3723,10 @@ curve	Table1_1	Table1_Beides	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	
 ErrorBars	1	Table1_1	Table1_Orange	Table1_3	1	8	#ff8000	1	1	1
 ErrorBars	1	Table1_1	Table1_Blau	Table1_5	1	8	#0000ff	1	1	1
 ErrorBars	1	Table1_1	Table1_Beides	Table1_7	1	8	#00ff00	1	1	1
-scale	0	0.0001	10	0	7	5	1	0
-scale	1	0.0001	10	0	8	5	1	0
-scale	2	0	1200	0	7	5	0	0
-scale	3	0	1200	0	8	5	0	0
+scale	0	-0.5	2.5	0	6	5	0	0
+scale	1	-0.5	2.5	0	8	5	0	0
+scale	2	400	800	0	7	5	0	0
+scale	3	400	800	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -3745,10 +3745,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>1.8237082066869</x>
-<y>6.7994569244475</y>
-<right>175.075987841945</right>
-<bottom>1.08020244172354</bottom>
+<x>735.65217391304</x>
+<y>2.3917525773196</y>
+<right>790.724637681159</right>
+<bottom>1.91237113402062</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>
@@ -3769,7 +3769,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph2	1	1	26/11/2023 16:11:08
-geometry	775	31	508	457	active
+geometry	236	130	508	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3808,8 +3808,8 @@ curve	Table1_1	Table1_Blau	0	1	#0000ff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	
 curve	Table1_1	Table1_Beides	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	3646	1
 scale	0	-0.5	2.5	0	8	5	0	0
 scale	1	-0.5	2.5	0	8	5	0	0
-scale	2	400	800	0	7	5	0	0
-scale	3	400	800	0	8	5	0	0
+scale	2	0	1200	0	7	5	0	0
+scale	3	0	1200	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -3828,10 +3828,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>698.74686716792</x>
-<y>2.4096989966555</y>
-<right>787.96992481203</right>
-<bottom>1.90802675585284</bottom>
+<x>895.47738693467</x>
+<y>2.4093959731544</y>
+<right>1163.81909547739</right>
+<bottom>1.90604026845638</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>

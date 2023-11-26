@@ -1,15 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[159] biber-MSWIN64:340> INFO - === 
-[208] Biber.pm:419> INFO - Reading 'main.bcf'
-[381] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
-[403] Biber.pm:4419> INFO - Processing section 0
-[421] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[483] bibtex.pm:1713> INFO - LaTeX decoding ...
-[542] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[572] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[572] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[572] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[572] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[581] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[582] bbl.pm:763> INFO - Output to main.bbl
+[148] biber-MSWIN64:340> INFO - === 
+[191] Biber.pm:419> INFO - Reading 'main.bcf'
+[341] Biber.pm:979> INFO - Found 4 citekeys in bib section 0
+[365] Biber.pm:4419> INFO - Processing section 0
+[385] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[475] bibtex.pm:1713> INFO - LaTeX decoding ...
+[550] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[609] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[610] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[610] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[610] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[645] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[651] bbl.pm:763> INFO - Output to main.bbl
+[651] Biber.pm:131> WARN - I didn't find a database entry for 'Methylenblaulösung' (section 0)
+[652] Biber.pm:131> WARN - I didn't find a database entry for 'Farbwahrnehmung' (section 0)
+[652] Biber.pm:133> INFO - WARNINGS: 2

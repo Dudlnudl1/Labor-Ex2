@@ -12,10 +12,14 @@
 \contentsline {subsection}{\numberline {6.2}Additivität der Extinktion - Farbfilter}{12}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Stoffemengenkonzentration von Methylenblaulösung}{13}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Dicke des Glasblättchens}{14}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Diskussion}{16}{section.7}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{16}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Transmission/Extinktion Glasblättchen}{16}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Additivität der Extinktion - Farbfilter}{16}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Stoffemengenkonzentration von Methylenblaulösung}{17}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Dicke des Glasblättchens}{17}{subsection.8.4}%
-\contentsline {section}{Literatur}{17}{section*.30}%
+\contentsline {section}{\numberline {7}Diskussion}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Methylenblaulösung}{16}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Farbeindrücke der Extinktion}{16}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Rauschen}{16}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{17}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Transmission/Extinktion Glasblättchen}{17}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Additivität der Extinktion - Farbfilter}{17}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Stoffemengenkonzentration von Methylenblaulösung}{18}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Dicke des Glasblättchens}{18}{subsection.8.4}%
+\contentsline {section}{\numberline {9}Anhang}{18}{section.9}%
+\contentsline {section}{Literatur}{18}{section*.32}%

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1701018752 "main.bcf" "main.bbl" "main" 1701019277 0
+["biber main"] 1701018752 "main.bcf" "main.bbl" "main" 1701019560 0
   "bibliography.bib" 1700924022 10276 d54b4d195b463ad3bf0679bc474faab5 ""
-  "main.bcf" 1701019276 107924 46230557cc228eb09cba90edd020da07 "pdflatex"
+  "main.bcf" 1701019559 107924 46230557cc228eb09cba90edd020da07 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1701019263 "c:/Uni/Semester 3/ExP2-Labor/3 - Spektralphotometer/main.tex" "main.pdf" "main" 1701019277 0
+["pdflatex"] 1701019551 "c:/Uni/Semester 3/ExP2-Labor/3 - Spektralphotometer/main.tex" "main.pdf" "main" 1701019560 0
   "../Deckblätter/Deckblatt_Gitter.pdf" 1697278958 2961822 1145a54550cc0922fcd95a6e9548b838 ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682275748 82705 9cc9f144eacd499bc23a611703921467 ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1679857363 31952 1c8e29bd2aff213fa93173c8fb45733a ""
@@ -250,14 +250,14 @@
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656233319 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Uni/Semester 3/ExP2-Labor/3 - Spektralphotometer/main.tex" 1701019261 25217 a736cd4ca367105aeaa51708608c68a8 ""
+  "c:/Uni/Semester 3/ExP2-Labor/3 - Spektralphotometer/main.tex" 1701019546 26290 3b35a1943883aeb54affa0693e1c9a8d ""
   "labor.sty" 1697276689 7223 0e5f3462a1a12aa9c2ec850941c0dcb5 ""
-  "main.aux" 1701019275 11821 26f4f9d801de3c4b8d03c8d9ee77c3b9 "pdflatex"
+  "main.aux" 1701019559 13096 fe5d157cf0054de5dc805c03291dcf41 "pdflatex"
   "main.bbl" 1701018755 2909 162dc17e210328f8a902f9099737d049 "biber main"
-  "main.out" 1701019275 3191 4beb8849e49e2f0dd7470eaf187a4805 "pdflatex"
-  "main.run.xml" 1701019276 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
-  "main.tex" 1701019261 25217 a736cd4ca367105aeaa51708608c68a8 ""
-  "main.toc" 1701019276 1517 189dd35a0922be2caa4e3a9c92ed14bd "pdflatex"
+  "main.out" 1701019559 3939 60133e16da4d538c381164fc62049111 "pdflatex"
+  "main.run.xml" 1701019559 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
+  "main.tex" 1701019546 26290 3b35a1943883aeb54affa0693e1c9a8d ""
+  "main.toc" 1701019559 1830 d84933f24e366b533f10e17f58482e93 "pdflatex"
   "nudes/Flüssigkeitsproben.jpg" 1700922706 3245574 3c13fe834c6297fea7c23abc8ce68b45 ""
   "nudes/MonochromatorAufbau.jpg" 1700919322 32434 4b2958a55e83c4d61ee16f8db2979c7b ""
   "nudes/Proben_Farbblättchen.jpg" 1700922706 2934854 fd8250da81c65fa8e77e64b6bf85738f ""

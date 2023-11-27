@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	2
+<windows>	3
 <table>
 ReflexionswerteTheo2	200	5	26.11.2023 21:05:02
-geometry	522	-9	926	779	active
+geometry	863	85	926	779	active
 header	1[X]	2[Y]	3[Y]	4[Y]	5[Y]
 ColWidth	100	100	100	100	100	
 <com>
@@ -92,10 +92,10 @@ WindowLabel	C:/Users/phili/Documents/MATLAB/ReflexionswerteTheo2.csv	2
 75	3.39200000000000e+01	2.02670000000000e-02	6.18850000000000e-02	1.42940000000000e-01	1.48210000000000e-07
 76	3.43720000000000e+01	1.97920000000000e-02	6.26860000000000e-02	1.49970000000000e-01	1.23980000000000e-04
 77	3.48240000000000e+01	1.93130000000000e-02	6.35080000000000e-02	1.57640000000000e-01	5.14740000000000e-04
-78	3.52760000000000e+01	1.88300000000000e-02	6.43520000000000e-02	1.66040000000000e-01	1.23510000000000e+04
-79	3.57290000000000e+01	1.83430000000000e-02	6.52200000000000e-02	1.75300000000000e-01	2.36430000000000e+04
-80	3.61810000000000e+01	1.78510000000000e-02	6.61100000000000e-02	1.85520000000000e-01	4.00310000000000e+04
-81	3.66330000000000e+01	1.73570000000000e-02	6.70240000000000e-02	1.96890000000000e-01	6.28180000000000e+04
+78	3.52760000000000e+01	1.88300000000000e-02	6.43520000000000e-02	1.66040000000000e-01	1.23510000000000e-03
+79	3.57290000000000e+01	1.83430000000000e-02	6.52200000000000e-02	1.75300000000000e-01	2.36430000000000e-03
+80	3.61810000000000e+01	1.78510000000000e-02	6.61100000000000e-02	1.85520000000000e-01	4.00310000000000e-03
+81	3.66330000000000e+01	1.73570000000000e-02	6.70240000000000e-02	1.96890000000000e-01	6.28180000000000e-03
 82	3.70850000000000e+01	1.68580000000000e-02	6.79630000000000e-02	2.09590000000000e-01	9.37100000000000e-03
 83	3.75380000000000e+01	1.63570000000000e-02	6.89270000000000e-02	2.23880000000000e-01	1.34980000000000e-02
 84	3.79900000000000e+01	1.58530000000000e-02	6.99170000000000e-02	2.40090000000000e-01	1.89710000000000e-02
@@ -218,7 +218,7 @@ WindowLabel	C:/Users/phili/Documents/MATLAB/ReflexionswerteTheo2.csv	2
 </table>
 <table>
 ReflexionswerteTheo1	200	3	26.11.2023 21:05:48
-geometry	0	0	617	699	
+geometry	96	41	617	699	
 header	1[X]	2[Y]	3[Y]
 ColWidth	100	100	100	
 <com>
@@ -431,4 +431,89 @@ WindowLabel	C:/Users/phili/Documents/MATLAB/ReflexionswerteTheo1.csv	2
 199	9.00000000000000e+01	1.00000000000000e+00	1.00000000000000e+00
 </data>
 </table>
+<multiLayer>
+Graph1	1	1	27.11.2023 14:26:59
+geometry	247	243	508	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	482	388
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	ReflexionswerteTheo2_1	ReflexionswerteTheo2_2	0	1	#000000	0	1	5	0	#000000	#000000	0	#000000	14	1	2	0	0	199	1
+curve	ReflexionswerteTheo2_1	ReflexionswerteTheo2_3	0	1	#ff0000	0	1	5	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	199	1
+curve	ReflexionswerteTheo2_1	ReflexionswerteTheo2_4	0	1	#00ff00	0	1	5	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	199	1
+curve	ReflexionswerteTheo2_1	ReflexionswerteTheo2_5	0	1	#0000ff	0	1	5	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	199	1
+scale	0	0	1.2	0	8	5	0	0
+scale	1	0	1.2	0	8	5	0	0
+scale	2	0	100	0	7	5	0	0
+scale	3	0	100	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	1782059124
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>3.4398034398034</x>
+<y>1.1598662207358</y>
+<right>17.9361179361179</right>
+<bottom>0.907023411371237</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
 <open>1</open>

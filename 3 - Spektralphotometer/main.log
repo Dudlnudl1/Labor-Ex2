@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  26 NOV 2023 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.26)  27 NOV 2023 14:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1485,7 +1485,7 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 3.
 
 \c@lstlisting=\count502
-<../Deckblätter/Deckblatt_Spektralphotometer.pdf, id=102, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Spektralphotometer.pdf, id=106, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Spektralphotometer.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Spektralphotometer.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Spektralphotometer.pdf  used on input line 33.
@@ -1494,7 +1494,7 @@ File: ../Deckblätter/Deckblatt_Spektralphotometer.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Spektralphotometer.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Spektralphotometer.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../Deckblätter/Deckblatt_Spektralphotometer.pdf, id=105, page=1, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Spektralphotometer.pdf, id=109, page=1, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Spektralphotometer.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Spektralphotometer.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Spektralphotometer.pdf , page1 used on input line 33.
@@ -1539,7 +1539,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-<nudes/SpektralphotometerAufbauWiki.png, id=171, 1245.15187pt x 719.68875pt>
+<nudes/SpektralphotometerAufbauWiki.png, id=176, 1245.15187pt x 719.68875pt>
 File: nudes/SpektralphotometerAufbauWiki.png Graphic file (type png)
 <use nudes/SpektralphotometerAufbauWiki.png>
 Package pdftex.def Info: nudes/SpektralphotometerAufbauWiki.png  used on input line 65.
@@ -1550,7 +1550,7 @@ Overfull \hbox (29.51096pt too wide) in paragraph at lines 70--74
  []
 
 [3 <./nudes/SpektralphotometerAufbauWiki.png>]
-<nudes/MonochromatorAufbau.jpg, id=184, 432.86719pt x 270.25969pt>
+<nudes/MonochromatorAufbau.jpg, id=189, 432.86719pt x 270.25969pt>
 File: nudes/MonochromatorAufbau.jpg Graphic file (type jpg)
 <use nudes/MonochromatorAufbau.jpg>
 Package pdftex.def Info: nudes/MonochromatorAufbau.jpg  used on input line 77.
@@ -1573,23 +1573,23 @@ LaTeX Warning: Command \texttimes invalid in math mode on input line 116.
 
 Missing character: There is no � in font cmr12!
 [5]
-<nudes/Spektralphotometer.jpg, id=212, 3035.34pt x 4047.12pt>
+<nudes/Spektralphotometer.jpg, id=217, 3035.34pt x 4047.12pt>
 File: nudes/Spektralphotometer.jpg Graphic file (type jpg)
 <use nudes/Spektralphotometer.jpg>
 Package pdftex.def Info: nudes/Spektralphotometer.jpg  used on input line 176.
 (pdftex.def)             Requested size: 273.14923pt x 364.16333pt.
-<nudes/Verlauf-Referenzspektrum.PNG, id=213, 1436.36626pt x 722.7pt>
+<nudes/Verlauf-Referenzspektrum.PNG, id=218, 1436.36626pt x 722.7pt>
 File: nudes/Verlauf-Referenzspektrum.PNG Graphic file (type png)
 <use nudes/Verlauf-Referenzspektrum.PNG>
 Package pdftex.def Info: nudes/Verlauf-Referenzspektrum.PNG  used on input line 186.
 (pdftex.def)             Requested size: 273.14923pt x 137.4247pt.
  [6 <./nudes/Spektralphotometer.jpg>]
-<nudes/Proben_Farbblättchen.jpg, id=219, 4047.12pt x 3035.34pt>
+<nudes/Proben_Farbblättchen.jpg, id=224, 4047.12pt x 3035.34pt>
 File: nudes/Proben_Farbblättchen.jpg Graphic file (type jpg)
 <use nudes/Proben_Farbblättchen.jpg>
 Package pdftex.def Info: nudes/Proben_Farbblättchen.jpg  used on input line 196.
 (pdftex.def)             Requested size: 182.09486pt x 136.53809pt.
-<nudes/Flüssigkeitsproben.jpg, id=220, 4047.12pt x 3035.34pt>
+<nudes/Flüssigkeitsproben.jpg, id=225, 4047.12pt x 3035.34pt>
 File: nudes/Flüssigkeitsproben.jpg Graphic file (type jpg)
 <use nudes/Flüssigkeitsproben.jpg>
 Package pdftex.def Info: nudes/Flüssigkeitsproben.jpg  used on input line 197.
@@ -1613,23 +1613,23 @@ File: nudes/Verlauf-Referenzspektrum.PNG Graphic file (type png)
 <use nudes/Verlauf-Referenzspektrum.PNG>
 Package pdftex.def Info: nudes/Verlauf-Referenzspektrum.PNG  used on input line 246.
 (pdftex.def)             Requested size: 182.09486pt x 91.61646pt.
-<nudes/Verlauf-Rot.PNG, id=230, 1441.63594pt x 722.7pt>
+<nudes/Verlauf-Rot.PNG, id=235, 1441.63594pt x 722.7pt>
 File: nudes/Verlauf-Rot.PNG Graphic file (type png)
 <use nudes/Verlauf-Rot.PNG>
 Package pdftex.def Info: nudes/Verlauf-Rot.PNG  used on input line 253.
 (pdftex.def)             Requested size: 182.09486pt x 91.27461pt.
-<nudes/Verlauf-Blau.PNG, id=231, 1436.36626pt x 699.36281pt>
+<nudes/Verlauf-Blau.PNG, id=236, 1436.36626pt x 699.36281pt>
 File: nudes/Verlauf-Blau.PNG Graphic file (type png)
 <use nudes/Verlauf-Blau.PNG>
 Package pdftex.def Info: nudes/Verlauf-Blau.PNG  used on input line 254.
 (pdftex.def)             Requested size: 182.09486pt x 88.65802pt.
-<nudes/Verlauf-BlauUndRot.PNG, id=232, 1428.08531pt x 705.38531pt>
+<nudes/Verlauf-BlauUndRot.PNG, id=237, 1428.08531pt x 705.38531pt>
 File: nudes/Verlauf-BlauUndRot.PNG Graphic file (type png)
 <use nudes/Verlauf-BlauUndRot.PNG>
 Package pdftex.def Info: nudes/Verlauf-BlauUndRot.PNG  used on input line 261.
 (pdftex.def)             Requested size: 182.09486pt x 89.93813pt.
 [8 <./nudes/Verlauf-Rot.PNG> <./nudes/Verlauf-Blau.PNG>]
-<nudes/qti-Intensitäten-Farbfilter.jpg, id=241, 480.29437pt x 303.38344pt>
+<nudes/qti-Intensitäten-Farbfilter.jpg, id=246, 480.29437pt x 303.38344pt>
 File: nudes/qti-Intensitäten-Farbfilter.jpg Graphic file (type jpg)
 <use nudes/qti-Intensitäten-Farbfilter.jpg>
 Package pdftex.def Info: nudes/qti-Intensitäten-Farbfilter.jpg  used on input line 268.
@@ -1639,23 +1639,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--276
 
  []
 
-<nudes/qti-Intensitäten-Flüssigkeiten.jpg, id=242, 389.95688pt x 225.09094pt>
+<nudes/qti-Intensitäten-Flüssigkeiten.jpg, id=247, 389.95688pt x 225.09094pt>
 File: nudes/qti-Intensitäten-Flüssigkeiten.jpg Graphic file (type jpg)
 <use nudes/qti-Intensitäten-Flüssigkeiten.jpg>
 Package pdftex.def Info: nudes/qti-Intensitäten-Flüssigkeiten.jpg  used on input line 279.
 (pdftex.def)             Requested size: 273.14923pt x 157.67247pt.
-<nudes/Verlauf-ReferenzspektrumGlas.PNG, id=243, 1424.32124pt x 708.39656pt>
+<nudes/Verlauf-ReferenzspektrumGlas.PNG, id=248, 1424.32124pt x 708.39656pt>
 File: nudes/Verlauf-ReferenzspektrumGlas.PNG Graphic file (type png)
 <use nudes/Verlauf-ReferenzspektrumGlas.PNG>
 Package pdftex.def Info: nudes/Verlauf-ReferenzspektrumGlas.PNG  used on input line 289.
 (pdftex.def)             Requested size: 182.09486pt x 90.55986pt.
-<nudes/Verlauf-Glas.PNG, id=244, 1431.09656pt x 716.6775pt>
+<nudes/Verlauf-Glas.PNG, id=249, 1431.09656pt x 716.6775pt>
 File: nudes/Verlauf-Glas.PNG Graphic file (type png)
 <use nudes/Verlauf-Glas.PNG>
 Package pdftex.def Info: nudes/Verlauf-Glas.PNG  used on input line 290.
 (pdftex.def)             Requested size: 182.09486pt x 91.192pt.
 [9 <./nudes/Verlauf-BlauUndRot.PNG> <./nudes/qti-Intensitäten-Farbfilter.jpg> <./nudes/qti-Intensitäten-Flüssigkeiten.jpg>]
-<nudes/qti-Intensitäten-Glas.jpg, id=253, 434.37282pt x 303.38344pt>
+<nudes/qti-Intensitäten-Glas.jpg, id=258, 434.37282pt x 303.38344pt>
 File: nudes/qti-Intensitäten-Glas.jpg Graphic file (type jpg)
 <use nudes/qti-Intensitäten-Glas.jpg>
 Package pdftex.def Info: nudes/qti-Intensitäten-Glas.jpg  used on input line 297.
@@ -1665,80 +1665,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--313
 
  []
 
-<nudes/qti-Intensitäten-FarbfilterOU.jpg, id=256, 370.38374pt x 303.38344pt>
+<nudes/qti-Intensitäten-FarbfilterOU.jpg, id=261, 370.38374pt x 303.38344pt>
 File: nudes/qti-Intensitäten-FarbfilterOU.jpg Graphic file (type jpg)
 <use nudes/qti-Intensitäten-FarbfilterOU.jpg>
 Package pdftex.def Info: nudes/qti-Intensitäten-FarbfilterOU.jpg  used on input line 319.
 (pdftex.def)             Requested size: 182.09486pt x 149.15451pt.
-<nudes/qti-Intensitäten-Farbfilter-gemittelt.jpg, id=257, 637.63219pt x 510.40688pt>
+<nudes/qti-Intensitäten-Farbfilter-gemittelt.jpg, id=262, 637.63219pt x 510.40688pt>
 File: nudes/qti-Intensitäten-Farbfilter-gemittelt.jpg Graphic file (type jpg)
 <use nudes/qti-Intensitäten-Farbfilter-gemittelt.jpg>
 Package pdftex.def Info: nudes/qti-Intensitäten-Farbfilter-gemittelt.jpg  used on input line 320.
 (pdftex.def)             Requested size: 182.09486pt x 145.75563pt.
 [10 <./nudes/Verlauf-ReferenzspektrumGlas.PNG> <./nudes/Verlauf-Glas.PNG> <./nudes/qti-Intensitäten-Glas.jpg>]
-<nudes/qti-Intensitäten-Flüssigkeiten-gemitteltOU.jpg, id=266, 370.38374pt x 303.38344pt>
+<nudes/qti-Intensitäten-Flüssigkeiten-gemitteltOU.jpg, id=271, 370.38374pt x 303.38344pt>
 File: nudes/qti-Intensitäten-Flüssigkeiten-gemitteltOU.jpg Graphic file (type jpg)
 <use nudes/qti-Intensitäten-Flüssigkeiten-gemitteltOU.jpg>
 Package pdftex.def Info: nudes/qti-Intensitäten-Flüssigkeiten-gemitteltOU.jpg  used on input line 327.
 (pdftex.def)             Requested size: 182.09486pt x 149.15451pt.
-<nudes/qti-Intensitäten-Flüssigkeiten-gemittelt.jpg, id=267, 670.75594pt x 424.58624pt>
+<nudes/qti-Intensitäten-Flüssigkeiten-gemittelt.jpg, id=272, 670.75594pt x 424.58624pt>
 File: nudes/qti-Intensitäten-Flüssigkeiten-gemittelt.jpg Graphic file (type jpg)
 <use nudes/qti-Intensitäten-Flüssigkeiten-gemittelt.jpg>
 Package pdftex.def Info: nudes/qti-Intensitäten-Flüssigkeiten-gemittelt.jpg  used on input line 328.
 (pdftex.def)             Requested size: 182.09486pt x 115.26176pt.
-<nudes/qti-Intensitäten-Glas-gemitteltOU.jpg, id=268, 370.38374pt x 303.38344pt>
+<nudes/qti-Intensitäten-Glas-gemitteltOU.jpg, id=273, 370.38374pt x 303.38344pt>
 File: nudes/qti-Intensitäten-Glas-gemitteltOU.jpg Graphic file (type jpg)
 <use nudes/qti-Intensitäten-Glas-gemitteltOU.jpg>
 Package pdftex.def Info: nudes/qti-Intensitäten-Glas-gemitteltOU.jpg  used on input line 335.
 (pdftex.def)             Requested size: 182.09486pt x 149.15451pt.
-<nudes/qti-Intensitäten-Glas-gemittelt.jpg, id=269, 620.3175pt x 424.58624pt>
+<nudes/qti-Intensitäten-Glas-gemittelt.jpg, id=274, 620.3175pt x 424.58624pt>
 File: nudes/qti-Intensitäten-Glas-gemittelt.jpg Graphic file (type jpg)
 <use nudes/qti-Intensitäten-Glas-gemittelt.jpg>
 Package pdftex.def Info: nudes/qti-Intensitäten-Glas-gemittelt.jpg  used on input line 336.
 (pdftex.def)             Requested size: 182.09486pt x 124.63638pt.
-<nudes/qti-Transmission-FarbfilterOU.jpg, id=271, 370.38374pt x 303.38344pt>
+<nudes/qti-Transmission-FarbfilterOU.jpg, id=276, 370.38374pt x 303.38344pt>
 File: nudes/qti-Transmission-FarbfilterOU.jpg Graphic file (type jpg)
 <use nudes/qti-Transmission-FarbfilterOU.jpg>
 Package pdftex.def Info: nudes/qti-Transmission-FarbfilterOU.jpg  used on input line 350.
 (pdftex.def)             Requested size: 182.09486pt x 149.15451pt.
-<nudes/qti-Transmission-Farbfilter.jpg, id=272, 508.90125pt x 398.23781pt>
+<nudes/qti-Transmission-Farbfilter.jpg, id=277, 508.90125pt x 398.23781pt>
 File: nudes/qti-Transmission-Farbfilter.jpg Graphic file (type jpg)
 <use nudes/qti-Transmission-Farbfilter.jpg>
 Package pdftex.def Info: nudes/qti-Transmission-Farbfilter.jpg  used on input line 351.
 (pdftex.def)             Requested size: 182.09486pt x 142.49654pt.
  [11 <./nudes/qti-Intensitäten-FarbfilterOU.jpg> <./nudes/qti-Intensitäten-Farbfilter-gemittelt.jpg> <./nudes/qti-Intensitäten-Flüssigkeiten-gemitteltOU.jpg> <./nudes/qti-Intensitäten-Flüssigkeiten-gemittelt.jpg> <./nudes/qti-Intensitäten-Glas-gemitteltOU.jpg> <./nudes/qti-Intensitäten-Glas-gemittelt.jpg>]
-<nudes/qti-Extinktion-FarbfilterOU.jpg, id=281, 370.38374pt x 303.38344pt>
+<nudes/qti-Extinktion-FarbfilterOU.jpg, id=286, 370.38374pt x 303.38344pt>
 File: nudes/qti-Extinktion-FarbfilterOU.jpg Graphic file (type jpg)
 <use nudes/qti-Extinktion-FarbfilterOU.jpg>
 Package pdftex.def Info: nudes/qti-Extinktion-FarbfilterOU.jpg  used on input line 361.
 (pdftex.def)             Requested size: 182.09486pt x 149.15451pt.
-<nudes/qti-Extinktion-Farbfilter.jpg, id=282, 602.25pt x 379.4175pt>
+<nudes/qti-Extinktion-Farbfilter.jpg, id=287, 602.25pt x 379.4175pt>
 File: nudes/qti-Extinktion-Farbfilter.jpg Graphic file (type jpg)
 <use nudes/qti-Extinktion-Farbfilter.jpg>
 Package pdftex.def Info: nudes/qti-Extinktion-Farbfilter.jpg  used on input line 362.
 (pdftex.def)             Requested size: 182.09486pt x 114.7177pt.
-<nudes/qti-AdditivitätOUgekennzeichnet.jpg, id=283, 940.51375pt x 619.31375pt>
+<nudes/qti-AdditivitätOUgekennzeichnet.jpg, id=288, 940.51375pt x 619.31375pt>
 File: nudes/qti-AdditivitätOUgekennzeichnet.jpg Graphic file (type jpg)
 <use nudes/qti-AdditivitätOUgekennzeichnet.jpg>
 Package pdftex.def Info: nudes/qti-AdditivitätOUgekennzeichnet.jpg  used on input line 374.
 (pdftex.def)             Requested size: 273.14923pt x 179.86098pt.
  [12 <./nudes/qti-Transmission-FarbfilterOU.jpg> <./nudes/qti-Transmission-Farbfilter.jpg> <./nudes/qti-Extinktion-FarbfilterOU.jpg> <./nudes/qti-Extinktion-Farbfilter.jpg> <./nudes/qti-AdditivitätOUgekennzeichnet.jpg>]
-<nudes/qti-Transmission-FlüssigkeitenOU.jpg, id=294, 364.36125pt x 303.38344pt>
+<nudes/qti-Transmission-FlüssigkeitenOU.jpg, id=299, 364.36125pt x 303.38344pt>
 File: nudes/qti-Transmission-FlüssigkeitenOU.jpg Graphic file (type jpg)
 <use nudes/qti-Transmission-FlüssigkeitenOU.jpg>
 Package pdftex.def Info: nudes/qti-Transmission-FlüssigkeitenOU.jpg  used on input line 391.
 (pdftex.def)             Requested size: 182.09486pt x 151.61726pt.
-<nudes/qti-Transmission-Flüssigkeiten.jpg, id=295, 469.755pt x 379.4175pt>
+<nudes/qti-Transmission-Flüssigkeiten.jpg, id=300, 469.755pt x 379.4175pt>
 File: nudes/qti-Transmission-Flüssigkeiten.jpg Graphic file (type jpg)
 <use nudes/qti-Transmission-Flüssigkeiten.jpg>
 Package pdftex.def Info: nudes/qti-Transmission-Flüssigkeiten.jpg  used on input line 392.
 (pdftex.def)             Requested size: 182.09486pt x 147.07486pt.
-<nudes/qti-Extinktion-FlüssigkeitenOU.jpg, id=296, 379.4175pt x 303.38344pt>
+<nudes/qti-Extinktion-FlüssigkeitenOU.jpg, id=301, 379.4175pt x 303.38344pt>
 File: nudes/qti-Extinktion-FlüssigkeitenOU.jpg Graphic file (type jpg)
 <use nudes/qti-Extinktion-FlüssigkeitenOU.jpg>
 Package pdftex.def Info: nudes/qti-Extinktion-FlüssigkeitenOU.jpg  used on input line 399.
 (pdftex.def)             Requested size: 182.09486pt x 145.60387pt.
-<nudes/qti-Extinktion-Flüssigkeiten.jpg, id=297, 379.4175pt x 303.38344pt>
+<nudes/qti-Extinktion-Flüssigkeiten.jpg, id=302, 379.4175pt x 303.38344pt>
 File: nudes/qti-Extinktion-Flüssigkeiten.jpg Graphic file (type jpg)
 <use nudes/qti-Extinktion-Flüssigkeiten.jpg>
 Package pdftex.def Info: nudes/qti-Extinktion-Flüssigkeiten.jpg  used on input line 400.
@@ -1749,38 +1749,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 415--417
  []
 
 [13 <./nudes/qti-Transmission-FlüssigkeitenOU.jpg> <./nudes/qti-Transmission-Flüssigkeiten.jpg> <./nudes/qti-Extinktion-FlüssigkeitenOU.jpg> <./nudes/qti-Extinktion-Flüssigkeiten.jpg>]
-<nudes/qti-Transmission-GlasOU.jpg, id=308, 364.36125pt x 303.38344pt>
+<nudes/qti-Transmission-GlasOU.jpg, id=313, 364.36125pt x 303.38344pt>
 File: nudes/qti-Transmission-GlasOU.jpg Graphic file (type jpg)
 <use nudes/qti-Transmission-GlasOU.jpg>
 Package pdftex.def Info: nudes/qti-Transmission-GlasOU.jpg  used on input line 429.
 (pdftex.def)             Requested size: 182.09486pt x 151.61726pt.
-<nudes/qti-Transmission-Glas.jpg, id=309, 382.42876pt x 267.24844pt>
+<nudes/qti-Transmission-Glas.jpg, id=314, 382.42876pt x 267.24844pt>
 File: nudes/qti-Transmission-Glas.jpg Graphic file (type jpg)
 <use nudes/qti-Transmission-Glas.jpg>
 Package pdftex.def Info: nudes/qti-Transmission-Glas.jpg  used on input line 430.
 (pdftex.def)             Requested size: 182.09486pt x 127.25017pt.
-<nudes/qti-Extinktion-GlasOU.jpg, id=310, 422.32782pt x 302.63063pt>
+<nudes/qti-Extinktion-GlasOU.jpg, id=315, 422.32782pt x 302.63063pt>
 File: nudes/qti-Extinktion-GlasOU.jpg Graphic file (type jpg)
 <use nudes/qti-Extinktion-GlasOU.jpg>
 Package pdftex.def Info: nudes/qti-Extinktion-GlasOU.jpg  used on input line 437.
 (pdftex.def)             Requested size: 182.09486pt x 130.48882pt.
-<nudes/qti-Extinktion-Glas.jpg, id=311, 438.8897pt x 300.3722pt>
+<nudes/qti-Extinktion-Glas.jpg, id=316, 438.8897pt x 300.3722pt>
 File: nudes/qti-Extinktion-Glas.jpg Graphic file (type jpg)
 <use nudes/qti-Extinktion-Glas.jpg>
 Package pdftex.def Info: nudes/qti-Extinktion-Glas.jpg  used on input line 438.
 (pdftex.def)             Requested size: 182.09486pt x 124.62462pt.
-<nudes/qti-Transmissionsmaxima-Glas.jpg, id=313, 364.36125pt x 303.38344pt>
+<nudes/qti-Transmissionsmaxima-Glas.jpg, id=318, 364.36125pt x 303.38344pt>
 File: nudes/qti-Transmissionsmaxima-Glas.jpg Graphic file (type jpg)
 <use nudes/qti-Transmissionsmaxima-Glas.jpg>
 Package pdftex.def Info: nudes/qti-Transmissionsmaxima-Glas.jpg  used on input line 449.
 (pdftex.def)             Requested size: 273.14923pt x 227.44443pt.
  [14 <./nudes/qti-Transmission-GlasOU.jpg> <./nudes/qti-Transmission-Glas.jpg> <./nudes/qti-Extinktion-GlasOU.jpg> <./nudes/qti-Extinktion-Glas.jpg>]
-<nudes/qti-SteigungWellenzahl.jpg, id=321, 409.53pt x 303.38344pt>
+<nudes/qti-SteigungWellenzahl.jpg, id=326, 409.53pt x 303.38344pt>
 File: nudes/qti-SteigungWellenzahl.jpg Graphic file (type jpg)
 <use nudes/qti-SteigungWellenzahl.jpg>
 Package pdftex.def Info: nudes/qti-SteigungWellenzahl.jpg  used on input line 460.
 (pdftex.def)             Requested size: 182.09486pt x 134.90103pt.
-<nudes/WellenzahlSteigung.png, id=322, 271.76532pt x 63.23625pt>
+<nudes/WellenzahlSteigung.png, id=327, 271.76532pt x 63.23625pt>
 File: nudes/WellenzahlSteigung.png Graphic file (type png)
 <use nudes/WellenzahlSteigung.png>
 Package pdftex.def Info: nudes/WellenzahlSteigung.png  used on input line 461.
@@ -1791,7 +1791,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 466--469
  []
 
 [15 <./nudes/qti-Transmissionsmaxima-Glas.jpg> <./nudes/qti-SteigungWellenzahl.jpg> <./nudes/WellenzahlSteigung.png>]
-<nudes/Farbwahrnehmung des menschlichen Auges.png, id=333, 1927.2pt x 1212.53pt>
+<nudes/Farbwahrnehmung des menschlichen Auges.png, id=338, 1927.2pt x 1212.53pt>
 File: nudes/Farbwahrnehmung des menschlichen Auges.png Graphic file (type png)
 <use nudes/Farbwahrnehmung des menschlichen Auges.png>
 Package pdftex.def Info: nudes/Farbwahrnehmung des menschlichen Auges.png  used on input line 490.
@@ -1801,67 +1801,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--498
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--510
+
+ []
+
+[16 <./nudes/Farbwahrnehmung des menschlichen Auges.png>]
+<nudes/UnsicherheitenZoomed.jpg, id=351, 508.90125pt x 398.23781pt>
+File: nudes/UnsicherheitenZoomed.jpg Graphic file (type jpg)
+<use nudes/UnsicherheitenZoomed.jpg>
+Package pdftex.def Info: nudes/UnsicherheitenZoomed.jpg  used on input line 516.
+(pdftex.def)             Requested size: 227.62206pt x 178.12372pt.
 File: nudes/qti-Transmission-FarbfilterOU.jpg Graphic file (type jpg)
 <use nudes/qti-Transmission-FarbfilterOU.jpg>
-Package pdftex.def Info: nudes/qti-Transmission-FarbfilterOU.jpg  used on input line 514.
+Package pdftex.def Info: nudes/qti-Transmission-FarbfilterOU.jpg  used on input line 529.
 (pdftex.def)             Requested size: 182.09486pt x 149.15451pt.
 File: nudes/qti-Transmission-Farbfilter.jpg Graphic file (type jpg)
 <use nudes/qti-Transmission-Farbfilter.jpg>
-Package pdftex.def Info: nudes/qti-Transmission-Farbfilter.jpg  used on input line 515.
+Package pdftex.def Info: nudes/qti-Transmission-Farbfilter.jpg  used on input line 530.
 (pdftex.def)             Requested size: 182.09486pt x 142.49654pt.
-[16 <./nudes/Farbwahrnehmung des menschlichen Auges.png>]
 File: nudes/qti-Extinktion-FarbfilterOU.jpg Graphic file (type jpg)
 <use nudes/qti-Extinktion-FarbfilterOU.jpg>
-Package pdftex.def Info: nudes/qti-Extinktion-FarbfilterOU.jpg  used on input line 522.
+Package pdftex.def Info: nudes/qti-Extinktion-FarbfilterOU.jpg  used on input line 537.
 (pdftex.def)             Requested size: 182.09486pt x 149.15451pt.
 File: nudes/qti-Extinktion-Farbfilter.jpg Graphic file (type jpg)
 <use nudes/qti-Extinktion-Farbfilter.jpg>
-Package pdftex.def Info: nudes/qti-Extinktion-Farbfilter.jpg  used on input line 523.
+Package pdftex.def Info: nudes/qti-Extinktion-Farbfilter.jpg  used on input line 538.
 (pdftex.def)             Requested size: 182.09486pt x 114.7177pt.
+ [17 <./nudes/UnsicherheitenZoomed.jpg>]
 File: nudes/qti-AdditivitätOUgekennzeichnet.jpg Graphic file (type jpg)
 <use nudes/qti-AdditivitätOUgekennzeichnet.jpg>
-Package pdftex.def Info: nudes/qti-AdditivitätOUgekennzeichnet.jpg  used on input line 533.
+Package pdftex.def Info: nudes/qti-AdditivitätOUgekennzeichnet.jpg  used on input line 548.
 (pdftex.def)             Requested size: 227.62206pt x 149.88573pt.
- [17]
-<nudes/Unsicherheiten1.jpg, id=353, 1666.225pt x 1460.45625pt>
+<nudes/Unsicherheiten1.jpg, id=358, 1666.225pt x 1460.45625pt>
 File: nudes/Unsicherheiten1.jpg Graphic file (type jpg)
 <use nudes/Unsicherheiten1.jpg>
-Package pdftex.def Info: nudes/Unsicherheiten1.jpg  used on input line 554.
+Package pdftex.def Info: nudes/Unsicherheiten1.jpg  used on input line 569.
 (pdftex.def)             Requested size: 409.71692pt x 359.11858pt.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 559.
+ [18]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 574.
  (C:\Users\nicoe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (15.3053pt too wide) in paragraph at lines 559--559
+Overfull \hbox (15.3053pt too wide) in paragraph at lines 574--574
 \T1/pcr/m/n/12 wikipedia . org / wiki / Spektralphotometer # /media / Datei : Photometer _
  []
 
-[18 <./nudes/Unsicherheiten1.jpg>]
-Overfull \hbox (22.76129pt too wide) in paragraph at lines 559--559
+
+Overfull \hbox (22.76129pt too wide) in paragraph at lines 574--574
 []\T1/cmr/m/n/12 wikipedia.org. \T1/cmr/m/it/12 Me-thy-len-blau\T1/cmr/m/n/12 . (be-sucht am 24.11.2023). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / de . wikipedia .
  []
 
-[19] 
+[19 <./nudes/Unsicherheiten1.jpg>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F38F5EA1A5589BEB6B35871E332F9E93;4469.
+(rerunfilecheck)             Checksum: FF9395EFA419A556FC9AB19FA7B02951;4605.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41238 strings out of 476334
- 829248 string characters out of 5787971
+ 41251 strings out of 476334
+ 829585 string characters out of 5787971
  1865382 words of memory out of 5000000
- 60922 multiletter control sequences out of 15000+600000
+ 60932 multiletter control sequences out of 15000+600000
  523983 words of font info for 62 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,731b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nicoe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (19 pages, 13654539 bytes).
+Output written on main.pdf (19 pages, 13777620 bytes).
 PDF statistics:
- 727 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 415 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 735 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 428 words of extra memory for PDF output out of 10000 (max. 10000000)
 

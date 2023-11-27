@@ -1,7 +1,7 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Aufgabenstellung}{3}{section.1}%
 \contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Transmission,Extinktion und Absorptionsquerschnitt}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Transmission, Extinktion und Absorptionsquerschnitt}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Referenzspektrum}{5}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Wichtige Zusammenhänge}{5}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Versuchsanordnung}{6}{section.3}%
@@ -16,10 +16,11 @@
 \contentsline {subsection}{\numberline {7.1}Methylenblaulösung}{16}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Farbeindrücke der Extinktion}{16}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Rauschen}{16}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Unsicherheiten}{16}{subsection.7.4}%
 \contentsline {section}{\numberline {8}Zusammenfassung}{17}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Transmission/Extinktion Glasblättchen}{17}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Additivität der Extinktion - Farbfilter}{17}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.2}Additivität der Extinktion - Farbfilter}{18}{subsection.8.2}%
 \contentsline {subsection}{\numberline {8.3}Stoffemengenkonzentration von Methylenblaulösung}{18}{subsection.8.3}%
 \contentsline {subsection}{\numberline {8.4}Dicke des Glasblättchens}{18}{subsection.8.4}%
 \contentsline {section}{\numberline {9}Anhang}{18}{section.9}%
-\contentsline {section}{Literatur}{18}{section*.32}%
+\contentsline {section}{Literatur}{19}{section*.33}%

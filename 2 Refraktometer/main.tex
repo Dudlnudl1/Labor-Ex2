@@ -448,11 +448,33 @@ Der MATLAB Code wurde noch etwas verändert und ist im Anhang zu finden.
 \end{figure}
 
 \noindent
+Anmerkung, in den Diagrammen ist die Unsicherheit des Einfallswinkels kaum sichtbar, da diese sehr klein ausfällt. 
+\\
+\\
 Mit den Messwerten aus der Tabelle \ref{tab:brechender Winkel} wird das Brechungsgesetzt (\ref{eq:Snellius}) bewiesen. 
 Ma andi dei skript is useless so wie du. 
 \\
 \\
+Um nun bei dem Teilversuch Abbe-Refraktometer die Dispersion $n_F-n_C$ zu bestimmen, werden die Messdaten aus der Tabelle \ref{tab:abbe werte} auf die Skalen des Nomogrammes (\ref{fig:nomogramm}) aufgetragen. 
+Der Brechungsindex $n_D$ und der Kompensatorwert werden eingezeichnet und geradlinig Verbunden. 
+Auf der dazwischenliegenden Skala befindet sich der Wert der Dispersion $n_F-n_C$. 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/nomogramm_auswertung.jpg}
+    \caption{Dispersion $n_F-n_C$ des Abbe-Refraktometers auf dem Nomogramm. Die rote Linie entspricht der Zuckerlösung, die blaue der des destilierten Wassers. }
+    \label{fig:nomogramm_auswertung}
+\end{figure}
+
+\noindent
+Wie man hier erkennen kann, beträgt der Wert der Dispersion $n_F-n_C$ für das destilierte Wasser $n_F-n_C = ditl \pm wix$ sowie für die Zuckerlösung $n_F-n_C = ditl \pm wix$. 
+Die Unsicherheit ist dabei die Ableseunsicherheit des Nomogrammes. 
+\\
+\\
+Somit wurde die Dispersion $n_F-n_C$ bestimmt, jedoch nicht die Menge an gelöstem Zucker in der Flüssigkeit. 
+Laut der Tabelle \ref{tab:abbe werte} beträgt die Brix bei der Zuckerlösung $(27.0 \pm 0.25)$ \%. 
+Ein Grad Brix, oder ein Prozent Brix, entspricht dabei 1 Gramm Saccharose in 100 Gramm Lösung \cite{Brix}. 
+Mit diesen Angaben kann man sagen, dass die Messprobe zu $(27.0 \pm 0.25)$ \% Zucker besteht. 
 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
@@ -465,54 +487,6 @@ Ma andi dei skript is useless so wie du.
 
 \section{Anhang}
 
-\begin{lstlisting}
-% Berechnung der Reflexion an einer Grenzfläche zwischen zwei Medien mit n1 und n2
-% Lichteinfall von Seite 1 / n1
-
-%default für Plots
-set(0,'defaultaxesfontname','arial','defaultaxesfontsize',12,'defaultlinelinewidth',2);
-
-%Brechzahlen
-n1=1.488;     %Glas
-n2=1.0;       %Luft             
-
-%Luft-Glas Grenzfläche
-aein1=linspace(0,90,200).'*pi/180; % Einfallswinkel alpha_1, 200 Werte im Bereich 0-90°, umgerechnet in Radiant
-b1=asin(sin(aein1)*n1/n2); % Brechungswinkel beta_1, berechnet aus dem Brechungsgesetz
-rho_p1=(n2*cos(aein1)-n1*cos(b1))./(n2*cos(aein1)+n1*cos(b1)); % Reflexionskoeffizient rho_p1 für p-Polarisation
-rho_s1=(n1*cos(aein1)-n2*cos(b1))./(n1*cos(aein1)+n2*cos(b1)); % Reflexionskoeffizient rho_s1 für s-Polarisation
-
-%Glas-Luft Grenzfläche
-aein2=linspace(0,90,200).'*pi/180; % Einfallswinkel alpha_2, 200 Werte im Bereich 0-90°, umgerechnet in Radiant
-b2=asin(sin(aein2)*n2/n1); % Brechungswinkel beta_2, berechnet aus dem Brechungsgesetz
-rho_p2=(n2*cos(aein2)-n1*cos(b2))./(n2*cos(aein2)+n1*cos(b2)); % Reflexionskoeffizient rho_p2 für p-Polarisation
-rho_s2=(n1*cos(aein2)-n2*cos(b2))./(n1*cos(aein2)+n2*cos(b2)); % Reflexionskoeffizient rho_s2 für s-Polarisation
-
-
-R_s1=abs(rho_s1.^2); % Reflexionsvermögen für s-Polarisation für Luft-Glas Grenzfläche
-R_p1=abs(rho_p1.^2); % Reflexionsvermögen für p-Polarisation für Luft-Glas Grenzfläche
-R_s2=abs(rho_s2.^2); % Reflexionsvermögen für p-Polarisation für Luft-Glas Grenzfläche
-R_p2=abs(rho_p2.^2); % Reflexionsvermögen für p-Polarisation für Luft-Glas Grenzfläche
-
-
-% Plotten der Funktion
-figure(1);
-clf();
-plot(aein1*180/pi,[R_s1, R_p1]);  %Plot der Funktionen für Luft-Glas
-hold on;
-plot(aein2*180/pi,[R_s2, R_p2]); %Plot der Funktionen für Glas Luft
-title('Eisner, Waldl');
-xlabel('Einfallswinkel / °');
-ylabel('Reflexionsvermögen / 1');
-legend('s-Pol_GL','p-Pol_GL', 's-Pol_LG', 'p-Pol_LG', 'location','northwest');
-ylim([0,1.05]);
-xlim([0,90]);
-hold on;
-
-%Schreiben der Daten in eine .csv für QtiPlot
-dlmwrite('Reflexionswerte-Luft-Glas.csv', [aein1*180/pi, R_s1, R_p1],'\t');
-dlmwrite('Reflexionswerte-Glas-Luft.csv', [aein2*180/pi, R_s2, R_p2],'\t');
-\end{lstlisting}
 
 
 \end{document}

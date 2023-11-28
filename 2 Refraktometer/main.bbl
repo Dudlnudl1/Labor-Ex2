@@ -16,5 +16,116 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{teachcenter2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%
+           family={TeachCenter},
+           familyi={T\bibinitperiod},
+           given={TU\bibnamedelima Graz},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{fullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{bibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authorbibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authornamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authorfullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{"Laborübungen 2: Elektrizität, Magnetismus, Optik". Kurs: PHYD30UF}
+      \verb{urlraw}
+      \verb https://tc.tugraz.at/main/course/view.php?id=796
+      \endverb
+      \verb{url}
+      \verb https://tc.tugraz.at/main/course/view.php?id=796
+      \endverb
+    \endentry
+    \entry{multimeter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=20ef5f707ac763001c2b6ae71fe299a6}{%
+           family={TME},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{20ef5f707ac763001c2b6ae71fe299a6}
+      \strng{fullhash}{20ef5f707ac763001c2b6ae71fe299a6}
+      \strng{bibnamehash}{20ef5f707ac763001c2b6ae71fe299a6}
+      \strng{authorbibnamehash}{20ef5f707ac763001c2b6ae71fe299a6}
+      \strng{authornamehash}{20ef5f707ac763001c2b6ae71fe299a6}
+      \strng{authorfullhash}{20ef5f707ac763001c2b6ae71fe299a6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{U3402A Digital Multimeter}
+      \verb{urlraw}
+      \verb https://www.tme.eu/Document/faa91173d78d7b0bc94b3b58ec8311e8/U3402-90001.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.tme.eu/Document/faa91173d78d7b0bc94b3b58ec8311e8/U3402-90001.pdf
+      \endverb
+    \endentry
+    \entry{Brix}{online}{}
+      \name{author}{1}{}{%
+        {{hash=81d74fdfb3d6ed2c6b7266b601a3dd5a}{%
+           family={Toledo},
+           familyi={T\bibinitperiod},
+           given={Mettler},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{fullhash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{bibnamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authorbibnamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authornamehash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \strng{authorfullhash}{81d74fdfb3d6ed2c6b7266b601a3dd5a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Brix Messung}
+      \verb{urlraw}
+      \verb https://www.mt.com/at/de/home/perm-lp/product-organizations/ana/brix-meters.html#:~:text=Brix%20ist%20eine%20Masseinheit%20f%C3%BCr,Saccharose%20in%20100%20Gramm%20L%C3%B6sung.
+      \endverb
+      \verb{url}
+      \verb https://www.mt.com/at/de/home/perm-lp/product-organizations/ana/brix-meters.html#:~:text=Brix%20ist%20eine%20Masseinheit%20f%C3%BCr,Saccharose%20in%20100%20Gramm%20L%C3%B6sung.
+      \endverb
+    \endentry
+    \entry{Polarisation}{online}{}
+      \name{author}{1}{}{%
+        {{hash=37f833f2112b456ad1ae74fef8884468}{%
+           family={Ulm},
+           familyi={U\bibinitperiod},
+           given={Uni},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{37f833f2112b456ad1ae74fef8884468}
+      \strng{fullhash}{37f833f2112b456ad1ae74fef8884468}
+      \strng{bibnamehash}{37f833f2112b456ad1ae74fef8884468}
+      \strng{authorbibnamehash}{37f833f2112b456ad1ae74fef8884468}
+      \strng{authornamehash}{37f833f2112b456ad1ae74fef8884468}
+      \strng{authorfullhash}{37f833f2112b456ad1ae74fef8884468}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Fresnelsche Formeln}
+      \verb{urlraw}
+      \verb http://wwwex.physik.uni-ulm.de/lehre/el-2016/el-2016se40.html
+      \endverb
+      \verb{url}
+      \verb http://wwwex.physik.uni-ulm.de/lehre/el-2016/el-2016se40.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

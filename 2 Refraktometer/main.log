@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  28 NOV 2023 00:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  28 NOV 2023 13:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1369,8 +1369,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
-
-No file main.aux.
+ (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1393,7 +1392,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 8.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 8.
-(C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
+ (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 8.
@@ -1479,6 +1478,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 8.
+ (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1493,7 +1493,7 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 8.
 
 \c@lstlisting=\count505
-<../Deckblätter/Deckblatt_Gitter.pdf, id=6, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Gitter.pdf, id=42, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf  used on input line 38.
@@ -1502,7 +1502,7 @@ File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf  used on input line 38.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../Deckblätter/Deckblatt_Gitter.pdf, id=9, page=1, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Gitter.pdf, id=45, page=1, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Gitter.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on input line 38.
@@ -1525,19 +1525,11 @@ Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on in
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [1
 
- <../Deckblätter/Deckblatt_Gitter.pdf>]
-No file main.toc.
+ <../Deckblätter/Deckblatt_Gitter.pdf>] (main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 41.
-
-[2{C:/Users/phili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-LaTeX Warning: Citation 'teachcenter2' on page 3 undefined on input line 52.
-
-
+ [2{C:/Users/phili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 44--53
 
  []
@@ -1564,53 +1556,29 @@ Overfull \hbox (10.4212pt too wide) in paragraph at lines 85--91
 \T1/cmr/m/n/12 Ein p-Polarisierter La-ser-strahl ist par-al-lel zur Ein-fall-sebe-ne po-la-ri-siert und ein s-Polarisierter
  []
 
-<nudes/sp pol.png, id=48, 813.0375pt x 421.575pt>
+<nudes/sp pol.png, id=94, 813.0375pt x 421.575pt>
 File: nudes/sp pol.png Graphic file (type png)
 <use nudes/sp pol.png>
 Package pdftex.def Info: nudes/sp pol.png  used on input line 94.
 (pdftex.def)             Requested size: 273.14923pt x 141.62892pt.
-
-LaTeX Warning: Citation 'Polarisation' on page 3 undefined on input line 95.
-
-
-LaTeX Warning: Citation 'Polarisation' on page 3 undefined on input line 95.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-[]\T1/cmr/bx/n/12 Abb. 1: |\T1/cmr/m/n/12 Dar-stel-lung ei-nes p-Polarisierten und s-Polarisierten Licht-strah-les.
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 98.
-
 [3]
-<nudes/nomogramm.jpg, id=67, 884.55469pt x 655.69969pt>
+<nudes/nomogramm.jpg, id=114, 884.55469pt x 655.69969pt>
 File: nudes/nomogramm.jpg Graphic file (type jpg)
 <use nudes/nomogramm.jpg>
 Package pdftex.def Info: nudes/nomogramm.jpg  used on input line 113.
 (pdftex.def)             Requested size: 273.14923pt x 202.4744pt.
-
-
-LaTeX Warning: Citation 'teachcenter2' on page 4 undefined on input line 114.
-
-
-LaTeX Warning: Citation 'teachcenter2' on page 4 undefined on input line 114.
-
-<nudes/Aufbau.jpg, id=68, 2023.56pt x 1138.2525pt>
+<nudes/Aufbau.jpg, id=117, 2023.56pt x 1138.2525pt>
 File: nudes/Aufbau.jpg Graphic file (type jpg)
 <use nudes/Aufbau.jpg>
 Package pdftex.def Info: nudes/Aufbau.jpg  used on input line 123.
 (pdftex.def)             Requested size: 318.66948pt x 179.24098pt.
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 127.
-
-[4 <./nudes/sp pol.png> <./nudes/nomogramm.jpg>]
-<nudes/Polarisator.jpg, id=77, 1517.67pt x 1138.2525pt>
+ [4 <./nudes/sp pol.png> <./nudes/nomogramm.jpg>]
+<nudes/Polarisator.jpg, id=126, 1517.67pt x 1138.2525pt>
 File: nudes/Polarisator.jpg Graphic file (type jpg)
 <use nudes/Polarisator.jpg>
 Package pdftex.def Info: nudes/Polarisator.jpg  used on input line 134.
 (pdftex.def)             Requested size: 182.09486pt x 136.56703pt.
-<nudes/halbkreisprisma.jpg, id=78, 1214.5375pt x 1517.67pt>
+<nudes/halbkreisprisma.jpg, id=127, 1214.5375pt x 1517.67pt>
 File: nudes/halbkreisprisma.jpg Graphic file (type jpg)
 <use nudes/halbkreisprisma.jpg>
 Package pdftex.def Info: nudes/halbkreisprisma.jpg  used on input line 135.
@@ -1625,30 +1593,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--147
 
  []
 
-<nudes/abbe.jpg, id=79, 1345.025pt x 1680.2775pt>
+<nudes/abbe.jpg, id=128, 1345.025pt x 1680.2775pt>
 File: nudes/abbe.jpg Graphic file (type jpg)
 <use nudes/abbe.jpg>
 Package pdftex.def Info: nudes/abbe.jpg  used on input line 150.
 (pdftex.def)             Requested size: 182.09486pt x 227.46864pt.
-<nudes/abbe2.jpg, id=80, 1517.67pt x 2023.56pt>
+<nudes/abbe2.jpg, id=129, 1517.67pt x 2023.56pt>
 File: nudes/abbe2.jpg Graphic file (type jpg)
 <use nudes/abbe2.jpg>
 Package pdftex.def Info: nudes/abbe2.jpg  used on input line 151.
 (pdftex.def)             Requested size: 182.09486pt x 242.78584pt.
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 155.
-
 [5 <./nudes/Aufbau.jpg> <./nudes/Polarisator.jpg> <./nudes/halbkreisprisma.jpg>]
-
-LaTeX Warning: Citation 'multimeter' on page 6 undefined on input line 175.
-
-
-LaTeX Warning: Citation 'multimeter' on page 6 undefined on input line 176.
-
-
-LaTeX Warning: Reference `fig:aufbau' on page 6 undefined on input line 195.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 184--198
 
  []
@@ -1657,9 +1612,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--198
 Underfull \hbox (badness 10000) in paragraph at lines 184--198
 
  []
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 198.
 
 [6 <./nudes/abbe.jpg> <./nudes/abbe2.jpg>]
 Overfull \hbox (47.66608pt too wide) in paragraph at lines 203--224
@@ -1671,9 +1623,6 @@ Overfull \hbox (53.53964pt too wide) in paragraph at lines 230--251
  [][] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 252.
-
 [7]
 Overfull \hbox (47.66608pt too wide) in paragraph at lines 260--280
  [][] 
@@ -1684,49 +1633,17 @@ Overfull \hbox (53.53964pt too wide) in paragraph at lines 286--307
  [][] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 308.
-
-[8]
-
-LaTeX Warning: Reference `fig:aufbau' on page 9 undefined on input line 311.
-
-
-LaTeX Warning: Reference `fig:abbe' on page 9 undefined on input line 338.
-
-
-LaTeX Warning: Reference `fig:abbe' on page 9 undefined on input line 339.
-
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 356.
-
-[9]
-<nudes/wasser okular.jpg, id=113, 1330.9725pt x 1664.2175pt>
+[8] [9]
+<nudes/wasser okular.jpg, id=167, 1330.9725pt x 1664.2175pt>
 File: nudes/wasser okular.jpg Graphic file (type jpg)
 <use nudes/wasser okular.jpg>
 Package pdftex.def Info: nudes/wasser okular.jpg  used on input line 359.
 (pdftex.def)             Requested size: 182.09486pt x 227.68153pt.
-<nudes/zucker okular.jpg, id=114, 1318.9275pt x 1649.16125pt>
+<nudes/zucker okular.jpg, id=168, 1318.9275pt x 1649.16125pt>
 File: nudes/zucker okular.jpg Graphic file (type jpg)
 <use nudes/zucker okular.jpg>
 Package pdftex.def Info: nudes/zucker okular.jpg  used on input line 360.
 (pdftex.def)             Requested size: 182.09486pt x 227.68515pt.
-
-
-LaTeX Warning: Reference `tab:mess luft glas p-pol' on page 10 undefined on input line 370.
-
-
-LaTeX Warning: Reference `tab:mess luft glas s-pol' on page 10 undefined on input line 370.
-
-
-LaTeX Warning: Reference `eq:Reflexionsvermögen' on page 10 undefined on input line 371.
-
-
-LaTeX Warning: Reference `eq:Refernzintensität' on page 10 undefined on input line 371.
-
-
-LaTeX Warning: Reference `eq:Reflexionsintensität' on page 10 undefined on input line 371.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 366--372
 
@@ -1737,1090 +1654,63 @@ Overfull \hbox (76.9689pt too wide) in paragraph at lines 377--398
  [][] 
  []
 
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 399.
-
 [10 <./nudes/wasser okular.jpg> <./nudes/zucker okular.jpg>]
 Overfull \hbox (71.09534pt too wide) in paragraph at lines 405--426
  [][] 
  []
 
-
-LaTeX Warning: Reference `tab:reflexionsvermögen luft glas' on page 11 undefined on input line 429.
-
-
-LaTeX Warning: Reference `tab:reflexionsvermögen glas luft' on page 11 undefined on input line 429.
-
-
-LaTeX Warning: Citation 'teachcenter2' on page 11 undefined on input line 431.
-
-<nudes/LG Mess.jpg, id=122, 370.38374pt x 303.38344pt>
+<nudes/LG Mess.jpg, id=183, 370.38374pt x 303.38344pt>
 File: nudes/LG Mess.jpg Graphic file (type jpg)
 <use nudes/LG Mess.jpg>
 Package pdftex.def Info: nudes/LG Mess.jpg  used on input line 436.
 (pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
-<nudes/LG theor.jpg, id=123, 370.38374pt x 303.38344pt>
+<nudes/LG theor.jpg, id=184, 370.38374pt x 303.38344pt>
 File: nudes/LG theor.jpg Graphic file (type jpg)
 <use nudes/LG theor.jpg>
 Package pdftex.def Info: nudes/LG theor.jpg  used on input line 437.
 (pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 441.
-
 [11]
-<nudes/GL Mess.jpg, id=130, 370.38374pt x 303.38344pt>
+<nudes/GL Mess.jpg, id=191, 370.38374pt x 303.38344pt>
 File: nudes/GL Mess.jpg Graphic file (type jpg)
 <use nudes/GL Mess.jpg>
 Package pdftex.def Info: nudes/GL Mess.jpg  used on input line 444.
 (pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
-<nudes/GL theor.jpg, id=131, 370.38374pt x 303.38344pt>
+<nudes/GL theor.jpg, id=192, 370.38374pt x 303.38344pt>
 File: nudes/GL theor.jpg Graphic file (type jpg)
 <use nudes/GL theor.jpg>
 Package pdftex.def Info: nudes/GL theor.jpg  used on input line 445.
 (pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 449.
-
-[12 <./nudes/LG Mess.jpg> <./nudes/LG theor.jpg>]
-
-LaTeX Warning: Reference `tab:brechender Winkel' on page 13 undefined on input line 451.
-
-
-LaTeX Warning: Reference `eq:Snellius' on page 13 undefined on input line 451.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 450--455
+ [12 <./nudes/LG Mess.jpg> <./nudes/LG theor.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 450--461
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--455
+Underfull \hbox (badness 10000) in paragraph at lines 450--461
 
  []
 
+<nudes/nomogramm_auswertung.jpg, id=202, 1179.40625pt x 874.26625pt>
+File: nudes/nomogramm_auswertung.jpg Graphic file (type jpg)
+<use nudes/nomogramm_auswertung.jpg>
+Package pdftex.def Info: nudes/nomogramm_auswertung.jpg  used on input line 464.
+(pdftex.def)             Requested size: 273.14923pt x 202.47772pt.
+[13 <./nudes/GL Mess.jpg> <./nudes/GL theor.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 469--478
 
-LaTeX Warning: Empty bibliography on input line 464.
+ []
 
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 468.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 486.
 (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:469: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.469 ...nung der Reflexion an einer Grenzfläche 
-                                                  zwischen zwei Medien mit n...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:469: LaTeX Error: Invalid UTF-8 byte "A4.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.469 ...nung der Reflexion an einer Grenzfläche 
-                                                  zwischen zwei Medien mit n...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (42.76096pt too wide) in paragraph at lines 469--470
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (8.6053pt too wide) in paragraph at lines 486--486
+\T1/pcr/m/n/12 tme . eu / Document / faa91173d78d7b0bc94b3b58ec8311e8 / U3402 -[] 90001 .
  []
-
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 472.
-
-[13 <./nudes/GL Mess.jpg> <./nudes/GL theor.jpg>]
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:472: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.472 %default für 
-                    Plots
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:472: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.472 %default für 
-                    Plots
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (66.7612pt too wide) in paragraph at lines 473--475
-[][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:479: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 %Luft-Glas Grenzfläche
-                             
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:479: LaTeX Error: Invalid UTF-8 byte "A4.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 %Luft-Glas Grenzfläche
-                             
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:480: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 ...kel alpha_1, 200 Werte im Bereich 0-90°,
-                                                   umgerechnet in Radiant
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:480: LaTeX Error: Invalid UTF-8 byte "B0.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 ...kel alpha_1, 200 Werte im Bereich 0-90°,
-                                                   umgerechnet in Radiant
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (216.76273pt too wide) in paragraph at lines 480--481
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (60.76114pt too wide) in paragraph at lines 481--482
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:482: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.482 ...1)); % Reflexionskoeffizient rho_p1 für 
-                                                  p-Polarisation
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:482: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.482 ...1)); % Reflexionskoeffizient rho_p1 für 
-                                                  p-Polarisation
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (222.76279pt too wide) in paragraph at lines 482--483
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:483: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.483 ...1)); % Reflexionskoeffizient rho_s1 für 
-                                                  s-Polarisation
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:483: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.483 ...1)); % Reflexionskoeffizient rho_s1 für 
-                                                  s-Polarisation
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (222.76279pt too wide) in paragraph at lines 483--485
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:485: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.485 %Glas-Luft Grenzfläche
-                             
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:485: LaTeX Error: Invalid UTF-8 byte "A4.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.485 %Glas-Luft Grenzfläche
-                             
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:486: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.486 ...kel alpha_2, 200 Werte im Bereich 0-90°,
-                                                   umgerechnet in Radiant
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:486: LaTeX Error: Invalid UTF-8 byte "B0.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.486 ...kel alpha_2, 200 Werte im Bereich 0-90°,
-                                                   umgerechnet in Radiant
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (216.76273pt too wide) in paragraph at lines 486--487
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (60.76114pt too wide) in paragraph at lines 487--488
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:488: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.488 ...2)); % Reflexionskoeffizient rho_p2 für 
-                                                  p-Polarisation
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:488: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.488 ...2)); % Reflexionskoeffizient rho_p2 für 
-                                                  p-Polarisation
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (222.76279pt too wide) in paragraph at lines 488--489
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:489: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.489 ...2)); % Reflexionskoeffizient rho_s2 für 
-                                                  s-Polarisation
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:489: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.489 ...2)); % Reflexionskoeffizient rho_s2 für 
-                                                  s-Polarisation
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (222.76279pt too wide) in paragraph at lines 489--492
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:492: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.492 R_s1=abs(rho_s1.^2); % Reflexionsvermögen 
-                                                 für s-Polarisation für Lu...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:492: LaTeX Error: Invalid UTF-8 byte "B6.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.492 R_s1=abs(rho_s1.^2); % Reflexionsvermögen 
-                                                 für s-Polarisation für Lu...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:492: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.492 ...s(rho_s1.^2); % Reflexionsvermögen für 
-                                                  s-Polarisation für Luft-G...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:492: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.492 ...s(rho_s1.^2); % Reflexionsvermögen für 
-                                                  s-Polarisation für Luft-G...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:492: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.492 ...exionsvermögen für s-Polarisation für 
-                                                  Luft-Glas Grenzfläche
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:492: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.492 ...exionsvermögen für s-Polarisation für 
-                                                  Luft-Glas Grenzfläche
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:492: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.492 ...-Polarisation für Luft-Glas Grenzfläche
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:492: LaTeX Error: Invalid UTF-8 byte "A4.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.492 ...-Polarisation für Luft-Glas Grenzfläche
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (84.76138pt too wide) in paragraph at lines 492--493
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:493: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 R_p1=abs(rho_p1.^2); % Reflexionsvermögen 
-                                                 für p-Polarisation für Lu...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:493: LaTeX Error: Invalid UTF-8 byte "B6.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 R_p1=abs(rho_p1.^2); % Reflexionsvermögen 
-                                                 für p-Polarisation für Lu...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:493: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 ...s(rho_p1.^2); % Reflexionsvermögen für 
-                                                  p-Polarisation für Luft-G...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:493: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 ...s(rho_p1.^2); % Reflexionsvermögen für 
-                                                  p-Polarisation für Luft-G...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:493: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 ...exionsvermögen für p-Polarisation für 
-                                                  Luft-Glas Grenzfläche
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:493: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 ...exionsvermögen für p-Polarisation für 
-                                                  Luft-Glas Grenzfläche
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:493: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 ...-Polarisation für Luft-Glas Grenzfläche
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:493: LaTeX Error: Invalid UTF-8 byte "A4.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 ...-Polarisation für Luft-Glas Grenzfläche
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (84.76138pt too wide) in paragraph at lines 493--494
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:494: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 R_s2=abs(rho_s2.^2); % Reflexionsvermögen 
-                                                 für p-Polarisation für Lu...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:494: LaTeX Error: Invalid UTF-8 byte "B6.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 R_s2=abs(rho_s2.^2); % Reflexionsvermögen 
-                                                 für p-Polarisation für Lu...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:494: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 ...s(rho_s2.^2); % Reflexionsvermögen für 
-                                                  p-Polarisation für Luft-G...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:494: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 ...s(rho_s2.^2); % Reflexionsvermögen für 
-                                                  p-Polarisation für Luft-G...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:494: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 ...exionsvermögen für p-Polarisation für 
-                                                  Luft-Glas Grenzfläche
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:494: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 ...exionsvermögen für p-Polarisation für 
-                                                  Luft-Glas Grenzfläche
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:494: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 ...-Polarisation für Luft-Glas Grenzfläche
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:494: LaTeX Error: Invalid UTF-8 byte "A4.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 ...-Polarisation für Luft-Glas Grenzfläche
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (84.76138pt too wide) in paragraph at lines 494--495
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:495: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.495 R_p2=abs(rho_p2.^2); % Reflexionsvermögen 
-                                                 für p-Polarisation für Lu...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:495: LaTeX Error: Invalid UTF-8 byte "B6.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.495 R_p2=abs(rho_p2.^2); % Reflexionsvermögen 
-                                                 für p-Polarisation für Lu...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:495: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.495 ...s(rho_p2.^2); % Reflexionsvermögen für 
-                                                  p-Polarisation für Luft-G...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:495: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.495 ...s(rho_p2.^2); % Reflexionsvermögen für 
-                                                  p-Polarisation für Luft-G...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:495: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.495 ...exionsvermögen für p-Polarisation für 
-                                                  Luft-Glas Grenzfläche
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:495: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.495 ...exionsvermögen für p-Polarisation für 
-                                                  Luft-Glas Grenzfläche
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:495: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.495 ...-Polarisation für Luft-Glas Grenzfläche
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:495: LaTeX Error: Invalid UTF-8 byte "A4.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.495 ...-Polarisation für Luft-Glas Grenzfläche
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (84.76138pt too wide) in paragraph at lines 495--498
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:501: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.501 ...R_s1, R_p1]);  %Plot der Funktionen für 
-                                                  Luft-Glas
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:501: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.501 ...R_s1, R_p1]);  %Plot der Funktionen für 
-                                                  Luft-Glas
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:503: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.503 ...[R_s2, R_p2]); %Plot der Funktionen für 
-                                                  Glas Luft
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:503: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.503 ...[R_s2, R_p2]); %Plot der Funktionen für 
-                                                  Glas Luft
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:505: LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.505 xlabel('Einfallswinkel / °'
-                                  );
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:505: LaTeX Error: Invalid UTF-8 byte "B0.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.505 xlabel('Einfallswinkel / °'
-                                  );
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:506: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.506 ylabel('Reflexionsvermögen 
-                                  / 1');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:506: LaTeX Error: Invalid UTF-8 byte "B6.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.506 ylabel('Reflexionsvermögen 
-                                  / 1');
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-Overfull \hbox (12.76065pt too wide) in paragraph at lines 507--508
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:512: LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.512 %Schreiben der Daten in eine .csv für 
-                                             QtiPlot
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-c:/Users/phili/Documents/Uni/Labor-Ex2/2 Refraktometer/main.tex:512: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.512 %Schreiben der Daten in eine .csv für 
-                                             QtiPlot
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
 
 
 AED: lastpage setting LastPage
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 518.
-
-[14] (main.aux)
+[14 <./nudes/nomogramm_auswertung.jpg>] [15] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2833,29 +1723,27 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D73D151111D642F19AEBA332DD9EAC69;1292.
+(rerunfilecheck)             Before: D73D151111D642F19AEBA332DD9EAC69;1292
+(rerunfilecheck)             After:  D8399A8A477509E2772EFE336E1FE774;1383.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41316 strings out of 476339
- 821997 string characters out of 5788120
- 1928340 words of memory out of 5000000
- 61024 multiletter control sequences out of 15000+600000
- 521844 words of font info for 59 fonts, out of 8000000 for 9000
+ 41088 strings out of 476339
+ 821236 string characters out of 5788120
+ 1884340 words of memory out of 5000000
+ 60826 multiletter control sequences out of 15000+600000
+ 522440 words of font info for 60 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,734b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (14 pages, 6832797 bytes).
+{C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (15 pages, 7019967 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 516 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 175 words of extra memory for PDF output out of 10000 (max. 10000000)
 

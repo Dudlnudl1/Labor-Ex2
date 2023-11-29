@@ -101,7 +101,15 @@ Um den Brechungswinkel $\beta$ zu bestimmen, benötigt man das Brechungsgesetz v
 
 \begin{equation}
     \label{eq:Snellius}
-    \centerline{$n_1 * sin(\alpha) = n_2 * sin(\beta)$ \\ $\Delta \beta = \vert \frac{\partial \beta}{\partial \alpha} * \Delta \alpha \vert + \vert \frac{\partial \beta}{\partial n_1} * \Delta n_1 \vert + \vert \frac{\partial \beta}{\partial n_2} * \Delta n_2 \vert$}
+    \centerline{$n_1 * sin(\alpha) = n_2 * sin(\beta)$}
+\end{equation}
+
+\noindent
+Durch Umformen des Gesetzes lässt sich der Sinus von $\beta$ berechnen. Um den Winkel $\beta$ zu erhalten, wird der Wert nochmals in den Arcussinus eingesetzt. 
+
+\begin{equation}
+    \label{eq:Brechender Winkel}
+    \centerline{$\beta = arcsin(\frac{n_1 * sin(\alpha)}{n_2})$ \\ $\Delta \beta = \vert \frac{\partial \beta}{\partial \alpha} * \Delta \alpha \vert + \vert \frac{\partial \beta}{\partial n_1} * \Delta n_1 \vert + \vert \frac{\partial \beta}{\partial n_2} * \Delta n_2 \vert$}
 \end{equation}
 
 \noindent
@@ -452,9 +460,49 @@ Anmerkung, in den Diagrammen ist die Unsicherheit des Einfallswinkels kaum sicht
 \\
 \\
 Mit den Messwerten aus der Tabelle \ref{tab:brechender Winkel} wird das Brechungsgesetzt (\ref{eq:Snellius}) bewiesen. 
-Ma andi dei skript is useless so wie du. 
-\\
-\\
+Dazu berechnet man mit den Daten aus Tabelle \ref{fig:reflexionsvermögen LG} den Brechenden Winkel $\varphi_{brech}$. 
+Mit bekannten Brechungsindizes $n$ lässt sich der Brechungswinkel $\varphi_{brech}$ berechnen. 
+Der Brechungsindex von Luft betägt dabei $n_L = 1.0$, der Brechungswinkel für Glas beträgt $n_G = 1.488$ \cite{teachcenter2}. 
+Eingesetzt in die Formel \ref{eq:Snellius} kommt man für den Brechenden Winkel auf folgende Werte. 
+
+\begin{table}[H]
+    \centering
+    \caption{Brechender Winkel $\varphi_{brech}$ berechnet aus den Brechungsindizes $n$ für eine Luft-Glas Grenzfläche. }
+    \label{tab:brechender winkel berechnet}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & $\varphi_{Ein} \pm 0.7$ / deg.  & $\varphi_{brech} \pm 0.7$ / deg.   \\
+        \hline
+        1  & 15.0  & 11 $\pm$  2 \\ %10.0168
+        2  & 20.0  & 14 $\pm$  2 \\ %13.2884
+        3  & 25.0  & 17 $\pm$  2 \\ %16.5001
+        4  & 30.0  & 20 $\pm$  2 \\ %19.6347
+        5  & 35.0  & 23 $\pm$  2 \\ %22.6728
+        6  & 40.0  & 26 $\pm$  3 \\ %25.5933
+        7  & 45.0  & 29 $\pm$  3 \\ %28.3728
+        8  & 50.0  & 31 $\pm$  3 \\ %30.9851
+        9  & 55.0  & 34 $\pm$  3 \\ %33.4017
+        10 & 60.0  & 36 $\pm$  4 \\ %35.5918
+        11 & 65.0  & 38 $\pm$  4 \\ %37.5229
+        12 & 70.0  & 40 $\pm$  4 \\ %39.1619
+        13 & 75.0  & 41 $\pm$  4 \\ %40.4771
+        14 & 80.0  & 42 $\pm$  5 \\ %41.4398
+        15 & 85.0  & 43 $\pm$  5 \\ %42.0274
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Die berechneten Brechenden Winkel werden in einen Diagramm mit den gemessenen Brechenden Winkel dargestellt. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/brechender winkel.jpg}
+    \caption{Brechender Winkel in Abhängigkeit des Einfallswinkels bei einer Luft-Glas Grenzfläche. }
+    \label{fig:brechender winkel}
+\end{figure}
+
+\noindent
 Um nun bei dem Teilversuch Abbe-Refraktometer die Dispersion $n_F-n_C$ zu bestimmen, werden die Messdaten aus der Tabelle \ref{tab:abbe werte} auf die Skalen des Nomogrammes (\ref{fig:nomogramm}) aufgetragen. 
 Der Brechungsindex $n_D$ und der Kompensatorwert werden eingezeichnet und geradlinig Verbunden. 
 Auf der dazwischenliegenden Skala befindet sich der Wert der Dispersion $n_F-n_C$. 
@@ -482,11 +530,57 @@ Mit diesen Angaben kann man sagen, dass die Messprobe zu $(27.0 \pm 0.25)$ \% Zu
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
 
-
-\printbibliography[heading=bibintoc]
-
 \section{Anhang}
 
+\begin{verbatim}
+% Berechnung der Reflexion an einer Grenzfläche zwischen zwei Medien mit n1 und n2
+% Lichteinfall von Seite 1 / n1
 
+%default für Plots
+set(0,'defaultaxesfontname','arial','defaultaxesfontsize',12,'defaultlinelinewidth',2);
+
+%Brechzahlen
+n1=1.488;     %Glas
+n2=1.0;       %Luft             
+
+%Luft-Glas Grenzfläche
+aein1=linspace(0,90,200).'*pi/180; % Einfallswinkel alpha_1, 200 Werte (0-90°) in Radiant
+b1=asin(sin(aein1)*n1/n2); % Brechungswinkel beta_1, berechnet aus dem Brechungsgesetz
+rho_p1=(n2*cos(aein1)-n1*cos(b1))./(n2*cos(aein1)+n1*cos(b1)); % Reflexionskoeff. für p-Pol.
+rho_s1=(n1*cos(aein1)-n2*cos(b1))./(n1*cos(aein1)+n2*cos(b1)); % Reflexionskoeff. für s-Pol.
+
+%Glas-Luft Grenzfläche
+aein2=linspace(0,90,200).'*pi/180; % Einfallswinkel alpha_2, 200 Werte (0-90°) in Radiant
+b2=asin(sin(aein2)*n2/n1); % Brechungswinkel beta_2, berechnet aus dem Brechungsgesetz
+rho_p2=(n2*cos(aein2)-n1*cos(b2))./(n2*cos(aein2)+n1*cos(b2)); % Reflexionskoeff. für p-Pol.
+rho_s2=(n1*cos(aein2)-n2*cos(b2))./(n1*cos(aein2)+n2*cos(b2)); % Reflexionskoeff. für s-Pol.
+
+
+R_s1=abs(rho_s1.^2); % Reflexionsvermögen für s-Pol. für Luft-Glas Grenzfläche
+R_p1=abs(rho_p1.^2); % Reflexionsvermögen für p-Pol. für Luft-Glas Grenzfläche
+R_s2=abs(rho_s2.^2); % Reflexionsvermögen für p-Pol. für Luft-Glas Grenzfläche
+R_p2=abs(rho_p2.^2); % Reflexionsvermögen für p-Pol. für Luft-Glas Grenzfläche
+
+
+% Plotten der Funktion
+figure(1);
+clf();
+plot(aein1*180/pi,[R_s1, R_p1]);  %Plot der Funktionen für Luft-Glas
+hold on;
+plot(aein2*180/pi,[R_s2, R_p2]); %Plot der Funktionen für Glas Luft
+title('Eisner, Waldl');
+xlabel('Einfallswinkel / °');
+ylabel('Reflexionsvermögen / 1');
+legend('s-Pol_GL','p-Pol_GL', 's-Pol_LG', 'p-Pol_LG', 'location','northwest');
+ylim([0,1.05]);
+xlim([0,90]);
+hold on;
+
+%Schreiben der Daten in eine .csv für QtiPlot
+dlmwrite('Reflexionswerte-Luft-Glas.csv', [aein1*180/pi, R_s1, R_p1],'\t');
+dlmwrite('Reflexionswerte-Glas-Luft.csv', [aein2*180/pi, R_s2, R_p2],'\t');
+\end{verbatim}
+
+\printbibliography[heading=bibintoc]
 
 \end{document}

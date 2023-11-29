@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	3
 <table>
 Table1	3647	15	25/11/2023 21:35:48
-geometry	1	0	1860	424	active
+geometry	1	6	1860	424	active
 header	1[X]	Referenz	ReferenzEr	OrangeInt	OrangeEr	BlauInt	BlauEr	BothInt	BothEr	Orange[Y]	3	Blau[Y]	5	Beides[Y]	7
 ColWidth	100	100	100	100	100	100	100	100	100	100	100	100	100	100	100	
 <com>
@@ -3683,7 +3683,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph1	1	1	25/11/2023 21:52:15
-geometry	499	134	692	583	
+geometry	791	229	692	583	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3717,16 +3717,16 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
-curve	Table1_1	Table1_Orange	0	1	#ff8000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3646	1
-curve	Table1_1	Table1_Blau	0	1	#0000ff	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	3646	1
+curve	Table1_1	Table1_Orange	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	3646	1
+curve	Table1_1	Table1_Blau	0	1	#000000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	3646	1
 curve	Table1_1	Table1_Beides	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	3646	1
 ErrorBars	1	Table1_1	Table1_Orange	Table1_3	1	8	#ff8000	1	1	1
 ErrorBars	1	Table1_1	Table1_Blau	Table1_5	1	8	#0000ff	1	1	1
 ErrorBars	1	Table1_1	Table1_Beides	Table1_7	1	8	#00ff00	1	1	1
-scale	0	-0.2	1.2	0	8	5	0	0
-scale	1	-0.2	1.2	0	8	5	0	0
-scale	2	0	1200	0	7	5	0	0
-scale	3	0	1200	0	8	5	0	0
+scale	0	0.798858929001087	0.858206550586391	0	8	5	0	0
+scale	1	0.798858929001087	0.858206550586391	0	8	5	0	0
+scale	2	516.89283782574	567.762227756	0	7	5	0	0
+scale	3	516.89283782574	567.762227756	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -3745,10 +3745,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>29.893238434164</x>
-<y>1.1516049382716</y>
-<right>237.798165137615</right>
-<bottom>1.06896551724138</bottom>
+<x>517.89924661932</x>
+<y>0.85615502786492</y>
+<right>527.139909178598</right>
+<bottom>0.846190488932082</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>
@@ -3769,7 +3769,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph2	1	1	26/11/2023 16:09:41
-geometry	866	-6	508	457	
+geometry	866	0	508	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5

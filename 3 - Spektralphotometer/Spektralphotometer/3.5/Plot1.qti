@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	8
+<windows>	9
 <table>
 Table1	3648	4	24.11.2023 14:15:20
-geometry	-67	8	869	457	
+geometry	-67	1	869	457	
 header	1[X]	2	3	Glas[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -3669,7 +3669,7 @@ WindowLabel		2
 </table>
 <table>
 Glasspektrum1	3648	3	24.11.2023 14:51:07
-geometry	229	485	445	220	active
+geometry	229	478	445	220	
 header	1[X]	2[Y]	3[Y]
 ColWidth	100	100	100	
 <com>
@@ -7332,7 +7332,7 @@ WindowLabel	E:/Spektralphotometer/3.5/Glasspektrum1.csv	2
 </table>
 <table>
 Referenzspektrum1	3648	2	24.11.2023 14:51:07
-geometry	363	483	445	220	
+geometry	363	476	445	220	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -10994,36 +10994,39 @@ WindowLabel	E:/Spektralphotometer/3.5/Referenzspektrum1.csv	2
 </data>
 </table>
 <table>
-Table2	30	3	24.11.2023 15:06:03
-geometry	839	457	445	387	
-header	1[X]	2	Wellenzahl[Y]
-ColWidth	100	100	100	
+Table2	30	5	24.11.2023 15:06:03
+geometry	302	120	445	387	active
+header	1[X]	2	4	Wellenzahl[Y]	3[yEr]
+ColWidth	100	100	100	100	100	
 <com>
-<col nr="2">
+<col nr="3">
 1/col("2")
 </col>
+<col nr="4">
+col("4")/(col("2")^2)
+</col>
 </com>
-ColType	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0
-HiddenColumn	0	0	0
-Comments				
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
 WindowLabel		2
 <data>
-0	1.00000000000000e+00	7.05100000000000e+02	1.41823854772400e-03
-1	2.00000000000000e+00	7.06300000000000e+02	1.41582896786100e-03
-2	3.00000000000000e+00	7.07400000000000e+02	1.41362736782600e-03
-3	4.00000000000000e+00	7.08600000000000e+02	1.41123341800700e-03
-4	5.00000000000000e+00	7.09500000000000e+02	1.40944326990800e-03
-5	6.00000000000000e+00	7.10700000000000e+02	1.40706345856200e-03
-6	7.00000000000000e+00	7.11800000000000e+02	1.40488901376800e-03
-7	8.00000000000000e+00	7.13000000000000e+02	1.40252454418000e-03
-8	9.00000000000000e+00	7.14100000000000e+02	1.40036409466500e-03
-9	1.00000000000000e+01	7.15300000000000e+02	1.39801481895700e-03
+0	1.00000000000000e+00	7.05100000000000e+02	1.70000000000000e+00	1.41823854772400e-03	3.41938098302400e-06
+1	2.00000000000000e+00	7.06300000000000e+02	1.70000000000000e+00	1.41582896786100e-03	3.40777183259700e-06
+2	3.00000000000000e+00	7.07400000000000e+02	1.70000000000000e+00	1.41362736782600e-03	3.39718196961300e-06
+3	4.00000000000000e+00	7.08600000000000e+02	1.70000000000000e+00	1.41123341800700e-03	3.38568559217100e-06
+4	5.00000000000000e+00	7.09500000000000e+02	1.80000000000000e+00	1.40944326990800e-03	3.57575459596200e-06
+5	6.00000000000000e+00	7.10700000000000e+02	1.80000000000000e+00	1.40706345856200e-03	3.56368963755700e-06
+6	7.00000000000000e+00	7.11800000000000e+02	1.80000000000000e+00	1.40488901376800e-03	3.55268365381000e-06
+7	8.00000000000000e+00	7.13000000000000e+02	1.80000000000000e+00	1.40252454418000e-03	3.54073517464700e-06
+8	9.00000000000000e+00	7.14100000000000e+02	1.80000000000000e+00	1.40036409466500e-03	3.52983527572700e-06
+9	1.00000000000000e+01	7.15300000000000e+02	1.80000000000000e+00	1.39801481895700e-03	3.51800178124200e-06
 </data>
 </table>
 <table>
 Table3	3648	3	25/11/2023 19:37:02
-geometry	1284	589	445	220	
+geometry	1281	534	445	220	
 header	1[X]	Referenzspektrum[Y]	Glas[Y]
 ColWidth	100	100	100	
 <com>
@@ -14686,7 +14689,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Graph1	1	1	24.11.2023 14:52:35
-geometry	802	0	500	457	
+geometry	802	-7	500	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -14765,7 +14768,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph2	1	1	24.11.2023 15:19:11
-geometry	1280	90	560	457	
+geometry	1274	46	560	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -14782,7 +14785,7 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	Anzahl Maxima /	1/Wellenlänge / 1/nm			
+AxesTitles	Anzahl Maxima /	1/λ / 1/nm			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
@@ -14845,8 +14848,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>6.8743718592965</x>
 <y>0.0014191610738255</y>
-<right>3.04186046511628</right>
-<bottom>0.00141664948453608</bottom>
+<right>10.1909547738693</right>
+<bottom>0.00141605704697987</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>
@@ -14866,7 +14869,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph3	1	1	25/11/2023 19:38:45
-geometry	175	273	593	457	
+geometry	175	266	593	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -14945,6 +14948,108 @@ EnabledTickLabels	1	1	1	1
 </graph>
 <LinkXAxes>0</LinkXAxes>
 </multiLayer>
+<multiLayer>
+Graph4	1	1	28/11/2023 13:20:25
+geometry	755	-13	560	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	534	388
+PlotTitle	Wellenzahl	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Anzahl Maxima /	1/λ / 1/nm			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table2_1	Table2_Wellenzahl	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Table2_1	Table2_Wellenzahl	Table2_3	1	8	#000000	1	1	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>1	10</Range>
+<Points>2</Points>
+<Constant>A	-2.22509916046587e-06</Constant>
+<Constant>B	0.00142035770854722</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0.00139	0.001425	0	8	5	0	0
+scale	1	0.00139	0.001425	0	8	5	0	0
+scale	2	0	12	0	8	5	0	0
+scale	3	0	12	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	1782059124	0	199293048
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>8.3007518796992</x>
+<y>0.0014239464882943</y>
+<right>11.609022556391</right>
+<bottom>0.00142113712374582</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+\l(3)%(3)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
 <open>1</open>
 <log>
 [24.11.2023 15:12:36	Plot: ''Graph2'']
@@ -14976,4 +15081,18 @@ RSS (Residual Sum of Squares) = 1,40149892514322e-13
 
 
 
+
+[28/11/2023 13:20:37	Plot: ''Graph4'']
+Linear Regression of dataset: Table2_Wellenzahl, using function: A*x+B
+Weighting Method: Instrumental, using error bars dataset: Table2_3
+From x = 1.000000000000000e+00 to x = 1.000000000000000e+01
+B (y-intercept) = 1.420357708547223e-03 +/- 2.343582283754545e-06
+A (slope) = -2.225099160465869e-06 +/- 3.819705142092687e-07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.452157729949645e-03
+R^2 = 0.999658065093707
+Adjusted R^2 = 0.999560369406194
+RMSE (Root Mean Squared Error) = 0.0381071873791499
+RSS (Residual Sum of Squares) = 0.0116172618395972
+---------------------------------------------------------------------------------------
 </log>

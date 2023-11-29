@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	3
 <table>
 Table1	3647	7	25/11/2023 21:52:50
-geometry	0	0	1219	306	
+geometry	0	0	1219	306	active
 header	1[X]	ReferenzInt	ReferenzEr	GlasInt	GlasEr	Glas[Y]	3
 ColWidth	100	100	100	100	100	100	100	
 <com>
@@ -3751,7 +3751,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph2	1	1	26/11/2023 16:18:18
-geometry	587	110	500	457	active
+geometry	608	229	500	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  29 NOV 2023 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  29 NOV 2023 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1650,16 +1650,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 384--390
 
  []
 
-
-Overfull \hbox (76.9689pt too wide) in paragraph at lines 395--416
- [][] 
- []
-
 [10 <./nudes/wasser okular.jpg> <./nudes/zucker okular.jpg>]
-Overfull \hbox (71.09534pt too wide) in paragraph at lines 423--444
- [][] 
- []
-
 <nudes/LG Mess.jpg, id=192, 370.38374pt x 303.38344pt>
 File: nudes/LG Mess.jpg Graphic file (type jpg)
 <use nudes/LG Mess.jpg>
@@ -1670,7 +1661,7 @@ File: nudes/LG theor.jpg Graphic file (type jpg)
 <use nudes/LG theor.jpg>
 Package pdftex.def Info: nudes/LG theor.jpg  used on input line 455.
 (pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
-[11]
+ [11]
 <nudes/GL Mess.jpg, id=200, 370.38374pt x 303.38344pt>
 File: nudes/GL Mess.jpg Graphic file (type jpg)
 <use nudes/GL Mess.jpg>
@@ -1885,7 +1876,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,734b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk>{C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (21 pages, 2759680 bytes).
+Output written on main.pdf (21 pages, 2759750 bytes).
 PDF statistics:
  581 PDF objects out of 1000 (max. 8388607)
  68 named destinations out of 1000 (max. 500000)

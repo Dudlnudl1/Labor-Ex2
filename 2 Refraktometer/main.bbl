@@ -19,6 +19,31 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Grenzwinkel}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0ac619dc6080321a9141546d25856178}{%
+           family={ARD-Alpha},
+           familyi={A\bibinithyphendelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ac619dc6080321a9141546d25856178}
+      \strng{fullhash}{0ac619dc6080321a9141546d25856178}
+      \strng{bibnamehash}{0ac619dc6080321a9141546d25856178}
+      \strng{authorbibnamehash}{0ac619dc6080321a9141546d25856178}
+      \strng{authornamehash}{0ac619dc6080321a9141546d25856178}
+      \strng{authorfullhash}{0ac619dc6080321a9141546d25856178}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Totalreflexion}
+      \verb{urlraw}
+      \verb https://www.ardalpha.de/lernen/alpha-lernen/faecher/physik/totalreflexion-100.html#:~:text=Der%20Einfallswinkel%20%CE%B1G%2C%20der,Kombination%20der%20beiden%20Medien%20bezeichnet.
+      \endverb
+      \verb{url}
+      \verb https://www.ardalpha.de/lernen/alpha-lernen/faecher/physik/totalreflexion-100.html#:~:text=Der%20Einfallswinkel%20%CE%B1G%2C%20der,Kombination%20der%20beiden%20Medien%20bezeichnet.
+      \endverb
+    \endentry
     \entry{teachcenter2}{online}{}
       \name{author}{1}{}{%
         {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%
@@ -123,6 +148,58 @@
       \endverb
       \verb{url}
       \verb http://wwwex.physik.uni-ulm.de/lehre/el-2016/el-2016se40.html
+      \endverb
+    \endentry
+    \entry{Brewster}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Brewster-Winkel}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Brewster-Winkel
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Brewster-Winkel
+      \endverb
+    \endentry
+    \entry{Fraunhofer}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Fraunhoferlinie}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Fraunhoferlinie
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Fraunhoferlinie
       \endverb
     \endentry
   \enddatalist

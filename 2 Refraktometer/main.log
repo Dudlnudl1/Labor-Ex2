@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  29 NOV 2023 01:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  29 NOV 2023 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1493,341 +1493,401 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 8.
 
 \c@lstlisting=\count505
-<../DeckblÃ¤tter/Deckblatt_Gitter.pdf, id=46, 597.432pt x 845.07718pt>
-File: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../DeckblÃ¤tter/Deckblatt_Gitter.pdf>
-Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf  used on input line 38.
+<../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf, id=46, 597.432pt x 845.07718pt>
+File: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf Graphic file (type pdf)
+<use ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf>
+Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf  used on input line 38.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-File: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../DeckblÃ¤tter/Deckblatt_Gitter.pdf>
-Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf  used on input line 38.
+File: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf Graphic file (type pdf)
+<use ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf>
+Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf  used on input line 38.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../DeckblÃ¤tter/Deckblatt_Gitter.pdf, id=49, page=1, 597.432pt x 845.07718pt>
-File: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../DeckblÃ¤tter/Deckblatt_Gitter.pdf, page 1>
-Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf , page1 used on input line 38.
+<../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf, id=49, page=1, 597.432pt x 845.07718pt>
+File: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf Graphic file (type pdf)
+<use ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf, page 1>
+Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf , page1 used on input line 38.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-File: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../DeckblÃ¤tter/Deckblatt_Gitter.pdf, page 1>
-Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf , page1 used on input line 38.
+File: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf Graphic file (type pdf)
+<use ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf, page 1>
+Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf , page1 used on input line 38.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../DeckblÃ¤tter/Deckblatt_Gitter.pdf, page 1>
-Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf , page1 used on input line 38.
+File: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf Graphic file (type pdf)
+<use ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf, page 1>
+Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf , page1 used on input line 38.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../DeckblÃ¤tter/Deckblatt_Gitter.pdf, page 1>
-Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf , page1 used on input line 38.
+File: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf Graphic file (type pdf)
+<use ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf, page 1>
+Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf , page1 used on input line 38.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../DeckblÃ¤tter/Deckblatt_Gitter.pdf, page 1>
-Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Gitter.pdf , page1 used on input line 38.
+File: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf Graphic file (type pdf)
+<use ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf, page 1>
+Package pdftex.def Info: ../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf , page1 used on input line 38.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [1
 
- <../DeckblÃ¤tter/Deckblatt_Gitter.pdf>] (main.toc)
+ <../DeckblÃ¤tter/Deckblatt_Refraktometer.pdf>] (main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
  [2{C:/Users/phili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 44--53
+Underfull \hbox (badness 10000) in paragraph at lines 44--55
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
 (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
  (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 55--63
+Underfull \hbox (badness 10000) in paragraph at lines 57--65
 
  []
 
 
-Overfull \hbox (20.89381pt too wide) in paragraph at lines 85--91
+Overfull \hbox (20.89381pt too wide) in paragraph at lines 87--96
 \T1/cmr/m/n/12 Im Ers-ten Teil wird das Re-fle-xi-ons-ver-mö-gen bei ei-nem p-Polarisierten und einen s-Polarisierten
  []
 
 
-Overfull \hbox (10.4212pt too wide) in paragraph at lines 85--91
+Overfull \hbox (10.4212pt too wide) in paragraph at lines 87--96
 \T1/cmr/m/n/12 Ein p-Polarisierter La-ser-strahl ist par-al-lel zur Ein-fall-sebe-ne po-la-ri-siert und ein s-Polarisierter
  []
 
-<nudes/sp pol.png, id=99, 813.0375pt x 421.575pt>
+<nudes/sp pol.png, id=95, 813.0375pt x 421.575pt>
 File: nudes/sp pol.png Graphic file (type png)
 <use nudes/sp pol.png>
-Package pdftex.def Info: nudes/sp pol.png  used on input line 94.
+Package pdftex.def Info: nudes/sp pol.png  used on input line 100.
 (pdftex.def)             Requested size: 273.14923pt x 141.62892pt.
 [3]
-<nudes/nomogramm.jpg, id=119, 884.55469pt x 655.69969pt>
+<nudes/nomogramm.jpg, id=118, 884.55469pt x 655.69969pt>
 File: nudes/nomogramm.jpg Graphic file (type jpg)
 <use nudes/nomogramm.jpg>
-Package pdftex.def Info: nudes/nomogramm.jpg  used on input line 121.
+Package pdftex.def Info: nudes/nomogramm.jpg  used on input line 127.
 (pdftex.def)             Requested size: 273.14923pt x 202.4744pt.
-<nudes/Aufbau.jpg, id=122, 2023.56pt x 1138.2525pt>
+ [4 <./nudes/sp pol.png> <./nudes/nomogramm.jpg>]
+<nudes/Aufbau.jpg, id=133, 2023.56pt x 1138.2525pt>
 File: nudes/Aufbau.jpg Graphic file (type jpg)
 <use nudes/Aufbau.jpg>
-Package pdftex.def Info: nudes/Aufbau.jpg  used on input line 131.
+Package pdftex.def Info: nudes/Aufbau.jpg  used on input line 141.
 (pdftex.def)             Requested size: 318.66948pt x 179.24098pt.
- [4 <./nudes/sp pol.png> <./nudes/nomogramm.jpg>]
-<nudes/Polarisator.jpg, id=133, 1517.67pt x 1138.2525pt>
+<nudes/Polarisator.jpg, id=134, 1517.67pt x 1138.2525pt>
 File: nudes/Polarisator.jpg Graphic file (type jpg)
 <use nudes/Polarisator.jpg>
-Package pdftex.def Info: nudes/Polarisator.jpg  used on input line 142.
+Package pdftex.def Info: nudes/Polarisator.jpg  used on input line 152.
 (pdftex.def)             Requested size: 182.09486pt x 136.56703pt.
-<nudes/halbkreisprisma.jpg, id=134, 1214.5375pt x 1517.67pt>
+<nudes/halbkreisprisma.jpg, id=135, 1214.5375pt x 1517.67pt>
 File: nudes/halbkreisprisma.jpg Graphic file (type jpg)
 <use nudes/halbkreisprisma.jpg>
-Package pdftex.def Info: nudes/halbkreisprisma.jpg  used on input line 143.
+Package pdftex.def Info: nudes/halbkreisprisma.jpg  used on input line 153.
 (pdftex.def)             Requested size: 182.09486pt x 227.52489pt.
 
-Overfull \hbox (9.8644pt too wide) in paragraph at lines 148--155
+Overfull \hbox (9.8644pt too wide) in paragraph at lines 158--165
 \T1/cmr/m/n/12 Durch Dre-hen des Po-la-ri-sa-tors lässt sich der Licht-strahl in p-Polarisiertes oder s-Polarisiertes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
+Underfull \hbox (badness 10000) in paragraph at lines 158--165
 
  []
 
-<nudes/abbe.jpg, id=135, 1345.025pt x 1680.2775pt>
+[5 <./nudes/Aufbau.jpg> <./nudes/Polarisator.jpg> <./nudes/halbkreisprisma.jpg>]
+<nudes/abbe.jpg, id=143, 672.5125pt x 841.1425pt>
 File: nudes/abbe.jpg Graphic file (type jpg)
 <use nudes/abbe.jpg>
-Package pdftex.def Info: nudes/abbe.jpg  used on input line 158.
-(pdftex.def)             Requested size: 182.09486pt x 227.46864pt.
-<nudes/abbe2.jpg, id=136, 1517.67pt x 2023.56pt>
+Package pdftex.def Info: nudes/abbe.jpg  used on input line 168.
+(pdftex.def)             Requested size: 182.09486pt x 227.75325pt.
+<nudes/abbe2.jpg, id=144, 758.835pt x 1011.78pt>
 File: nudes/abbe2.jpg Graphic file (type jpg)
 <use nudes/abbe2.jpg>
-Package pdftex.def Info: nudes/abbe2.jpg  used on input line 159.
+Package pdftex.def Info: nudes/abbe2.jpg  used on input line 169.
 (pdftex.def)             Requested size: 182.09486pt x 242.78584pt.
-[5 <./nudes/Aufbau.jpg> <./nudes/Polarisator.jpg> <./nudes/halbkreisprisma.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 192--206
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--206
+Underfull \hbox (badness 10000) in paragraph at lines 202--216
 
  []
 
 [6 <./nudes/abbe.jpg> <./nudes/abbe2.jpg>]
-Overfull \hbox (47.66608pt too wide) in paragraph at lines 211--232
+Overfull \hbox (47.66608pt too wide) in paragraph at lines 221--242
  [][] 
  []
 
 
-Overfull \hbox (53.53964pt too wide) in paragraph at lines 238--259
+Overfull \hbox (53.53964pt too wide) in paragraph at lines 248--269
  [][] 
  []
 
 [7]
-Overfull \hbox (47.66608pt too wide) in paragraph at lines 268--288
+Overfull \hbox (47.66608pt too wide) in paragraph at lines 278--298
  [][] 
  []
 
 
-Overfull \hbox (53.53964pt too wide) in paragraph at lines 294--315
+Overfull \hbox (53.53964pt too wide) in paragraph at lines 304--325
  [][] 
  []
 
 [8] [9]
-<nudes/wasser okular.jpg, id=174, 1330.9725pt x 1664.2175pt>
+<nudes/wasser okular.jpg, id=176, 1330.9725pt x 1664.2175pt>
 File: nudes/wasser okular.jpg Graphic file (type jpg)
 <use nudes/wasser okular.jpg>
-Package pdftex.def Info: nudes/wasser okular.jpg  used on input line 367.
+Package pdftex.def Info: nudes/wasser okular.jpg  used on input line 377.
 (pdftex.def)             Requested size: 182.09486pt x 227.68153pt.
-<nudes/zucker okular.jpg, id=175, 1318.9275pt x 1649.16125pt>
+<nudes/zucker okular.jpg, id=177, 1318.9275pt x 1649.16125pt>
 File: nudes/zucker okular.jpg Graphic file (type jpg)
 <use nudes/zucker okular.jpg>
-Package pdftex.def Info: nudes/zucker okular.jpg  used on input line 368.
+Package pdftex.def Info: nudes/zucker okular.jpg  used on input line 378.
 (pdftex.def)             Requested size: 182.09486pt x 227.68515pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--380
+Underfull \hbox (badness 10000) in paragraph at lines 384--390
 
  []
 
 
-Overfull \hbox (76.9689pt too wide) in paragraph at lines 385--406
+Overfull \hbox (76.9689pt too wide) in paragraph at lines 395--416
  [][] 
  []
 
 [10 <./nudes/wasser okular.jpg> <./nudes/zucker okular.jpg>]
-Overfull \hbox (71.09534pt too wide) in paragraph at lines 413--434
+Overfull \hbox (71.09534pt too wide) in paragraph at lines 423--444
  [][] 
  []
 
-<nudes/LG Mess.jpg, id=190, 370.38374pt x 303.38344pt>
+<nudes/LG Mess.jpg, id=192, 370.38374pt x 303.38344pt>
 File: nudes/LG Mess.jpg Graphic file (type jpg)
 <use nudes/LG Mess.jpg>
-Package pdftex.def Info: nudes/LG Mess.jpg  used on input line 444.
+Package pdftex.def Info: nudes/LG Mess.jpg  used on input line 454.
 (pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
-<nudes/LG theor.jpg, id=191, 370.38374pt x 303.38344pt>
+<nudes/LG theor.jpg, id=193, 370.38374pt x 303.38344pt>
 File: nudes/LG theor.jpg Graphic file (type jpg)
 <use nudes/LG theor.jpg>
-Package pdftex.def Info: nudes/LG theor.jpg  used on input line 445.
+Package pdftex.def Info: nudes/LG theor.jpg  used on input line 455.
 (pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
 [11]
-<nudes/GL Mess.jpg, id=198, 370.38374pt x 303.38344pt>
+<nudes/GL Mess.jpg, id=200, 370.38374pt x 303.38344pt>
 File: nudes/GL Mess.jpg Graphic file (type jpg)
 <use nudes/GL Mess.jpg>
-Package pdftex.def Info: nudes/GL Mess.jpg  used on input line 452.
+Package pdftex.def Info: nudes/GL Mess.jpg  used on input line 463.
 (pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
-<nudes/GL theor.jpg, id=199, 370.38374pt x 303.38344pt>
+<nudes/GL theor.jpg, id=201, 370.38374pt x 303.38344pt>
 File: nudes/GL theor.jpg Graphic file (type jpg)
 <use nudes/GL theor.jpg>
-Package pdftex.def Info: nudes/GL theor.jpg  used on input line 453.
+Package pdftex.def Info: nudes/GL theor.jpg  used on input line 464.
 (pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
  [12 <./nudes/LG Mess.jpg> <./nudes/LG theor.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 458--467
+Underfull \hbox (badness 10000) in paragraph at lines 470--479
 
  []
 
 [13 <./nudes/GL Mess.jpg> <./nudes/GL theor.jpg>]
-<nudes/brechender winkel.jpg, id=216, 358.33875pt x 303.38344pt>
+<nudes/brechender winkel.jpg, id=218, 358.33875pt x 303.38344pt>
 File: nudes/brechender winkel.jpg Graphic file (type jpg)
 <use nudes/brechender winkel.jpg>
-Package pdftex.def Info: nudes/brechender winkel.jpg  used on input line 500.
+Package pdftex.def Info: nudes/brechender winkel.jpg  used on input line 512.
 (pdftex.def)             Requested size: 273.14923pt x 231.27281pt.
-<nudes/nomogramm_auswertung.jpg, id=219, 1179.40625pt x 874.26625pt>
+<nudes/nomogramm_auswertung.jpg, id=221, 1179.40625pt x 874.26625pt>
 File: nudes/nomogramm_auswertung.jpg Graphic file (type jpg)
 <use nudes/nomogramm_auswertung.jpg>
-Package pdftex.def Info: nudes/nomogramm_auswertung.jpg  used on input line 512.
+Package pdftex.def Info: nudes/nomogramm_auswertung.jpg  used on input line 524.
 (pdftex.def)             Requested size: 273.14923pt x 202.47772pt.
  [14 <./nudes/brechender winkel.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 529--537
 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 535.
-(C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--566
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--566
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--566
+
+ []
+
+[15 <./nudes/nomogramm_auswertung.jpg>]
+File: nudes/LG Mess.jpg Graphic file (type jpg)
+<use nudes/LG Mess.jpg>
+Package pdftex.def Info: nudes/LG Mess.jpg  used on input line 573.
+(pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
+File: nudes/LG theor.jpg Graphic file (type jpg)
+<use nudes/LG theor.jpg>
+Package pdftex.def Info: nudes/LG theor.jpg  used on input line 574.
+(pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
+ [16]
+File: nudes/GL Mess.jpg Graphic file (type jpg)
+<use nudes/GL Mess.jpg>
+Package pdftex.def Info: nudes/GL Mess.jpg  used on input line 582.
+(pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
+File: nudes/GL theor.jpg Graphic file (type jpg)
+<use nudes/GL theor.jpg>
+Package pdftex.def Info: nudes/GL theor.jpg  used on input line 583.
+(pdftex.def)             Requested size: 273.14923pt x 223.74103pt.
+ [17]
+File: nudes/brechender winkel.jpg Graphic file (type jpg)
+<use nudes/brechender winkel.jpg>
+Package pdftex.def Info: nudes/brechender winkel.jpg  used on input line 591.
+(pdftex.def)             Requested size: 273.14923pt x 231.27281pt.
+ [18]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 606.
+ (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (135.15564pt too wide) in paragraph at lines 582--582
+Overfull \hbox (135.15564pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 % Berechnung der Reflexion an einer Grenzfläche zwischen zwei Medien mit n1 und n2[] 
  []
 
 
-Overfull \hbox (171.15562pt too wide) in paragraph at lines 582--582
+Overfull \hbox (171.15562pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 set(0,'defaultaxesfontname','arial','defaultaxesfontsize',12,'defaultlinelinewidth',2);[] 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 582.
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 653.
 (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
-Overfull \hbox (185.55562pt too wide) in paragraph at lines 582--582
+Overfull \hbox (185.55562pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 aein1=linspace(0,90,200).'*pi/180; % Einfallswinkel alpha_1, 200 Werte (0-90\TS1/pcr/m/n/12 °\T1/pcr/m/n/12 ) in Radiant[] 
  []
 
 
-Overfull \hbox (163.95563pt too wide) in paragraph at lines 582--582
+Overfull \hbox (163.95563pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 b1=asin(sin(aein1)*n1/n2); % Brechungswinkel beta_1, berechnet aus dem Brechungsgesetz[] 
  []
 
 
-Overfull \hbox (207.15561pt too wide) in paragraph at lines 582--582
+Overfull \hbox (207.15561pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 rho_p1=(n2*cos(aein1)-n1*cos(b1))./(n2*cos(aein1)+n1*cos(b1)); % Reflexionskoeff. für p-Pol.[] 
  []
 
-[15 <./nudes/nomogramm_auswertung.jpg>]
-Overfull \hbox (207.15561pt too wide) in paragraph at lines 582--582
+
+Overfull \hbox (207.15561pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 rho_s1=(n1*cos(aein1)-n2*cos(b1))./(n1*cos(aein1)+n2*cos(b1)); % Reflexionskoeff. für s-Pol.[] 
  []
 
 
-Overfull \hbox (185.55562pt too wide) in paragraph at lines 582--582
+Overfull \hbox (185.55562pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 aein2=linspace(0,90,200).'*pi/180; % Einfallswinkel alpha_2, 200 Werte (0-90\TS1/pcr/m/n/12 °\T1/pcr/m/n/12 ) in Radiant[] 
  []
 
 
-Overfull \hbox (163.95563pt too wide) in paragraph at lines 582--582
+Overfull \hbox (163.95563pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 b2=asin(sin(aein2)*n2/n1); % Brechungswinkel beta_2, berechnet aus dem Brechungsgesetz[] 
  []
 
 
-Overfull \hbox (207.15561pt too wide) in paragraph at lines 582--582
+Overfull \hbox (207.15561pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 rho_p2=(n2*cos(aein2)-n1*cos(b2))./(n2*cos(aein2)+n1*cos(b2)); % Reflexionskoeff. für p-Pol.[] 
  []
 
 
-Overfull \hbox (207.15561pt too wide) in paragraph at lines 582--582
+Overfull \hbox (207.15561pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 rho_s2=(n1*cos(aein2)-n2*cos(b2))./(n1*cos(aein2)+n2*cos(b2)); % Reflexionskoeff. für s-Pol.[] 
  []
 
-
-Overfull \hbox (106.35565pt too wide) in paragraph at lines 582--582
+[19]
+Overfull \hbox (106.35565pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 R_s1=abs(rho_s1.^2); % Reflexionsvermögen für s-Pol. für Luft-Glas Grenzfläche[] 
  []
 
 
-Overfull \hbox (106.35565pt too wide) in paragraph at lines 582--582
+Overfull \hbox (106.35565pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 R_p1=abs(rho_p1.^2); % Reflexionsvermögen für p-Pol. für Luft-Glas Grenzfläche[] 
  []
 
 
-Overfull \hbox (106.35565pt too wide) in paragraph at lines 582--582
+Overfull \hbox (106.35565pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 R_s2=abs(rho_s2.^2); % Reflexionsvermögen für p-Pol. für Luft-Glas Grenzfläche[] 
  []
 
 
-Overfull \hbox (106.35565pt too wide) in paragraph at lines 582--582
+Overfull \hbox (106.35565pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 R_p2=abs(rho_p2.^2); % Reflexionsvermögen für p-Pol. für Luft-Glas Grenzfläche[] 
  []
 
 
-Overfull \hbox (34.35568pt too wide) in paragraph at lines 582--582
+Overfull \hbox (34.35568pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 plot(aein1*180/pi,[R_s1, R_p1]);  %Plot der Funktionen für Luft-Glas[] 
  []
 
 
-Overfull \hbox (27.15569pt too wide) in paragraph at lines 582--582
+Overfull \hbox (27.15569pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 plot(aein2*180/pi,[R_s2, R_p2]); %Plot der Funktionen für Glas Luft[] 
  []
 
 
-Overfull \hbox (106.35565pt too wide) in paragraph at lines 582--582
+Overfull \hbox (106.35565pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 legend('s-Pol_GL','p-Pol_GL', 's-Pol_LG', 'p-Pol_LG', 'location','northwest');[] 
  []
 
 
-Overfull \hbox (84.75566pt too wide) in paragraph at lines 582--582
+Overfull \hbox (84.75566pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 dlmwrite('Reflexionswerte-Luft-Glas.csv', [aein1*180/pi, R_s1, R_p1],'\t');[] 
  []
 
 
-Overfull \hbox (84.75566pt too wide) in paragraph at lines 582--582
+Overfull \hbox (84.75566pt too wide) in paragraph at lines 653--653
 []\T1/pcr/m/n/12 dlmwrite('Reflexionswerte-Glas-Luft.csv', [aein2*180/pi, R_s2, R_p2],'\t');[] 
  []
 
 
-Overfull \hbox (8.6053pt too wide) in paragraph at lines 584--584
+Overfull \hbox (18.39714pt too wide) in paragraph at lines 655--655
+[]\T1/cmr/m/n/12 ARD-Alpha. \T1/cmr/m/it/12 To-tal-re-fle-xi-on\T1/cmr/m/n/12 . (be-sucht am 24.11.2023). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / www . ardalpha .
+ []
+
+
+Overfull \hbox (37.40529pt too wide) in paragraph at lines 655--655
+\T1/pcr/m/n/12 html# : ~ : text = Der % 20Einfallswinkel % 20 % CE % B1G % 2C % 20der ,[] Kombination %
+ []
+
+
+Overfull \hbox (8.6053pt too wide) in paragraph at lines 655--655
 \T1/pcr/m/n/12 tme . eu / Document / faa91173d78d7b0bc94b3b58ec8311e8 / U3402 -[] 90001 .
  []
 
-[16] 
+
+Overfull \hbox (24.3248pt too wide) in paragraph at lines 655--655
+[]\T1/cmr/m/n/12 Wikipedia. \T1/cmr/m/it/12 Brewster-Winkel\T1/cmr/m/n/12 . (be-sucht am 24.11.2023). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / de . wikipedia .
+ []
+
+
+Overfull \hbox (17.70421pt too wide) in paragraph at lines 655--655
+[]\T1/cmr/m/n/12 Wikipedia. \T1/cmr/m/it/12 Fraun-ho-fer-li-nie\T1/cmr/m/n/12 . (be-sucht am 24.11.2023). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / de . wikipedia .
+ []
+
+[20] 
 AED: lastpage setting LastPage
-[17] (main.aux)
+[21] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D2EB44ADF6DC7F99DCD964E76188D4F4;1383.
+(rerunfilecheck)             Checksum: A744BA9B46200D0BB734287C1393AB1F;1383.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41126 strings out of 476339
- 821966 string characters out of 5788120
+ 41150 strings out of 476339
+ 822691 string characters out of 5788120
  1884340 words of memory out of 5000000
- 60854 multiletter control sequences out of 15000+600000
+ 60868 multiletter control sequences out of 15000+600000
  522733 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,734b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk>{C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (17 pages, 7122136 bytes).
+Output written on main.pdf (21 pages, 2759680 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
+ 581 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

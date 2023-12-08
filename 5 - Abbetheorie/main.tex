@@ -129,16 +129,85 @@ Mit Hilfe des Tools für die grafische Darstellung solcher Muster von Leifi-Phys
 \end{figure}
 
 
+\subsection{Wichtige Zusammenhänge}
+
+Für eine erfolgreiche Auswertung der Daten werden außerdem folgende Zusammenhänge benötigt:
+
+\begin{equation}
+    \label{eq:WZ-NA}
+    \centerline{Numerische Apertur \\ $NA = \frac{D_{Blende}}{2f_{2}}$ \\ $\Delta NA = \vert \frac{\partial NA}{\partial D_{Blende}} * \Delta D_{Blende} \vert + \vert \frac{\partial NA}{\partial f_{2}} * \Delta f_{2} \vert $}
+\end{equation}
+
+\begin{equation}
+    \label{eq:WZ-dTheo}
+    \centerline{Auflösungsvermögen theoretisch \\ $d_{theoretisch} = 0.61\frac{\lambda}{NA}$ \\ $\Delta d_{theoretisch} = \vert \frac{\partial d_{theoretisch}}{\partial \lambda} * \Delta \lambda \vert + \vert \frac{\partial d_{theoretisch}}{\partial NA} * \Delta NA \vert $}
+\end{equation}
+
+\begin{equation}
+    \label{eq:WZ-fr}
+    \centerline{Räumliche Frequenz \\ $f_{R} = 2^{n_{g}^{\frac{n_{E}-1}{6}}}$ \\ $\Delta f_{R} = \vert \frac{\partial f_{R}}{\partial n_{g}} * \Delta n_{g} \vert + \vert \frac{\partial f_{R}}{\partial n_{E}} * \Delta n_{E} \vert $}
+\end{equation}
+
+\begin{equation}
+    \label{eq:WZ-dExp}
+    \centerline{Auflösungsvermögen experimentell \\ $d_{experimentell} = \frac{1}{f_{R}}$ \\ $\Delta d_{experimentell} = \vert \frac{\partial d_{experimentell}}{\partial f_{R}} * \Delta f_{R} \vert$}
+\end{equation}
+
+
     
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
 
-    \begin{figure}[H]
-        \centering
-        %\includegraphics[width=0.6\linewidth, angle=-90]{nudes/bild.jpg}
-        \caption{müll}
-        \label{fig:müllbild}
-    \end{figure}
+Der Aufbau des Experimentes ist im Grunde sehr simpel. Es besteht aus einer Aluschiene, auf der acht verschiedene Module in einem bestimmten Abstand angebracht sind. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{nudes/VersuchsaufbauTheoretisch.png}
+    \caption{Optischer Aufbau des Experiments; L1: f1 = 200mm, F: Filterrad mit roter/blauer LED, Graufilter und freiem
+    Durchgang, T: Testobjekt; L2: f2 = 60mm; B: Filterrad mit 2/3/6 mm Lochblenden, einer Irisblende und einer
+    Drahtblende, L3(einklappbar): f3 = 50mm. \cite{teachcenter2}}
+    \label{fig:VersuchsaufbauTheoretisch}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{nudes/VersuchsaufbauIRLbeschriftet.jpg}
+    \caption{Versuchsaufbau laut Abbildung \ref{fig:VersuchsaufbauTheoretisch}}
+    \label{fig:Versuchsaufbau}
+\end{figure}
+
+Die Einzelteile mit Beschreibung sind in folgender Tabelle ersichtlich:
+
+\begin{table}[H]
+    \centering
+    \caption{Aufbau: Module}
+    \label{tab:Aufbau}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Nr.  & Modul & Bezeichnung  & Eigenschaft \\
+        \hline
+        1 & Laser & Laser & λ= 531,9 nm \\
+        2 & Sammellinse 1 & L1 & f1 = 200 mm \\
+        3 & Filterrad & F & rote/blauer LED, Graufilter und freier Durchgang \\
+        4 & Testobjekt bzw. Probe & T &  \\
+        5 & Sammellinse 2 & L2 & f1 = 60 mm \\
+        6 & Filterrad & B & 2/3/6 mm Lochblenden, Irisblende und Drahtblende \\
+        7 & Sammellinse 3 & L3 & f1 =  50 mm \\
+        8 & Kamera & Kamera & Fotosensor mit PC/IC Capture Verbindung \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Teil der Vorbereitung war es auch, mögliche Strahlengänge durch diesen Aufbau theoretisch zu zeichnen. Diese sind in nachfolgenden Abbildungen zu sehen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\linewidth, angle=-90]{nudes/Strahlenganga.png}
+    \includegraphics[width=0.3\linewidth, angle=-90]{nudes/Strahlengangb.png}
+    \caption{Simulation der Maxima einer Gitterbeugung von blauem Licht mit 10/100 Spaltöffnungen}
+    \label{fig:SimulationBlau}
+\end{figure}
 
 \section{Geräteliste} %jo holt a listn ------------------------------
 
@@ -156,7 +225,7 @@ Mit Hilfe des Tools für die grafische Darstellung solcher Muster von Leifi-Phys
             Laser & Laser & Thorlabs & λ= 531,9 nm & {n.a.} \\
             LED blau & LEDb & Cxxx & λ= 470 nm & 5 nm \\
             LED rot & LEDr & Cxxx & λ= 635 nm & 5 nm \\
-            Kamera & Cam & The Imaging Source & {n.a.} & {n.a.}\\
+            Kamera & Kamera & The Imaging Source & {n.a.} & {n.a.}\\
             Kamera & {n.a.} & The Imaging Source & {n.a.} & {n.a.}\\
             SciDAVis & {n.a.} & Cxxx & {n.a.} & {n.a.} \\
             \hline

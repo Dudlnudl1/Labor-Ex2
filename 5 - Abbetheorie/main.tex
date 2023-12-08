@@ -30,7 +30,7 @@
 %\input{cover}
 %\maketitle %short title alternative
 
-\includepdf[pages={1}]{../Deckblätter/Deckblatt_Gitter.pdf}
+\includepdf[pages={1}]{../Deckblätter/Deckblatt_Abbe.pdf}
 
 \tableofcontents
 \newpage
@@ -140,7 +140,7 @@ Für eine erfolgreiche Auswertung der Daten werden außerdem folgende Zusammenh�
 
 \begin{equation}
     \label{eq:WZ-dTheo}
-    \centerline{Auflösungsvermögen theoretisch \\ $d_{theoretisch} = 0.61\frac{\lambda}{NA}$ \\ $\Delta d_{theoretisch} = \vert \frac{\partial d_{theoretisch}}{\partial \lambda} * \Delta \lambda \vert + \vert \frac{\partial d_{theoretisch}}{\partial NA} * \Delta NA \vert $}
+    \centerline{Auflösungsvermögen theoretisch \\ $d_{th} = 0.61\frac{\lambda}{NA}$ \\ $\Delta d_{th} = \vert \frac{\partial d_{th}}{\partial \lambda} * \Delta \lambda \vert + \vert \frac{\partial d_{th}}{\partial NA} * \Delta NA \vert $}
 \end{equation}
 
 \begin{equation}
@@ -150,7 +150,7 @@ Für eine erfolgreiche Auswertung der Daten werden außerdem folgende Zusammenh�
 
 \begin{equation}
     \label{eq:WZ-dExp}
-    \centerline{Auflösungsvermögen experimentell \\ $d_{experimentell} = \frac{1}{f_{R}}$ \\ $\Delta d_{experimentell} = \vert \frac{\partial d_{experimentell}}{\partial f_{R}} * \Delta f_{R} \vert$}
+    \centerline{Auflösungsvermögen experimentell \\ $d_{exp} = \frac{1}{f_{R}}$ \\ $\Delta d_{exp} = \vert \frac{\partial d_{exp}}{\partial f_{R}} * \Delta f_{R} \vert$}
 \end{equation}
 
 
@@ -199,13 +199,16 @@ Die Einzelteile mit Beschreibung sind in folgender Tabelle ersichtlich:
 \end{table}
 
 \noindent
+Mit dem Drehrad an der Seite des Testobjektes ist es außerdem möglich, die Schärfe der Probe zu adjustieren. \newline
+
+\noindent
 Teil der Vorbereitung war es auch, mögliche Strahlengänge durch diesen Aufbau theoretisch zu zeichnen. Diese sind in nachfolgenden Abbildungen zu sehen.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.3\linewidth, angle=-90]{nudes/Strahlenganga.png}
     \includegraphics[width=0.3\linewidth, angle=-90]{nudes/Strahlengangb.png}
-    \caption{Simulation der Maxima einer Gitterbeugung von blauem Licht mit 10/100 Spaltöffnungen}
+    \caption{Theoretische Strahlengänge}
     \label{fig:SimulationBlau}
 \end{figure}
 
@@ -235,6 +238,121 @@ Teil der Vorbereitung war es auch, mögliche Strahlengänge durch diesen Aufbau 
 
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
 
+Bevor die eigentlichen Messvorgänge starten konnten, war es laut Aufgabe 0 wichtig, sich zuvor mit dem Aufbau und Messinstrumenten vertraut zu machen. 
+Der erste Blick fällt dabei auf das Testobjekt des Versuches, dargestellt in folgender Abbildung \ref{fig:Testelement}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/Testelement.png}
+    \caption{Testelement des Versuches \cite{teachcenter2}}
+    \label{fig:Testelement}
+\end{figure}
+
+\noindent
+Wie sich erkennen lässt, besteht dieses aus mehreren Strichblöcken, die sich aus drei gleichweit voneinander entfernten Linien (je drei horzizontal und drei vertikal ausgerichtet) zusammensetzen.
+Zur genauen Beschriftung wurden die Blöcke in Gruppen eingeteilt, welche sich jeweils auf einer Seite der Spirale befinden und durch die großen Zahlen gelabelt sind. Jede Gruppe besteht weiters aus sechs dieser horizontalen- und vertikalen Strichelemente, gekennzeichnet mit einer weiteren Nummerierung.
+Mit der nachfolgenden Tabelle \ref{tab:fR-Tabelle} ist jedem Element der Gruppen ein eindeutiger Wert für die räumliche Frequenz $f_{R}$ in 1/mm zugeteilt.
+
+\begin{table}[H]
+    \centering
+    \caption{Räumliche Frequenz der Balken in 1/mm für die unterschiedlichen Elemente des Testobjektes \cite{teachcenter2}}
+    \label{tab:fR-Tabelle}
+    \begin{tabular}{|l|llllllllll|}
+    \hline
+    Element Nr. & \multicolumn{10}{l|}{Gruppen Nr.}                                                                                                                                                                                                                                      \\ \hline
+                & \multicolumn{1}{l|}{-2}    & \multicolumn{1}{l|}{-1}    & \multicolumn{1}{l|}{0}    & \multicolumn{1}{l|}{1}    & \multicolumn{1}{l|}{2}    & \multicolumn{1}{l|}{3}     & \multicolumn{1}{l|}{4}     & \multicolumn{1}{l|}{5}    & \multicolumn{1}{l|}{6}     & 7     \\ \hline
+    1           & \multicolumn{1}{l|}{0,250} & \multicolumn{1}{l|}{0,500} & \multicolumn{1}{l|}{1,00} & \multicolumn{1}{l|}{2,00} & \multicolumn{1}{l|}{4,00} & \multicolumn{1}{l|}{8,00}  & \multicolumn{1}{l|}{16,00} & \multicolumn{1}{l|}{32,0} & \multicolumn{1}{l|}{64,0}  & 128,0 \\ \hline
+    2           & \multicolumn{1}{l|}{0,280} & \multicolumn{1}{l|}{0,561} & \multicolumn{1}{l|}{1,12} & \multicolumn{1}{l|}{2,24} & \multicolumn{1}{l|}{4,49} & \multicolumn{1}{l|}{8,98}  & \multicolumn{1}{l|}{17,95} & \multicolumn{1}{l|}{36,0} & \multicolumn{1}{l|}{71,8}  & 144,0 \\ \hline
+    3           & \multicolumn{1}{l|}{0,315} & \multicolumn{1}{l|}{0,630} & \multicolumn{1}{l|}{1,26} & \multicolumn{1}{l|}{2,52} & \multicolumn{1}{l|}{5,04} & \multicolumn{1}{l|}{10,10} & \multicolumn{1}{l|}{20,16} & \multicolumn{1}{l|}{40,3} & \multicolumn{1}{l|}{80,6}  & 161,0 \\ \hline
+    4           & \multicolumn{1}{l|}{0,353} & \multicolumn{1}{l|}{0,707} & \multicolumn{1}{l|}{1,41} & \multicolumn{1}{l|}{2,83} & \multicolumn{1}{l|}{5,66} & \multicolumn{1}{l|}{11,30} & \multicolumn{1}{l|}{22,62} & \multicolumn{1}{l|}{45,3} & \multicolumn{1}{l|}{90,5}  & 181,0 \\ \hline
+    5           & \multicolumn{1}{l|}{0,397} & \multicolumn{1}{l|}{0,793} & \multicolumn{1}{l|}{1,59} & \multicolumn{1}{l|}{3,17} & \multicolumn{1}{l|}{6,35} & \multicolumn{1}{l|}{12,70} & \multicolumn{1}{l|}{25,39} & \multicolumn{1}{l|}{50,8} & \multicolumn{1}{l|}{102,0} & 203,0 \\ \hline
+    6           & \multicolumn{1}{l|}{0,445} & \multicolumn{1}{l|}{0,891} & \multicolumn{1}{l|}{1,78} & \multicolumn{1}{l|}{3,56} & \multicolumn{1}{l|}{7,13} & \multicolumn{1}{l|}{14,30} & \multicolumn{1}{l|}{28,50} & \multicolumn{1}{l|}{57,0} & \multicolumn{1}{l|}{114,0} & 228,0 \\ \hline
+\end{tabular}
+\end{table}
+
+\noindent
+Das Testobjekt wird für spätere Messwerte benötigt. Weiters wurde der Pc gestartet und das Programm IC-Capture gestartet. Nachdem die Kamera verbunden wurde, wurden einige Einstellungen getroffen:
+
+\begin{itemize}
+    \item Bildformat: "RGB1280-720" - 3
+    \item Histogramm eingeblendet - 2
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{nudes/IcCaptureSettings.png}
+    \caption{a.) IcCapture Einstellungen b.) eingeblendetes Histogramm}
+    \label{fig:IcCaptureSettings}
+\end{figure}
+
+\noindent
+Das Histogramm dient dazu, die Belichtung des aufzunehmenden Bildes zu adjustieren. Hierfür sollte die "Exposure-Time" so eingestellt werden, dass der gelbe Balken rechts gerade noch zu sehen ist, um das Bild optimal zu belichten.
+
+
+\subsection{Vertrautmachen mit dem Versuch}
+
+Um nun zu Aufgabe 0 zurückzukommen, zu Beginn wurde eine der beiden LEDs (rot oder blau) eingeschaltet und ungehindert durch die Vorrichtung gelassen. Dann wurde die Hilfslinse L3 weggeklappt und die verstellbare Irisblende auf Filterrad B in den Strahlengang gedreht. 
+Mit dem kleinen Hebel kann diese geöffnet bzw. geschlossen werden, wobei zunächst für ersteres gesorgt wurde. Am Verschiebeschlitten des Testobkjektes konnte nun auf das Testobjekt fokusiert und dieses somit scharf gestellt werden. 
+Mit den Mikrometerschrauben am Verschiebeschlitten des Testelementes konnte nun unterschiedliche Bereiche davon dargestellt werden, wobei die obere Schraube eine Änderung an der x-Achse und die seitliche Schraube eine Änderung auf der y-Achse bewirkt. 
+Nun soll ein Bild des Testelementes mit geöffneter- und beinahe geschlossener Irisblende aufgenommen werden. Das Messergebnisse ist in nachfolgenden Abbildungen zu erkennen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/AbbeTheorie/Aufgabe 0/scharf-blende-offen.jpg}
+    \includegraphics[width=0.4\linewidth]{nudes/AbbeTheorie/Aufgabe 0/scharfgestellt-blende-zu.jpg}
+    \caption{Testelement mit geöffneter/fast geschlossener Irisblende}
+    \label{fig:Aufgabe0}
+\end{figure}
+
+
+\subsection{Quantitative Bestimmung des Auflösungsvermögens}
+
+Beim nächsten Punkt drehte sich alles um das Auflösungsvermögen. Dieses galt es nämlich in Abhängigkeit der numerischen Apertur für zwei verschiedene Wellenlängen (rotes/blaues Licht) zu bestimmen. 
+Hierfür wurde die benötigte LED eingeschaltet und in den Strahlengang eingebracht. Mit Hilfe der drei verschiedenen Lochblenden am Filterrad B kann die numerische Apertur gemäß Formel \ref{eq:NA-umgeschrieben} (Änderung des Radius R) variiert werden. \newline
+
+\noindent
+Zu beachten gibt es einen Abbildungsfehler, der durch die LED-Linse entsteht und einen weißen Punkt am Bild erscheinen lässt. Durch verschieben des Testelement mittels der beiden Drehschrauben soll dieser Punkt an einen für die Messung unwichtigen Ort (am Besten die Mitte der Spirale) verschoben werden. \newline
+
+\noindent
+Nun sollen die Bilder für jede Lochblende untersucht werden. Dabei wird jenes Balkenelement (horizontal und vertikal) bestimmt, welches nichtmehr erkennbar ist. Dieses Element gilt es in der Tabelle \ref{tab:fR-Tabelle} ausfindig zu machen und die daraus folgenden Werte zu notieren.
+Bei dieser Herangehensweiße gibt es einen Ermessensspielraum bei der Entscheidung, ob die Balken noch erkennbar sind oder nicht. Dieser Spielraum stellt für die spätere Auswertung die Unsicherheit dar.
+
+\begin{table}[H]
+    \centering
+    \caption{Messung des Auflösungsvermögens für rotes Licht}
+    \label{tab:BerechnungenLeerlauf}
+    \begin{tabular}{| l | l | l | l | l | l |}
+        \hline
+        Nr. & Blende & Gruppe & Element & \multicolumn{2}{|c|}{Unsicherheit} \\
+        \hline
+        1 & 2 & 5 & 4 & 5/3 & 5/5 \\
+        2 & 3 & 6 & 1 & 5/7 & 6/2 \\
+        3 & 6 & 6 & 5 & 6/4 & 6/6 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Messung des Auflösungsvermögens für blaues Licht}
+    \label{tab:BerechnungenLeerlauf}
+    \begin{tabular}{| l | l | l | l | l | l |}
+        \hline
+        Nr. & Blende & Gruppe & Element & \multicolumn{2}{|c|}{Unsicherheit} \\
+        \hline
+        1 & 2 & 5 & 5 & 5/4 & 5/6 \\
+        2 & 3 & 6 & 3 & 6/2 & 6/4 \\
+        3 & 6 & 7 & 1 & 6/6 & 6/2 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+
+
+\subsection{Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}
+\subsection{Freies Experimentieren}
+
 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
 
@@ -242,10 +360,28 @@ In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte
 Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
 
 
+\subsection{Quantitative Bestimmung des Auflösungsvermögens}
+\subsection{Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}
+\subsection{Freies Experimentieren}
+
+
+
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
+
+\subsection{Vertrautmachen mit dem Versuch}
+\subsection{Quantitative Bestimmung des Auflösungsvermögens}
+\subsection{Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}
+\subsection{Freies Experimentieren}
+
 
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+
+\subsection{Quantitative Bestimmung des Auflösungsvermögens}
+\subsection{Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}
+\subsection{Freies Experimentieren}
+
+
 
 
 \printbibliography[heading=bibintoc]

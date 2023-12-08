@@ -63,20 +63,73 @@ Die genauen Arbeitsaufträge sehen dabei wie folgt aus:
 
 \section{Voraussetzungen \& Grundlagen} %Grundlagen erklären, Formeln mit erklärung
 
+Das Kapitel Voraussetzungen und Grundlagen wurde basierend auf den literarischen Werken Demtröder \cite{dem2} und dem Script Abbe-Theorie \cite{teachcenter2} verfasst.
+
 \subsection{Auflösungsvermögen und numerische Apertur}
+
+Bei optischen Instrumenten wird das Auflösungsvermögen $\Delta x_{min}$ als der Minimalabstand zwischen zwei Punkte definiert, bei dem das Gerät diese noch als zwei punktförmige Objekte unterscheiden kann.
+Dieser Versuch kann mit in dieser Hinsicht mit einem Mikroskop verglichen werden, dessen Auflösungsvermögen wie folgt definiert ist:
+
+\begin{equation}
+    \label{eq:Auflösungsvermögen}
+    \centerline{$\Delta x_{min} = 0.61\frac{\lambda}{NA}$}
+\end{equation}
+
+\noindent
+Dabei stellt $\lambda$ die Wellenlänge des verwendeten Lichtes und NA die numerische Apertur des optischen Instrumentes, also grob gesagt dem Öffnungswinkel, durch den das Licht eintreten kann, dar.
+Letzteres ist wiederum definiert als:
+
+\begin{equation}
+    \label{eq:NA}
+    \centerline{$NA = n sin(\alpha)$}
+\end{equation}
+
+\noindent
+mit n als Brechzahl des Mediums und $\alpha$ dem halben Öffnungswinkel des Lichtkegels. Da n in der Regel (sofern Luft als Medium dient) einen Wert von ziemlich genau 1 annimmt und $\alpha$ als $\tan^{-1}(\frac{R}{g})$ (R ... Linsenradius, g ... Gegenstandsweite) angesehen werden kann (veranschaulicht in Abbildung \ref{fig:NA-Skizze}), lässt sich die Formel für die numerische Apertur auch folgendermaßen umschreiben:
+
+\begin{equation}
+    \label{eq:NA-umgeschrieben}
+    \centerline{$NA = sin(\tan^{-1}(\frac{R}{g}))$}
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{nudes/NA-Skizze.png}
+    \caption{Schematische Darstellung Bestimmmung NA \cite{teachcenter2}}
+    \label{fig:NA-Skizze}
+\end{figure}
 
 
 \subsection{Variation der numerischen Apertur}
 
+Der Einfluss des numerischen Apertur kann nur experimentell gezeigt werden, indem man sie variiert. Hierfür bietet es sich an, Linsen mit verschiedenen Durchmessern (Veränderung von R in \ref{eq:NA-umgeschrieben}) zu verwenden, oder der Einsatz einer Lochblende in der hinteren Brennebene der Linse.
+Wie genau die numerische Apertur das Auflösungsverhalten beeinflusst wird im folgenden Experiment gezeigt.
+
 
 \subsection{Abbesche Abbildungstheorie}
 
+Wie im Kapitel Aufgabenstellung bereits einleitend erwähnt, besagt die Abbe Theorie, dass von jedem Objekt Beugungsmaxima hervorgehen und die Auflösung einen Zusammenhang zur Zahl der Beugungsmaxima besitzt.
+Wichtig hierbei ist außerdem die Verwendung eines Gitters, dessen Spaltbreite dem halben Spaltabstand entspricht. Somit fehlen fehlen dem Gitter die gradzahligen Beugungsmaxima und am Bild hinter dem Vielfachspalt sind nur die ungradzahligen Maxima erkennbar (wird im Verlauf des Experimentes noch gezeigt).
+Mit Hilfe des Tools für die grafische Darstellung solcher Muster von Leifi-Physik \cite{leifi} kann dieses Scenario theoretisch simuliert werden:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/VG-Simulation10Nrot.png}
+    \includegraphics[width=0.4\linewidth]{nudes/VG-Simulation100Nrot.png}
+    \caption{Simulation der Maxima einer Gitterbeugung von rotem Licht mit 10/100 Spaltöffnungen}
+    \label{fig:SimulationRot}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{nudes/VG-Simulation10Nblau.png}
+    \includegraphics[width=0.4\linewidth]{nudes/VG-Simulation100Nblau.png}
+    \caption{Simulation der Maxima einer Gitterbeugung von blauem Licht mit 10/100 Spaltöffnungen}
+    \label{fig:SimulationBlau}
+\end{figure}
 
 
-    \begin{equation}
-        \label{eq:Müll}
-        \centerline{$M=\frac{muell}{malle}$}
-    \end{equation}
+    
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
 
@@ -93,9 +146,19 @@ Die genauen Arbeitsaufträge sehen dabei wie folgt aus:
         \centering
         \caption{Im Versuch verwendete Geräte und Utensilien.}
         \label{tab:geraete}
-        \begin{tabular}{| l | l | l | l |}
+        \begin{tabular}{| l | l | l | l | l |}
             \hline
-            Gerät   & Typ   & Gerätenummer  & Unsicherheit \\
+            Gerät   & Bezeichnung  & Hersteller  & Eigenschaften  & Unsicherheit \\
+            \hline
+            Sammellinse & L1 & {n.a} & f1 = 200 mm & 1 mm \\
+            Sammellinse & L2 & {n.a} & f1 = 60 mm  & 1 mm \\
+            Sammellinse & L3 & {n.a} & f1 = 50 mm  & 1 mm \\
+            Laser & Laser & Thorlabs & λ= 531,9 nm & {n.a.} \\
+            LED blau & LEDb & Cxxx & λ= 470 nm & 5 nm \\
+            LED rot & LEDr & Cxxx & λ= 635 nm & 5 nm \\
+            Kamera & Cam & The Imaging Source & {n.a.} & {n.a.}\\
+            Kamera & {n.a.} & The Imaging Source & {n.a.} & {n.a.}\\
+            SciDAVis & {n.a.} & Cxxx & {n.a.} & {n.a.} \\
             \hline
         \end{tabular}
     \end{table}

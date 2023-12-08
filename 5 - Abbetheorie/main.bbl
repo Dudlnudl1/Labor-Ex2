@@ -16,5 +16,94 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{dem2}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59654c899d48eff28a4d8063e886fb5f}{%
+           family={Demtröder},
+           familyi={D\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{fullhash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{bibnamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authorbibnamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authornamehash}{59654c899d48eff28a4d8063e886fb5f}
+      \strng{authorfullhash}{59654c899d48eff28a4d8063e886fb5f}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{isbn}{978-3-642-29944-5}
+      \field{subtitle}{Elektrizität und Optik}
+      \field{title}{Experimentalphysik 2}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1007/978-3-642-29944-5
+      \endverb
+    \endentry
+    \entry{leifi}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c3b5a96b7d27c663c3b1f51a2592ab85}{%
+           family={physik},
+           familyi={p\bibinitperiod},
+           prefix={leifi},
+           prefixi={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3b5a96b7d27c663c3b1f51a2592ab85}
+      \strng{fullhash}{c3b5a96b7d27c663c3b1f51a2592ab85}
+      \strng{bibnamehash}{c3b5a96b7d27c663c3b1f51a2592ab85}
+      \strng{authorbibnamehash}{c3b5a96b7d27c663c3b1f51a2592ab85}
+      \strng{authornamehash}{c3b5a96b7d27c663c3b1f51a2592ab85}
+      \strng{authorfullhash}{c3b5a96b7d27c663c3b1f51a2592ab85}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Vielfachspalt und Gitter}
+      \verb{urlraw}
+      \verb https://www.leifiphysik.de/optik/beugung-und-interferenz/grundwissen/vielfachspalt-und-gitter
+      \endverb
+      \verb{url}
+      \verb https://www.leifiphysik.de/optik/beugung-und-interferenz/grundwissen/vielfachspalt-und-gitter
+      \endverb
+    \endentry
+    \entry{teachcenter2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%
+           family={TeachCenter},
+           familyi={T\bibinitperiod},
+           given={TU\bibnamedelima Graz},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{fullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{bibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authorbibnamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authornamehash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \strng{authorfullhash}{7663fb89adfe5a989937e85c5fbf7aa7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{"Laborübungen 2: Elektrizität, Magnetismus, Optik". Kurs: PHYD30UF}
+      \verb{urlraw}
+      \verb https://tc.tugraz.at/main/course/view.php?id=796
+      \endverb
+      \verb{url}
+      \verb https://tc.tugraz.at/main/course/view.php?id=796
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

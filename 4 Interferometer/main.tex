@@ -94,8 +94,11 @@ In den später beobachtbaren Interferenzmustern wird dadurch der Kontrast $K$ ve
 
 \begin{equation}
     \label{eq:Kontrast}
-    \centerline{$K = \frac{I_{max} - I_{min}}{I_{max} + I_{min}} $}%= \vert \frac{sin(2 \pi \frac{d}{\lambda} \frac{w}{f_1})}{2 \pi \frac{d}{\lambda} \frac{w}{f_1}} \vert$}
+    \centerline{$K = \frac{I_{max} - I_{min}}{I_{max} + I_{min}} $ \\ $\Delta K = \vert \frac{\partial K}{\partial I_{max}} * \Delta I_{max} \vert + \vert \frac{\partial K}{\partial I_{min}} * \Delta I_{min} \vert$} %= \vert \frac{sin(2 \pi \frac{d}{\lambda} \frac{w}{f_1})}{2 \pi \frac{d}{\lambda} \frac{w}{f_1}} \vert$}
 \end{equation}
+
+\noindent
+Für den theoretischen Verlauf bzw. Erwartungswert des Kontrastes wird folgende Formel verwendet. Dabei ist $d$ der Doppelspalt, $\lambda$ die Wellenlänge, welche durch den Bandpassfilter begrenzt wird. 
 
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
@@ -152,13 +155,13 @@ Die Abweichung beträgt $(0.35 \pm 0.05) mm$, das bedeutet, bei den folgenden We
 
 \subsection{Teil 1}
 Im ersten Teil wird mit dem 430.0 $\mu m$ Doppelspalt und dem Bandpassfilter gearbeitet. 
-Der Lichtspalt der Spaltblende wird von einer Öffnung von 0.10 mm bis 1.5 mm geöffnet in 0.10 mm Schritten. Die Interferenzmuster werden dabei gespeichert. 
-In der folgenden Abbildung werden die Interferenzmuster dargestellt, dabei ist das Oberste bei 1.5 mm. Die Öffnungen sind absteigend. 
+Der Lichtspalt der Spaltblende wird von einer Öffnung von 0.10 mm bis 1.4 mm geöffnet in 0.10 mm Schritten. Die Interferenzmuster werden dabei gespeichert. 
+In der folgenden Abbildung werden die Interferenzmuster dargestellt, dabei ist das Oberste bei 1.4 mm. Die Öffnungen sind absteigend. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{nudes/aufgabe 1.jpg}
-    \caption{Interferenzmuster bei einer Öffnung von 0.1 mm (unten) bis 1.5 mm (oben). }
+    \caption{Interferenzmuster bei einer Öffnung von 0.1 mm (unten) bis 1.4 mm (oben). }
     \label{fig:aufgabe 1}
 \end{figure}
 
@@ -202,7 +205,7 @@ Dies wird für die weiteren Doppelspalte wiederholt.
     \label{fig:aufgabe 4}
 \end{figure}
 
-\begin{table}
+\begin{table}[H]
     \centering
     \caption{Öffnungen der  Spaltblende bei verschwommenen Interferenzmuster und bei erkennbaren Minima und Maxima. }
     \label{tab:öffnungen}
@@ -221,7 +224,48 @@ Dies wird für die weiteren Doppelspalte wiederholt.
 
 In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
 Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
+\\
+\\
+Die mit der Kamera aufgenommenen Interferenzmuster werden mithilfe der Software ''ImageJ'' analysiert. 
+Dabei werden Intensitätsprofile erstellt, welche als CSV-Datei exportiert werden. 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 1 plot.jpg}
+    \caption{Interferenzmuster bei verschiedenen Spaltbreiten (Lichtquellengröße). Zur Darstellung wurden die Daten vertikal getrennt. }
+    \label{fig:aufgabe 1 plot}
+\end{figure}
+
+\noindent
+Aus den CSV-Dateien wird das Intensitätsmaximum und Minimum ausgelesen. Für das Minimum wird der linke und rechte Wert gemittelt. Eingesetzt in die Formel \ref{eq:Kontrast} erhält man den Kontrast pro Spaltbreite. 
+Der Wert des Kontrastes wurde anschließend nochmal mit 100 multipliziert, sodass man den Wert in Prozent erhält. 
+Die Unsicherheiten der Intensitäten sind dabei die Ableseunsicherheiten in Qti Plot. 
+
+\begin{table}[H]
+    \centering
+    \caption{Kontrast $K$ pro Spaltbreite (Lichtquellengröße) mit dazugehörigen Intensitätsmaximum $I_{max}$ und Minimum $I_{min}$.  }
+    \label{tab:kontrast}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Spaltbreite $\pm 0.05$ / mm & $I_{max}$ $\pm 0.0005 $ / \% & $I_{min}$ $\pm 0.0005$ / \% & K / \% \\
+        \hline
+        1.40 & 108.9691 & 101.9662  & 3.4   $\pm$ 1.0   \\
+        1.30 & 139.5772 & 122.5767  & 6.5   $\pm$ 0.8   \\
+        1.20 & 127.7342 & 105.2003  & 9.7   $\pm$ 0.9   \\
+        1.10 & 124.6181 & 96.2478   & 12.9  $\pm$ 1.0   \\
+        1.00 & 127.3105 & 100.1558  & 12.0  $\pm$ 0.9   \\
+        0.90 & 120.5227 & 107.3559  & 5.8   $\pm$ 0.9   \\
+        0.80 & 122.6704 & 106.3307  & 7.2   $\pm$ 0.9   \\
+        0.70 & 116.7189 & 86.6813   & 14.8  $\pm$ 1.0   \\
+        0.60 & 120.3311 & 83.7664   & 18.0  $\pm$ 1.0   \\
+        0.50 & 111.3533 & 85.0506   & 13.4  $\pm$ 1.1   \\
+        0.40 & 119.9133 & 76.2207   & 22.3  $\pm$ 1.1   \\
+        0.30 & 122.7907 & 46.0073   & 46    $\pm$ 2     \\
+        0.20 & 111.6321 & 22.1324   & 67    $\pm$ 2     \\
+        0.10 & 116.5771 & 11.7119   & 82    $\pm$ 2     \\
+        \hline
+    \end{tabular}
+\end{table}
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 

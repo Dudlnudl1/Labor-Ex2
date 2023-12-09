@@ -1,6 +1,6 @@
-PWD c:\Uni\Semester 3\ExP2-Labor\5 - Abbetheorie
+PWD c:\Uni\Semester 3\ExP2-Labor\1 - Abbetheorie
 INPUT C:\Users\nicoe\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Uni\Semester 3\ExP2-Labor\5 - Abbetheorie\main.tex
+INPUT c:\Uni\Semester 3\ExP2-Labor\1 - Abbetheorie\main.tex
 OUTPUT main.log
 INPUT C:\Users\nicoe\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\nicoe\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -1560,6 +1560,13 @@ INPUT .\nudes\AbbeTheorie\Aufgabe 0\scharfgestellt-blende-zu.jpg
 INPUT .\nudes\AbbeTheorie\Aufgabe 0\scharfgestellt-blende-zu.jpg
 INPUT .\nudes\AbbeTheorie\Aufgabe 0\scharfgestellt-blende-zu.jpg
 INPUT .\nudes\AbbeTheorie\Aufgabe 0\scharfgestellt-blende-zu.jpg
+INPUT .\nudes\AbbeTheorie\Aufgabe 1\blau\blende6blauMarkiert.png
+INPUT .\nudes\AbbeTheorie\Aufgabe 1\blau\blende6blauMarkiert.png
+INPUT nudes\AbbeTheorie\Aufgabe 1\blau\blende6blauMarkiert.png
+INPUT .\nudes\AbbeTheorie\Aufgabe 1\blau\blende6blauMarkiert.png
+INPUT .\nudes\AbbeTheorie\Aufgabe 1\blau\blende6blauMarkiert.png
+INPUT .\nudes\AbbeTheorie\Aufgabe 1\blau\blende6blauMarkiert.png
+INPUT .\nudes\AbbeTheorie\Aufgabe 1\blau\blende6blauMarkiert.png
 INPUT .\nudes\AbbeTheorie\Aufgabe 2\horizontal\7te ohne.PNG
 INPUT .\nudes\AbbeTheorie\Aufgabe 2\horizontal\7te ohne.PNG
 INPUT nudes\AbbeTheorie\Aufgabe 2\horizontal\7te ohne.PNG

@@ -10,19 +10,19 @@
 \contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{7}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Vertrautmachen mit dem Versuch}{9}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Quantitative Bestimmung des Auflösungsvermögens}{9}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.3}Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}{11}{subsection.5.3}%
 \contentsline {subsection}{\numberline {5.4}Freies Experimentieren}{12}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{12}{section.6}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{13}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Quantitative Bestimmung des Auflösungsvermögens}{13}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}{14}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Freies experimentieren}{15}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Diskussion}{16}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Vertrautmachen mit dem Versuch}{16}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Quantitative Bestimmung des Auflösungsvermögens}{16}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}{16}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Freies Experimentieren}{16}{subsection.7.4}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{17}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Quantitative Bestimmung des Auflösungsvermögens}{17}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}{17}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Anhang}{18}{section.9}%
-\contentsline {section}{Literatur}{18}{section*.37}%
+\contentsline {subsection}{\numberline {6.2}Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}{15}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Freies experimentieren}{16}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Diskussion}{17}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Vertrautmachen mit dem Versuch}{17}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Quantitative Bestimmung des Auflösungsvermögens}{17}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}{17}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Freies Experimentieren}{17}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{18}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Quantitative Bestimmung des Auflösungsvermögens}{18}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}{18}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Anhang}{19}{section.9}%
+\contentsline {section}{Literatur}{19}{section*.38}%

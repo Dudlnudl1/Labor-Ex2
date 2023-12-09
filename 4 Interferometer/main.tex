@@ -30,46 +30,192 @@
 %\input{cover}
 %\maketitle %short title alternative
 
-\includepdf[pages={1}]{../Deckblätter/Deckblatt_Gitter.pdf}
+\includepdf[pages={1}]{../Deckblätter/Deckblatt_Interferometer.pdf}
 
 \tableofcontents
 \newpage
 
 \section{Aufgabenstellung} %jo beschreibn wos gmocht host ------------------------------
-
+Das Experiment Interferometer gilt es folgende vier Aufgaben durchzuführen. 
+\\
+\\
+Der erste Teil besteht darin, den Einfluss der Größe einer Lichtquelle auf das Interferenzenmuster eines Doppelspaltes zu Demonstrieren und auch zu Erklären. 
+\\
+Im zweiten Teil wird der Einfluss der spektralen Breite des Lichtes, wie im ersten Teil, auf das Interferenzenmuster eines Doppelspaltes zu Demonstrieren und zu Erklären. 
+\\
+Im dritten Teil wird mithilfe des Doppelspalt-Interferenzenmusters die Dicke einer Kunststoffschichicht bestimmt. 
+\\
+Der vierte und letzte Teil besteht aus der Bestimmung der Größe der Lichtquelle bei welcher für Doppelspalten mit unterschiedlichem Spaltabstand das Licht noch räumlich kohärent ist. 
+\\
+\\
+Alle Informationen und Methodiken wurden uns von der Technischen Universität bereitgestellt \cite{teachcenter2}. 
 
 \section{Voraussetzungen \& Grundlagen} %Grundlagen erklären, Formeln mit erklärung
+Ein Interferenzmuster entsteht durch Überlagerung der Wellenfronten. Sendet man monochromatisches Licht aus einer Lichtquelle durch eine Sammellinse, so entstehen kugelförmige Wellenfronten. 
+Treten diese kugelförmige Wellenfronten durch einen Doppelspalt, so treten aus dem Spalt phasengleiche kugelförmige Wellenfronten aus. 
+Treffen dabei die Wellenfronten (Maxima und Minima) aufeinander, addieren sich diese konstruktiv. So entstehen größere Maxima und kleinere Minima. 
+Durch phasengleichen Austritt der Wellenfronten aus dem Doppelspalt entstehen Interferenzen bei den Winkeln $\theta$ wo der Phasenverschub ein Vielfaches von 2$\pi$ ist. 
+Dies geschieht, wo die Differenz der Strecke $\Delta s$ ein Vielfaches der Wellenlänge $\lambda$ beträgt. m ist die Zahl der Ordnung. 
 
-    \begin{equation}
-        \label{eq:Müll}
-        \centerline{$M=\frac{muell}{malle}$}
-    \end{equation}
+\begin{equation}
+    \label{eq:beugung am doppelspalt}
+    \centerline{$\Delta s = dsin(\theta_m) = m\lambda$}
+\end{equation}
+
+\noindent
+Durch die Brennweite und den Abstand zum Doppelspalt der Linse L2 kann der absolute Abstand des 0-ten bis zum m-ten Maxima berechnet werden. m ist die Zahl der Ordnung. 
+
+\begin{equation}
+    \label{eq:grundlagen 2}
+    \centerline{$b_m = f_2 tan$ $arcsin(\frac{m \lambda}{d})$}
+\end{equation}
+
+\noindent
+Fügt man in den Strahlengang nun ein Material (Polyacrylat) mit unterschiedlichen Brechungsindex $n$ und physikalischer Dicke $t$ ein, so ändert sich auch die Lichtgeschwindigkeit im Medium. 
+Dadurch braucht der Lichtstrahl länger um abgebildet zu werden. Durch diese Dauer verschiebt sich das 0-te Maximum. Es befindet sich daher nichtmehr bei $\Delta s_0 = 0$ sondern bei: 
+
+\begin{equation}
+    \label{eq:verschiebung}
+    \centerline{$\Delta s_0 = d sin(\theta_0) + tn_2 - tn_1$}
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/verschiebung.png}
+    \caption{Beugung am Doppelspalt mit Schichten unterschiedlicher Brechungsindizes $n$ und Stärken $t$. Entnommen aus Skriptum Interferometer Seite 10, Abbildung 7 \cite{teachcenter2}. }
+    \label{fig:verschiebung}
+\end{figure}
+
+\noindent
+Durch verschiebung der Lichtquelle verschiebt sich auch das Interferenzmuster. Die Lichtquelle ist im idealen fall Punktförmig, in diesem Fall besitzt sie eine gewisse Ausdehnung $2w$. 
+Für jeden Punkt der Lichtquelle entstehen Interferenzmuster welche sich überlagern. Man spricht hier von räumlicher Kohärenz, wenn unterschiedlichen Lichtquellen unterschiedliche Nullmaxima haben. 
+Durch die Spaltblende wird dies auf eines begrenzt. \\
+In den später beobachtbaren Interferenzmustern wird dadurch der Kontrast $K$ verringert. Dieser lässt sich mit folgender Formel bestimmen. Dabei ist $I$ die Intensität. 
+
+\begin{equation}
+    \label{eq:Kontrast}
+    \centerline{$K = \frac{I_{max} - I_{min}}{I_{max} + I_{min}} $}%= \vert \frac{sin(2 \pi \frac{d}{\lambda} \frac{w}{f_1})}{2 \pi \frac{d}{\lambda} \frac{w}{f_1}} \vert$}
+\end{equation}
+
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
+Der Versuch ist wiefolgt aufgebaut. 
 
-    \begin{figure}[H]
-        \centering
-        %\includegraphics[width=0.6\linewidth, angle=-90]{nudes/bild.jpg}
-        \caption{müll}
-        \label{fig:müllbild}
-    \end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/aufbau.jpg}
+    \caption{Aufbau des Versuches.}
+    \label{fig:aufbau}
+\end{figure}
+
+\noindent
+Die Lichtquelle wird über eine einstellbare Spaltblende geleitet. Durch diese lässt sich die Größe der Lichquelle einstellen. 
+Durch die Linse L1 werden die Lichtstrahlen parallelisiert bevor sie auf den Doppelspalt treffen. 
+Nach dem Doppelspalt trifft das Licht auf ein Substrat. In diesem befindet sich die Polyacrylat Schicht. 
+Nach diesem trifft das Licht auf die Linse L2, welche das Licht auf den Kamerasensor lenkt. Zwischen Linse L2 und Kamera befindet sich noch ein Filterrad, durch welches sich verschiedene Filter hinzugefügt werden können. 
+
 
 \section{Geräteliste} %jo holt a listn ------------------------------
 
     \begin{table}[H]
         \centering
-        \caption{Im Versuch verwendete Geräte und Utensilien.}
+        \caption{Im Versuch verwendete Geräte und Utensilien. Bei Geräten, dessen Unsicherheit nicht auffindbar ist, wird die Unsicherheit implizit angenommen oder die Ableseunsicherheit genommen. }
         \label{tab:geraete}
-        \begin{tabular}{| l | l | l | l |}
+        \begin{tabular}{| l | l | l |}
             \hline
-            Gerät   & Typ   & Gerätenummer  & Unsicherheit \\
+            Gerät    & Gerätenummer  & Unsicherheit \\
+            \hline
+            Lampe & Thorlabs QTH10/M & {n.a} \\
+            Sammellinsen & Thorlabs LMR1/M & $\pm 0.5 mm$ \\
+            Spaltblende & Thorlabs & $\pm 0.05 mm$ \\
+            Doppelspalte (130.0, 230.0, 430.0)$\mu m$ & Mitutoyo & $\pm 0.5 \mu m$ \\
+            Substrat \& Polyacrylat & Thorlabs TRF90/M & {n.a} \\
+            Kamera & {n.a} & {n.a} \\
+            Langpassfilter  & {n.a} & {n.a} \\
+            Bandpassfilter $\lambda = 633 nm$& {n.a} & $\pm = 0.5 nm$ \\
+            IC Capture & {n.a} & {n.a} \\
+            Fiji ImageJ & {n.a} & {n.a} \\
             \hline
         \end{tabular}
     \end{table}
 
 
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
+Der Versuch ist wie in Abbildung \ref{fig:aufbau} bereits aufgebaut. Die Datenauslese erfolgt über den UniPC mit IC Capture. 
+Bei den Aufnamen ist es wichtig, vorher die Belichtungszeit einzustellen, so dass kein Pixel die Intensität von 255 überschreitet, da es ansonsten zu fehlerhaften Messdaten kommt. 
+Mithilfe des Histogrammes wird geprüft, dass die Belichtungszeit dementsprechend gewählt wird. Die rechte Seite des Histogrammes sollte dabei nie die Intensität von 255 erreichen. 
+\\
+\\
+Anfangs gilt es den Öffnungsabstand der Spaltblende zu bestimmen. Dazu wird der 230.0 $\mu m$ Doppelspalt verwendet und auf den Filterrad wird kein Filter zugeschalten. 
+Der Spalt wird vollständig geschlossen. Durch langsames öffnen, bis ein Bild auf der Kamera zu erkennen ist wird der Offset bestimmt. Die Anzeige der Schraube wird abgelesen und bei den folgenden Werten miteinberechnet. 
+Die Abweichung beträgt $(0.35 \pm 0.05) mm$, das bedeutet, bei den folgenden Werten muss ein Offsetwert von 0.15mm dazugerechnet werden. 
 
+\subsection{Teil 1}
+Im ersten Teil wird mit dem 430.0 $\mu m$ Doppelspalt und dem Bandpassfilter gearbeitet. 
+Der Lichtspalt der Spaltblende wird von einer Öffnung von 0.10 mm bis 1.5 mm geöffnet in 0.10 mm Schritten. Die Interferenzmuster werden dabei gespeichert. 
+In der folgenden Abbildung werden die Interferenzmuster dargestellt, dabei ist das Oberste bei 1.5 mm. Die Öffnungen sind absteigend. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 1.jpg}
+    \caption{Interferenzmuster bei einer Öffnung von 0.1 mm (unten) bis 1.5 mm (oben). }
+    \label{fig:aufgabe 1}
+\end{figure}
+
+\subsection{Teil 2}
+Im zweiten Teil bleibt der Doppelspalt mit 430.0 $\mu m$. Es wird ein Interferenzmuster mit dem Langpassfilter, den Bandpassfilter und eines ohne Filter aufgenommen. 
+Dazu schließt man die Spaltblende und mit den Bandpassfilter wird die Spaltblende geöffnet, bis ein kontrastreiches Interferenzmuster erkennbar ist. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 2.jpg}
+    \caption{Interferenzmuster mit verschiedenen Filter. Ohne Filter (oben), Langpassfilter (mitte), Bandpassfilter (unten) }
+    \label{fig:aufgabe 2}
+\end{figure}
+
+\subsection{Teil 3}
+Im dritten Teil gilt es die dicke einer Polyacrylatschicht zu bestimme. Dazu wird derselbe Doppelspalt mit 430.0 $\mu m$ verwendet. Das Filterrad wird so eingestellt, dass kein Filter im Strahlengang ist. 
+Die Probe wird in den Strahlengang gegeben. Durch drehen der Justageschraube lässt sich die Probe verschieben, so dass einmal das unbeschichtete Substrat im Strahlengang ist und einmal die Polyacrylat Schicht. 
+Es wird jeweils ein Bild des Beugungsmusters aufgenommen. Einmal mit Verschiebung und einmal ohne. Bei überschreiten der Schichtgrenze zwischen Substrat und Polyacrylat ist ein sprunghafter Verschub des Beugungsmusters zu beobachten. 
+%Anschließend wird noch ohne Substrat und ohne Polyacrylat ein Referenzbild mit dem Bandpassfilter aufgenommen. 
+Aus Teil 2 wird noch ein Referenzbild mit dem Bandpassfilter hinzugefügt. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 3.jpg}
+    \caption{Beugungsmuster mit Substrat (oben) und Polyacrylat Schicht (mitte). Referenzbild mit Bandpassfilter (unten)}
+    \label{fig:aufgabe 3}
+\end{figure}
+
+\subsection{Teil 4}
+Wie im vorherigen Teil bleibt der Bandpassfilter im Strahlengang. 
+Der 130.0 $\mu m$ Doppelspalt wird in den Strahlengang gesetzt. Die Spaltblende wird geschlossen und dann langsam geöffnet, bis ein Interferenzmuster sichtbar wird. 
+Durch weiteres öffnen verschwimmt das Interferenzmuster vollständig. Diese Öffnung der Spaltblende wird notiert. 
+Die Spaltblende wird weiter geöffnet bis wieder Minima und Maxima erkennbar sind. Dieser Wert wird auch notiert. 
+Dies wird für die weiteren Doppelspalte wiederholt.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 4.jpg}
+    \caption{Interferenzmuster aller Doppelspalte. Die beiden oberen sind die des 430.0 $\mu m$ Spaltes, die mittleren die des 230.0 $\mu m$ Spaltes und die unteren beiden die des 130.0 $\mu m$ Spaltes. 
+    Dabei sind jeweils die ersten die verschwommenen und die zweiten die mit erkennbaren Minima und Maxima. }
+    \label{fig:aufgabe 4}
+\end{figure}
+
+\begin{table}
+    \centering
+    \caption{Öffnungen der  Spaltblende bei verschwommenen Interferenzmuster und bei erkennbaren Minima und Maxima. }
+    \label{tab:öffnungen}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Doppelspalt $\pm 0.5$ / $\mu m $ & Öffnung verschwommen $\pm 0.05$/ mm & Öffnung Min Max $\pm 0.05$/ mm\\
+        \hline
+        430.0 & 0.85 & 1.05 \\
+        230.0 & 1.02 & 1.35 \\
+        130.0 & 1.65 & 0.75 \\
+        \hline
+    \end{tabular}
+\end{table}
 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
 
@@ -82,6 +228,6 @@ Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größt
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
 
-
+ 
 \printbibliography[heading=bibintoc]
 \end{document}

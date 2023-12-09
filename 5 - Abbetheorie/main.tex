@@ -134,6 +134,11 @@ Mit Hilfe des Tools für die grafische Darstellung solcher Muster von Leifi-Phys
 Für eine erfolgreiche Auswertung der Daten werden außerdem folgende Zusammenhänge benötigt:
 
 \begin{equation}
+    \label{eq:avg}
+    \centerline{Mittelwert \\ $M = \frac{1}{n}\sum_{i = 1}^{n} x_{i} $ \\ }
+\end{equation}
+
+\begin{equation}
     \label{eq:WZ-NA}
     \centerline{Numerische Apertur \\ $NA = \frac{D_{Blende}}{2f_{2}}$ \\ $\Delta NA = \vert \frac{\partial NA}{\partial D_{Blende}} * \Delta D_{Blende} \vert + \vert \frac{\partial NA}{\partial f_{2}} * \Delta f_{2} \vert $}
 \end{equation}
@@ -190,9 +195,9 @@ Die Einzelteile mit Beschreibung sind in folgender Tabelle ersichtlich:
         2 & Sammellinse 1 & L1 & f1 = 200 mm \\
         3 & Filterrad & F & rote/blauer LED, Graufilter und freier Durchgang \\
         4 & Testobjekt bzw. Probe & T &  \\
-        5 & Sammellinse 2 & L2 & f1 = 60 mm \\
+        5 & Sammellinse 2 & L2 & f2 = 60 mm \\
         6 & Filterrad & B & 2/3/6 mm Lochblenden, Irisblende und Drahtblende \\
-        7 & Sammellinse 3 & L3 & f1 =  50 mm \\
+        7 & Sammellinse 3 & L3 & f3 =  50 mm \\
         8 & Kamera & Kamera & Fotosensor mit PC/IC Capture Verbindung \\
         \hline
     \end{tabular}
@@ -320,13 +325,13 @@ Bei dieser Herangehensweiße gibt es einen Ermessensspielraum bei der Entscheidu
 \begin{table}[H]
     \centering
     \caption{Messung des Auflösungsvermögens für rotes Licht}
-    \label{tab:BerechnungenLeerlauf}
+    \label{tab:MessungenAuflösungsvermögenRot}
     \begin{tabular}{| l | l | l | l | l | l |}
         \hline
-        Nr. & Blende & Gruppe & Element & \multicolumn{2}{|c|}{Unsicherheit} \\
+        Nr. & Blende / mm & Gruppe & Element & \multicolumn{2}{|c|}{Unsicherheit} \\
         \hline
         1 & 2 & 5 & 4 & 5/3 & 5/5 \\
-        2 & 3 & 6 & 1 & 5/7 & 6/2 \\
+        2 & 3 & 6 & 1 & 5/6 & 6/2 \\
         3 & 6 & 6 & 5 & 6/4 & 6/6 \\
         \hline
     \end{tabular}
@@ -335,14 +340,14 @@ Bei dieser Herangehensweiße gibt es einen Ermessensspielraum bei der Entscheidu
 \begin{table}[H]
     \centering
     \caption{Messung des Auflösungsvermögens für blaues Licht}
-    \label{tab:BerechnungenLeerlauf}
+    \label{tab:MessungenAuflösungsvermögenBlau}
     \begin{tabular}{| l | l | l | l | l | l |}
         \hline
-        Nr. & Blende & Gruppe & Element & \multicolumn{2}{|c|}{Unsicherheit} \\
+        Nr. & Blende / mm & Gruppe & Element & \multicolumn{2}{|c|}{Unsicherheit} \\
         \hline
         1 & 2 & 5 & 5 & 5/4 & 5/6 \\
         2 & 3 & 6 & 3 & 6/2 & 6/4 \\
-        3 & 6 & 7 & 1 & 6/6 & 6/2 \\
+        3 & 6 & 7 & 1 & 6/6 & 7/2 \\
         \hline
     \end{tabular}
 \end{table}
@@ -351,7 +356,87 @@ Bei dieser Herangehensweiße gibt es einen Ermessensspielraum bei der Entscheidu
 
 
 \subsection{Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}
+
+Im weiteren Versuchsverlauf soll nun der Zusammenhang zwischen Bildauflösung und Beugungsordnungen dargestellt werden. 
+Hierfür wird zunächst das Testobjekt mit der roten LED und dem Hebel an der Testelementschiene fokusiert. Dann sollen die drei horizontale Balken des Elementes 3/4 ausfindig gemacht werden.
+Sobald dies erreicht ist, wird die LED ausgeschaltet und der Laser in den Strahlengang eingebracht. \newline
+
+\noindent
+Nun soll immer jeweils ein Bild des Objektes mit einem Bild der dazugehörigen Beugung aufgenommen werden.
+Um vom Objektbild zum Bild der Ordnungen zu gelangen, kommt die Hilfsblende L3 ins Spiel. Durch ein- bzw. ausklappen dieser in den Strahlengang kann zwischen dem Ordnungsbild und dem dazugehörigen Testobjektbild gewechselt werden.
+Mit Hilfe der adjustierbaren Irisblende kann weiters durch zudrehen der Öffnung eine Beugungsordnung reduziert werden. Wichtig ist hierbei, dass die geraden Beugungsordnungen nicht angezeigt werden.
+Somit sind nur die ungeraden Ordnungen zu sehen (0., 1., 3., 5., ...). In diesem Sinne folgen nun die aufgenommen Messergebnisse:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 2/horizontal/7te ohne.PNG}
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 2/horizontal/7te mit.PNG}
+    \caption{Testobjekt mit 7 dazugehörigen Beugungsordnungen}
+    \label{fig:Aufabe2-7O}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 2/horizontal/5te ohne.PNG}
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 2/horizontal/5te mit.PNG}
+    \caption{Testobjekt mit 5 dazugehörigen Beugungsordnungen}
+    \label{fig:Aufabe2-5O}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 2/horizontal/3te ohne.PNG}
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 2/horizontal/3te mit.PNG}
+    \caption{Testobjekt mit 3 dazugehörigen Beugungsordnungen}
+    \label{fig:Aufabe2-3O}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 2/horizontal/1te ohne.PNG}
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 2/horizontal/1te mit.PNG}
+    \caption{Testobjekt mit 1 dazugehörigen Beugungsordnungen}
+    \label{fig:Aufabe2-1O}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 2/horizontal/0te ohne.PNG}
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 2/horizontal/0te mit.PNG}
+    \caption{Testobjekt mit 0 dazugehörigen Beugungsordnungen}
+    \label{fig:Aufabe2-0O}
+\end{figure}
+
+\noindent
+Bei der 0. und 1. Ordnung lässt sich eine Sättigung des Beugungsbildes nicht wirklich vermeiden, jedoch wurde die Belichtungszeit für ein bestmögliches Ergebniss angepasst.
+
+
 \subsection{Freies Experimentieren}
+
+Zu guter Letzt sind der Kreativität keine Grenzen gesetzt. Jedoch gibt es auch beim freien Experimentieren eine kleine Aufgabenstellung. \newline
+
+\noindent
+Zunächst sollte sich das Beugungsbild für die vertikal Objektbalken angesehen werden:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 3/4-2 vertikal ohne.PNG}
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 3/4-2 vertikal mit.PNG}
+    \caption{Testobjekt vertikal 3 Beugungsordnungen}
+    \label{fig:Aufabe3-horizontal}
+\end{figure}
+
+\noindent
+Weiters soll nun die nullte Ordnung mit der Drahtblende des Filterrads B ausgeblendet und das Ergebniss visuell dargestellt werden.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 3/4-2 ohne 0te ohne.PNG}
+    \includegraphics[width=0.45\linewidth]{nudes/AbbeTheorie/Aufgabe 3/4-2 ohne 0te mit.PNG}
+    \caption{Testobjekt und Beugungsordnungen ohne Ordnung 0}
+    \label{fig:Aufabe3-ohneNullte}
+\end{figure}
+
 
 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
@@ -361,28 +446,250 @@ Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größt
 
 
 \subsection{Quantitative Bestimmung des Auflösungsvermögens}
+
+Um das Auflösungsvermögen zu bestimmen, werden zunächst die gewonnen Daten aus den Tabellen \ref{tab:MessungenAuflösungsvermögenRot} und \ref{tab:MessungenAuflösungsvermögenBlau} mit Hilfe der Tabelle \ref{tab:fR-Tabelle} für die räumlichen Frequenzen ausgewertet.
+Die Unsicherheit setzt sich dabei aus der Mittelwertsformel \ref{eq:avg} der Abweichung zwischen dem Wert der räumlichen Frequenz und der Unsicherheitselemente zusammen.
+
+\begin{table}[H]
+    \centering
+    \caption{Umrechnen in die räumliche Frequenz für rotes Licht}
+    \label{tab:MessungenRäumliche FrequenzRot}
+    \resizebox{\columnwidth}{!}{\begin{tabular}{|l|l|l|l|l|l|}
+        \hline
+        Nr. & Blende / mm & Räumliche Frequenz / $\frac{1}{mm}$ & \multicolumn{2}{|c|}{Unsicherheitselemente / $\frac{1}{mm}$} & Unsicherheit $\Delta f_{R}$ / $\frac{1}{mm}$ \\
+        \hline
+        1 & 2 &  45.3 & 40.3 &  50.8 &  5.25 \\
+        2 & 3 &  64.0 & 57.0 &  71.8 &  7.40 \\
+        3 & 6 & 102.0 & 90.5 & 114.0 & 11.75 \\
+        \hline
+    \end{tabular}}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Umrechnen in die räumliche Frequenz für blaues Licht}
+    \label{tab:MessungenRäumlicheFrequenzBlau}
+    \resizebox{\columnwidth}{!}{\begin{tabular}{|l|l|l|l|l|l|}
+        \hline
+        Nr. & Blende / mm & Räumliche Frequenz / $\frac{1}{mm}$ & \multicolumn{2}{|c|}{Unsicherheitselement / $\frac{1}{mm}$} & Unsicherheit $\Delta f_{R}$ / $\frac{1}{mm}$ \\
+        \hline
+        1 & 2 &  50.8 &  45.3 & 57.0 &   5.85 \\
+        2 & 3 &  80.6 &  71.8 & 90.5 &   9.35 \\
+        3 & 6 & 128.0 & 114.0 & 144.0 & 15.00 \\
+        \hline
+    \end{tabular}}
+\end{table}
+
+\noindent
+Weiters wird dann mittels Formel \ref{eq:WZ-dExp} das Auflösungsvermögen und mittels Formel \ref{eq:WZ-NA} die numerische Apertur berechnet.
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnete numerische Apertur}
+    \label{tab:BerechneteNA}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & Blende / mm & NA / 1\\
+        \hline
+        1 & 2 & 0.0167 $\pm$ 0.0003 \\
+        2 & 3 & 0.0250 $\pm$ 0.0005 \\
+        3 & 6 & 0.0500 $\pm$ 0.0008 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnetes Auflösungsvermögen rotes Licht}
+    \label{tab:BerechneteAVrot}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Nr. & Blende / mm & $d_{exp}$ / $\mu m$\\
+        \hline
+        1 & 2 & 0.022  $\pm$ 0.003  \\
+        2 & 3 & 0.0156 $\pm$ 0.0019 \\
+        3 & 6 & 0.0098 $\pm$ 0.0012 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnetes Auflösungsvermögen blaues Licht}
+    \label{tab:BerechneteAVblau}
+    \begin{tabular}{| l | l | l |}
+        \hline
+        Nr. & Blende / mm & $d_{exp}$ / $\mu m$\\
+        \hline
+        1 & 2 & 0.020  $\pm$ 0.003  \\
+        2 & 3 & 0.0124 $\pm$ 0.0019 \\
+        3 & 6 & 0.0078 $\pm$ 0.0012 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Nachdem diese Werte festgehalten sind, kann nun mittels Formel \ref{eq:WZ-dTheo}, eingebunden in qti-Plot, der theoretische Verlauf des Auflösungsvermögens dargestellt und mit den experimentell resultierten Werten vergleichen.
+Als Unsicherheit für die Wellenlänge $ \lambda $ wurden für rotes und blaues Licht $\pm$ 10 $\mu m$ eingesetzt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/AuflösungsvermögenPlotRot.jpg}
+    \caption{Theoretisches und experimentelles Auflösungsvermögen auf NA rotes Licht}
+    \label{fig:AuflösungsvermögenPlotRot}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/AuflösungsvermögenPlotBlau.jpg}
+    \caption{Theoretisches und experimentelles Auflösungsvermögen auf NA blaues Licht}
+    \label{fig:AuflösungsvermögenPlotBlau}
+\end{figure}
+
+
 \subsection{Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}
-\subsection{Freies Experimentieren}
+
+Der Zusammenhang zwischen Auflösungsvermögen und der Anzahl der Beugungsordnungen lässt sich in Abbildungen \ref{fig:Aufabe2-7O} - \ref{fig:Aufabe2-0O} eindeutig erkennen.
+Eine genügende verkleinerung des Blendendurchmessers bewirkt eine reduzierung der Beugungsordnung, was mit Hilfe der Hilfslinse L3 in den eben genannten Abbildungen visualisiert werden konnte.
+
+
+\subsection{Freies experimentieren}
+
+Beim freien experimentieren sollte nun eine Verbindung zur Fourieroptik gezeigt werden.
+Dafür wurden die Bilder \ref{fig:Aufabe2-7O} bis \ref{fig:Aufabe2-3O} mittels Software ImageJ näher unter die Lupe genommen.
+Die Intensität der hellen Bereiche zwischen zwei Balken eines Elementes wurden geplotet, was in den foldenden Abbildungen zu sehen ist.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/A3_O7_Plot.png}
+    \caption{Intensitätsplot des 7. Ordnungsbildes}
+    \label{fig:IntensitätsPlotO7}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/A3_O5_Plot.png}
+    \caption{Intensitätsplot des 5. Ordnungsbildes}
+    \label{fig:IntensitätsPlotO5}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/A3_O3_Plot.png}
+    \caption{Intensitätsplot des 3. Ordnungsbildes}
+    \label{fig:IntensitätsPlotO3}
+\end{figure}
+
+\noindent
+Mittels Fouriertransformation der Beugungsverteilung ist das Bild eines Objektes gegeben. Sobald räumliche Strukturen in der Beugungsverteilung fehlen, gibt es dort keine Fouriergrößen im Bild (Verwaschene Konturen). 
+Dies ist darauf zurückzuführen, dass diese Strukturen durch die Blende abgeschnitten werden. 
+Schließt man also die Blende, sollte der Breich zwischen zwei Blöcken eines Elementes immer verwaschener werden, was sich gut in den Abbildungen \ref{fig:Aufabe2-7O} - \ref{fig:Aufabe2-0O} erkennen lässt.
+Auch die Intensitätsplots weißen in diesen Bereichen weniger Schwankungen auf. \cite{dem2}
 
 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 
 \subsection{Vertrautmachen mit dem Versuch}
+
+Da durch das schließen der Blende die numerische Apertur laut Formel \ref{eq:WZ-NA} größer wird, wird das Auflösungsvermögen laut Formel \ref{eq:Auflösungsvermögen} kleiner. Somit werden Elemente, die vorher noch gut erkennbar waren, plötzlich unscharf.
+
+
 \subsection{Quantitative Bestimmung des Auflösungsvermögens}
+
+Die experimentell ermittelten Werte überlagern sich laut Abbildungen \ref{fig:AuflösungsvermögenPlotRot} und \ref{fig:AuflösungsvermögenPlotBlau} mit dem theoretischen Verlauf des Auflösungsvermögens, was für eine richtige Versuchsdurchführung und Auswertung spricht.
+
+
 \subsection{Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}
+
+Die Beugungsordnung verändert sich wie zu erwarten mit dem Linsenöffnungsdurchmesser, was in den ermittelten Abbildungen \ref{fig:Aufabe2-7O} - \ref{fig:Aufabe2-0O} deutlich zu sehen ist.
+
+
 \subsection{Freies Experimentieren}
+
+Betrachtet man das Ordnungsbild der vertikalen Balken, so lässt sich erkennen, dass die Ordnungen nun um 90° gedreht sind und nun eine horizontale Linie bilden. \newline
+
+\noindent
+Mit einer Abstandserhöhung der Balken der Elemente verändern sich die Zahl und Positionen der Intensitätsmaxima. \newline
+
+\noindent
+In den Abbildungen \ref{fig:Aufabe2-7O} - \ref{fig:Aufabe2-0O} lassen sich außerdem Beugungserscheinungen normal zu den Maxima erkennen. 
+Ein Grund dafür könnten Interferenzen verschieden gebeugter Lichtwellen sein, die so gebeugt werden, dass sie ein horizontales Erscheinungsbild erzeugen.
+
+\noindent
+Wird die nullte Ordnung abgedeckt, so verschwimmt das Testelementbild und es lassen sich keine schönen Balken mehr erkennen.
+Außerdem ist nicht zu übersehen, dass die Farben nun invertiert, also schwarz wird zu weiß und umgekehrt, sind.
+Dies lässt sich auf das Prinzip der Dunkelfeldmikroskopie zurückführen, bei der die Lichtstrahlen, die normalerweiße durch eine Probe gehen, blockiert werden und nur schräg einfallende Strahlen den Sensor erreichen. \cite{dunkelfeldmikroskopie}
 
 
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
 
 \subsection{Quantitative Bestimmung des Auflösungsvermögens}
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnete numerische Apertur}
+    \label{tab:BerechneteNA}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Nr. & Blende / mm & NA / 1 & $\Delta NA$ / 1 \\
+        \hline
+        1 & 2 & 0.0167 & 0.0003 \\
+        2 & 3 & 0.0250 & 0.0005 \\
+        3 & 6 & 0.0500 & 0.0008 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnetes Auflösungsvermögen rotes Licht}
+    \label{tab:BerechneteAVrot}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Nr. & Blende / mm & $d_{exp}$ / $\mu m$ & $\Delta d_{exp}$ / $\mu m$ \\
+        \hline
+        1 & 2 & 0.022  & 0.003  \\
+        2 & 3 & 0.0156 & 0.0019 \\
+        3 & 6 & 0.0098 & 0.0012 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Berechnetes Auflösungsvermögen blaues Licht}
+    \label{tab:BerechneteAVblau}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Nr. & Blende / mm & $d_{exp}$ / $\mu m$ & $\Delta d_{exp}$ / $\mu m$ \\
+        \hline
+        1 & 2 & 0.020  & 0.003  \\
+        2 & 3 & 0.0124 & 0.0019 \\
+        3 & 6 & 0.0078 & 0.0012 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
 \subsection{Zusammenhang Auflösung Spaltgitterbildes und Anzahl Beugungsordnungen}
-\subsection{Freies Experimentieren}
+
+Der Zusammenhang zwischen Auflösungsvermögen und der Anzahl der Beugungsordnungen lässt sich in Abbildungen \ref{fig:Aufabe2-7O} - \ref{fig:Aufabe2-0O} eindeutig erkennen.
 
 
 
+\newpage
+\section{Anhang}
+
+In diesem Abteil werden die Unsicherheitsrechnungen zur eventuellen Fehlersuche abgebildet. Für Unsicherheiten von Größeren Tabellen wird jeweils die Rechnung des ersten Wertes als Beispiel für die restlichen Größen gezeigt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth, angle=0]{nudes/Unsicherheiten1.jpg}
+    \caption{Unsicherheitsrechnungen}
+    \label{fig:Unsicherheitsrechnungen1}
+\end{figure}
 
 \printbibliography[heading=bibintoc]
 \end{document}

@@ -76,6 +76,33 @@
       \verb https://www.leifiphysik.de/optik/beugung-und-interferenz/grundwissen/vielfachspalt-und-gitter
       \endverb
     \endentry
+    \entry{dunkelfeldmikroskopie}{online}{}
+      \name{author}{1}{}{%
+        {{hash=dc75567d300f5027c537c9ed38297833}{%
+           family={science},
+           familyi={s\bibinitperiod},
+           prefix={olympus\bibnamedelima life},
+           prefixi={o\bibinitperiod\bibinitdelim l\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc75567d300f5027c537c9ed38297833}
+      \strng{fullhash}{dc75567d300f5027c537c9ed38297833}
+      \strng{bibnamehash}{dc75567d300f5027c537c9ed38297833}
+      \strng{authorbibnamehash}{dc75567d300f5027c537c9ed38297833}
+      \strng{authornamehash}{dc75567d300f5027c537c9ed38297833}
+      \strng{authorfullhash}{dc75567d300f5027c537c9ed38297833}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Was ist Dunkelfeldmikroskopie?}
+      \verb{urlraw}
+      \verb https://www.olympus-lifescience.com/de/discovery/what-is-darkfield-microscopy/#:~:text=Während%20eine%20lichtundurchlässige%20Blende%20im,vor%20einem%20dunklen%20Hintergrund%20erzeugt.
+      \endverb
+      \verb{url}
+      \verb https://www.olympus-lifescience.com/de/discovery/what-is-darkfield-microscopy/#:~:text=W%C3%A4hrend%20eine%20lichtundurchl%C3%A4ssige%20Blende%20im,vor%20einem%20dunklen%20Hintergrund%20erzeugt.
+      \endverb
+    \endentry
     \entry{teachcenter2}{online}{}
       \name{author}{1}{}{%
         {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%

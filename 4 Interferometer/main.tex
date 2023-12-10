@@ -98,7 +98,12 @@ In den später beobachtbaren Interferenzmustern wird dadurch der Kontrast $K$ ve
 \end{equation}
 
 \noindent
-Für den theoretischen Verlauf bzw. Erwartungswert des Kontrastes wird folgende Formel verwendet. Dabei ist $d$ der Doppelspalt, $\lambda$ die Wellenlänge, welche durch den Bandpassfilter begrenzt wird. 
+Für den theoretischen Verlauf bzw. Erwartungswert des Kontrastes wird die folgende Formel verwendet. Dabei ist $d$ der Doppelspalt, $\lambda$ die Wellenlänge, welche durch den Bandpassfilter begrenzt wird. $2w$ ist dabei die Breite der Lichtquelle und $f$ die Brennweite. 
+
+\begin{equation}
+    \label{eq:Kontrasttheorie}
+    \centerline{$K = \vert \frac{sin(2 \pi \frac{d}{\lambda} \frac{w}{f_1})}{2 \pi \frac{d}{\lambda} \frac{w}{f_1}} \vert$}
+\end{equation}
 
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
@@ -147,21 +152,28 @@ Nach diesem trifft das Licht auf die Linse L2, welche das Licht auf den Kamerase
 Der Versuch ist wie in Abbildung \ref{fig:aufbau} bereits aufgebaut. Die Datenauslese erfolgt über den UniPC mit IC Capture. 
 Bei den Aufnamen ist es wichtig, vorher die Belichtungszeit einzustellen, so dass kein Pixel die Intensität von 255 überschreitet, da es ansonsten zu fehlerhaften Messdaten kommt. 
 Mithilfe des Histogrammes wird geprüft, dass die Belichtungszeit dementsprechend gewählt wird. Die rechte Seite des Histogrammes sollte dabei nie die Intensität von 255 erreichen. 
-\\
-\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/histogramm.jpg}
+    \caption{Screenshot des Histogrammes. }
+    \label{fig:histogram}
+\end{figure}
+
+\noindent
 Anfangs gilt es den Öffnungsabstand der Spaltblende zu bestimmen. Dazu wird der 230.0 $\mu m$ Doppelspalt verwendet und auf den Filterrad wird kein Filter zugeschalten. 
 Der Spalt wird vollständig geschlossen. Durch langsames öffnen, bis ein Bild auf der Kamera zu erkennen ist wird der Offset bestimmt. Die Anzeige der Schraube wird abgelesen und bei den folgenden Werten miteinberechnet. 
 Die Abweichung beträgt $(0.35 \pm 0.05) mm$, das bedeutet, bei den folgenden Werten muss ein Offsetwert von 0.15mm dazugerechnet werden. 
 
 \subsection{Teil 1}
 Im ersten Teil wird mit dem 430.0 $\mu m$ Doppelspalt und dem Bandpassfilter gearbeitet. 
-Der Lichtspalt der Spaltblende wird von einer Öffnung von 0.10 mm bis 1.4 mm geöffnet in 0.10 mm Schritten. Die Interferenzmuster werden dabei gespeichert. 
-In der folgenden Abbildung werden die Interferenzmuster dargestellt, dabei ist das Oberste bei 1.4 mm. Die Öffnungen sind absteigend. 
+Der Lichtspalt der Spaltblende $2w$ wird von einer Öffnung von 0.10 mm bis 1.4 mm geöffnet in 0.10 mm Schritten. Die Interferenzmuster werden dabei gespeichert. 
+In der folgenden Abbildung werden die Interferenzmuster dargestellt, dabei ist das Oberste bei 1.4 mm. Die Öffnungen $2w$ sind absteigend. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{nudes/aufgabe 1.jpg}
-    \caption{Interferenzmuster bei einer Öffnung von 0.1 mm (unten) bis 1.4 mm (oben). }
+    \caption{Interferenzmuster bei einer Öffnung $2w$ von 0.1 mm (unten) bis 1.4 mm (oben). }
     \label{fig:aufgabe 1}
 \end{figure}
 
@@ -179,43 +191,42 @@ Dazu schließt man die Spaltblende und mit den Bandpassfilter wird die Spaltblen
 \subsection{Teil 3}
 Im dritten Teil gilt es die dicke einer Polyacrylatschicht zu bestimme. Dazu wird derselbe Doppelspalt mit 430.0 $\mu m$ verwendet. Das Filterrad wird so eingestellt, dass kein Filter im Strahlengang ist. 
 Die Probe wird in den Strahlengang gegeben. Durch drehen der Justageschraube lässt sich die Probe verschieben, so dass einmal das unbeschichtete Substrat im Strahlengang ist und einmal die Polyacrylat Schicht. 
-Es wird jeweils ein Bild des Beugungsmusters aufgenommen. Einmal mit Verschiebung und einmal ohne. Bei überschreiten der Schichtgrenze zwischen Substrat und Polyacrylat ist ein sprunghafter Verschub des Beugungsmusters zu beobachten. 
+Es wird jeweils ein Bild des Beugungsmusters aufgenommen. Einmal mit Verschiebung und einmal vor Verschiebung und einmal dannach. Bei überschreiten der Schichtgrenze zwischen Substrat und Polyacrylat ist ein sprunghafter Verschub des Beugungsmusters zu beobachten. 
 %Anschließend wird noch ohne Substrat und ohne Polyacrylat ein Referenzbild mit dem Bandpassfilter aufgenommen. 
 Aus Teil 2 wird noch ein Referenzbild mit dem Bandpassfilter hinzugefügt. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 3.jpg}
-    \caption{Beugungsmuster mit Substrat (oben) und Polyacrylat Schicht (mitte). Referenzbild mit Bandpassfilter (unten)}
+    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 3 neu.jpg}
+    \caption{Beugungsmuster mit Substrat vor Schicht (oben), Polyacrylat Schicht (mitte) und Substrat nach Polyacrylat Schicht (unten). Referenzbild mit Bandpassfilter (unten). }
     \label{fig:aufgabe 3}
 \end{figure}
 
 \subsection{Teil 4}
 Wie im vorherigen Teil bleibt der Bandpassfilter im Strahlengang. 
 Der 130.0 $\mu m$ Doppelspalt wird in den Strahlengang gesetzt. Die Spaltblende wird geschlossen und dann langsam geöffnet, bis ein Interferenzmuster sichtbar wird. 
-Durch weiteres öffnen verschwimmt das Interferenzmuster vollständig. Diese Öffnung der Spaltblende wird notiert. 
-Die Spaltblende wird weiter geöffnet bis wieder Minima und Maxima erkennbar sind. Dieser Wert wird auch notiert. 
+Durch weiteres öffnen verschwimmt das Interferenzmuster vollständig. Der Kontrast ist jetzt minimal. Diese Öffnung der Spaltblende wird notiert. 
 Dies wird für die weiteren Doppelspalte wiederholt.  
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{nudes/aufgabe 4.jpg}
     \caption{Interferenzmuster aller Doppelspalte. Die beiden oberen sind die des 430.0 $\mu m$ Spaltes, die mittleren die des 230.0 $\mu m$ Spaltes und die unteren beiden die des 130.0 $\mu m$ Spaltes. 
-    Dabei sind jeweils die ersten die verschwommenen und die zweiten die mit erkennbaren Minima und Maxima. }
+    Dabei sind jeweils die ersten die mit minimalem Kontrast und die zweiten mit gutem Kontrast zum vergleich. }
     \label{fig:aufgabe 4}
 \end{figure}
 
 \begin{table}[H]
     \centering
-    \caption{Öffnungen der  Spaltblende bei verschwommenen Interferenzmuster und bei erkennbaren Minima und Maxima. }
+    \caption{Öffnungen der  Spaltblende $2w$ bei verschwommenen Interferenzmuster (minimaler Kontrast) für die verschiedenen Doppelspalte $d$. }
     \label{tab:öffnungen}
-    \begin{tabular}{| l | l | l |}
+    \begin{tabular}{| l | l |}
         \hline
-        Doppelspalt $\pm 0.5$ / $\mu m $ & Öffnung verschwommen $\pm 0.05$/ mm & Öffnung Min Max $\pm 0.05$/ mm\\
+        d $\pm 0.5$ / $\mu m $ & 2w $\pm 0.05$/ mm \\
         \hline
-        430.0 & 0.85 & 1.05 \\
-        230.0 & 1.02 & 1.35 \\
-        130.0 & 1.65 & 0.75 \\
+        430.0 & 0.85  \\
+        230.0 & 1.02  \\
+        130.0 & 1.65  \\
         \hline
     \end{tabular}
 \end{table}
@@ -237,17 +248,17 @@ Dabei werden Intensitätsprofile erstellt, welche als CSV-Datei exportiert werde
 \end{figure}
 
 \noindent
-Aus den CSV-Dateien wird das Intensitätsmaximum und Minimum ausgelesen. Für das Minimum wird der linke und rechte Wert gemittelt. Eingesetzt in die Formel \ref{eq:Kontrast} erhält man den Kontrast pro Spaltbreite. 
+Aus den CSV-Dateien wird das Intensitätsmaximum und Minimum ausgelesen. Für das Minimum wird der linke und rechte Wert gemittelt. Eingesetzt in die Formel \ref{eq:Kontrast} erhält man den Kontrast pro Spaltbreite $2w$. 
 Der Wert des Kontrastes wurde anschließend nochmal mit 100 multipliziert, sodass man den Wert in Prozent erhält. 
 Die Unsicherheiten der Intensitäten sind dabei die Ableseunsicherheiten in Qti Plot. 
 
 \begin{table}[H]
     \centering
-    \caption{Kontrast $K$ pro Spaltbreite (Lichtquellengröße) mit dazugehörigen Intensitätsmaximum $I_{max}$ und Minimum $I_{min}$.  }
+    \caption{Kontrast $K$ pro Spaltbreite 2w (Lichtquellengröße) mit dazugehörigen Intensitätsmaximum $I_{max}$ und Minimum $I_{min}$.  }
     \label{tab:kontrast}
     \begin{tabular}{| l | l | l | l |}
         \hline
-        Spaltbreite $\pm 0.05$ / mm & $I_{max}$ $\pm 0.0005 $ / \% & $I_{min}$ $\pm 0.0005$ / \% & K / \% \\
+        Spaltbreite 2w $\pm 0.05$ / mm & $I_{max}$ $\pm 0.0005 $ / \% & $I_{min}$ $\pm 0.0005$ / \% & K / \% \\
         \hline
         1.40 & 108.9691 & 101.9662  & 3.4   $\pm$ 1.0   \\
         1.30 & 139.5772 & 122.5767  & 6.5   $\pm$ 0.8   \\
@@ -266,6 +277,55 @@ Die Unsicherheiten der Intensitäten sind dabei die Ableseunsicherheiten in Qti 
         \hline
     \end{tabular}
 \end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/kontrast.jpg}
+    \caption{Kontrast bei versch. Lichtquellenbreiten. Theoretisch berechneter Wert laut Formel \ref{eq:Kontrasttheorie} im vergleich zu den berechneten Werten aus Tabelle \ref{tab:kontrast}. }
+    \label{fig:aufgabe 1 kontrast}
+\end{figure}
+
+\subsection{Teil 2}
+Die aufgenommenen Interferenzmuster der verschiedenen Filter werden mit ImageJ analysiert und als CSV-Datei exportiert. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 2 plot.jpg}
+    \caption{Interferenzmuster mit verschiedenen Filtern. Zur Darstellung wurden die Daten vertikal getrennt.}
+    \label{fig:aufgabe 2 kontrast}
+\end{figure}
+
+\noindent
+Wie man erkennen kann, sind mit den unterschiedlichen Filtern verschiedenen Intensitätsmaxima erkennbar. 
+\\
+Ohne Filter erkennt man 5 Intensitätsmaxima, mit Langpassfilter erkennt man 7 Intensitätsmaxima und mit dem Bandpassfilter erkennt man 11 Intensitätsmaxima. 
+\\
+\\
+Man erkennt, dass bei einer kleineren spektralen Breite (durch die Filter) ein klareres Interferenzmuster sichtbar ist. 
+
+\subsection{Teil 3}
+Die aufgenommenen Interferenzmuster mit Substrat und Polyacrylat Schicht werden mit ImageJ analysiert und als CSV-Datei exportiert. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 3 plot.jpg}
+    \caption{Interferenzmuster mit Substrat und Polyacrylat Schicht. Zur Darstellung wurden die Daten vertikal getrennt.}
+    \label{fig:aufgabe 3 Interferenzmuster}
+\end{figure}
+
+\subsection{Teil 4}
+Die Werte aus Tabelle \ref{tab:öffnungen} werden in einem Diagramm mit der theoretisch berechneten Kurve dargestellt. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 4 plot.jpg}
+    \caption{Lichtspaltbreite $2w$ bei minimalem Kontrast. Der theoretische Verlauf wird mit Formel \ref{eq:Kontrasttheorie} berechnet. }
+    \label{fig:aufgabe 4 kontrast}
+\end{figure}
+
+\noindent
+Wie man sehen kann, hat die kurve einen hyperbolischen Verlauf. Die Fehler fallen dabei bei den größeren Doppelspalten höher aus. 
+
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 

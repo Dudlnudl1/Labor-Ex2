@@ -99,9 +99,22 @@ Verpackt man eine p-n Übergang in ein Gehäuse und versorgt ihn mit Anschlüsse
     \label{fig:Diode}
 \end{figure}
 
+\noindent
+Um aus einer Spannung $U$ und einem Widerstand $R$ einen Strom $I$ zu berechnen benötigt man das Ohm'sche Gesetzt, was besagt: 
+
 \begin{equation}
-    \label{eq:Müll}
-    \centerline{$M=\frac{muell}{malle}$}
+    \label{eq:ohmsche}
+    \centerline{$I=\frac{U}{R}$ \\ $\Delta I = \vert \frac{\partial I}{\partial U} * \Delta U \vert + \vert \frac{\partial I}{\partial R} * \Delta R \vert $}
+\end{equation}
+
+\noindent
+Um die Spannung $U_R$ an einen Widerstand zu bestimmen, benötigt man die Eingangsspannung $U_E$ sowie die Spannung an der Diode $U_{D1}$. 
+\\
+Es gilt dann: 
+
+\begin{equation}
+    \label{eq:ur1}
+    \centerline{$U_{R1}= U_E - U_{D1}$ \\ $\Delta U_{R1} = \vert \frac{\partial U_{R1}}{\partial U_E} * \Delta U_E \vert + \vert \frac{\partial U_{R1}}{\partial U_{D1}} * \Delta U_{D1} \vert $}
 \end{equation}
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
@@ -164,9 +177,17 @@ Im dritten Teil wird die grafische Darstellung der Verläufe von Strom und Spann
         \centering
         \caption{Im Versuch verwendete Geräte und Utensilien.}
         \label{tab:geraete}
-        \begin{tabular}{| l | l | l | l |}
+        \begin{tabular}{| l | l | l |}
             \hline
-            Gerät   & Typ   & Gerätenummer  & Unsicherheit \\
+            Gerät   & Gerätenummer  & Unsicherheit \\
+            \hline
+            Steckbrett & {n.a} & {n.a} \\
+            Multimeter & Fluke 175 & $\pm (0.15\% + 2 dig.) V$ \\
+            & & $\pm (1.0\% + 3 dig.) A$ \cite{fluke}\\
+            Multimeter & TTI 1604 & $\pm (0.08\% + 4 dig.) V$ \cite{TTI} \\
+            Power Supply & HM8040-3 & {n.a}\\
+            Trafo & {n.a} & {n.a}\\
+            Oszilloskop & Agilent Tech. DSO-X 2004A & {n.a}\\
             \hline
         \end{tabular}
     \end{table}
@@ -174,6 +195,133 @@ Im dritten Teil wird die grafische Darstellung der Verläufe von Strom und Spann
 
 \section{Versuchsdurchführung \& Messergebnisse} %nachvollziehbar und klar dargestellt ------------------------------
 
+\subsection{Teil 1}
+Im ersten Teil werden die Versuche nach den Abbildungen \ref{fig:aufbau 1a} und \ref{fig:aufbau 1b} aufgebaut. 
+Die Aufgabe besteht darin, die Strom-Spannungs Charakteristik einer SI-Gleichrichterdiode in Durchlassrichtung und Sperrrichtung zu bestimmen. 
+Die Widerstände $R_1 = (100 \pm 1) \Omega$ und $R_2 = (1*10^6 \pm 1*10^3) \Omega$ werden zuvor mit dem Messgerät kontrolliert (Unsicherheiten implizit angenommen). 
+\\
+\\
+Es werden für die Druchlassrichtung der Druchlassstrom $I_F$ sowie die Durchlassspannung $U_F$ gemessen. Die Messungen erfolgen mit den Fluke 175 Messgeräten. 
+Am Netzteil wählt man eine Spannung im bereich 0-20 V. Durch den Widerstand R1 (Abb. \ref{fig:aufbau 1a}) wird der Durchlassstrom auf max. 200 mA begrenzt. 
+Die Unsicherheit der Eingangsspannung $U_{ein}$ ist die Ableseunsicherheit. 
+
+\begin{table}[H]
+    \centering
+    \caption{Messwerte der SI-Gleichrichterdiode in Durchlassrichtung. }
+    \label{tab:mess1a}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Nr. & $U_{ein} \pm 0.1$ / V & $U_F$ / V & $I_F$ / mA \\
+        \hline
+        1  & 0.1  & -0.118 $\pm$ 0.003 & 0.01 $\pm$ 0.03 \\
+        2  & 0.2  & -0.291 $\pm$ 0.003 & 0.01 $\pm$ 0.03 \\
+        3  & 0.3  & -0.356 $\pm$ 0.003 & 0.01 $\pm$ 0.03 \\
+        4  & 0.4  & -0.482 $\pm$ 0.003 & 0.12 $\pm$ 0.04 \\
+        5  & 0.5  & -0.531 $\pm$ 0.003 & 0.35 $\pm$ 0.04 \\
+        6  & 0.6  & -0.569 $\pm$ 0.003 & 0.76 $\pm$ 0.05 \\
+        7  & 0.7  & -0.605 $\pm$ 0.003 & 1.57 $\pm$ 0.06 \\
+        8  & 0.8  & -0.629 $\pm$ 0.003 & 2.54 $\pm$ 0.07 \\
+        9  & 0.9  & -0.641 $\pm$ 0.003 & 3.21 $\pm$ 0.08 \\
+        10 & 0.10 & -0.647 $\pm$ 0.003 & 3.64 $\pm$ 0.09 \\
+        11 & 0.11 & -0.662 $\pm$ 0.003 & 4.93 $\pm$ 0.11 \\
+        12 & 0.12 & -0.672 $\pm$ 0.004 & 5.92 $\pm$ 0.12 \\
+        13 & 0.13 & -0.681 $\pm$ 0.004 & 7.09 $\pm$ 0.14 \\
+        14 & 0.14 & -0.685 $\pm$ 0.004 & 7.52 $\pm$ 0.15 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Für die Messungen in Sperrichtung wird die Schaltung laut Abbildung \ref{fig:aufbau 1b} umgebaut. 
+An den Netzteilen wählt man einen bereich von jeweils 0-20 V, was zusammen eine max. Spannung von 0-40 V ermöglicht. 
+Für die Sperrichtung misst man die Sperrstrom-Spannung $U_{IR}$ und die Sperrspannung $U_R$ der Diode. Dabei Misst man die Sperrspannung $U_R$ mit dem Fluke 175 Messgerät und die Sperrstrom-Spannung $U_{IR}$ mit dem TTI Messgerät. 
+Die Unsicherheit der Eingangsspannungen $U_{ein}$ ist die Ableseunsicherheit. 
+
+\begin{table}[H]
+    \centering
+    \caption{Messwerte der SI-Gleichrichterdiode in Sperrrichtung. }
+    \label{tab:mess1b}
+    \begin{tabular}{| l | l | l | l | l |}
+        \hline
+        Nr. & $U_{1ein} \pm 0.1$ / V & $U_{2ein} \pm 0.1$ / V & $U_{R}$ / V & $U_{IR}$ / mV  \\
+        \hline
+        1  & 1.0     & 1.0    & -2.117 $\pm$ 0.04   & 1.69 $\pm$ 0.06  \\
+        2  & 4.0     & 3.0    & -7.08  $\pm$ 0.13   & 2.18 $\pm$ 0.06  \\
+        3  & 7.0     & 5.0    & -12.1 $\pm$ 0.2     & 2.42 $\pm$ 0.06  \\
+        4  & 10.0    & 7.0    & -17.1 $\pm$ 0.3     & 2.64 $\pm$ 0.07  \\
+        5  & 13.0    & 9.0    & -22.1 $\pm$ 0.4     & 2.83 $\pm$ 0.07  \\
+        6  & 16.0    & 11.0   & -27.1 $\pm$ 0.5     & 2.94 $\pm$ 0.07  \\
+        7  & 19.0    & 13.0   & -32.1 $\pm$ 0.6     & 3.04 $\pm$ 0.07  \\
+        8  & 20.0    & 17.0   & -37.2 $\pm$ 0.6     & 3.14 $\pm$ 0.07  \\
+        9  & 20.1    & 20.1   & -40.3 $\pm$ 0.7     & 3.20 $\pm$ 0.07  \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Teil 2}
+Der Versuch wird wie in Abbildung \ref{fig:aufbau 2} aufgebaut. 
+Gesucht ist die Strom-Spannungskennlinie einer Zenerdiode $D1$ in Durchlassrichtung und Sperrrichtung. 
+Als Spannungsquelle dient der Trafo $TR1$. 
+Dabei werden die Eingangsspannung $U_E$ sowie das Signal der Zenerdiode $U_{D1}$ in zeitlicher Abhängigkeit am Oszilloskop dargestellt. 
+Die Daten werden für die spätere Verarbeitung in QTI-Plot als CSV-Datei exportiert. 
+Beim Oszilloskop sollte der Single-Shot Modus verwendet werden, sowie Nulllinien sollten übereinanderliegen. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/Halbleiterdiode/Aufgabe2/a2b1___.png}
+    \caption{Screenshot des Oszilloskopes. Dabei ist die gelbe Linie die Eingangsspannung $U_E$ und die grüne Linie die Spannung der Diode $U_{D1}$. }
+    \label{fig:mess 2}
+\end{figure}
+
+\subsection{Teil 3}
+Im dritten Teil folgt der Aufbau laut Abbildung \ref{fig:aufbau 3}. 
+Dabei ist das Ziel dieser Aufgabe die Spannungs- und Stromverläufe als zeitabhängige Funktion darzustellen. 
+Für jede Konfiguration des Aufbaus wird am Oszilloskop ein Bild und eine CSV-Datei exportiert. 
+\\
+Dabei ist der Channel 1 des Oszilloskopes (gelb) der Spannungsabfall am Widerstand $R_1$. 
+Um die Messung mit den richtigen Vorzeichen zu vollziehen, wird dieser Channel am Oszilloskop invertiert. 
+Der Channel 2 (grün) ist die Spannung des Trafos $TR1$. 
+Der Channel 3 (blau) ist die Spannung, die über den jeweils eingesetzten Kondensator läuft. 
+Der Channel 4 (rot) ist dabei die Lade-Entlade kurve des jeweils eingesetzten Kondensators. 
+\\
+\\
+Die Messungen werden für die Widerstände $R_3 = \infty$ $R_3 = (1500 \pm 10) \Omega$ und $R_3 = (100 \pm 1) \Omega$ mit den Kapazitäten $C_1 = (10.0 \pm 0.1) \mu F$ und $C_1 = (100 \pm 1) \mu F $ durchgeführt. Unsicherheiten implizit angenommen. 
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Halbleiterdiode/Aufgabe3/100Ohm/10uF/scope_2.png}
+        \caption{$R_3 = 100 \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Halbleiterdiode/Aufgabe3/100Ohm/100uF/scope_3.png}
+    \caption{$R_3 = 100 \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Halbleiterdiode/Aufgabe3/1500Ohm/10uF/a2c2___5.png}
+        \caption{$R_3 = 1500 \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Halbleiterdiode/Aufgabe3/1500Ohm/100uF/a2c2___7.png}
+    \caption{$R_3 = 1500 \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/10uF/scope_4.png}
+        \caption{$R_3 = \infty$, $C_1 = 10 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/100uF/scope_7.png}
+    \caption{$R_3 = \infty$, $C_1 = 100 \mu F$}
+    \end{minipage}
+\end{figure}
 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
 

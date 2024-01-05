@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.10)  3 JAN 2024 21:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.10)  6 JAN 2024 00:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1482,7 +1482,7 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 3.
 
 \c@lstlisting=\count502
-<../Deckblätter/Deckblatt_Halbleiterdiode.pdf, id=54, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Halbleiterdiode.pdf, id=66, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Halbleiterdiode.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Halbleiterdiode.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Halbleiterdiode.pdf  used on input line 33.
@@ -1491,7 +1491,7 @@ File: ../Deckblätter/Deckblatt_Halbleiterdiode.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Halbleiterdiode.pdf>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Halbleiterdiode.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../Deckblätter/Deckblatt_Halbleiterdiode.pdf, id=57, page=1, 597.432pt x 845.07718pt>
+<../Deckblätter/Deckblatt_Halbleiterdiode.pdf, id=69, page=1, 597.432pt x 845.07718pt>
 File: ../Deckblätter/Deckblatt_Halbleiterdiode.pdf Graphic file (type pdf)
 <use ../Deckblätter/Deckblatt_Halbleiterdiode.pdf, page 1>
 Package pdftex.def Info: ../Deckblätter/Deckblatt_Halbleiterdiode.pdf , page1 used on input line 33.
@@ -1531,7 +1531,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--49
 
  []
 
-<nudes/bändermodell.jpg, id=103, 1075.01625pt x 393.72093pt>
+<nudes/bändermodell.jpg, id=118, 1075.01625pt x 393.72093pt>
 File: nudes/bändermodell.jpg Graphic file (type jpg)
 <use nudes/bändermodell.jpg>
 Package pdftex.def Info: nudes/bändermodell.jpg  used on input line 60.
@@ -1542,12 +1542,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--76
  []
 
 [3 <./nudes/bändermodell.jpg>]
-<nudes/n-dot.jpg, id=112, 266.49562pt x 264.23718pt>
+<nudes/n-dot.jpg, id=127, 266.49562pt x 264.23718pt>
 File: nudes/n-dot.jpg Graphic file (type jpg)
 <use nudes/n-dot.jpg>
 Package pdftex.def Info: nudes/n-dot.jpg  used on input line 79.
 (pdftex.def)             Requested size: 136.57462pt x 135.42041pt.
-<nudes/p-dot.jpg, id=113, 267.24844pt x 266.49562pt>
+<nudes/p-dot.jpg, id=128, 267.24844pt x 266.49562pt>
 File: nudes/p-dot.jpg Graphic file (type jpg)
 <use nudes/p-dot.jpg>
 Package pdftex.def Info: nudes/p-dot.jpg  used on input line 80.
@@ -1557,83 +1557,149 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--94
 
  []
 
-<nudes/diode.jpg, id=116, 556.32843pt x 103.88812pt>
+<nudes/diode.jpg, id=131, 556.32843pt x 103.88812pt>
 File: nudes/diode.jpg Graphic file (type jpg)
 <use nudes/diode.jpg>
 Package pdftex.def Info: nudes/diode.jpg  used on input line 97.
 (pdftex.def)             Requested size: 273.14923pt x 51.00865pt.
-<nudes/steckbrett.jpg, id=119, 888.31876pt x 454.69875pt>
+[4 <./nudes/n-dot.jpg> <./nudes/p-dot.jpg> <./nudes/diode.jpg>]
+<nudes/steckbrett.jpg, id=146, 888.31876pt x 454.69875pt>
 File: nudes/steckbrett.jpg Graphic file (type jpg)
 <use nudes/steckbrett.jpg>
-Package pdftex.def Info: nudes/steckbrett.jpg  used on input line 112.
+Package pdftex.def Info: nudes/steckbrett.jpg  used on input line 125.
 (pdftex.def)             Requested size: 273.14923pt x 139.81035pt.
-[4 <./nudes/n-dot.jpg> <./nudes/p-dot.jpg> <./nudes/diode.jpg>]
-<nudes/1a.jpg, id=132, 2055.68pt x 1541.76pt>
+<nudes/1a.jpg, id=149, 2055.68pt x 1541.76pt>
 File: nudes/1a.jpg Graphic file (type jpg)
 <use nudes/1a.jpg>
-Package pdftex.def Info: nudes/1a.jpg  used on input line 122.
+Package pdftex.def Info: nudes/1a.jpg  used on input line 135.
 (pdftex.def)             Requested size: 182.09486pt x 136.56454pt.
-<nudes/aufbau1a schaltplan.jpg, id=133, 508.90125pt x 249.93375pt>
+<nudes/aufbau1a schaltplan.jpg, id=150, 508.90125pt x 249.93375pt>
 File: nudes/aufbau1a schaltplan.jpg Graphic file (type jpg)
 <use nudes/aufbau1a schaltplan.jpg>
-Package pdftex.def Info: nudes/aufbau1a schaltplan.jpg  used on input line 123.
+Package pdftex.def Info: nudes/aufbau1a schaltplan.jpg  used on input line 136.
 (pdftex.def)             Requested size: 182.09486pt x 89.43073pt.
-<nudes/1b.jpg, id=136, 1541.76pt x 2055.68pt>
+<nudes/1b.jpg, id=153, 1541.76pt x 2055.68pt>
 File: nudes/1b.jpg Graphic file (type jpg)
 <use nudes/1b.jpg>
-Package pdftex.def Info: nudes/1b.jpg  used on input line 133.
+Package pdftex.def Info: nudes/1b.jpg  used on input line 146.
 (pdftex.def)             Requested size: 182.09486pt x 242.78143pt.
-<nudes/aufbau1b schaltplan.jpg, id=137, 554.07pt x 325.96782pt>
+<nudes/aufbau1b schaltplan.jpg, id=154, 554.07pt x 325.96782pt>
 File: nudes/aufbau1b schaltplan.jpg Graphic file (type jpg)
 <use nudes/aufbau1b schaltplan.jpg>
-Package pdftex.def Info: nudes/aufbau1b schaltplan.jpg  used on input line 134.
+Package pdftex.def Info: nudes/aufbau1b schaltplan.jpg  used on input line 147.
 (pdftex.def)             Requested size: 182.09486pt x 107.12703pt.
  [5 <./nudes/steckbrett.jpg> <./nudes/1a.jpg> <./nudes/aufbau1a schaltplan.jpg>]
-<nudes/2.jpg, id=147, 1541.76pt x 2055.68pt>
+<nudes/2.jpg, id=167, 1541.76pt x 2055.68pt>
 File: nudes/2.jpg Graphic file (type jpg)
 <use nudes/2.jpg>
-Package pdftex.def Info: nudes/2.jpg  used on input line 144.
+Package pdftex.def Info: nudes/2.jpg  used on input line 157.
 (pdftex.def)             Requested size: 182.09486pt x 242.78143pt.
-<nudes/aufbau2 schaltplan.jpg, id=148, 555.57562pt x 267.24844pt>
+<nudes/aufbau2 schaltplan.jpg, id=168, 555.57562pt x 267.24844pt>
 File: nudes/aufbau2 schaltplan.jpg Graphic file (type jpg)
 <use nudes/aufbau2 schaltplan.jpg>
-Package pdftex.def Info: nudes/aufbau2 schaltplan.jpg  used on input line 145.
+Package pdftex.def Info: nudes/aufbau2 schaltplan.jpg  used on input line 158.
 (pdftex.def)             Requested size: 182.09486pt x 87.5928pt.
-<nudes/3.jpg, id=151, 1541.76pt x 2055.68pt>
+<nudes/3.jpg, id=171, 1541.76pt x 2055.68pt>
 File: nudes/3.jpg Graphic file (type jpg)
 <use nudes/3.jpg>
-Package pdftex.def Info: nudes/3.jpg  used on input line 155.
+Package pdftex.def Info: nudes/3.jpg  used on input line 168.
 (pdftex.def)             Requested size: 182.09486pt x 242.78143pt.
-<nudes/aufbau3 schaltplan.jpg, id=152, 582.67688pt x 419.31656pt>
+<nudes/aufbau3 schaltplan.jpg, id=172, 582.67688pt x 419.31656pt>
 File: nudes/aufbau3 schaltplan.jpg Graphic file (type jpg)
 <use nudes/aufbau3 schaltplan.jpg>
-Package pdftex.def Info: nudes/aufbau3 schaltplan.jpg  used on input line 156.
+Package pdftex.def Info: nudes/aufbau3 schaltplan.jpg  used on input line 169.
 (pdftex.def)             Requested size: 182.09486pt x 131.0425pt.
  [6 <./nudes/1b.jpg> <./nudes/aufbau1b schaltplan.jpg> <./nudes/2.jpg> <./nudes/aufbau2 schaltplan.jpg>]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 190.
- (C:\Users\Philip Waldl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+Underfull \hbox (badness 10000) in paragraph at lines 199--207
+
+ []
+
+[7 <./nudes/3.jpg> <./nudes/aufbau3 schaltplan.jpg>]
+Overfull \hbox (0.45937pt too wide) in paragraph at lines 262--268
+\T1/cmr/m/n/12 Der Ver-such wird wie in Ab-bil-dung [][]7[][] auf-ge-baut. Ge-sucht ist die Strom-Spannungskennlinie
+ []
+
+[8]
+<nudes/Halbleiterdiode/Aufgabe2/a2b1___.png, id=203, 803.0pt x 504.88625pt>
+File: nudes/Halbleiterdiode/Aufgabe2/a2b1___.png Graphic file (type png)
+<use nudes/Halbleiterdiode/Aufgabe2/a2b1___.png>
+Package pdftex.def Info: nudes/Halbleiterdiode/Aufgabe2/a2b1___.png  used on input line 271.
+(pdftex.def)             Requested size: 273.14923pt x 171.74379pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--289
+
+ []
+
+<nudes/Halbleiterdiode/Aufgabe3/100Ohm/10uF/scope_2.png, id=205, 803.0pt x 504.88625pt>
+File: nudes/Halbleiterdiode/Aufgabe3/100Ohm/10uF/scope_2.png Graphic file (type png)
+<use nudes/Halbleiterdiode/Aufgabe3/100Ohm/10uF/scope_2.png>
+Package pdftex.def Info: nudes/Halbleiterdiode/Aufgabe3/100Ohm/10uF/scope_2.png  used on input line 292.
+(pdftex.def)             Requested size: 227.62206pt x 143.11597pt.
+<nudes/Halbleiterdiode/Aufgabe3/100Ohm/100uF/scope_3.png, id=206, 803.0pt x 504.88625pt>
+File: nudes/Halbleiterdiode/Aufgabe3/100Ohm/100uF/scope_3.png Graphic file (type png)
+<use nudes/Halbleiterdiode/Aufgabe3/100Ohm/100uF/scope_3.png>
+Package pdftex.def Info: nudes/Halbleiterdiode/Aufgabe3/100Ohm/100uF/scope_3.png  used on input line 297.
+(pdftex.def)             Requested size: 227.62206pt x 143.11597pt.
+
+Overfull \hbox (7.16042pt too wide) in paragraph at lines 291--300
+[][]  [] 
+ []
+
+<nudes/Halbleiterdiode/Aufgabe3/1500Ohm/10uF/a2c2___5.png, id=207, 803.0pt x 504.88625pt>
+File: nudes/Halbleiterdiode/Aufgabe3/1500Ohm/10uF/a2c2___5.png Graphic file (type png)
+<use nudes/Halbleiterdiode/Aufgabe3/1500Ohm/10uF/a2c2___5.png>
+Package pdftex.def Info: nudes/Halbleiterdiode/Aufgabe3/1500Ohm/10uF/a2c2___5.png  used on input line 304.
+(pdftex.def)             Requested size: 227.62206pt x 143.11597pt.
+<nudes/Halbleiterdiode/Aufgabe3/1500Ohm/100uF/a2c2___7.png, id=208, 803.0pt x 504.88625pt>
+File: nudes/Halbleiterdiode/Aufgabe3/1500Ohm/100uF/a2c2___7.png Graphic file (type png)
+<use nudes/Halbleiterdiode/Aufgabe3/1500Ohm/100uF/a2c2___7.png>
+Package pdftex.def Info: nudes/Halbleiterdiode/Aufgabe3/1500Ohm/100uF/a2c2___7.png  used on input line 309.
+(pdftex.def)             Requested size: 227.62206pt x 143.11597pt.
+
+Overfull \hbox (7.16042pt too wide) in paragraph at lines 303--312
+[][]  [] 
+ []
+
+[9 <./nudes/Halbleiterdiode/Aufgabe2/a2b1___.png (PNG copy)> <./nudes/Halbleiterdiode/Aufgabe3/100Ohm/10uF/scope_2.png (PNG copy)> <./nudes/Halbleiterdiode/Aufgabe3/100Ohm/100uF/scope_3.png (PNG copy)>]
+<nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/10uF/scope_4.png, id=215, 803.0pt x 504.88625pt>
+File: nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/10uF/scope_4.png Graphic file (type png)
+<use nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/10uF/scope_4.png>
+Package pdftex.def Info: nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/10uF/scope_4.png  used on input line 316.
+(pdftex.def)             Requested size: 227.62206pt x 143.11597pt.
+<nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/100uF/scope_7.png, id=216, 803.0pt x 504.88625pt>
+File: nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/100uF/scope_7.png Graphic file (type png)
+<use nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/100uF/scope_7.png>
+Package pdftex.def Info: nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/100uF/scope_7.png  used on input line 321.
+(pdftex.def)             Requested size: 227.62206pt x 143.11597pt.
+
+Overfull \hbox (7.16042pt too wide) in paragraph at lines 315--324
+[][]  [] 
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 338.
+(C:\Users\Philip Waldl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [7 <./nudes/3.jpg> <./nudes/aufbau3 schaltplan.jpg>] 
+) [10 <./nudes/Halbleiterdiode/Aufgabe3/1500Ohm/10uF/a2c2___5.png (PNG copy)> <./nudes/Halbleiterdiode/Aufgabe3/1500Ohm/100uF/a2c2___7.png (PNG copy)> <./nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/10uF/scope_4.png (PNG copy)> <./nudes/Halbleiterdiode/Aufgabe3/GonzVülOhm/100uF/scope_7.png (PNG copy)>] 
 AED: lastpage setting LastPage
-[8] (main.aux)
+[11] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BF228D0BD55F50EEA7A111A23E7E50CB;1582.
+(rerunfilecheck)             Checksum: 0700D814D96CDC170DCAB7514EB5A2EF;1855.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40860 strings out of 476339
- 819558 string characters out of 5784779
- 1860340 words of memory out of 5000000
- 60626 multiletter control sequences out of 15000+600000
+ 40945 strings out of 476339
+ 822968 string characters out of 5784779
+ 1871340 words of memory out of 5000000
+ 60681 multiletter control sequences out of 15000+600000
  523646 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,17n,108p,743b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (8 pages, 2962732 bytes).
+{C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Philip Waldl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip Waldl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (11 pages, 3326721 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 253 words of extra memory for PDF output out of 10000 (max. 10000000)
 

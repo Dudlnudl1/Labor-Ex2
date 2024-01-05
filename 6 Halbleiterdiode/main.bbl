@@ -19,6 +19,31 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{fluke}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3ba7bdd1e219f081d5eee971efa2dbd0}{%
+           family={Fluke},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ba7bdd1e219f081d5eee971efa2dbd0}
+      \strng{fullhash}{3ba7bdd1e219f081d5eee971efa2dbd0}
+      \strng{bibnamehash}{3ba7bdd1e219f081d5eee971efa2dbd0}
+      \strng{authorbibnamehash}{3ba7bdd1e219f081d5eee971efa2dbd0}
+      \strng{authornamehash}{3ba7bdd1e219f081d5eee971efa2dbd0}
+      \strng{authorfullhash}{3ba7bdd1e219f081d5eee971efa2dbd0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Multimeter 175}
+      \verb{urlraw}
+      \verb https://www.fluke.com/de-at/produkt/elektrische-pruefungen/digitalmultimeter/fluke-175
+      \endverb
+      \verb{url}
+      \verb https://www.fluke.com/de-at/produkt/elektrische-pruefungen/digitalmultimeter/fluke-175
+      \endverb
+    \endentry
     \entry{teachcenter2}{online}{}
       \name{author}{1}{}{%
         {{hash=7663fb89adfe5a989937e85c5fbf7aa7}{%
@@ -44,6 +69,31 @@
       \endverb
       \verb{url}
       \verb https://tc.tugraz.at/main/course/view.php?id=796
+      \endverb
+    \endentry
+    \entry{TTI}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ce6177e0c74d498c74604aee950d1447}{%
+           family={TTI},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce6177e0c74d498c74604aee950d1447}
+      \strng{fullhash}{ce6177e0c74d498c74604aee950d1447}
+      \strng{bibnamehash}{ce6177e0c74d498c74604aee950d1447}
+      \strng{authorbibnamehash}{ce6177e0c74d498c74604aee950d1447}
+      \strng{authornamehash}{ce6177e0c74d498c74604aee950d1447}
+      \strng{authorfullhash}{ce6177e0c74d498c74604aee950d1447}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(besucht am \thedate)}
+      \field{title}{Multimeter Datasheet}
+      \verb{urlraw}
+      \verb https://resources.aimtti.com/datasheets/AIM-1604_multimeter_data_sheet-Iss2A.pdf
+      \endverb
+      \verb{url}
+      \verb https://resources.aimtti.com/datasheets/AIM-1604_multimeter_data_sheet-Iss2A.pdf
       \endverb
     \endentry
   \enddatalist

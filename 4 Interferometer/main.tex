@@ -41,9 +41,9 @@ Das Experiment Interferometer gilt es folgende vier Aufgaben durchzuführen.
 \\
 Der erste Teil besteht darin, den Einfluss der Größe einer Lichtquelle auf das Interferenzenmuster eines Doppelspaltes zu Demonstrieren und auch zu Erklären. 
 \\
-Im zweiten Teil wird der Einfluss der spektralen Breite des Lichtes, wie im ersten Teil, auf das Interferenzenmuster eines Doppelspaltes zu Demonstrieren und zu Erklären. 
+Im zweiten Teil gilt es den Einfluss der spektralen Breite des Lichtes, wie im ersten Teil, auf das Interferenzenmuster eines Doppelspaltes zu Demonstrieren und zu Erklären. 
 \\
-Im dritten Teil wird mithilfe des Doppelspalt-Interferenzenmusters die Dicke einer Kunststoffschichicht bestimmt. 
+Im dritten Teil wird mithilfe des Doppelspalt-Interferenzenmusters die Dicke einer Kunststoffschicht bestimmt. 
 \\
 Der vierte und letzte Teil besteht aus der Bestimmung der Größe der Lichtquelle bei welcher für Doppelspalten mit unterschiedlichem Spaltabstand das Licht noch räumlich kohärent ist. 
 \\
@@ -63,25 +63,32 @@ Dies geschieht, wo die Differenz der Strecke $\Delta s$ ein Vielfaches der Welle
 \end{equation}
 
 \noindent
-Durch die Brennweite und den Abstand zum Doppelspalt der Linse L2 kann der absolute Abstand des 0-ten bis zum m-ten Maxima berechnet werden. m ist die Zahl der Ordnung. 
+Um die Dicke $t$ der Polyacrylat Schicht zu bestimmen, benötigt man zuvor einen Proportionalitätsfaktor $M$. Dieser lässt sich aus der Pixelzahl $px$ zwischen den Beugungsmaxima, sowie den Doppelspalt $d$ und der Wellenlänge $\lambda$ bestimmen. 
 
 \begin{equation}
     \label{eq:grundlagen 2}
-    \centerline{$b_m = f_2 tan$ $arcsin(\frac{m \lambda}{d})$}
+    \centerline{$px = M sin(\theta) = M \frac{m \lambda}{d}$}
 \end{equation}
 
 \noindent
-Fügt man in den Strahlengang nun ein Material (Polyacrylat) mit unterschiedlichen Brechungsindex $n$ und physikalischer Dicke $t$ ein, so ändert sich auch die Lichtgeschwindigkeit im Medium. 
-Dadurch braucht der Lichtstrahl länger um abgebildet zu werden. Durch diese Dauer verschiebt sich das 0-te Maximum. Es befindet sich daher nichtmehr bei $\Delta s_0 = 0$ sondern bei: 
+Umgeformt kommt man für den Proportionalitätsfaktor $M$ auf folgende Gleichung. 
 
 \begin{equation}
-    \label{eq:verschiebung}
-    \centerline{$\Delta s_0 = d sin(\theta_0) + tn_2 - tn_1$}
+    \label{eq:Proportionalitätsfaktor}
+    \centerline{$M = \frac{d px}{\lambda m}$ \\ $\Delta M = \vert \frac{\partial M}{\partial d} * \Delta d \vert + \vert \frac{\partial M}{\partial \lambda} * \lambda \vert + \vert \frac{\partial M}{\partial px} * px \vert$}
+\end{equation}
+
+\noindent
+Um nun die Dicke $t$ zu bestimmen benötigt man noch die Brechungsindizes $n$ der Medien. 
+
+\begin{equation}
+    \label{eq:Schichtdicke}
+    \centerline{$t = \frac{px}{M (n2-n1)} $ \\ $\Delta t = \vert \frac{\partial t}{\partial M} * \Delta M \vert + \vert \frac{\partial t}{\partial px} * px \vert + \vert \frac{\partial t}{\partial n_i} * n_i \vert$}
 \end{equation}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/verschiebung.png}
+    \includegraphics[width=0.7\linewidth]{nudes/verschiebung.png}
     \caption{Beugung am Doppelspalt mit Schichten unterschiedlicher Brechungsindizes $n$ und Stärken $t$. Entnommen aus Skriptum Interferometer Seite 10, Abbildung 7 \cite{teachcenter2}. }
     \label{fig:verschiebung}
 \end{figure}
@@ -105,13 +112,17 @@ Für den theoretischen Verlauf bzw. Erwartungswert des Kontrastes wird die folge
     \centerline{$K = \vert \frac{sin(2 \pi \frac{d}{\lambda} \frac{w}{f_1})}{2 \pi \frac{d}{\lambda} \frac{w}{f_1}} \vert$}
 \end{equation}
 
+\noindent
+Der Doppelspalt wird mit mehreren monochromatischen Wellenlängen beleuchtet. Damit Beugungsmaxima im Fraunhoferlimit auftreten können, gilt $sin(\theta) = m\lambda /d$. 
+Der Beugungswinkel hängt von der Wellenlänge ab. Der Kontrast wird daher mit zunehmenden Beugungsmaximum immer geringer, bis er komplett verschwimmt. Diesen Effekt nennt man zeitlich Kohärent. 
+Reduziert man die spektrale Breite, beispielsweiße durch einen Bandpassfilter, so bleibt auch der Kontrast in den höheren Beugungsmaxima erhalten. 
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
 Der Versuch ist wiefolgt aufgebaut. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/aufbau.jpg}
+    \includegraphics[width=0.7\linewidth]{nudes/aufbau.jpg}
     \caption{Aufbau des Versuches.}
     \label{fig:aufbau}
 \end{figure}
@@ -120,8 +131,41 @@ Der Versuch ist wiefolgt aufgebaut.
 Die Lichtquelle wird über eine einstellbare Spaltblende geleitet. Durch diese lässt sich die Größe der Lichquelle einstellen. 
 Durch die Linse L1 werden die Lichtstrahlen parallelisiert bevor sie auf den Doppelspalt treffen. 
 Nach dem Doppelspalt trifft das Licht auf ein Substrat. In diesem befindet sich die Polyacrylat Schicht. 
-Nach diesem trifft das Licht auf die Linse L2, welche das Licht auf den Kamerasensor lenkt. Zwischen Linse L2 und Kamera befindet sich noch ein Filterrad, durch welches sich verschiedene Filter hinzugefügt werden können. 
+Nach diesem trifft das Licht auf die Linse L2, welche das Licht auf den Kamerasensor lenkt. 
+Zwischen Linse L2 und Kamera befindet sich noch ein Filterrad, durch welches verschiedene Filter hinzugefügt werden können. 
+\\
+\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{nudes/strahlengang.jpg}
+    \caption{Aufbau des Versuches. Skizze des optischen Aufbaus (maßstabsgetreu) mit Strahlengang. }
+    \label{fig:aufbau schema}
+\end{figure}
 
+\noindent
+Die Einzelteile mit Beschreibung sind in folgender Tabelle ersichtlich:
+
+\begin{table}[H]
+    \centering
+    \caption{Aufbau: Module}
+    \label{tab:Aufbau}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        Nr.  & Modul & Bezeichnung  & Eigenschaft \\
+        \hline
+        1 & Lichtquelle & Lampe &  \\
+        2 & Linse 3 & L3 & f3 = 40 mm \\
+        3 & Linse 4 & L4 & f4 = 30 mm \\
+        4 & Spaltblende & S &  \\
+        5 & Linse 1 & L1 & f1 = 300 mm \\
+        6 & Doppelspalt & DS & 430 $\mu m$, 230 $\mu m$, 130 $\mu m$ \\
+        7 & Substrat und Polyacrylat Schicht& O &  \\
+        8 & Linse 2 & L2 & f2 = 150 mm \\
+        9 & Filerrad & F & Bandpass- und Langpassfilter \\
+        10& Kamera & Kamera & \\
+        \hline
+    \end{tabular}
+\end{table}
 
 \section{Geräteliste} %jo holt a listn ------------------------------
 
@@ -155,7 +199,7 @@ Mithilfe des Histogrammes wird geprüft, dass die Belichtungszeit dementsprechen
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/histogramm.jpg}
+    \includegraphics[width=0.7\linewidth]{nudes/histogramm.jpg}
     \caption{Screenshot des Histogrammes. }
     \label{fig:histogram}
 \end{figure}
@@ -172,7 +216,7 @@ In der folgenden Abbildung werden die Interferenzmuster dargestellt, dabei ist d
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 1.jpg}
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 1.jpg}
     \caption{Interferenzmuster bei einer Öffnung $2w$ von 0.1 mm (unten) bis 1.4 mm (oben). }
     \label{fig:aufgabe 1}
 \end{figure}
@@ -183,36 +227,36 @@ Dazu schließt man die Spaltblende und mit den Bandpassfilter wird die Spaltblen
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 2.jpg}
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 2.jpg}
     \caption{Interferenzmuster mit verschiedenen Filter. Ohne Filter (oben), Langpassfilter (mitte), Bandpassfilter (unten) }
     \label{fig:aufgabe 2}
 \end{figure}
 
 \subsection{Teil 3}
-Im dritten Teil gilt es die dicke einer Polyacrylatschicht zu bestimme. Dazu wird derselbe Doppelspalt mit 430.0 $\mu m$ verwendet. Das Filterrad wird so eingestellt, dass kein Filter im Strahlengang ist. 
+Im dritten Teil gilt es die Dicke einer Polyacrylat Schicht zu bestimmen. Dazu wird derselbe Doppelspalt mit 430.0 $\mu m$ verwendet. Das Filterrad wird so eingestellt, dass kein Filter im Strahlengang ist. 
 Die Probe wird in den Strahlengang gegeben. Durch drehen der Justageschraube lässt sich die Probe verschieben, so dass einmal das unbeschichtete Substrat im Strahlengang ist und einmal die Polyacrylat Schicht. 
-Es wird jeweils ein Bild des Beugungsmusters aufgenommen. Einmal mit Verschiebung und einmal vor Verschiebung und einmal dannach. Bei überschreiten der Schichtgrenze zwischen Substrat und Polyacrylat ist ein sprunghafter Verschub des Beugungsmusters zu beobachten. 
+Es wird jeweils ein Bild des Beugungsmusters aufgenommen. Einmal mit Verschiebung und einmal vor Verschiebung und einmal dannach. Bei Überschreiten der Schichtgrenze zwischen Substrat und Polyacrylat ist ein sprunghafter Verschub des Beugungsmusters zu beobachten. 
 %Anschließend wird noch ohne Substrat und ohne Polyacrylat ein Referenzbild mit dem Bandpassfilter aufgenommen. 
+\\
 Aus Teil 2 wird noch ein Referenzbild mit dem Bandpassfilter hinzugefügt. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 3 neu.jpg}
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 3 neu.jpg}
     \caption{Beugungsmuster mit Substrat vor Schicht (oben), Polyacrylat Schicht (mitte) und Substrat nach Polyacrylat Schicht (unten). Referenzbild mit Bandpassfilter (unten). }
     \label{fig:aufgabe 3}
 \end{figure}
 
 \subsection{Teil 4}
-Wie im vorherigen Teil bleibt der Bandpassfilter im Strahlengang. 
-Der 130.0 $\mu m$ Doppelspalt wird in den Strahlengang gesetzt. Die Spaltblende wird geschlossen und dann langsam geöffnet, bis ein Interferenzmuster sichtbar wird. 
+Der Bandpassfilter wird in den Strahlengang gedreht und der 130.0 $\mu m$ Doppelspalt wird in den Strahlengang gesetzt. Die Spaltblende wird geschlossen und dann langsam geöffnet, bis ein Interferenzmuster sichtbar wird. 
 Durch weiteres öffnen verschwimmt das Interferenzmuster vollständig. Der Kontrast ist jetzt minimal. Diese Öffnung der Spaltblende wird notiert. 
 Dies wird für die weiteren Doppelspalte wiederholt.  
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 4.jpg}
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 4.jpg}
     \caption{Interferenzmuster aller Doppelspalte. Die beiden oberen sind die des 430.0 $\mu m$ Spaltes, die mittleren die des 230.0 $\mu m$ Spaltes und die unteren beiden die des 130.0 $\mu m$ Spaltes. 
-    Dabei sind jeweils die ersten die mit minimalem Kontrast und die zweiten mit gutem Kontrast zum vergleich. }
+    Dabei sind jeweils die ersten die mit minimalem Kontrast und die zweiten mit gutem Kontrast zum Vergleich. }
     \label{fig:aufgabe 4}
 \end{figure}
 
@@ -224,7 +268,7 @@ Dies wird für die weiteren Doppelspalte wiederholt.
         \hline
         d $\pm 0.5$ / $\mu m $ & 2w $\pm 0.05$/ mm \\
         \hline
-        430.0 & 0.85  \\
+        430.0 & 0.55  \\
         230.0 & 1.02  \\
         130.0 & 1.65  \\
         \hline
@@ -235,20 +279,20 @@ Dies wird für die weiteren Doppelspalte wiederholt.
 
 In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
 Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
-\\
-\\
+
+\subsection{Teil 1}
 Die mit der Kamera aufgenommenen Interferenzmuster werden mithilfe der Software ''ImageJ'' analysiert. 
 Dabei werden Intensitätsprofile erstellt, welche als CSV-Datei exportiert werden. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 1 plot.jpg}
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 1 plot.jpg}
     \caption{Interferenzmuster bei verschiedenen Spaltbreiten (Lichtquellengröße). Zur Darstellung wurden die Daten vertikal getrennt. }
     \label{fig:aufgabe 1 plot}
 \end{figure}
 
 \noindent
-Aus den CSV-Dateien wird das Intensitätsmaximum und Minimum ausgelesen. Für das Minimum wird der linke und rechte Wert gemittelt. Eingesetzt in die Formel \ref{eq:Kontrast} erhält man den Kontrast pro Spaltbreite $2w$. 
+Aus den CSV-Dateien wird das Intensitätsmaximum und Minimum ausgelesen. Für das Minimum wird der linke und rechte Wert (vom 0-ten Maximum ausgehend) gemittelt. Eingesetzt in die Formel \ref{eq:Kontrast} erhält man den Kontrast pro Spaltbreite $2w$. 
 Der Wert des Kontrastes wurde anschließend nochmal mit 100 multipliziert, sodass man den Wert in Prozent erhält. 
 Die Unsicherheiten der Intensitäten sind dabei die Ableseunsicherheiten in Qti Plot. 
 
@@ -280,8 +324,8 @@ Die Unsicherheiten der Intensitäten sind dabei die Ableseunsicherheiten in Qti 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/kontrast.jpg}
-    \caption{Kontrast bei versch. Lichtquellenbreiten. Theoretisch berechneter Wert laut Formel \ref{eq:Kontrasttheorie} im vergleich zu den berechneten Werten aus Tabelle \ref{tab:kontrast}. }
+    \includegraphics[width=0.7\linewidth]{nudes/kontrast.jpg}
+    \caption{Kontrast bei versch. Lichtquellenbreiten. Theoretisch berechneter Wert laut Formel \ref{eq:Kontrasttheorie} im Vergleich zu den berechneten Werten aus Tabelle \ref{tab:kontrast}. }
     \label{fig:aufgabe 1 kontrast}
 \end{figure}
 
@@ -290,7 +334,7 @@ Die aufgenommenen Interferenzmuster der verschiedenen Filter werden mit ImageJ a
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 2 plot.jpg}
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 2 plot.jpg}
     \caption{Interferenzmuster mit verschiedenen Filtern. Zur Darstellung wurden die Daten vertikal getrennt.}
     \label{fig:aufgabe 2 kontrast}
 \end{figure}
@@ -308,30 +352,85 @@ Die aufgenommenen Interferenzmuster mit Substrat und Polyacrylat Schicht werden 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 3 plot.jpg}
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 3 plot.jpg}
     \caption{Interferenzmuster mit Substrat und Polyacrylat Schicht. Zur Darstellung wurden die Daten vertikal getrennt.}
     \label{fig:aufgabe 3 Interferenzmuster}
 \end{figure}
+
+\noindent
+Durch händisches Auswerten lässt sich die Verschiebung in Pixel bestimmen. Diese beträgt $(26.7080 \pm 0.0005)px$. Unsicherheit ist die Ableseunsicherheit in Qti Plot. 
+Mithilfe der Daten des Bandpassfilters lässt sich der Proportionalitätsfaktor zwischen Pixel und optischer Weglängendifferenz bestimmen. Dazu misst man die Pixel zwischen den Beugungsmaxima, in diesen Fall zwischen 9 Maxima. Dies beträgt $(471.8074 \pm 0.0005)px$. 
+Eingesetzt in die Formel \ref{eq:Proportionalitätsfaktor} erhält man den Proportionalitätsfaktor von $M=(35612 \pm 70)$. 
+\\
+\\
+Die Brechzahl $n_{poly}$ der Polyacrylat Schicht beträgt bei 633.0 nm $n_{poly} = (1.492 \pm 0.001)$ \cite{teachcenter2}. Die der Luft beträgt $n_{luft} = (1.0003 \pm 0.0001)$ \cite{wiki1}.  Unsicherheiten implizit angenommen. 
+Mit diesen Werten und der Formel \ref{eq:Schichtdicke} lässt sich die Dicke $t$ der Schicht bestimmen. 
+Dazu nimmt man die Anzahl der Pixel der Verschiebung. Man kommt dabei auf einen Wert von $t = (1.525 \pm 0.007)\mu m$. 
 
 \subsection{Teil 4}
 Die Werte aus Tabelle \ref{tab:öffnungen} werden in einem Diagramm mit der theoretisch berechneten Kurve dargestellt. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{nudes/aufgabe 4 plot.jpg}
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 4 plot.jpg}
     \caption{Lichtspaltbreite $2w$ bei minimalem Kontrast. Der theoretische Verlauf wird mit Formel \ref{eq:Kontrasttheorie} berechnet. }
     \label{fig:aufgabe 4 kontrast}
 \end{figure}
 
 \noindent
-Wie man sehen kann, hat die kurve einen hyperbolischen Verlauf. Die Fehler fallen dabei bei den größeren Doppelspalten höher aus. 
-
+Wie man sehen kann, hat die Kurve einen hyperbolischen Verlauf. Die Fehler fallen dabei bei den größeren Doppelspalten höher aus. 
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 
+\subsection{Teil 1}
+Wie man in der Abbildung \ref{fig:aufgabe 1 kontrast} erkennen kann, entsprechen die berechneten Werten den Erwartungswerten nicht. 
+Dennoch besitzt der Kontrast einen ähnlichen Verlauf. 
+
+\subsection{Teil 2}
+Die mit den unterschiedlichen Filtern aufgenommenen Interferenzmuster entsprechen dem Erwartungswerten. 
+Dabei handelt es sich um die zeitliche Kohärenz. Durch diese verschwimmen die äußeren Maxima. Durch geeignete Filter lässt sich diese jedoch reduzieren, was man auch in der Auswertung beobachten kann. 
+Es lässt sich dabei auf eine fehlerfreie Durchführung dieses Teils schließen. 
+
+\subsection{Teil 3}
+Da die genaue Schichtdicke der Polyacrylat Schicht nicht bekannt ist, kann auch keine aussage über die Genauigkeit des Versuches getroffen werden. 
+
+\subsection{Teil 4}
+Da sich der exakte minimale Kontrast mit dem Auge nicht sehr genau bestimmen lässt, liegen die Werte auch nicht auf der theoretisch berechneten Kurve. 
+Bei erneuter Versuchsdurchführung sollt eine genauere Bestimmung des minimalen Kontrastes gewählt werden. 
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+Hier nocheinmal die Ergebnisse zusammengefasst. 
 
- 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{nudes/kontrast.jpg}
+    \caption{Kontrast bei versch. Lichtquellenbreiten. Theoretisch berechneter Wert laut Formel \ref{eq:Kontrasttheorie} im Vergleich zu den berechneten Werten aus Tabelle \ref{tab:kontrast}. }
+    \label{fig: zus aufgabe 1 kontrast}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 2 plot.jpg}
+    \caption{Interferenzmuster mit verschiedenen Filtern. Zur Darstellung wurden die Daten vertikal getrennt.}
+    \label{fig:zus aufgabe 2 kontrast}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 3 plot.jpg}
+    \caption{Interferenzmuster mit Substrat und Polyacrylat Schicht. Zur Darstellung wurden die Daten vertikal getrennt.}
+    \label{fig:zus aufgabe 3 Interferenzmuster}
+\end{figure}
+
+\noindent
+Schichtdicke: $t = (1.525 \pm 0.007)\mu m$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{nudes/aufgabe 4 plot.jpg}
+    \caption{Lichtspaltbreite $2w$ bei minimalem Kontrast. Der theoretische Verlauf wird mit Formel \ref{eq:Kontrasttheorie} berechnet. }
+    \label{fig:zus aufgabe 4 kontrast}
+\end{figure}
+
 \printbibliography[heading=bibintoc]
 \end{document}

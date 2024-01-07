@@ -1,6 +1,6 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	9
+<windows>	8
 <table>
 Table1	1269	2	10.12.2023 01:49:35
 geometry	0	0	445	220	
@@ -3853,243 +3853,6 @@ WindowLabel	C:/Users/phili/Documents/Uni/Labor-Ex2/4 Interferometer/nudes/Aufgab
 1268	1.26800000000000e+03	0.00000000000000e+00
 </data>
 </table>
-<multiLayer>
-Graph1	1	1	10.12.2023 01:49:40
-geometry	378	-18	504	457	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	478	388
-PlotTitle	Title	#000000	4228
-<Antialiasing>0</Antialiasing>
-Background	#ffffff	255
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-TitleFont	MS Shell Dlg 2	10	75	0	0	0
-ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
-AxisFont0	MS Shell Dlg 2	8	50	0	0	0
-AxisFont1	MS Shell Dlg 2	8	50	0	0	0
-AxisFont2	MS Shell Dlg 2	8	50	0	0	0
-AxisFont3	MS Shell Dlg 2	8	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#000000	#000000	#000000	#000000
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	255
-curve	Table1_Distance-pixels	Table1_Gray-Value	0	1	#000000	0	1	5	0	#000000	#000000	0	#000000	14	1	2	0	0	1268	1
-scale	0	-20	120	0	8	5	0	0
-scale	1	-20	120	0	8	5	0	0
-scale	2	-200	1400	0	8	5	0	0
-scale	3	-200	1400	0	8	5	0	0
-LabelsFormat	0	4	0	4	0	4	0	4
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	189331472
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>-159.89974937343</x>
-<y>115.31772575251</y>
-<right>237.092731829574</right>
-<bottom>101.739130434783</bottom>
-<attachTo>0</attachTo>
-<onTop>1</onTop>
-<Text>
-\l(1)%(1)
-</Text>
-<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-</multiLayer>
-<multiLayer>
-Graph2	1	1	10.12.2023 01:49:44
-geometry	693	1	504	457	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	478	388
-PlotTitle	Title	#000000	4228
-<Antialiasing>0</Antialiasing>
-Background	#ffffff	255
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-TitleFont	MS Shell Dlg 2	10	75	0	0	0
-ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
-AxisFont0	MS Shell Dlg 2	8	50	0	0	0
-AxisFont1	MS Shell Dlg 2	8	50	0	0	0
-AxisFont2	MS Shell Dlg 2	8	50	0	0	0
-AxisFont3	MS Shell Dlg 2	8	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#000000	#000000	#000000	#000000
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	255
-curve	Table2_Distance-pixels	Table2_Gray-Value	0	1	#000000	0	1	5	0	#000000	#000000	0	#000000	14	1	2	0	0	1268	1
-scale	0	-20	160	0	8	5	0	0
-scale	1	-20	160	0	8	5	0	0
-scale	2	-200	1400	0	8	5	0	0
-scale	3	-200	1400	0	8	5	0	0
-LabelsFormat	0	4	0	4	0	4	0	4
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>-159.89974937343</x>
-<y>153.97993311037</y>
-<right>237.092731829574</right>
-<bottom>136.521739130435</bottom>
-<attachTo>0</attachTo>
-<onTop>1</onTop>
-<Text>
-\l(1)%(1)
-</Text>
-<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-</multiLayer>
-<multiLayer>
-Graph3	1	1	10.12.2023 01:49:47
-geometry	1050	3	504	457	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	478	388
-PlotTitle	Title	#000000	4228
-<Antialiasing>0</Antialiasing>
-Background	#ffffff	255
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-TitleFont	MS Shell Dlg 2	10	75	0	0	0
-ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
-ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
-AxisFont0	MS Shell Dlg 2	8	50	0	0	0
-AxisFont1	MS Shell Dlg 2	8	50	0	0	0
-AxisFont2	MS Shell Dlg 2	8	50	0	0	0
-AxisFont3	MS Shell Dlg 2	8	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#000000	#000000	#000000	#000000
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	255
-curve	Table3_Distance-pixels	Table3_Gray-Value	0	1	#000000	0	1	5	0	#000000	#000000	0	#000000	14	1	2	0	0	1268	1
-scale	0	-20	120	0	8	5	0	0
-scale	1	-20	120	0	8	5	0	0
-scale	2	-200	1400	0	8	5	0	0
-scale	3	-200	1400	0	8	5	0	0
-LabelsFormat	0	4	0	4	0	4	0	4
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	-8355712	0	189331728
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>-159.89974937343</x>
-<y>115.31772575251</y>
-<right>237.092731829574</right>
-<bottom>101.739130434783</bottom>
-<attachTo>0</attachTo>
-<onTop>1</onTop>
-<Text>
-\l(1)%(1)
-</Text>
-<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-</multiLayer>
 <table>
 Table4	64	11	10.12.2023 01:50:45
 geometry	0	439	1259	378	
@@ -4109,7 +3872,7 @@ HiddenColumn	0	0	0	0	0	0	0	0	0	0	0
 Comments												
 WindowLabel		2
 <data>
-0	1.00000000000000e-01	1.89900000000000e+00	4.30000000000000e-01	8.50000000000000e-01	5.00000000000000e-02	2.30000000000000e-01	1.02000000000000e+00	5.00000000000000e-02	1.30000000000000e-01	1.65000000000000e+00	5.00000000000000e-02
+0	1.00000000000000e-01	1.89900000000000e+00	4.30000000000000e-01	5.50000000000000e-01	5.00000000000000e-02	2.30000000000000e-01	9.30000000000000e-01	5.00000000000000e-02	1.30000000000000e-01	1.65000000000000e+00	5.00000000000000e-02
 1	1.10000000000000e-01	1.72636363636400e+00									
 2	1.20000000000000e-01	1.58250000000000e+00									
 3	1.30000000000000e-01	1.46076923076900e+00									
@@ -4176,8 +3939,8 @@ WindowLabel		2
 </data>
 </table>
 <multiLayer>
-Graph4	1	1	10.12.2023 02:06:44
-geometry	1259	460	500	457	
+Graph1	1	1	10.12.2023 01:49:40
+geometry	378	-18	504	457	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -4186,7 +3949,7 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	474	388
+ggeometry	5	5	478	388
 PlotTitle	Title	#000000	4228
 <Antialiasing>0</Antialiasing>
 Background	#ffffff	255
@@ -4211,15 +3974,11 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
-curve	Table4_1	Table4_theoretisch berechnet	0	1	#000000	0	1	5	0	#000000	#000000	0	#000000	14	1	2	0	0	63	1
-curve	Table4_2	Table4_430 um	1	0	#ff0000	0	1	3	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	63	1
-curve	Table4_4	Table4_230 um	1	0	#00ff00	0	1	5	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	63	1
-curve	Table4_6	Table4_130 um	1	0	#0000ff	0	1	5	4	#0000ff	#0000ff	0	#000000	14	1	2	0	0	63	1
-ErrorBars	1	Table4_6	Table4_130 um	Table4_7	1	8	#0000ff	1	1	1
-scale	0	0	2	0	8	5	0	0
-scale	1	0	2	0	8	5	0	0
-scale	2	0	0.8	0	8	5	0	0
-scale	3	0	0.8	0	8	5	0	0
+curve	Table1_Distance-pixels	Table1_Gray-Value	0	1	#000000	0	1	5	0	#000000	#000000	0	#000000	14	1	2	0	0	1268	1
+scale	0	-20	120	0	8	5	0	0
+scale	1	-20	120	0	8	5	0	0
+scale	2	-200	1400	0	8	5	0	0
+scale	3	-200	1400	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -4231,24 +3990,179 @@ LabelsRotation	0	0
 LabelsPrefix				
 LabelsSuffix				
 TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	18
+ShowTicksPolicy	0	0	0	189331472
 EnabledTickLabels	1	1	1	1
 <Legend>
 <Frame>1</Frame>
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>0.45513784461153</x>
-<y>1.9732441471572</y>
-<right>0.783959899749374</right>
-<bottom>1.55183946488294</bottom>
+<x>-159.89974937343</x>
+<y>115.31772575251</y>
+<right>251.396648044693</right>
+<bottom>101.237113402062</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>
 \l(1)%(1)
-\l(2)%(2)
-\l(3)%(3)
-\l(4)%(4)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph2	1	1	10.12.2023 01:49:44
+geometry	866	-3	504	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	478	388
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table2_Distance-pixels	Table2_Gray-Value	0	1	#000000	0	1	5	0	#000000	#000000	0	#000000	14	1	2	0	0	1268	1
+scale	0	-20	160	0	8	5	0	0
+scale	1	-20	160	0	8	5	0	0
+scale	2	-200	1400	0	8	5	0	0
+scale	3	-200	1400	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-159.89974937343</x>
+<y>153.97993311037</y>
+<right>251.396648044693</right>
+<bottom>133.267326732673</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>MS Shell Dlg 2	8	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+</multiLayer>
+<multiLayer>
+Graph3	1	1	10.12.2023 01:49:47
+geometry	1373	-1	504	457	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	478	388
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table3_Distance-pixels	Table3_Gray-Value	0	1	#000000	0	1	5	0	#000000	#000000	0	#000000	14	1	2	0	0	1268	1
+scale	0	-20	120	0	8	5	0	0
+scale	1	-20	120	0	8	5	0	0
+scale	2	-200	1400	0	8	5	0	0
+scale	3	-200	1400	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	-8355712	0	189331728
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-159.89974937343</x>
+<y>115.31772575251</y>
+<right>251.396648044693</right>
+<bottom>101.237113402062</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<Text>
+\l(1)%(1)
 </Text>
 <Font>MS Shell Dlg 2	8	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
@@ -4263,7 +4177,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Graph5	1	1	10.12.2023 02:08:39
-geometry	860	159	500	457	active
+geometry	1309	446	500	457	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -4326,10 +4240,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>0.45513784461153</x>
-<y>1.9531772575251</y>
-<right>0.783959899749374</right>
-<bottom>1.53177257525084</bottom>
+<x>0.45427135678392</x>
+<y>1.9530201342282</y>
+<right>0.78391959798995</right>
+<bottom>1.53020134228188</bottom>
 <attachTo>0</attachTo>
 <onTop>1</onTop>
 <Text>

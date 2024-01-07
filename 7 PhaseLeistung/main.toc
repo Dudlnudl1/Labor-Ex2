@@ -1,0 +1,46 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Aufgabenstellung}{4}{section.1}%
+\contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Kenngrößen}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Komplexe Wechselstromtechnik}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Leistung und Verluste}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Wichtige Zusammenhänge}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Versuchsanordnung}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Untersuchung der Anzeigen}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Amplitudengänge}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Phasenlage Kondensator}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Phasenlage Spule}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Elektrische Leistung RC-Schaltung}{7}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Elektrische Leistung RL-Schaltung}{8}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Blindleistungskompensation}{9}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Geräteliste}{9}{section.4}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Untersuchung der Anzeigen}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Amplitudengänge}{10}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Phasenlage Kondensator}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Phasenlage Spule}{11}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Elektrische Leistung RC-Schaltung}{11}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Elektrische Leistung RL-Schaltung}{12}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Blindleistungskompensation}{13}{subsection.5.7}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{14}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Untersuchung der Anzeigen}{14}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Amplitudengänge}{14}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Phasenlage Kondensator}{15}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Phasenlage Spule}{16}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Elektrische Leistung RC-Schaltung}{16}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Elektrische Leistung RL-Schaltung}{18}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Blindleistungskompensation}{19}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Diskussion}{20}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Untersuchung der Anzeigen / Amplitudengänge}{20}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Phasenlage Kondensator / Spule}{21}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Elektrische Leistung RC-Schaltung / RL-Schaltung}{21}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Blindleistungskompensation}{21}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{21}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Untersuchung der Anzeigen}{21}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Amplitudengänge}{21}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Phasenlage Kondensator}{21}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Phasenlage Spule}{21}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Elektrische Leistung RC-Schaltung}{21}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Elektrische Leistung RL-Schaltung}{21}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Blindleistungskompensation}{22}{subsection.8.7}%
+\contentsline {section}{Literatur}{22}{section*.33}%

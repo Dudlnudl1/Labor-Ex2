@@ -68,9 +68,9 @@ Zu Beginn der Grundlagen ist es wichtig, einige Größen zu definieren.
     \begin{tabular}{| l | l |}
         \hline
         Scheitelwert & Der größte Betrag der Augenblickswerte eines Wechselsignals. \\
-        Effektivwert & Wert einer Gleichspannung / eines Gleichstromes, die / der an einem ohmschen \newline 
-        Widerstand im zeitlichen Mittel die gleiche Leistung wie die entsprechende Wechselspannung \newline
-        / der entsprechende Wechselstrom. \\
+        Effektivwert & Wert einer Gleichspannung / eines Gleichstromes, die / der an einem ohmschen \\
+         & Widerstand im zeitlichen Mittel die gleiche Leistung wie die entsprechende \\
+         & Wechselspannung / der entsprechende Wechselstrom. \\
         Gleichrichtwert & Mittelwert des Betrages der Spannung / des Stromes. \\
         Formfaktor & Verhältnis von Effektivwert zu Gleichrichtwert. \\
         Scheitelfaktor & Verhältnis von Scheitelwert zu Effektivwert. \\
@@ -80,15 +80,19 @@ Zu Beginn der Grundlagen ist es wichtig, einige Größen zu definieren.
 
 \subsection{Komplexe Wechselstromtechnik}
 
+Die beliebteste Signalart, welche auch am häufigsten verwendet wird, ist in der Wechselstromtechnik die Sinusspannung. 
+Ohm`sche Widerstände verursachen hier keine Phasenverschiebung zwischen Strom und Spannung. Kapazitive- und Induktive Widerstände jedoch führen zu einer positiven bzw. negativen Phasenverschiebung zwischen diesen Größen.
+Deshalb müssen in der Wechselstromtechnik Reaktanzen definiert werden, welche auch Blindwiderstände genannt werden. 
+Diese hängen von der verwendeten Frequenz und den Kapazitäten bzw. Induktivitäten ab (Formeln in Abteil Wichtige Zusammenhänge).
+Diese Reaktanzen bilden im Prinzip das Äquivalent zu den herkörmlichen Widerständen an ohm`schen Verbrauchern.
+Weiters können daraus komplexe Impedanzen Z gebildet werden, welche zusätzlich zu den Signalstärken auch die Signalverschiebung beschreiben. 
 
-
-Ohm`sche Widerstände verursacht keine Phasenverschiebung zwischen Strom und Spannung. Kapazitive- und Induktive Widerstände jedoch führen zu einer positiven bzw. negativen Phasenverschiebung zwischen diesen Größen.
 
 
 
 \subsection{Leistung und Verluste}
 
-Die Leistung, die von einem Stromnetz tatsächlich benötigt wird, wird auch Scheinleistung S genannt. Diese setzt sich aus dem Produkt der Effektivwerte von Strom I und Spannung U zusammen.
+Die Leistung, die von einem Stromnetz tatsächlich benötigt wird, wird auch Scheinleistung S [VA] genannt. Diese setzt sich aus dem Produkt der Effektivwerte von Strom I und Spannung U zusammen.
 Der Realteil der Scheinleistung stellt dabei die Wirkleistung P, angegeben in Watt, dar. Diese beschreibt die Leistung an den ohm`schen Verbrauchen. Der Imaninärteil wird auch Bindleistung Q [var] genannt und bezeichnet jene Leistung, welche für die ohm`schen Verbraucher keinen Nutzen hat.
 Sie kommt durch verschiedene Phänomene zustande, wie z.B. Aufbau von B-Feldern bei Induktion. \newline
 
@@ -106,22 +110,22 @@ Um letztere Leistung zu verringen wird auf das Prinzip der Blindleistungskompens
 
 \begin{equation}
     \label{eq:Phasenversatz_Kreise}
-    \centerline{$\Phi $ = $arg(U)$ = $\arctan(\frac{U_{C}sin(\phi_C)}{U_R + U_{C}cos(\phi_C)}$) }
+    \centerline{$\Phi $ = $arg(U)$ = $\arctan(\frac{U_{C}sin(\phi_C)}{U_R + U_{C}cos(\phi_C)}$) \\ $\Delta \Phi = \vert \frac{\partial \Phi}{\partial U_{C}} * \Delta U_{C} \vert + \vert \frac{\partial \Phi}{\partial U_R} * \Delta U_R \vert + \vert \frac{\partial \Phi}{\partial \phi_C} * \Delta \phi_C \vert$}
 \end{equation}
 
 \begin{equation}
     \label{eq:Scheinleistung}
-    \centerline{$S $ = UI }
+    \centerline{$S $ = UI   \\ $\Delta P = \vert \frac{\partial P}{\partial U} * \Delta Uu \vert + \vert \frac{\partial S}{\partial I} * \Delta I \vert$}
 \end{equation}
 
 \begin{equation}
     \label{eq:Wirkleistung}
-    \centerline{$P $ = $S*cos(\phi)$ }
+    \centerline{$P $ = $S*cos(\phi)$  \\ $\Delta P = \vert \frac{\partial P}{\partial S} * \Delta S \vert + \vert \frac{\partial P}{\partial \phi} * \Delta \phi \vert$ }
 \end{equation}
 
 \begin{equation}
     \label{eq:Blindleistung}
-    \centerline{$Q $ = $S*sin(\phi)$ }
+    \centerline{$Q $ = $S*sin(\phi)$  \\ $\Delta Q = \vert \frac{\partial Q}{\partial S} * \Delta S \vert + \vert \frac{\partial Q}{\partial \phi} * \Delta \phi \vert$}
 \end{equation}
 
 \begin{equation}
@@ -131,7 +135,7 @@ Um letztere Leistung zu verringen wird auf das Prinzip der Blindleistungskompens
 
 \begin{equation}
     \label{eq:ReaktanzenL}
-    \centerline{$X_{L}$ = $\omega L$ \\ $\Delta X_{L} = \vert \frac{\partial X_{L}}{\partial L} * \Delta L \vert $} }
+    \centerline{$X_{L}$ = $\omega L$ \\ $\Delta X_{L} = \vert \frac{\partial X_{L}}{\partial L} * \Delta L \vert $} 
 \end{equation}
 
 
@@ -201,6 +205,7 @@ Zur Bestimmung der Leistung in der RC-Schaltung wurde folgender Schaltplan in di
     \label{fig:Aufbau5}
 \end{figure}
 
+\noindent
 Für die letzten drei Aufgabenpunkte wurde außerdem ein Trafo und ein PowerMeter zur Spannungsversorgung verwendet:
 
 \begin{figure}[H]
@@ -664,16 +669,17 @@ Aus der verwendeten Induktivität von L = 1H und der verwendeten Kapazität C = 
     \item $X_L$ = (314 $\pm$ 15) $\Omega$
 \end{itemize}
 
+\noindent
 Aus den Reaktanzen ergeben sich mit den Verlusten $R_C$/$R_L$ die komplexen Impedanzen $Z_C$/$Z_L$:
 
 \begin{equation}
     \label{eq:ImpedanzC}
-    \centerline{$Z_{C}$ = $\frac{(X_C)^2}{R_C}$ \\ $\Delta Z_{C} = \vert \frac{\partial Z_{C}}{\partial X_C} * \Delta X_C \vert + \vert \frac{\partial Z_{C}}{\partial R_C} * \Delta R_C \vert $ } }
+    \centerline{$Z_{C}$ = $\frac{(X_C)^2}{R_C}$ \\ $\Delta Z_{C} = \vert \frac{\partial Z_{C}}{\partial X_C} * \Delta X_C \vert + \vert \frac{\partial Z_{C}}{\partial R_C} * \Delta R_C \vert $ } 
 \end{equation}
 
 \begin{equation}
     \label{eq:ImpedanzL}
-    \centerline{$Z_{L}$ = $R_L + X_L$ \\ $\Delta Z_{L} = \vert \frac{\partial Z_{L}}{\partial X_L} * \Delta X_L \vert + \vert \frac{\partial Z_{L}{\partial R_L} * \Delta R_L \vert $ }
+    \centerline{$Z_{L}$ = $R_L + X_L$ \\ $\Delta Z_{L} = \vert \frac{\partial Z_{L}}{\partial X_L} * \Delta X_L \vert + \vert \frac{\partial Z_L}{\partial R_L} * \Delta R_L \vert $ }
 \end{equation}
 
 \begin{itemize}
@@ -685,29 +691,45 @@ Aus den Reaktanzen ergeben sich mit den Verlusten $R_C$/$R_L$ die komplexen Impe
 Die dazugehörigen Phasenversätze ergeben sich dabei mit:
 
 \begin{equation}
-    \label{eq:PhvZC}
-    \centerline{$\phi_C = arctan(\frac{-X_L}{R_L})$ \\ $\Delta Z_{C} = \vert \frac{\partial Z_{C}}{\partial X_C} * \Delta X_C \vert + \vert \frac{\partial Z_{C}}{\partial R_C} * \Delta R_C \vert $ } }
+    \label{eq:PhvZL}
+    \centerline{$\phi_L = arctan(\frac{-X_L}{R_L})$ \\ $\Delta Z_{L} = \vert \frac{\partial Z_{L}}{\partial X_L} * \Delta X_L \vert + \vert \frac{\partial Z_{L}}{\partial R_L} * \Delta R_L \vert $ }
 \end{equation}
 
 \begin{equation}
-    \label{eq:PhvZL}
-    \centerline{$Z_{L}$ = $R_L + X_L$ \\ $\Delta Z_{L} = \vert \frac{\partial Z_{L}}{\partial X_L} * \Delta X_L \vert + \vert \frac{\partial Z_{L}{\partial R_L} * \Delta R_L \vert $ }
+    \label{eq:PhvZC}
+    \centerline{$\phi_C = arctan(\frac{-X_C}{R_C})$ \\ $\Delta Z_{C} = \vert \frac{\partial Z_{C}}{\partial X_C} * \Delta X_C \vert + \vert \frac{\partial Z_{C}}{\partial R_C} * \Delta R_C \vert $ }
 \end{equation}
 
+\begin{itemize}
+    \item $\phi_{Z_L}$ = (-87.17 $\pm$ 0.41) °
+    \item $\phi_{Z_C}$ = (77.11 $\pm$ 0.34) °
+\end{itemize}
 
-Die Gleichung \ref{eq:Phasenversatz_RLC} kann dazu verwendet werden, um den geforderten Phasenversatz zu bestimmen.
+\noindent
+Abschließend können nun die geforderten Phasenversätze mittels folgenden Formeln bestimmt werden.
+
+\begin{equation}
+    \label{eq:PhvU}
+    \centerline{$\phi_U = arg(Z_C \left\lvert\right\rvert Z_L)$ }
+\end{equation}
+
+\begin{equation}
+    \label{eq:PhvL/C}
+    \centerline{$\phi_{L/C} = arg(Z_C \left\lvert\right\rvert Z_L)$ }
+\end{equation}
 
 \begin{itemize}
-    \item $\phi$ = ( $\pm$ ) °
+    \item $\phi_U$ = (22 $\pm$ 4) °
+    \item $\phi_L/C$ = (20 $\pm$ 4) °
 \end{itemize}
 
 \noindent
 Mittels Formeln \ref{eq:Scheinleistung} - \ref{eq:Blindleistung} können nun die Werte für Schein-, Blind- und Wirkleistung bestimmt werden.
 
 \begin{itemize}
-    \item S = ( $\pm$ ) VA
-    \item Q = ( $\pm$ ) var
-    \item P = (1.4916 $\pm$ ) W
+    \item S = (1.49 $\pm$ 0.26) VA
+    \item Q = (-0.56 $\pm$ 0.08) var
+    \item P = (1.38 $\pm$ 0.21) W
 \end{itemize}
 
 \noindent
@@ -730,14 +752,25 @@ Somit lassen sich auch ein weiteres Zeigerdiagramm und Leistungsdreieck erstelle
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
 
-\subsection{Untersuchung der Anzeigen}
-\subsection{Amplitudengänge}
-\subsection{Phasenlage Kondensator}
-\subsection{Phasenlage Spule}
-\subsection{Elektrische Leistung RC-Schaltung}
-\subsection{Elektrische Leistung RL-Schaltung}
+\subsection{Untersuchung der Anzeigen / Amplitudengänge}
+
+Den Resultaten der ersten Aufgabe ist zu entnehmen, dass es für verschiedene Geräte einen Unterschied macht, mit welchem Signal und welcher Frequenz gearbeitet wird.
+Somit ist darauf zu achten, um fehlerhafte Messergebnisse zu vermeiden.
+
+
+\subsection{Phasenlage Kondensator / Spule}
+
+Die resultierenden Zeigerdiagramme zeigen die Wirkung der Kapazität und Induktivität als Reaktanzen. 
+Aufgrund von Innenwiderständen haben aber auch sie einen Einfluss auf die reale Leistung der Schaltung und müssen miteinbezogen werden.
+Es lässt sich außerdem erkennen, dass bei der Kapazität die Spannung dem Strom "hinterherhengt", und bei Induktivität die Spannung dem Strom "vorauseilt".
+
+\subsection{Elektrische Leistung RC-Schaltung / RL-Schaltung}
+
+Anhand der resultierenden Blindleistung, welche in den vorherigen Teilen bestimmt wurde, lässt sich erkennen, dass die Leistung nicht nur vom ohm`schen Widerstand, sondern auch von inneren Widerständen der Kapazität/Induktivität abhängt.
+
 \subsection{Blindleistungskompensation}
 
+Die Blindleistungskompensation wurde bestmöglich zu bestimmen versucht.  
 
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
@@ -772,6 +805,7 @@ Zeigerdiagramm und Leistungsdreieck wurden, ersichtlich in den Abbildungen \ref{
 
 \subsection{Blindleistungskompensation}
 
+Zeigerdiagramm und Leistungsdreieck wurden, ersichtlich in den Abbildungen \ref{fig:ZeigerdiagrammRLC} und \ref{fig:LeistungsdreieckRLC}, ermittelt.
 
 
 \printbibliography[heading=bibintoc]

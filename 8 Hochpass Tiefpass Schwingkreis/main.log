@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  14 OCT 2023 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.8)  17 JAN 2024 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/phili/Documents/Uni/Labor-Ex2/Protokollvorlage/main.tex
-(c:/Users/phili/Documents/Uni/Labor-Ex2/Protokollvorlage/main.tex
+**"c:/Users/phili/Documents/Uni/Labor-Ex2/8 Hochpass Tiefpass Schwingkreis/main.tex"
+(c:/Users/phili/Documents/Uni/Labor-Ex2/8 Hochpass Tiefpass Schwingkreis/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-07> (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -1481,75 +1481,344 @@ Package caption Info: End \AtBeginDocument code.
 Package chemgreek Info: Activating mapping `textgreek' on line 3.
 
 \c@lstlisting=\count502
-<../Deckblätter/Deckblatt_Gitter.pdf, id=38, 597.432pt x 845.07718pt>
-File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../Deckblätter/Deckblatt_Gitter.pdf>
-Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf  used on input line 33.
+<../Deckblätter/Deckblatt_Hochpass.pdf, id=138, 597.432pt x 845.07718pt>
+File: ../Deckblätter/Deckblatt_Hochpass.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Hochpass.pdf>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Hochpass.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../Deckblätter/Deckblatt_Gitter.pdf>
-Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf  used on input line 33.
+File: ../Deckblätter/Deckblatt_Hochpass.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Hochpass.pdf>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Hochpass.pdf  used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<../Deckblätter/Deckblatt_Gitter.pdf, id=41, page=1, 597.432pt x 845.07718pt>
-File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../Deckblätter/Deckblatt_Gitter.pdf, page 1>
-Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on input line 33.
+<../Deckblätter/Deckblatt_Hochpass.pdf, id=141, page=1, 597.432pt x 845.07718pt>
+File: ../Deckblätter/Deckblatt_Hochpass.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Hochpass.pdf, page 1>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Hochpass.pdf , page1 used on input line 33.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../Deckblätter/Deckblatt_Gitter.pdf, page 1>
-Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on input line 33.
+File: ../Deckblätter/Deckblatt_Hochpass.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Hochpass.pdf, page 1>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Hochpass.pdf , page1 used on input line 33.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../Deckblätter/Deckblatt_Gitter.pdf, page 1>
-Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on input line 33.
+File: ../Deckblätter/Deckblatt_Hochpass.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Hochpass.pdf, page 1>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Hochpass.pdf , page1 used on input line 33.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../Deckblätter/Deckblatt_Gitter.pdf, page 1>
-Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on input line 33.
+File: ../Deckblätter/Deckblatt_Hochpass.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Hochpass.pdf, page 1>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Hochpass.pdf , page1 used on input line 33.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: ../Deckblätter/Deckblatt_Gitter.pdf Graphic file (type pdf)
-<use ../Deckblätter/Deckblatt_Gitter.pdf, page 1>
-Package pdftex.def Info: ../Deckblätter/Deckblatt_Gitter.pdf , page1 used on input line 33.
+File: ../Deckblätter/Deckblatt_Hochpass.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Hochpass.pdf, page 1>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Hochpass.pdf , page1 used on input line 33.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [1
 
- <../Deckblätter/Deckblatt_Gitter.pdf>] (main.toc)
+ <../Deckblätter/Deckblatt_Hochpass.pdf>] (main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
  [2{C:/Users/phili/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
- (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
- (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
 
-LaTeX Warning: Empty bibliography on input line 86.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--61
+
+ []
+
+<nudes/HP.jpg, id=208, 1254.93843pt x 407.27156pt>
+File: nudes/HP.jpg Graphic file (type jpg)
+<use nudes/HP.jpg>
+Package pdftex.def Info: nudes/HP.jpg  used on input line 64.
+(pdftex.def)             Requested size: 273.14923pt x 88.64299pt.
+[3 <./nudes/HP.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
+
+ []
+
+<nudes/TP.jpg, id=226, 1215.79219pt x 386.94562pt>
+File: nudes/TP.jpg Graphic file (type jpg)
+<use nudes/TP.jpg>
+Package pdftex.def Info: nudes/TP.jpg  used on input line 118.
+(pdftex.def)             Requested size: 273.14923pt x 86.92911pt.
+[4 <./nudes/TP.jpg>]
+<nudes/RLCparallel.jpg, id=245, 619.56468pt x 521.69907pt>
+File: nudes/RLCparallel.jpg Graphic file (type jpg)
+<use nudes/RLCparallel.jpg>
+Package pdftex.def Info: nudes/RLCparallel.jpg  used on input line 145.
+(pdftex.def)             Requested size: 273.14923pt x 230.00204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--159
+
+ []
+
+[5 <./nudes/RLCparallel.jpg>]
+<nudes/RLCseriell.jpg, id=257, 795.72281pt x 270.25969pt>
+File: nudes/RLCseriell.jpg Graphic file (type jpg)
+<use nudes/RLCseriell.jpg>
+Package pdftex.def Info: nudes/RLCseriell.jpg  used on input line 184.
+(pdftex.def)             Requested size: 273.14923pt x 92.76956pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--226
+
+ []
+
+[6 <./nudes/RLCseriell.jpg>]
+<nudes/steckbrett.jpg, id=271, 997.47656pt x 593.96906pt>
+File: nudes/steckbrett.jpg Graphic file (type jpg)
+<use nudes/steckbrett.jpg>
+Package pdftex.def Info: nudes/steckbrett.jpg  used on input line 229.
+(pdftex.def)             Requested size: 273.14923pt x 162.64865pt.
+<nudes/Aufgabe 1 schaltplan.jpg, id=274, 795.72281pt x 422.32782pt>
+File: nudes/Aufgabe 1 schaltplan.jpg Graphic file (type jpg)
+<use nudes/Aufgabe 1 schaltplan.jpg>
+Package pdftex.def Info: nudes/Aufgabe 1 schaltplan.jpg  used on input line 238.
+(pdftex.def)             Requested size: 227.62206pt x 120.80933pt.
+<nudes/a1 brett.jpg, id=275, 2714.14pt x 1846.9pt>
+File: nudes/a1 brett.jpg Graphic file (type jpg)
+<use nudes/a1 brett.jpg>
+Package pdftex.def Info: nudes/a1 brett.jpg  used on input line 244.
+(pdftex.def)             Requested size: 227.62206pt x 154.8849pt.
+
+Overfull \hbox (7.16042pt too wide) in paragraph at lines 237--248
+[][]  [] 
+ []
+
+<nudes/Aufgabe 2 schaltplan.jpg, id=276, 770.12718pt x 421.575pt>
+File: nudes/Aufgabe 2 schaltplan.jpg Graphic file (type jpg)
+<use nudes/Aufgabe 2 schaltplan.jpg>
+Package pdftex.def Info: nudes/Aufgabe 2 schaltplan.jpg  used on input line 255.
+(pdftex.def)             Requested size: 227.62206pt x 124.60155pt.
+<nudes/a2 brett.jpg, id=277, 2714.14pt x 1846.9pt>
+File: nudes/a2 brett.jpg Graphic file (type jpg)
+<use nudes/a2 brett.jpg>
+Package pdftex.def Info: nudes/a2 brett.jpg  used on input line 261.
+(pdftex.def)             Requested size: 227.62206pt x 154.8849pt.
+
+Overfull \hbox (7.16042pt too wide) in paragraph at lines 254--265
+[][]  [] 
+ []
+
+[7 <./nudes/steckbrett.jpg> <./nudes/Aufgabe 1 schaltplan.jpg> <./nudes/a1 brett.jpg>]
+<nudes/Aufgabe 3 schaltplan.jpg, id=285, 919.93687pt x 431.36156pt>
+File: nudes/Aufgabe 3 schaltplan.jpg Graphic file (type jpg)
+<use nudes/Aufgabe 3 schaltplan.jpg>
+Package pdftex.def Info: nudes/Aufgabe 3 schaltplan.jpg  used on input line 272.
+(pdftex.def)             Requested size: 227.62206pt x 106.72775pt.
+<nudes/a3 brett.jpg, id=286, 2714.14pt x 1846.9pt>
+File: nudes/a3 brett.jpg Graphic file (type jpg)
+<use nudes/a3 brett.jpg>
+Package pdftex.def Info: nudes/a3 brett.jpg  used on input line 278.
+(pdftex.def)             Requested size: 227.62206pt x 154.8849pt.
+
+Overfull \hbox (7.16042pt too wide) in paragraph at lines 271--282
+[][]  [] 
+ []
+
+<nudes/Aufgabe 4 schaltplan.jpg, id=287, 966.61125pt x 426.09187pt>
+File: nudes/Aufgabe 4 schaltplan.jpg Graphic file (type jpg)
+<use nudes/Aufgabe 4 schaltplan.jpg>
+Package pdftex.def Info: nudes/Aufgabe 4 schaltplan.jpg  used on input line 289.
+(pdftex.def)             Requested size: 227.62206pt x 100.33315pt.
+<nudes/a4 brett.jpg, id=288, 2714.14pt x 1846.9pt>
+File: nudes/a4 brett.jpg Graphic file (type jpg)
+<use nudes/a4 brett.jpg>
+Package pdftex.def Info: nudes/a4 brett.jpg  used on input line 295.
+(pdftex.def)             Requested size: 227.62206pt x 154.8849pt.
+
+Overfull \hbox (7.16042pt too wide) in paragraph at lines 288--299
+[][]  [] 
+ []
+
+[8 <./nudes/Aufgabe 2 schaltplan.jpg> <./nudes/a2 brett.jpg> <./nudes/Aufgabe 3 schaltplan.jpg> <./nudes/a3 brett.jpg> <./nudes/Aufgabe 4 schaltplan.jpg> <./nudes/a4 brett.jpg>] [9] [10]
+<nudes/Oszi aufgabe 3.jpg, id=314, 803.0pt x 504.88625pt>
+File: nudes/Oszi aufgabe 3.jpg Graphic file (type jpg)
+<use nudes/Oszi aufgabe 3.jpg>
+Package pdftex.def Info: nudes/Oszi aufgabe 3.jpg  used on input line 416.
+(pdftex.def)             Requested size: 273.14923pt x 171.74379pt.
+ [11]
+Overfull \hbox (160.80933pt too wide) in paragraph at lines 434--460
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--471
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--471
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--471
+
+ []
+
+[12 <./nudes/Oszi aufgabe 3.jpg>]
+<nudes/Plot a1 amp.jpg, id=328, 364.36125pt x 303.38344pt>
+File: nudes/Plot a1 amp.jpg Graphic file (type jpg)
+<use nudes/Plot a1 amp.jpg>
+Package pdftex.def Info: nudes/Plot a1 amp.jpg  used on input line 480.
+(pdftex.def)             Requested size: 273.14923pt x 227.44443pt.
+<nudes/Plot a1 ph.jpg, id=329, 373.395pt x 303.38344pt>
+File: nudes/Plot a1 ph.jpg Graphic file (type jpg)
+<use nudes/Plot a1 ph.jpg>
+Package pdftex.def Info: nudes/Plot a1 ph.jpg  used on input line 487.
+(pdftex.def)             Requested size: 273.14923pt x 221.94487pt.
+ [13 <./nudes/Plot a1 amp.jpg>]
+<nudes/Plot a2 amp.jpg, id=337, 364.36125pt x 303.38344pt>
+File: nudes/Plot a2 amp.jpg Graphic file (type jpg)
+<use nudes/Plot a2 amp.jpg>
+Package pdftex.def Info: nudes/Plot a2 amp.jpg  used on input line 498.
+(pdftex.def)             Requested size: 273.14923pt x 227.44443pt.
+<nudes/Plot a2 ph.jpg, id=338, 367.3725pt x 303.38344pt>
+File: nudes/Plot a2 ph.jpg Graphic file (type jpg)
+<use nudes/Plot a2 ph.jpg>
+Package pdftex.def Info: nudes/Plot a2 ph.jpg  used on input line 505.
+(pdftex.def)             Requested size: 273.14923pt x 225.58809pt.
+ [14 <./nudes/Plot a1 ph.jpg> <./nudes/Plot a2 amp.jpg>]
+<nudes/Plot a3.jpg, id=345, 397.485pt x 303.38344pt>
+File: nudes/Plot a3.jpg Graphic file (type jpg)
+<use nudes/Plot a3.jpg>
+Package pdftex.def Info: nudes/Plot a3.jpg  used on input line 517.
+(pdftex.def)             Requested size: 273.14923pt x 208.48764pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--532
+
+ []
+
+[15 <./nudes/Plot a2 ph.jpg> <./nudes/Plot a3.jpg>]
+<nudes/Plot a4 amp.jpg, id=357, 364.36125pt x 303.38344pt>
+File: nudes/Plot a4 amp.jpg Graphic file (type jpg)
+<use nudes/Plot a4 amp.jpg>
+Package pdftex.def Info: nudes/Plot a4 amp.jpg  used on input line 540.
+(pdftex.def)             Requested size: 273.14923pt x 227.44443pt.
+<nudes/Plot a4 imp.jpg, id=358, 367.3725pt x 303.38344pt>
+File: nudes/Plot a4 imp.jpg Graphic file (type jpg)
+<use nudes/Plot a4 imp.jpg>
+Package pdftex.def Info: nudes/Plot a4 imp.jpg  used on input line 551.
+(pdftex.def)             Requested size: 273.14923pt x 225.58809pt.
+ [16 <./nudes/Plot a4 amp.jpg>]
+<nudes/Plot a4 ph.jpg, id=365, 364.36125pt x 303.38344pt>
+File: nudes/Plot a4 ph.jpg Graphic file (type jpg)
+<use nudes/Plot a4 ph.jpg>
+Package pdftex.def Info: nudes/Plot a4 ph.jpg  used on input line 562.
+(pdftex.def)             Requested size: 273.14923pt x 227.44443pt.
+<Matlab/1 amp.png, id=366, 371.4678pt x 301.6068pt>
+File: Matlab/1 amp.png Graphic file (type png)
+<use Matlab/1 amp.png>
+Package pdftex.def Info: Matlab/1 amp.png  used on input line 574.
+(pdftex.def)             Requested size: 273.14923pt x 221.79567pt.
+ [17 <./nudes/Plot a4 imp.jpg> <./nudes/Plot a4 ph.jpg>]
+<Matlab/1 ph.png, id=373, 366.168pt x 291.9708pt>
+File: Matlab/1 ph.png Graphic file (type png)
+<use Matlab/1 ph.png>
+Package pdftex.def Info: Matlab/1 ph.png  used on input line 581.
+(pdftex.def)             Requested size: 273.14923pt x 217.80586pt.
+<Matlab/2 amp.png, id=374, 371.4678pt x 301.6068pt>
+File: Matlab/2 amp.png Graphic file (type png)
+<use Matlab/2 amp.png>
+Package pdftex.def Info: Matlab/2 amp.png  used on input line 592.
+(pdftex.def)             Requested size: 273.14923pt x 221.79567pt.
+ [18 <./Matlab/1 amp.png (PNG copy)> <./Matlab/1 ph.png (PNG copy)>]
+<Matlab/2 ph.png, id=381, 364.7226pt x 301.6068pt>
+File: Matlab/2 ph.png Graphic file (type png)
+<use Matlab/2 ph.png>
+Package pdftex.def Info: Matlab/2 ph.png  used on input line 599.
+(pdftex.def)             Requested size: 273.14923pt x 225.87778pt.
+ [19 <./Matlab/2 amp.png (PNG copy)> <./Matlab/2 ph.png (PNG copy)>]
+<Matlab/4.png, id=390, 362.3136pt x 291.9708pt>
+File: Matlab/4.png Graphic file (type png)
+<use Matlab/4.png>
+Package pdftex.def Info: Matlab/4.png  used on input line 622.
+(pdftex.def)             Requested size: 273.14923pt x 220.1136pt.
+File: nudes/Plot a1 amp.jpg Graphic file (type jpg)
+<use nudes/Plot a1 amp.jpg>
+Package pdftex.def Info: nudes/Plot a1 amp.jpg  used on input line 633.
+(pdftex.def)             Requested size: 273.14923pt x 227.44443pt.
+ [20 <./Matlab/4.png (PNG copy)>]
+File: nudes/Plot a1 ph.jpg Graphic file (type jpg)
+<use nudes/Plot a1 ph.jpg>
+Package pdftex.def Info: nudes/Plot a1 ph.jpg  used on input line 640.
+(pdftex.def)             Requested size: 273.14923pt x 221.94487pt.
+File: nudes/Plot a2 amp.jpg Graphic file (type jpg)
+<use nudes/Plot a2 amp.jpg>
+Package pdftex.def Info: nudes/Plot a2 amp.jpg  used on input line 648.
+(pdftex.def)             Requested size: 273.14923pt x 227.44443pt.
+ [21]
+File: nudes/Plot a2 ph.jpg Graphic file (type jpg)
+<use nudes/Plot a2 ph.jpg>
+Package pdftex.def Info: nudes/Plot a2 ph.jpg  used on input line 655.
+(pdftex.def)             Requested size: 273.14923pt x 225.58809pt.
+File: nudes/Plot a3.jpg Graphic file (type jpg)
+<use nudes/Plot a3.jpg>
+Package pdftex.def Info: nudes/Plot a3.jpg  used on input line 663.
+(pdftex.def)             Requested size: 273.14923pt x 208.48764pt.
+ [22]
+File: nudes/Plot a4 amp.jpg Graphic file (type jpg)
+<use nudes/Plot a4 amp.jpg>
+Package pdftex.def Info: nudes/Plot a4 amp.jpg  used on input line 675.
+(pdftex.def)             Requested size: 273.14923pt x 227.44443pt.
+File: nudes/Plot a4 imp.jpg Graphic file (type jpg)
+<use nudes/Plot a4 imp.jpg>
+Package pdftex.def Info: nudes/Plot a4 imp.jpg  used on input line 682.
+(pdftex.def)             Requested size: 273.14923pt x 225.58809pt.
+ [23]
+File: nudes/Plot a4 ph.jpg Graphic file (type jpg)
+<use nudes/Plot a4 ph.jpg>
+Package pdftex.def Info: nudes/Plot a4 ph.jpg  used on input line 689.
+(pdftex.def)             Requested size: 273.14923pt x 227.44443pt.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 694.
+ (C:\Users\phili\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Overfull \hbox (66.70528pt too wide) in paragraph at lines 694--694
+\T1/pcr/m/n/12 www . fluke . com / de -[] at / produkt / elektrische -[] pruefungen / digitalmultimeter /
+ []
 
 
 AED: lastpage setting LastPage
-[3] (main.aux)
+[24] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 25ED8802B80BB1A7A61A0F2F0F75017F;1219.
+(rerunfilecheck)             Checksum: 9BB22D1C392CDBC70D2E1632DA987C13;4612.
+
+Package biblatex Warning: Please rerun LaTeX.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40478 strings out of 476339
- 808409 string characters out of 5788120
- 1858340 words of memory out of 5000000
- 60285 multiletter control sequences out of 15000+600000
- 520123 words of font info for 55 fonts, out of 8000000 for 9000
+ 41106 strings out of 476339
+ 820669 string characters out of 5788120
+ 1873340 words of memory out of 5000000
+ 60778 multiletter control sequences out of 15000+600000
+ 523646 words of font info for 61 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 114i,17n,108p,733b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (3 pages, 3004624 bytes).
+ 114i,17n,108p,751b,2461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\phili\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/phili/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (24 pages, 4208085 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 762 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
+ 432 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,1963 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.12)  19 JAN 2024 19:46
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"d:/Uni/3.Semester/ExP2 Labor/Labor-Ex2/5 - Signalleitung/main.tex"
+(d:/Uni/3.Semester/ExP2 Labor/Labor-Ex2/5 - Signalleitung/main.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (labor.sty
+Package: labor 2023-03-02 Preamble for NAWI Graz laboratories
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/10/04 3.81 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen139
+\l@unhyphenated=\language79
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ldf
+Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.ldf
+Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+Package babel Info: Making " an active character on input line 122.
+))) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel-ngerman.tex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 11.
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\csq@reset=\count196
+\csq@gtype=\count197
+\csq@glevel=\count198
+\csq@qlevel=\count199
+\csq@maxlvl=\count266
+\csq@tshold=\count267
+\csq@ltx@everypar=\toks17
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count268
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count269
+\c@listtotal=\count270
+\c@listcount=\count271
+\c@liststart=\count272
+\c@liststop=\count273
+\c@citecount=\count274
+\c@citetotal=\count275
+\c@multicitecount=\count276
+\c@multicitetotal=\count277
+\c@instcount=\count278
+\c@maxnames=\count279
+\c@minnames=\count280
+\c@maxitems=\count281
+\c@minitems=\count282
+\c@citecounter=\count283
+\c@maxcitecounter=\count284
+\c@savedcitecounter=\count285
+\c@uniquelist=\count286
+\c@uniquename=\count287
+\c@refsection=\count288
+\c@refsegment=\count289
+\c@maxextratitle=\count290
+\c@maxextratitleyear=\count291
+\c@maxextraname=\count292
+\c@maxextradate=\count293
+\c@maxextraalpha=\count294
+\c@abbrvpenalty=\count295
+\c@highnamepenalty=\count296
+\c@lownamepenalty=\count297
+\c@maxparens=\count298
+\c@parenlevel=\count299
+\blx@tempcnta=\count300
+\blx@tempcntb=\count301
+\blx@tempcntc=\count302
+\c@blx@maxsection=\count303
+\blx@maxsegment@0=\count304
+\blx@notetype=\count305
+\blx@parenlevel@text=\count306
+\blx@parenlevel@foot=\count307
+\blx@sectionciteorder@0=\count308
+\blx@sectionciteorderinternal@0=\count309
+\blx@entrysetcounter=\count310
+\blx@biblioinstance=\count311
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count312
+\c@maxcomprange=\count313
+\c@mincompwidth=\count314
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count315
+\c@savedafterword=\count316
+\c@annotator=\count317
+\c@savedannotator=\count318
+\c@author=\count319
+\c@savedauthor=\count320
+\c@bookauthor=\count321
+\c@savedbookauthor=\count322
+\c@commentator=\count323
+\c@savedcommentator=\count324
+\c@editor=\count325
+\c@savededitor=\count326
+\c@editora=\count327
+\c@savededitora=\count328
+\c@editorb=\count329
+\c@savededitorb=\count330
+\c@editorc=\count331
+\c@savededitorc=\count332
+\c@foreword=\count333
+\c@savedforeword=\count334
+\c@holder=\count335
+\c@savedholder=\count336
+\c@introduction=\count337
+\c@savedintroduction=\count338
+\c@namea=\count339
+\c@savednamea=\count340
+\c@nameb=\count341
+\c@savednameb=\count342
+\c@namec=\count343
+\c@savednamec=\count344
+\c@translator=\count345
+\c@savedtranslator=\count346
+\c@shortauthor=\count347
+\c@savedshortauthor=\count348
+\c@shorteditor=\count349
+\c@savedshorteditor=\count350
+\c@labelname=\count351
+\c@savedlabelname=\count352
+\c@institution=\count353
+\c@savedinstitution=\count354
+\c@lista=\count355
+\c@savedlista=\count356
+\c@listb=\count357
+\c@savedlistb=\count358
+\c@listc=\count359
+\c@savedlistc=\count360
+\c@listd=\count361
+\c@savedlistd=\count362
+\c@liste=\count363
+\c@savedliste=\count364
+\c@listf=\count365
+\c@savedlistf=\count366
+\c@location=\count367
+\c@savedlocation=\count368
+\c@organization=\count369
+\c@savedorganization=\count370
+\c@origlocation=\count371
+\c@savedoriglocation=\count372
+\c@origpublisher=\count373
+\c@savedorigpublisher=\count374
+\c@publisher=\count375
+\c@savedpublisher=\count376
+\c@language=\count377
+\c@savedlanguage=\count378
+\c@origlanguage=\count379
+\c@savedoriglanguage=\count380
+\c@pageref=\count381
+\c@savedpageref=\count382
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+\locallabelnumberwidth=\skip63
+\locallabelalphawidth=\skip64
+\localshorthandwidth=\skip65
+\localshortjournalwidth=\skip66
+\localshortserieswidth=\skip67
+\localshorttitlewidth=\skip68
+\localshortauthorwidth=\skip69
+\localshorteditorwidth=\skip70
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+\c@textcitecount=\count383
+\c@textcitetotal=\count384
+\c@textcitemaxnames=\count385
+\c@biburlbigbreakpenalty=\count386
+\c@biburlbreakpenalty=\count387
+\c@biburlnumpenalty=\count388
+\c@biburlucpenalty=\count389
+\c@biburllcpenalty=\count390
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count391
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count392
+\c@bbx:relatedtotal=\count393
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-09-28 L3 programming layer (loader) 
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count394
+\l__pdf_internal_box=\box51
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2022-09-28 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2022-06-22 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip71
+\f@nch@O@elh=\skip72
+\f@nch@O@erh=\skip73
+\f@nch@O@olh=\skip74
+\f@nch@O@orh=\skip75
+\f@nch@O@elf=\skip76
+\f@nch@O@erf=\skip77
+\f@nch@O@olf=\skip78
+\f@nch@O@orf=\skip79
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip80
+\thanksmargin=\skip81
+\droptitle=\skip82
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count395
+\Gm@cntv=\count396
+\c@Gm@tempcnt=\count397
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks18
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen148
+\stockheight=\dimen149
+)))
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count398
+\calc@Bcount=\count399
+\calc@Adimen=\dimen150
+\calc@Bdimen=\dimen151
+\calc@Askip=\skip83
+\calc@Bskip=\skip84
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count400
+\calc@Cskip=\skip85
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen152
+\ESO@tempdimb=\dimen153
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
+)
+\AM@pagewidth=\dimen156
+\AM@pageheight=\dimen157
+\AM@fboxrule=\dimen158
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count401
+\AM@pagebox=\box52
+\AM@global@opts=\toks19
+\AM@pagecnt=\count402
+\AM@toc@title=\toks20
+\AM@lof@heading=\toks21
+\c@AM@survey=\count403
+\AM@templatesizebox=\box53
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count404
+)
+\@linkdim=\dimen159
+\Hy@linkcounter=\count405
+\Hy@pagecounter=\count406
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count407
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count408
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen160
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count409
+\Field@Width=\dimen161
+\Fld@charsize=\dimen162
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count410
+\c@Item=\count411
+\c@Hfootnote=\count412
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count413
+\c@bookmark@seq@number=\count414
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip86
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip87
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen163
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen164
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count415
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count416
+\leftroot@=\count417
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count418
+\DOTSCASE@=\count419
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen165
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count420
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count421
+\dotsspace@=\muskip21
+\c@parentequation=\count422
+\dspbrk@lvl=\count423
+\tag@help=\toks23
+\row@=\count424
+\column@=\count425
+\maxfields@=\count426
+\andhelp@=\toks24
+\eqnshift@=\dimen166
+\alignsep@=\dimen167
+\tagshift@=\dimen168
+\tagwidth@=\dimen169
+\totwidth@=\dimen170
+\lineht@=\dimen171
+\@envbody=\toks25
+\multlinegap=\skip88
+\multlinetaggap=\skip89
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks27
+\thm@bodyfont=\toks28
+\thm@headfont=\toks29
+\thm@notefont=\toks30
+\thm@headpunct=\toks31
+\thm@preskip=\skip90
+\thm@postskip=\skip91
+\thm@headsep=\skip92
+\dth@everypar=\toks32
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+
+C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty:44: Package siunitx Error: Support package expl3 too old.
+
+See the siunitx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44   }
+        %
+You need to update your installation of the bundles 'l3kernel' and 'l3packages'.
+Loading~siunitx~will~abort!
+
+)
+labor.sty:27: Undefined control sequence.
+<recently read> \sisetup 
+                         
+l.27     \sisetup
+                 {locale=DE,output-decimal-marker={,},separate-uncertainty=t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+labor.sty:27: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27     \sisetup{l
+                   ocale=DE,output-decimal-marker={,},separate-uncertainty=t...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+labor.sty:29: Undefined control sequence.
+l.29     \DeclareSIUnit
+                       \astronomicalunit{ua}             %overwrite default ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+labor.sty:29: Undefined control sequence.
+l.29     \DeclareSIUnit\astronomicalunit
+                                        {ua}             %overwrite default ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+labor.sty:30: Undefined control sequence.
+l.30     \DeclareSIUnit
+                       \VA{VA}                           %apparent power
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+labor.sty:30: Undefined control sequence.
+l.30     \DeclareSIUnit\VA
+                          {VA}                           %apparent power
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+labor.sty:31: Undefined control sequence.
+l.31     \DeclareSIUnit
+                       \var{var}                         %volt-ampere reactive
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+labor.sty:31: Undefined control sequence.
+l.31     \DeclareSIUnit\var
+                           {var}                         %volt-ampere reactive
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+labor.sty:32: Undefined control sequence.
+l.32     \DeclareSIUnit
+                       \U{U}                             %revolutions
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+labor.sty:32: Undefined control sequence.
+l.32     \DeclareSIUnit\U
+                         {U}                             %revolutions
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+labor.sty:33: Undefined control sequence.
+l.33     \DeclareSIUnit
+                       \px{px}                           %pixel
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+labor.sty:33: Undefined control sequence.
+l.33     \DeclareSIUnit\px
+                          {px}                           %pixel
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
+Overfull \hbox (54.88966pt too wide) in paragraph at lines 27--10
+[]\T1/cmr/m/n/12 locale=DE,output-decimal-marker=,,separate-uncertainty=true,per-mode=symbol-
+ []
+
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box56
+)
+labor.sty:35: Undefined control sequence.
+<recently read> \DeclareSIUnit 
+                               
+l.35     \DeclareSIUnit
+                       \EUR{\text{\euro}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+labor.sty:35: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35     \DeclareSIUnit\EUR{\text{\euro}}
+                                         
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+labor.sty:36: Undefined control sequence.
+l.36     \DeclareSIUnit
+                       \dgt{dgt.}                        %digits
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+labor.sty:36: Undefined control sequence.
+l.36     \DeclareSIUnit\dgt
+                           {dgt.}                        %digits
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/textgreek\textgreek.sty
+Package: textgreek 2011/10/09 v0.7 Greek symbols in text
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on input line 39.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\lgrenc.def
+File: lgrenc.def 2022/06/14 2.1 LGR Greek font encoding definitions
+Now handling font encoding LGR ...
+... processing UTF-8 mapping file for font encoding LGR
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/greek-inputenc\lgrenc.dfu
+File: lgrenc.dfu 2023/02/21 1.8 UTF-8 support for Greek
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0259 (decimal 601)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+0374 (decimal 884)
+   defining Unicode char U+0375 (decimal 885)
+   defining Unicode char U+037A (decimal 890)
+   defining Unicode char U+037E (decimal 894)
+   defining Unicode char U+0384 (decimal 900)
+   defining Unicode char U+0385 (decimal 901)
+   defining Unicode char U+0386 (decimal 902)
+   defining Unicode char U+0387 (decimal 903)
+   defining Unicode char U+0388 (decimal 904)
+   defining Unicode char U+0389 (decimal 905)
+   defining Unicode char U+038A (decimal 906)
+   defining Unicode char U+038C (decimal 908)
+   defining Unicode char U+038E (decimal 910)
+   defining Unicode char U+038F (decimal 911)
+   defining Unicode char U+0390 (decimal 912)
+   defining Unicode char U+0391 (decimal 913)
+   defining Unicode char U+0392 (decimal 914)
+   defining Unicode char U+0393 (decimal 915)
+   defining Unicode char U+0394 (decimal 916)
+   defining Unicode char U+0395 (decimal 917)
+   defining Unicode char U+0396 (decimal 918)
+   defining Unicode char U+0397 (decimal 919)
+   defining Unicode char U+0398 (decimal 920)
+   defining Unicode char U+0399 (decimal 921)
+   defining Unicode char U+039A (decimal 922)
+   defining Unicode char U+039B (decimal 923)
+   defining Unicode char U+039C (decimal 924)
+   defining Unicode char U+039D (decimal 925)
+   defining Unicode char U+039E (decimal 926)
+   defining Unicode char U+039F (decimal 927)
+   defining Unicode char U+03A0 (decimal 928)
+   defining Unicode char U+03A1 (decimal 929)
+   defining Unicode char U+03A3 (decimal 931)
+   defining Unicode char U+03A4 (decimal 932)
+   defining Unicode char U+03A5 (decimal 933)
+   defining Unicode char U+03A6 (decimal 934)
+   defining Unicode char U+03A7 (decimal 935)
+   defining Unicode char U+03A8 (decimal 936)
+   defining Unicode char U+03A9 (decimal 937)
+   defining Unicode char U+03AA (decimal 938)
+   defining Unicode char U+03AB (decimal 939)
+   defining Unicode char U+03AC (decimal 940)
+   defining Unicode char U+03AD (decimal 941)
+   defining Unicode char U+03AE (decimal 942)
+   defining Unicode char U+03AF (decimal 943)
+   defining Unicode char U+03B0 (decimal 944)
+   defining Unicode char U+03B1 (decimal 945)
+   defining Unicode char U+03B2 (decimal 946)
+   defining Unicode char U+03B3 (decimal 947)
+   defining Unicode char U+03B4 (decimal 948)
+   defining Unicode char U+03B5 (decimal 949)
+   defining Unicode char U+03B6 (decimal 950)
+   defining Unicode char U+03B7 (decimal 951)
+   defining Unicode char U+03B8 (decimal 952)
+   defining Unicode char U+03B9 (decimal 953)
+   defining Unicode char U+03BA (decimal 954)
+   defining Unicode char U+03BB (decimal 955)
+   defining Unicode char U+03BC (decimal 956)
+   defining Unicode char U+03BD (decimal 957)
+   defining Unicode char U+03BE (decimal 958)
+   defining Unicode char U+03BF (decimal 959)
+   defining Unicode char U+03C0 (decimal 960)
+   defining Unicode char U+03C1 (decimal 961)
+   defining Unicode char U+03C2 (decimal 962)
+   defining Unicode char U+03C3 (decimal 963)
+   defining Unicode char U+03C4 (decimal 964)
+   defining Unicode char U+03C5 (decimal 965)
+   defining Unicode char U+03C6 (decimal 966)
+   defining Unicode char U+03C7 (decimal 967)
+   defining Unicode char U+03C8 (decimal 968)
+   defining Unicode char U+03C9 (decimal 969)
+   defining Unicode char U+03CA (decimal 970)
+   defining Unicode char U+03CB (decimal 971)
+   defining Unicode char U+03CC (decimal 972)
+   defining Unicode char U+03CD (decimal 973)
+   defining Unicode char U+03CE (decimal 974)
+   defining Unicode char U+03D0 (decimal 976)
+   defining Unicode char U+03D1 (decimal 977)
+   defining Unicode char U+03D5 (decimal 981)
+   defining Unicode char U+03D6 (decimal 982)
+   defining Unicode char U+03D8 (decimal 984)
+   defining Unicode char U+03D9 (decimal 985)
+   defining Unicode char U+03DA (decimal 986)
+   defining Unicode char U+03DB (decimal 987)
+   defining Unicode char U+03DC (decimal 988)
+   defining Unicode char U+03DD (decimal 989)
+   defining Unicode char U+03DE (decimal 990)
+   defining Unicode char U+03DF (decimal 991)
+   defining Unicode char U+03E0 (decimal 992)
+   defining Unicode char U+03E1 (decimal 993)
+   defining Unicode char U+03F0 (decimal 1008)
+   defining Unicode char U+03F1 (decimal 1009)
+   defining Unicode char U+03F4 (decimal 1012)
+   defining Unicode char U+03F5 (decimal 1013)
+   defining Unicode char U+1F00 (decimal 7936)
+   defining Unicode char U+1F01 (decimal 7937)
+   defining Unicode char U+1F02 (decimal 7938)
+   defining Unicode char U+1F03 (decimal 7939)
+   defining Unicode char U+1F04 (decimal 7940)
+   defining Unicode char U+1F05 (decimal 7941)
+   defining Unicode char U+1F06 (decimal 7942)
+   defining Unicode char U+1F07 (decimal 7943)
+   defining Unicode char U+1F08 (decimal 7944)
+   defining Unicode char U+1F09 (decimal 7945)
+   defining Unicode char U+1F0A (decimal 7946)
+   defining Unicode char U+1F0B (decimal 7947)
+   defining Unicode char U+1F0C (decimal 7948)
+   defining Unicode char U+1F0D (decimal 7949)
+   defining Unicode char U+1F0E (decimal 7950)
+   defining Unicode char U+1F0F (decimal 7951)
+   defining Unicode char U+1F10 (decimal 7952)
+   defining Unicode char U+1F11 (decimal 7953)
+   defining Unicode char U+1F12 (decimal 7954)
+   defining Unicode char U+1F13 (decimal 7955)
+   defining Unicode char U+1F14 (decimal 7956)
+   defining Unicode char U+1F15 (decimal 7957)
+   defining Unicode char U+1F18 (decimal 7960)
+   defining Unicode char U+1F19 (decimal 7961)
+   defining Unicode char U+1F1A (decimal 7962)
+   defining Unicode char U+1F1B (decimal 7963)
+   defining Unicode char U+1F1C (decimal 7964)
+   defining Unicode char U+1F1D (decimal 7965)
+   defining Unicode char U+1F20 (decimal 7968)
+   defining Unicode char U+1F21 (decimal 7969)
+   defining Unicode char U+1F22 (decimal 7970)
+   defining Unicode char U+1F23 (decimal 7971)
+   defining Unicode char U+1F24 (decimal 7972)
+   defining Unicode char U+1F25 (decimal 7973)
+   defining Unicode char U+1F26 (decimal 7974)
+   defining Unicode char U+1F27 (decimal 7975)
+   defining Unicode char U+1F28 (decimal 7976)
+   defining Unicode char U+1F29 (decimal 7977)
+   defining Unicode char U+1F2A (decimal 7978)
+   defining Unicode char U+1F2B (decimal 7979)
+   defining Unicode char U+1F2C (decimal 7980)
+   defining Unicode char U+1F2D (decimal 7981)
+   defining Unicode char U+1F2E (decimal 7982)
+   defining Unicode char U+1F2F (decimal 7983)
+   defining Unicode char U+1F30 (decimal 7984)
+   defining Unicode char U+1F31 (decimal 7985)
+   defining Unicode char U+1F32 (decimal 7986)
+   defining Unicode char U+1F33 (decimal 7987)
+   defining Unicode char U+1F34 (decimal 7988)
+   defining Unicode char U+1F35 (decimal 7989)
+   defining Unicode char U+1F36 (decimal 7990)
+   defining Unicode char U+1F37 (decimal 7991)
+   defining Unicode char U+1F38 (decimal 7992)
+   defining Unicode char U+1F39 (decimal 7993)
+   defining Unicode char U+1F3A (decimal 7994)
+   defining Unicode char U+1F3B (decimal 7995)
+   defining Unicode char U+1F3C (decimal 7996)
+   defining Unicode char U+1F3D (decimal 7997)
+   defining Unicode char U+1F3E (decimal 7998)
+   defining Unicode char U+1F3F (decimal 7999)
+   defining Unicode char U+1F40 (decimal 8000)
+   defining Unicode char U+1F41 (decimal 8001)
+   defining Unicode char U+1F42 (decimal 8002)
+   defining Unicode char U+1F43 (decimal 8003)
+   defining Unicode char U+1F44 (decimal 8004)
+   defining Unicode char U+1F45 (decimal 8005)
+   defining Unicode char U+1F48 (decimal 8008)
+   defining Unicode char U+1F49 (decimal 8009)
+   defining Unicode char U+1F4A (decimal 8010)
+   defining Unicode char U+1F4B (decimal 8011)
+   defining Unicode char U+1F4C (decimal 8012)
+   defining Unicode char U+1F4D (decimal 8013)
+   defining Unicode char U+1F50 (decimal 8016)
+   defining Unicode char U+1F51 (decimal 8017)
+   defining Unicode char U+1F52 (decimal 8018)
+   defining Unicode char U+1F53 (decimal 8019)
+   defining Unicode char U+1F54 (decimal 8020)
+   defining Unicode char U+1F55 (decimal 8021)
+   defining Unicode char U+1F56 (decimal 8022)
+   defining Unicode char U+1F57 (decimal 8023)
+   defining Unicode char U+1F59 (decimal 8025)
+   defining Unicode char U+1F5B (decimal 8027)
+   defining Unicode char U+1F5D (decimal 8029)
+   defining Unicode char U+1F5F (decimal 8031)
+   defining Unicode char U+1F60 (decimal 8032)
+   defining Unicode char U+1F61 (decimal 8033)
+   defining Unicode char U+1F62 (decimal 8034)
+   defining Unicode char U+1F63 (decimal 8035)
+   defining Unicode char U+1F64 (decimal 8036)
+   defining Unicode char U+1F65 (decimal 8037)
+   defining Unicode char U+1F66 (decimal 8038)
+   defining Unicode char U+1F67 (decimal 8039)
+   defining Unicode char U+1F68 (decimal 8040)
+   defining Unicode char U+1F69 (decimal 8041)
+   defining Unicode char U+1F6A (decimal 8042)
+   defining Unicode char U+1F6B (decimal 8043)
+   defining Unicode char U+1F6C (decimal 8044)
+   defining Unicode char U+1F6D (decimal 8045)
+   defining Unicode char U+1F6E (decimal 8046)
+   defining Unicode char U+1F6F (decimal 8047)
+   defining Unicode char U+1F70 (decimal 8048)
+   defining Unicode char U+1F71 (decimal 8049)
+   defining Unicode char U+1F72 (decimal 8050)
+   defining Unicode char U+1F73 (decimal 8051)
+   defining Unicode char U+1F74 (decimal 8052)
+   defining Unicode char U+1F75 (decimal 8053)
+   defining Unicode char U+1F76 (decimal 8054)
+   defining Unicode char U+1F77 (decimal 8055)
+   defining Unicode char U+1F78 (decimal 8056)
+   defining Unicode char U+1F79 (decimal 8057)
+   defining Unicode char U+1F7A (decimal 8058)
+   defining Unicode char U+1F7B (decimal 8059)
+   defining Unicode char U+1F7C (decimal 8060)
+   defining Unicode char U+1F7D (decimal 8061)
+   defining Unicode char U+1F80 (decimal 8064)
+   defining Unicode char U+1F81 (decimal 8065)
+   defining Unicode char U+1F82 (decimal 8066)
+   defining Unicode char U+1F83 (decimal 8067)
+   defining Unicode char U+1F84 (decimal 8068)
+   defining Unicode char U+1F85 (decimal 8069)
+   defining Unicode char U+1F86 (decimal 8070)
+   defining Unicode char U+1F87 (decimal 8071)
+   defining Unicode char U+1F88 (decimal 8072)
+   defining Unicode char U+1F89 (decimal 8073)
+   defining Unicode char U+1F8A (decimal 8074)
+   defining Unicode char U+1F8B (decimal 8075)
+   defining Unicode char U+1F8C (decimal 8076)
+   defining Unicode char U+1F8D (decimal 8077)
+   defining Unicode char U+1F8E (decimal 8078)
+   defining Unicode char U+1F8F (decimal 8079)
+   defining Unicode char U+1F90 (decimal 8080)
+   defining Unicode char U+1F91 (decimal 8081)
+   defining Unicode char U+1F92 (decimal 8082)
+   defining Unicode char U+1F93 (decimal 8083)
+   defining Unicode char U+1F94 (decimal 8084)
+   defining Unicode char U+1F95 (decimal 8085)
+   defining Unicode char U+1F96 (decimal 8086)
+   defining Unicode char U+1F97 (decimal 8087)
+   defining Unicode char U+1F98 (decimal 8088)
+   defining Unicode char U+1F99 (decimal 8089)
+   defining Unicode char U+1F9A (decimal 8090)
+   defining Unicode char U+1F9B (decimal 8091)
+   defining Unicode char U+1F9C (decimal 8092)
+   defining Unicode char U+1F9D (decimal 8093)
+   defining Unicode char U+1F9E (decimal 8094)
+   defining Unicode char U+1F9F (decimal 8095)
+   defining Unicode char U+1FA0 (decimal 8096)
+   defining Unicode char U+1FA1 (decimal 8097)
+   defining Unicode char U+1FA2 (decimal 8098)
+   defining Unicode char U+1FA3 (decimal 8099)
+   defining Unicode char U+1FA4 (decimal 8100)
+   defining Unicode char U+1FA5 (decimal 8101)
+   defining Unicode char U+1FA6 (decimal 8102)
+   defining Unicode char U+1FA7 (decimal 8103)
+   defining Unicode char U+1FA8 (decimal 8104)
+   defining Unicode char U+1FA9 (decimal 8105)
+   defining Unicode char U+1FAA (decimal 8106)
+   defining Unicode char U+1FAB (decimal 8107)
+   defining Unicode char U+1FAC (decimal 8108)
+   defining Unicode char U+1FAD (decimal 8109)
+   defining Unicode char U+1FAE (decimal 8110)
+   defining Unicode char U+1FAF (decimal 8111)
+   defining Unicode char U+1FB0 (decimal 8112)
+   defining Unicode char U+1FB1 (decimal 8113)
+   defining Unicode char U+1FB2 (decimal 8114)
+   defining Unicode char U+1FB3 (decimal 8115)
+   defining Unicode char U+1FB4 (decimal 8116)
+   defining Unicode char U+1FB6 (decimal 8118)
+   defining Unicode char U+1FB7 (decimal 8119)
+   defining Unicode char U+1FB8 (decimal 8120)
+   defining Unicode char U+1FB9 (decimal 8121)
+   defining Unicode char U+1FBA (decimal 8122)
+   defining Unicode char U+1FBB (decimal 8123)
+   defining Unicode char U+1FBC (decimal 8124)
+   defining Unicode char U+1FBD (decimal 8125)
+   defining Unicode char U+1FBE (decimal 8126)
+   defining Unicode char U+1FBF (decimal 8127)
+   defining Unicode char U+1FC0 (decimal 8128)
+   defining Unicode char U+1FC1 (decimal 8129)
+   defining Unicode char U+1FC2 (decimal 8130)
+   defining Unicode char U+1FC3 (decimal 8131)
+   defining Unicode char U+1FC4 (decimal 8132)
+   defining Unicode char U+1FC6 (decimal 8134)
+   defining Unicode char U+1FC7 (decimal 8135)
+   defining Unicode char U+1FC8 (decimal 8136)
+   defining Unicode char U+1FC9 (decimal 8137)
+   defining Unicode char U+1FCA (decimal 8138)
+   defining Unicode char U+1FCB (decimal 8139)
+   defining Unicode char U+1FCC (decimal 8140)
+   defining Unicode char U+1FCD (decimal 8141)
+   defining Unicode char U+1FCE (decimal 8142)
+   defining Unicode char U+1FCF (decimal 8143)
+   defining Unicode char U+1FD0 (decimal 8144)
+   defining Unicode char U+1FD1 (decimal 8145)
+   defining Unicode char U+1FD2 (decimal 8146)
+   defining Unicode char U+1FD3 (decimal 8147)
+   defining Unicode char U+1FD6 (decimal 8150)
+   defining Unicode char U+1FD7 (decimal 8151)
+   defining Unicode char U+1FD8 (decimal 8152)
+   defining Unicode char U+1FD9 (decimal 8153)
+   defining Unicode char U+1FDA (decimal 8154)
+   defining Unicode char U+1FDB (decimal 8155)
+   defining Unicode char U+1FDD (decimal 8157)
+   defining Unicode char U+1FDE (decimal 8158)
+   defining Unicode char U+1FDF (decimal 8159)
+   defining Unicode char U+1FE0 (decimal 8160)
+   defining Unicode char U+1FE1 (decimal 8161)
+   defining Unicode char U+1FE2 (decimal 8162)
+   defining Unicode char U+1FE3 (decimal 8163)
+   defining Unicode char U+1FE4 (decimal 8164)
+   defining Unicode char U+1FE5 (decimal 8165)
+   defining Unicode char U+1FE6 (decimal 8166)
+   defining Unicode char U+1FE7 (decimal 8167)
+   defining Unicode char U+1FE8 (decimal 8168)
+   defining Unicode char U+1FE9 (decimal 8169)
+   defining Unicode char U+1FEA (decimal 8170)
+   defining Unicode char U+1FEB (decimal 8171)
+   defining Unicode char U+1FEC (decimal 8172)
+   defining Unicode char U+1FED (decimal 8173)
+   defining Unicode char U+1FEE (decimal 8174)
+   defining Unicode char U+1FEF (decimal 8175)
+   defining Unicode char U+1FF2 (decimal 8178)
+   defining Unicode char U+1FF3 (decimal 8179)
+   defining Unicode char U+1FF4 (decimal 8180)
+   defining Unicode char U+1FF6 (decimal 8182)
+   defining Unicode char U+1FF7 (decimal 8183)
+   defining Unicode char U+1FF8 (decimal 8184)
+   defining Unicode char U+1FF9 (decimal 8185)
+   defining Unicode char U+1FFA (decimal 8186)
+   defining Unicode char U+1FFB (decimal 8187)
+   defining Unicode char U+1FFC (decimal 8188)
+   defining Unicode char U+1FFD (decimal 8189)
+   defining Unicode char U+1FFE (decimal 8190)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+10144 (decimal 65860)
+   defining Unicode char U+10145 (decimal 65861)
+   defining Unicode char U+10146 (decimal 65862)
+   defining Unicode char U+10147 (decimal 65863)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/greek-fontenc\greek-fontenc.def
+File: greek-fontenc.def 2020/10/30 2.0 Common Greek font encoding definitions
+))
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/*}. on input line 69.
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip93
+\multirow@cntb=\count427
+\multirow@dima=\skip94
+\bigstrutjot=\dimen172
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen173
+\ar@mcellbox=\box57
+\extrarowheight=\dimen174
+\NC@list=\toks33
+\extratabsurround=\skip95
+\backup@length=\skip96
+\ar@cellbox=\box58
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count428
+\float@exts=\toks34
+\float@box=\box59
+\@float@everytoks=\toks35
+\@floatcapt=\box60
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip97
+\LTright=\skip98
+\LTpre=\skip99
+\LTpost=\skip100
+\LTchunksize=\count429
+\LTcapwidth=\dimen175
+\LT@head=\box61
+\LT@firsthead=\box62
+\LT@foot=\box63
+\LT@lastfoot=\box64
+\LT@gbox=\box65
+\LT@cols=\count430
+\LT@rows=\count431
+\c@LT@tables=\count432
+\c@LT@chunks=\count433
+\LT@p@ftn=\toks36
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip101
+\enit@outerparindent=\dimen176
+\enit@toks=\toks37
+\enit@inbox=\box66
+\enit@count@id=\count434
+\enitdp@description=\count435
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen177
+\captionmargin=\dimen178
+\caption@leftmargin=\dimen179
+\caption@rightmargin=\dimen180
+\caption@width=\dimen181
+\caption@indent=\dimen182
+\caption@parindent=\dimen183
+\caption@hangindent=\dimen184
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count436
+\c@continuedfloat=\count437
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count438
+\c@subtable=\count439
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/braket\braket.sty) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/mhchem\mhchem.sty
+Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/chemgreek\chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count440
+\g__chemgreek_tmpa_int=\count441
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count442
+\__mhchem_arrow_extPgfLength_skip=\skip102
+\mhchem@minispace@tmp=\skip103
+\mhchem@minibackspace@tmp=\skip104
+\mhchem@bondwidth=\skip105
+\mhchem@bondheight=\skip106
+\mhchem@smallbondwidth@tmpA=\skip107
+\mhchem@smallbondwidth@tmpB=\skip108
+\mhchem@smallbondwidth=\skip109
+\mhchem@bondtmp@minussidebearingleft=\skip110
+\mhchem@bondtmp@minussidebearingright=\skip111
+\l__mhchem_option_version_int=\count443
+\mhchem@option@minusmathsidebearingleft=\dimen185
+\mhchem@option@minusmathsidebearingright=\dimen186
+\mhchem@option@minustextsidebearingleft=\dimen187
+\mhchem@option@minustextsidebearingright=\dimen188
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count444
+\lst@gtempboxa=\box67
+\lst@token=\toks38
+\lst@length=\count445
+\lst@currlwidth=\dimen189
+\lst@column=\count446
+\lst@pos=\count447
+\lst@lostspace=\dimen190
+\lst@width=\dimen191
+\lst@newlines=\count448
+\lst@lineno=\count449
+\lst@maxwidth=\dimen192
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count450
+\lst@skipnumbers=\count451
+\lst@framebox=\box68
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+)
+\XKV@depth=\count452
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks41
+\pgfutil@tempdima=\dimen193
+\pgfutil@tempdimb=\dimen194
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box69
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks42
+\pgfkeys@temptoks=\toks43
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks44
+))
+\pgf@x=\dimen195
+\pgf@y=\dimen196
+\pgf@xa=\dimen197
+\pgf@ya=\dimen198
+\pgf@xb=\dimen199
+\pgf@yb=\dimen256
+\pgf@xc=\dimen257
+\pgf@yc=\dimen258
+\pgf@xd=\dimen259
+\pgf@yd=\dimen260
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count453
+\c@pgf@countb=\count454
+\c@pgf@countc=\count455
+\c@pgf@countd=\count456
+\t@pgf@toka=\toks45
+\t@pgf@tokb=\toks46
+\t@pgf@tokc=\toks47
+\pgf@sys@id@count=\count457
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+))) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count458
+\pgfsyssoftpath@bigbuffer@items=\count459
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen261
+\pgfmath@count=\count460
+\pgfmath@box=\box70
+\pgfmath@toks=\toks48
+\pgfmath@stack@operand=\toks49
+\pgfmath@stack@operation=\toks50
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count461
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen262
+\pgf@picmaxx=\dimen263
+\pgf@picminy=\dimen264
+\pgf@picmaxy=\dimen265
+\pgf@pathminx=\dimen266
+\pgf@pathmaxx=\dimen267
+\pgf@pathminy=\dimen268
+\pgf@pathmaxy=\dimen269
+\pgf@xx=\dimen270
+\pgf@xy=\dimen271
+\pgf@yx=\dimen272
+\pgf@yy=\dimen273
+\pgf@zx=\dimen274
+\pgf@zy=\dimen275
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen276
+\pgf@path@lasty=\dimen277
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen278
+\pgf@shorten@start@additional=\dimen279
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box71
+\pgf@hbox=\box72
+\pgf@layerbox@main=\box73
+\pgf@picture@serial@count=\count462
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen280
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen281
+\pgf@pt@y=\dimen282
+\pgf@pt@temp=\dimen283
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen284
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen285
+\pgf@sys@shading@range@num=\count463
+\pgf@shadingcount=\count464
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box74
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box75
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen286
+\pgf@nodesepend=\dimen287
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
+\pgffor@iter=\dimen288
+\pgffor@skip=\dimen289
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
+)) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count465
+\pgfplotmarksize=\dimen290
+)
+\tikz@lastx=\dimen291
+\tikz@lasty=\dimen292
+\tikz@lastxsaved=\dimen293
+\tikz@lastysaved=\dimen294
+\tikz@lastmovetox=\dimen295
+\tikz@lastmovetoy=\dimen296
+\tikzleveldistance=\dimen297
+\tikzsiblingdistance=\dimen298
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count466
+\tikznumberofchildren=\count467
+\tikznumberofcurrentchild=\count468
+\tikz@fig@count=\count469
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count470
+\pgfmatrixcurrentcolumn=\count471
+\pgf@matrix@numberofcolumns=\count472
+)
+\tikz@expandcount=\count473
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+\c@@todonotes@numberoftodonotes=\count474
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box80
+\UL@hyphenbox=\box81
+\UL@skip=\skip112
+\UL@hook=\toks53
+\UL@height=\dimen299
+\UL@pe=\count475
+\UL@pixel=\dimen300
+\ULC@box=\box82
+Package: ulem 2019/11/18
+\ULdepth=\dimen301
+)
+LaTeX Info: Redefining \atan2 on input line 78.
+\c@definition=\count476
+\c@proposition=\count477
+\c@bemerkung=\count478
+\c@lemma=\count479
+\c@korollar=\count480
+\c@satz=\count481
+\c@theorem=\count482
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+ (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 3.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 3.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 3.
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx
+File: ngerman.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
+File: german.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 3.
+Package biblatex Info: Reference segment=0 on input line 3.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 3.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-54.1381pt
+* \headheight=28.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count483
+\scratchdimen=\dimen302
+\scratchbox=\box83
+\nofMPsegments=\count484
+\nofMParguments=\count485
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count486
+\MPscratchDim=\dimen303
+\MPnumerator=\count487
+\makeMPintoPDFobject=\count488
+\everyMPtoPDFconversion=\toks55
+) (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 3.
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+Package chemgreek Info: Activating mapping `textgreek' on line 3.
+
+\c@lstlisting=\count489
+<../Deckblätter/Deckblatt_Signalleitung.pdf, id=6, 597.432pt x 845.07718pt>
+File: ../Deckblätter/Deckblatt_Signalleitung.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Signalleitung.pdf>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Signalleitung.pdf  used on input line 33.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+File: ../Deckblätter/Deckblatt_Signalleitung.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Signalleitung.pdf>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Signalleitung.pdf  used on input line 33.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+<../Deckblätter/Deckblatt_Signalleitung.pdf, id=9, page=1, 597.432pt x 845.07718pt>
+File: ../Deckblätter/Deckblatt_Signalleitung.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Signalleitung.pdf, page 1>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Signalleitung.pdf , page1 used on input line 33.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+File: ../Deckblätter/Deckblatt_Signalleitung.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Signalleitung.pdf, page 1>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Signalleitung.pdf , page1 used on input line 33.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 33.
+
+[1{C:/Users/Nico/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+]
+File: ../Deckblätter/Deckblatt_Signalleitung.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Signalleitung.pdf, page 1>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Signalleitung.pdf , page1 used on input line 33.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: ../Deckblätter/Deckblatt_Signalleitung.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Signalleitung.pdf, page 1>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Signalleitung.pdf , page1 used on input line 33.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: ../Deckblätter/Deckblatt_Signalleitung.pdf Graphic file (type pdf)
+<use ../Deckblätter/Deckblatt_Signalleitung.pdf, page 1>
+Package pdftex.def Info: ../Deckblätter/Deckblatt_Signalleitung.pdf , page1 used on input line 33.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [2 <../Deckblätter/Deckblatt_Signalleitung.pdf>]
+No file main.toc.
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 36.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
+(C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
+ (C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 86.
+
+[4]
+<nudes/Aufgabe 1 Schaltplan.jpg, id=73, 501.37312pt x 493.0922pt>
+File: nudes/Aufgabe 1 Schaltplan.jpg Graphic file (type jpg)
+<use nudes/Aufgabe 1 Schaltplan.jpg>
+Package pdftex.def Info: nudes/Aufgabe 1 Schaltplan.jpg  used on input line 133.
+(pdftex.def)             Requested size: 182.09486pt x 179.08556pt.
+<nudes/Aufbau1.jpg, id=74, 3083.52pt x 2312.64pt>
+File: nudes/Aufbau1.jpg Graphic file (type jpg)
+<use nudes/Aufbau1.jpg>
+Package pdftex.def Info: nudes/Aufbau1.jpg  used on input line 134.
+(pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 138.
+
+[5]
+<nudes/Aufgabe 2,3 Schaltplan.jpg, id=90, 410.2828pt x 240.9pt>
+File: nudes/Aufgabe 2,3 Schaltplan.jpg Graphic file (type jpg)
+<use nudes/Aufgabe 2,3 Schaltplan.jpg>
+Package pdftex.def Info: nudes/Aufgabe 2,3 Schaltplan.jpg  used on input line 143.
+(pdftex.def)             Requested size: 182.09486pt x 106.91527pt.
+<nudes/Aufbau2.jpg, id=91, 5428.28pt x 3693.8pt>
+File: nudes/Aufbau2.jpg Graphic file (type jpg)
+<use nudes/Aufbau2.jpg>
+Package pdftex.def Info: nudes/Aufbau2.jpg  used on input line 144.
+(pdftex.def)             Requested size: 182.09486pt x 123.88538pt.
+File: nudes/Aufgabe 2,3 Schaltplan.jpg Graphic file (type jpg)
+<use nudes/Aufgabe 2,3 Schaltplan.jpg>
+Package pdftex.def Info: nudes/Aufgabe 2,3 Schaltplan.jpg  used on input line 153.
+(pdftex.def)             Requested size: 182.09486pt x 106.91527pt.
+<nudes/Aufbau3.jpg, id=92, 3693.8pt x 5428.28pt>
+File: nudes/Aufbau3.jpg Graphic file (type jpg)
+<use nudes/Aufbau3.jpg>
+Package pdftex.def Info: nudes/Aufbau3.jpg  used on input line 154.
+(pdftex.def)             Requested size: 182.09486pt x 267.53694pt.
+<nudes/Aufgabe 4 Schaltplan.jpg, id=93, 487.8225pt x 112.16907pt>
+File: nudes/Aufgabe 4 Schaltplan.jpg Graphic file (type jpg)
+<use nudes/Aufgabe 4 Schaltplan.jpg>
+Package pdftex.def Info: nudes/Aufgabe 4 Schaltplan.jpg  used on input line 163.
+(pdftex.def)             Requested size: 182.09486pt x 41.86987pt.
+<nudes/Aufbau4.jpg, id=94, 4111.36pt x 3083.52pt>
+File: nudes/Aufbau4.jpg Graphic file (type jpg)
+<use nudes/Aufbau4.jpg>
+Package pdftex.def Info: nudes/Aufbau4.jpg  used on input line 164.
+(pdftex.def)             Requested size: 182.09486pt x 136.54103pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 168.
+
+[6 <./nudes/Aufgabe 1 Schaltplan.jpg> <./nudes/Aufbau1.jpg> <./nudes/Aufgabe 2,3 Schaltplan.jpg> <./nudes/Aufbau2.jpg> <./nudes/Aufbau3.jpg>]
+
+LaTeX Warning: Reference `fig:Aufbau1' on page 7 undefined on input line 197.
+
+<nudes/Messungen/1/a/scope_1.png, id=105, 803.0pt x 504.88625pt>
+File: nudes/Messungen/1/a/scope_1.png Graphic file (type png)
+<use nudes/Messungen/1/a/scope_1.png>
+Package pdftex.def Info: nudes/Messungen/1/a/scope_1.png  used on input line 204.
+(pdftex.def)             Requested size: 182.09486pt x 114.48814pt.
+<nudes/Messungen/1/a/scope_2.png, id=106, 803.0pt x 504.88625pt>
+File: nudes/Messungen/1/a/scope_2.png Graphic file (type png)
+<use nudes/Messungen/1/a/scope_2.png>
+Package pdftex.def Info: nudes/Messungen/1/a/scope_2.png  used on input line 205.
+(pdftex.def)             Requested size: 182.09486pt x 114.48814pt.
+<nudes/Messungen/1/a/scope_3.png, id=107, 803.0pt x 504.88625pt>
+File: nudes/Messungen/1/a/scope_3.png Graphic file (type png)
+<use nudes/Messungen/1/a/scope_3.png>
+Package pdftex.def Info: nudes/Messungen/1/a/scope_3.png  used on input line 212.
+(pdftex.def)             Requested size: 182.09486pt x 114.48814pt.
+<nudes/Messungen/1/a/scope_4.png, id=108, 803.0pt x 504.88625pt>
+File: nudes/Messungen/1/a/scope_4.png Graphic file (type png)
+<use nudes/Messungen/1/a/scope_4.png>
+Package pdftex.def Info: nudes/Messungen/1/a/scope_4.png  used on input line 213.
+(pdftex.def)             Requested size: 182.09486pt x 114.48814pt.
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 217.
+
+[7 <./nudes/Aufgabe 4 Schaltplan.jpg> <./nudes/Aufbau4.jpg> <./nudes/Messungen/1/a/scope_1.png (PNG copy)> <./nudes/Messungen/1/a/scope_2.png (PNG copy)>]
+<nudes/Messungen/1/a/scope_5.png, id=121, 803.0pt x 504.88625pt>
+File: nudes/Messungen/1/a/scope_5.png Graphic file (type png)
+<use nudes/Messungen/1/a/scope_5.png>
+Package pdftex.def Info: nudes/Messungen/1/a/scope_5.png  used on input line 220.
+(pdftex.def)             Requested size: 182.09486pt x 114.48814pt.
+<nudes/Messungen/1/a/scope_6.png, id=122, 803.0pt x 504.88625pt>
+File: nudes/Messungen/1/a/scope_6.png Graphic file (type png)
+<use nudes/Messungen/1/a/scope_6.png>
+Package pdftex.def Info: nudes/Messungen/1/a/scope_6.png  used on input line 221.
+(pdftex.def)             Requested size: 182.09486pt x 114.48814pt.
+<nudes/Messungen/1/b/scope_8.png, id=123, 803.0pt x 504.88625pt>
+File: nudes/Messungen/1/b/scope_8.png Graphic file (type png)
+<use nudes/Messungen/1/b/scope_8.png>
+Package pdftex.def Info: nudes/Messungen/1/b/scope_8.png  used on input line 232.
+(pdftex.def)             Requested size: 273.14923pt x 171.74379pt.
+<nudes/Messungen/1/c/scope_9.png, id=124, 803.0pt x 504.88625pt>
+File: nudes/Messungen/1/c/scope_9.png Graphic file (type png)
+<use nudes/Messungen/1/c/scope_9.png>
+Package pdftex.def Info: nudes/Messungen/1/c/scope_9.png  used on input line 243.
+(pdftex.def)             Requested size: 273.14923pt x 171.74379pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 247.
+
+[8 <./nudes/Messungen/1/a/scope_3.png (PNG copy)> <./nudes/Messungen/1/a/scope_4.png (PNG copy)> <./nudes/Messungen/1/a/scope_5.png (PNG copy)> <./nudes/Messungen/1/a/scope_6.png (PNG copy)> <./nudes/Messungen/1/b/scope_8.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:Aufbau2' on page 9 undefined on input line 251.
+
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 306.
+
+[9 <./nudes/Messungen/1/c/scope_9.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:Aufbau4' on page 10 undefined on input line 331.
+
+<nudes/Messungen/4/scope_12.png, id=139, 803.0pt x 504.88625pt>
+File: nudes/Messungen/4/scope_12.png Graphic file (type png)
+<use nudes/Messungen/4/scope_12.png>
+Package pdftex.def Info: nudes/Messungen/4/scope_12.png  used on input line 340.
+(pdftex.def)             Requested size: 273.14923pt x 171.74379pt.
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 344.
+
+[10]
+<nudes/A1aAlle.jpg, id=148, 614.295pt x 794.97pt>
+File: nudes/A1aAlle.jpg Graphic file (type jpg)
+<use nudes/A1aAlle.jpg>
+Package pdftex.def Info: nudes/A1aAlle.jpg  used on input line 357.
+(pdftex.def)             Requested size: 318.66948pt x 412.3921pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 361.
+
+[11 <./nudes/Messungen/4/scope_12.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 362--366
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
+
+ []
+
+
+LaTeX Warning: Reference `fig:GraphenB1' on page 12 undefined on input line 373.
+
+
+LaTeX Warning: Reference `fig:GraphenB2' on page 12 undefined on input line 373.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
+
+ []
+
+
+LaTeX Warning: Reference `fig:GraphenB1' on page 12 undefined on input line 378.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--381
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 381.
+
+[12 <./nudes/A1aAlle.jpg>]
+
+LaTeX Warning: Reference `fig:GraphenB2' on page 13 undefined on input line 384.
+
+
+LaTeX Warning: Reference `tab:A2Spannungen' on page 13 undefined on input line 391.
+
+
+LaTeX Warning: Reference `eq:Reflexionskoeffizient' on page 13 undefined on input line 391.
+
+
+LaTeX Warning: Reference `eq:Reflexionskoeffizient' on page 13 undefined on input line 419.
+
+<nudes/Reflexionskoeffizienten Graph.jpg, id=161, 692.5875pt x 537.50812pt>
+File: nudes/Reflexionskoeffizienten Graph.jpg Graphic file (type jpg)
+<use nudes/Reflexionskoeffizienten Graph.jpg>
+Package pdftex.def Info: nudes/Reflexionskoeffizienten Graph.jpg  used on input line 423.
+(pdftex.def)             Requested size: 318.66948pt x 247.32234pt.
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 427.
+
+[13]
+
+LaTeX Warning: Reference `eq:Reflexionskoeffizient' on page 14 undefined on input line 429.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--430
+
+ []
+
+
+LaTeX Warning: Reference `tab:A2SpannungenBNC' on page 14 undefined on input line 432.
+
+
+LaTeX Warning: Reference `eq:Reflexionskoeffizient' on page 14 undefined on input line 432.
+
+
+LaTeX Warning: Reference `eq:Signalgeschwindigkeit' on page 14 undefined on input line 438.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
+
+ []
+
+
+LaTeX Warning: Reference `eq:Permittivität' on page 14 undefined on input line 444.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--448
+
+ []
+
+
+LaTeX Warning: Reference `fig:GraphA4' on page 14 undefined on input line 452.
+
+
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 467.
+
+[14 <./nudes/Reflexionskoeffizienten Graph.jpg>]
+
+LaTeX Warning: Reference `fig:Spannungspulse' on page 15 undefined on input line 484.
+
+
+LaTeX Warning: Reference `fig:ReflexionskoeffizientenGraph' on page 15 undefined on input line 515.
+
+
+LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 519.
+
+[15]
+
+LaTeX Warning: Reference `fig:GraphA4' on page 16 undefined on input line 526.
+
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 528.
+(C:\Users\Nico\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Overfull \hbox (4.16583pt too wide) in paragraph at lines 528--528
+[]\T1/cmr/m/n/12 wikipedia.org. \T1/cmr/m/it/12 Ka-pa-zi-t�t\T1/cmr/m/n/12 . (be-sucht am 12.01.2024). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / de . wikipedia .
+ []
+
+
+Overfull \hbox (28.29884pt too wide) in paragraph at lines 528--528
+[]\T1/cmr/m/n/12 wikipedia.org. \T1/cmr/m/it/12 Lei-tungs-be-l�-ge\T1/cmr/m/n/12 . (be-sucht am 12.01.2024). \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / de . wikipedia .
+ []
+
+
+AED: lastpage setting LastPage
+
+LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 529.
+
+[16] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  2D84599B84C17CA375BBBAA668F9E0B5;5635.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 37446 strings out of 475385
+ 708907 string characters out of 2777379
+ 1459453 words of memory out of 3000000
+ 58122 multiletter control sequences out of 15000+600000
+ 481072 words of font info for 59 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 114i,17n,108p,736b,2457s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Nico\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Nico/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (16 pages, 9742767 bytes).
+PDF statistics:
+ 522 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+

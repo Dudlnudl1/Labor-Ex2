@@ -43,4 +43,3 @@
 \contentsline {subsection}{\numberline {8.5}Elektrische Leistung RC-Schaltung}{21}{subsection.8.5}%
 \contentsline {subsection}{\numberline {8.6}Elektrische Leistung RL-Schaltung}{21}{subsection.8.6}%
 \contentsline {subsection}{\numberline {8.7}Blindleistungskompensation}{22}{subsection.8.7}%
-\contentsline {section}{Literatur}{22}{section*.33}%

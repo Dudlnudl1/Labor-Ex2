@@ -107,14 +107,23 @@ Um aus einer Spannung $U$ und einem Widerstand $R$ einen Strom $I$ zu berechnen 
     \centerline{$I=\frac{U}{R}$ \\ $\Delta I = \vert \frac{\partial I}{\partial U} * \Delta U \vert + \vert \frac{\partial I}{\partial R} * \Delta R \vert $}
 \end{equation}
 
+%\noindent
+%Um die Spannung $U_R$ an einen Widerstand zu bestimmen, benötigt man die Eingangsspannung $U_E$ sowie die Spannung an der Diode $U_{D1}$. 
+%\\
+%Es gilt dann: 
+%
+%\begin{equation}
+%    \label{eq:ur1}
+%    \centerline{$U_{R1}= U_E - U_{D1}$ \\ $\Delta U_{R1} = \vert \frac{\partial U_{R1}}{\partial U_E} * \Delta U_E \vert + \vert \frac{\partial U_{R1}}{\partial U_{D1}} * \Delta U_{D1} \vert $}
+%\end{equation}
+
 \noindent
-Um die Spannung $U_R$ an einen Widerstand zu bestimmen, benötigt man die Eingangsspannung $U_E$ sowie die Spannung an der Diode $U_{D1}$. 
-\\
-Es gilt dann: 
+Um die Welligkeit $w$ zu bestimmen benötigt man den Effektivwert des Wechselspannungsanteils $U_\sim$ und den Betrag des Gleichspannungsanteils $U_-$. 
+Durch die Welligkeit $w$ lässt sich die Mischspannung bei überlagerungen auf einer Gleichspannung definieren. 
 
 \begin{equation}
-    \label{eq:ur1}
-    \centerline{$U_{R1}= U_E - U_{D1}$ \\ $\Delta U_{R1} = \vert \frac{\partial U_{R1}}{\partial U_E} * \Delta U_E \vert + \vert \frac{\partial U_{R1}}{\partial U_{D1}} * \Delta U_{D1} \vert $}
+    \label{eq:welligkeit}
+    \centerline{$w = \frac{U_\sim }{\vert U_- \vert}$ \\ $\Delta w = \vert \frac{\partial w}{\partial U_\sim} * \Delta U_\sim \vert + \vert \frac{\partial w}{\partial U_-} * \Delta U_- \vert $}
 \end{equation}
 
 \section{Versuchsanordnung} %mit skizze kurz beschreiben ------------------------------
@@ -324,16 +333,341 @@ Die Messungen werden für die Widerstände $R_3 = \infty$ $R_3 = (1500 \pm 10) \
 \end{figure}
 
 \section{Auswertung und Unsicherheitsanalyse} %Nicht nur zahlen angeben ------------------------------
-
 In der Auswertung werden zur erhöhten Genauigkeit durchgehend ungerundete Werte bis zu den Endergebnissen verwendet und nur zur Darstellung gerundet. \\
-Zur Berechnung der Unsicherheiten wird, wenn nicht anders angegeben, die Größtunsicherheitsmethode verwendet.
+Zur Berechnung der Unsicherheiten wird die Größtunsicherheitsmethode verwendet.
 
+\subsection{Teil 1}
+Mit den Daten aus der Tabelle \ref{tab:mess1a} wird die Strom-Spannungs Charakteristik erstellt. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/1a plot.jpg}
+    \caption{Strom-Spannungs Charakteristik einer Gleichrichterdiode in Durchlassrichtung. }
+    \label{fig:ausw 1a}
+\end{figure}
+
+\noindent
+Um aus den Daten der Tabelle \ref{tab:mess1b} den Strom $I$ zu erhalten setzt man die Werte der Spannung $U_{IR}$ und die des Widerstandes $R_2$ in die Formel \ref{eq:ohmsche} ein. 
+Somit erhält man den Strom $I$ mit dessen Unsicherheit $\Delta I$. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/1b plot.jpg}
+    \caption{Strom-Spannungs Charakteristik einer Gleichrichterdiode in Sperrichtung. }
+    \label{fig:ausw 1b}
+\end{figure}
+
+\subsection{Teil 2}
+Aus den CSV Daten lässt sich der Graph in QTI-Plot anzeigen. 
+Um nun den Strom zu berechnen setzt man wieder die Daten der Spannung $(Ch1 - Ch2)$ und den Widerstand $R_1$ in die Formel \ref{eq:ohmsche} ein. 
+$Ch1 $ und $ Ch2$ sind dabei die Channels des Oszilloskopes, siehe Abbildung \ref{fig:mess 2}
+Somit erhält man die Kennlinie der Zenerdiode in Durchlassrichtung und Sperrichtung. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/2 plot.jpg}
+    \caption{Strom-Spannungs Charakteristik einer Zenerdiode. }
+    \label{fig:ausw 2}
+\end{figure}
+
+\subsection{Teil 3}
+Zur berechnung gelten folgende Zusammenhänge: 
+
+\begin{equation}
+    \label{eq:zusammenhänge}
+    \centerline{$U_{D1} = U{CH2} - U_{CH4} $ \\ $I_{C1} = U_{CH3}/R_2$ \\ $I_{R3} = U_{CH4}/R_3$ \\ $I_{R1} = I_{D1} = U_{CH1}/R1$}
+\end{equation}
+
+\noindent
+Diese Zusammenhänge lassen sich aus der Formel \ref{eq:ohmsche} herleiten. 
+\\
+\\
+Zuvor wird noch die Welligkeit der einzelnen Konfigurationen mithilfe der Formel \ref{eq:welligkeit} bestimmt. 
+\\
+Um diese zu berechnen, benötigt man den Wechselspannungsanteil $AC-RMS$ und den Gleichspannungsanteil $DC-MW$. Diese lassen sich durch das im Anhang befindliche Skript berechnen. 
+
+\begin{table}[H]
+    \centering
+    \caption{Wechselspannungsanteil und Gleichspannungsanteil der Werte aus Sektion 5.3. }
+    \label{tab:AC und DC}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        C / 10 nF & R / 100 $\Omega$ & R / 1500 $\Omega$ & R / $\infty$ $\Omega$ \\ 
+        \hline
+        AC RMS & 7.6994 & 12.6424 & 18.5435  \\
+        DC MW  & 4.8270 & 12.0839 & 18.5433 \\
+        \hline
+        \hline
+        C / 100 nF & R / 100 $\Omega$ & R / 1500 $\Omega$ & R / $\infty$ $\Omega$ \\ 
+        \hline
+        AC RMS & 8.6308 & 16.0326 & 18.6222  \\
+        DC MW  & 7.9164 & 16.0199 & 18.6220  \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Welligkeit $w$ der einzelnen Konfigurationen.}
+    \label{tab:welligkeit}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        C / 10 nF & R / 100 $\Omega$ & R / 1500 $\Omega$ & R / $\infty$  $\Omega$ \\ 
+        \hline
+        w & 1.5949 & 1.0462 & 1.0001 \\
+        \hline
+        \hline
+        C / 100 nF & R / 100 $\Omega$ & R / 1500 $\Omega$ & R / $\infty$ $\Omega$ \\ 
+        \hline
+        w & 1.0902 & 1.0007 & 1.0000 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent
+Aus den CSV-Dateien werden mit den Zusammenhängen (Formeln \ref{eq:zusammenhänge}) die Daten in zeitabhängigkeit geplottet. 
+Dabei sind die Linken Graphen die Spannung $U$ in Zeitabhängigkeit und die rechten Graphen der Strom $I$ in Zeitabhängigkeit. 
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/100 ohm 10 uf U.jpg}
+        \caption{$R_3 = 100 \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/100 ohm 10 uf I.jpg}
+    \caption{$R_3 = 100 \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/100 ohm 100 uf U.jpg}
+        \caption{$R_3 = 100 \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/100 ohm 100 uf I.jpg}
+    \caption{$R_3 = 100 \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+\end{figure}
+
+
+
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/1500 ohm 10 uf U.jpg}
+        \caption{$R_3 = 1500 \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/1500 ohm 10 uf I.jpg}
+    \caption{$R_3 = 1500 \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/1500 ohm 100 uf U.jpg}
+        \caption{$R_3 = 1500 \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/1500 ohm 100 uf I.jpg}
+    \caption{$R_3 = 1500 \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+\end{figure}
+
+
+
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/inf ohm 10 uf U.jpg}
+        \caption{$R_3 = \infty \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/inf ohm 10 uf I.jpg}
+    \caption{$R_3 = \infty \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/inf ohm 100 uf U.jpg}
+        \caption{$R_3 = \infty \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/inf ohm 100 uf I.jpg}
+    \caption{$R_3 = \infty \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+\end{figure}
 
 \section{Diskussion} %diskussion der Unsicherheiten und Ergebnisse und evtl. verlgeich mit Literatur ------------------------------
+Dioden werden heutzutage in fast allen technischen Geräten verwendet. Halbleitertechnik hat sich sehr start weiterentwickelt. 
 
+\subsection{Teil 1}
+Die Strom-Spannungs Charakteristik in den Abbildungen \ref{fig:ausw 1a} und \ref{fig:ausw 1b} mit Literaturwerten \cite{diode}, so sieht man einen ähnlichen Verlauf. 
+Es lässt sich daher auf eine fehlerfreie Durchführung schließen. 
+
+\subsection{Teil 2}
+Beachtet man die Kennlinie der Zenerdiode, so erkennt man einen starken Sprung des Stromes ab einer Spannung von ca. 0.7 V. 
+Im Vergleich zu Literaturwerten \cite{zdiode} erkennt man einen gleichen Sprung ab 0.7 V. 
+Es lässt sich daher auf eine fehlerfreie Durchführung schließen. 
+
+\subsection{Teil 3}
+Die Welligkeit sollte mit zunehmenden Widerstand $R_3$ abnehmen, da dies aber nicht unter 1 fällt, scheint hier die Berechnung des AC RMS fehlerhaft. 
+Da der Matlab Code korrekt berechnen sollte, sollte bei erneuter Versuchsdurchführung der Wechselspannungsanteil AC RMS direkt im Oszilloskop über die ''Measure'' Funktion ausgelesen werden. 
 
 \section{Zusammenfassung} %klare, übersichtliche vollständige beantwortung der Aufgabenstellung ------------------------------
+Hier nocheinmal die Ergebnisse zusammengefasst. 
 
+\subsection{Teil 1}
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/1a plot.jpg}
+        \caption{Durchlassrichtung}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/1b plot.jpg}
+    \caption{Sperrichtung}
+    \end{minipage}
+\end{figure}
+
+\subsection{Teil 2}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{nudes/2 plot.jpg}
+    \caption{Strom-Spannungs Charakteristik einer Zenerdiode. }
+    \label{fig:zus 2}
+\end{figure}
+
+\subsection{Teil 3}
+\begin{table}[H]
+    \centering
+    \caption{Welligkeit $w$ der einzelnen Konfigurationen.}
+    \label{tab:welligkeit zus}
+    \begin{tabular}{| l | l | l | l |}
+        \hline
+        C / 10 nF & R / 100 $\Omega$ & R / 1500 $\Omega$ & R / $\infty$  $\Omega$ \\ 
+        \hline
+        w & 1.5949 & 1.0462 & 1.0001 \\
+        \hline
+        \hline
+        C / 100 nF & R / 100 $\Omega$ & R / 1500 $\Omega$ & R / $\infty$ $\Omega$ \\ 
+        \hline
+        w & 1.0902 & 1.0007 & 1.0000 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/100 ohm 10 uf U.jpg}
+        \caption{$R_3 = 100 \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/100 ohm 10 uf I.jpg}
+    \caption{$R_3 = 100 \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/100 ohm 100 uf U.jpg}
+        \caption{$R_3 = 100 \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/100 ohm 100 uf I.jpg}
+    \caption{$R_3 = 100 \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+\end{figure}
+
+
+
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/1500 ohm 10 uf U.jpg}
+        \caption{$R_3 = 1500 \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/1500 ohm 10 uf I.jpg}
+    \caption{$R_3 = 1500 \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/1500 ohm 100 uf U.jpg}
+        \caption{$R_3 = 1500 \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/1500 ohm 100 uf I.jpg}
+    \caption{$R_3 = 1500 \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+\end{figure}
+
+
+
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/inf ohm 10 uf U.jpg}
+        \caption{$R_3 = \infty \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/inf ohm 10 uf I.jpg}
+    \caption{$R_3 = \infty \Omega$, $C_1 = 10 \mu F$}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/inf ohm 100 uf U.jpg}
+        \caption{$R_3 = \infty \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+    \hspace{0.01\linewidth}% Abstand zwischen Bilder
+    \begin{minipage}[b]{.5\linewidth} % [b] => Ausrichtung an \caption
+        \includegraphics[width=1\linewidth]{nudes/Aufgabe 3 plots/inf ohm 100 uf I.jpg}
+    \caption{$R_3 = \infty \Omega$, $C_1 = 100 \mu F$}
+    \end{minipage}
+\end{figure}
 
 \printbibliography[heading=bibintoc]
+
+\section{Anhang}
+
+\begin{verbatim}
+% Dateipfad zur CSV-Datei mit den Daten
+dateiPfad = '.\GonzVülOhm\100uF\1.csv'; % Passe dies entsprechend an
+
+% Daten aus der CSV-Datei laden (angenommen, die Datei hat Header-Zeilen)
+daten = csvread(dateiPfad, 3, 0);
+
+% Wert in Spalte 5 (Index 5) extrahieren
+wertSpalte5 = daten(:, 5);
+
+% Root Mean Square (RMS) berechnen
+rmsWert = rms(wertSpalte5);
+
+%Mittelwert berechnen
+meanWert = mean(wertSpalte5);
+
+% Ergebnis ausgeben
+fprintf('Der (RMS) Wert für Spalte 5 beträgt: %.4f\n', rmsWert);
+fprintf('Der Mittelwert Wert für Spalte 5 beträgt: %.4f\n', meanWert);
+
+\end{verbatim}
+
 \end{document}

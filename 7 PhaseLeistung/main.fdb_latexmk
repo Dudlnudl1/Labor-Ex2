@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1704663578 -1
-  "main.bcf" 1704663577 107904 e3786130ad33b9399874ba610746c7bd "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1704664694 -1
+  "main.bcf" 1704664693 107904 e3786130ad33b9399874ba610746c7bd "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1704663560 "c:/Uni/Semester 3/ExP2-Labor/7 PhaseLeistung/main.tex" "main.pdf" "main" 1704663578 0
+["pdflatex"] 1704664676 "c:/Uni/Semester 3/ExP2-Labor/7 PhaseLeistung/main.tex" "main.pdf" "main" 1704664694 0
   "../Deckblätter/PhaseundLeistung.pdf" 1702296159 851951 1ea5c4a8c67745377b80d6cc3f7f5c5c ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1702038456 112913 95b3c43c37ed74c507c15d95b5dec294 ""
   "C:/Users/nicoe/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1679857363 31952 1c8e29bd2aff213fa93173c8fb45733a ""
@@ -248,14 +248,14 @@
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/nicoe/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656233319 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Uni/Semester 3/ExP2-Labor/7 PhaseLeistung/main.tex" 1704663558 33205 8262cdc77515020a7c299399563b6892 ""
+  "c:/Uni/Semester 3/ExP2-Labor/7 PhaseLeistung/main.tex" 1704664674 33205 15213b80f07176ed7906dedf60a9e715 ""
   "labor.sty" 1704652512 7223 0e5f3462a1a12aa9c2ec850941c0dcb5 ""
-  "main.aux" 1704663577 16656 455b528d243260d2f43cb9ec618e3b8d "pdflatex"
+  "main.aux" 1704664693 16656 455b528d243260d2f43cb9ec618e3b8d "pdflatex"
   "main.bbl" 1704652958 1776 d0e21e8fe92047ffc7b98d3e3db56c67 "biber main"
-  "main.out" 1704663577 8102 259ee4088f81f72cb08556e7fb3e5fe3 "pdflatex"
-  "main.run.xml" 1704663577 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
-  "main.tex" 1704663558 33205 8262cdc77515020a7c299399563b6892 ""
-  "main.toc" 1704663577 4023 36b5d9492360727035b7f8a77cc49655 "pdflatex"
+  "main.out" 1704664693 8102 259ee4088f81f72cb08556e7fb3e5fe3 "pdflatex"
+  "main.run.xml" 1704664693 2337 fb53ea1b36d81e45d52e6d0aa0469a09 "pdflatex"
+  "main.tex" 1704664674 33205 15213b80f07176ed7906dedf60a9e715 ""
+  "main.toc" 1704664693 4023 36b5d9492360727035b7f8a77cc49655 "pdflatex"
   "nudes/AmplitudengängeGraphRichtig.jpg" 1704652512 106114 e13fd171ae43ef77b9acfb53a972f926 ""
   "nudes/Leistungsdreieck5.png" 1704652512 132676 b777dc71fe2898bff44cb25e07f01805 ""
   "nudes/Leistungsdreieck6.png" 1704655817 17837 ef54337d94e65b25b844774666a30b64 ""

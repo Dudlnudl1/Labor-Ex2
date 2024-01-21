@@ -1,33 +1,33 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Aufgabenstellung}{4}{section.1}%
-\contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Signalausbreitung in Kabeln}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Begriffe}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Wichtige Zusammenhänge}{5}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Versuchsanordnung}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Spannungsverläufe}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Reflexionskoeffizient/Kabelimpedanz}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Signalgeschwindigkeit/relative Permittivität}{6}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Verzweiger}{7}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Geräteliste}{7}{section.4}%
-\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Spannungsverläufe}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Reflexionskoeffizient/Kabelimpedanz}{9}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Signalgeschwindigkeit/relative Permittivität}{10}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Verzweiger}{10}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{11}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Spannungsverläufe}{11}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Reflexionskoeffizient/Kabelimpedanz}{13}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Signalgeschwindigkeit/relative Permittivität}{14}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Verzweiger}{14}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Diskussion}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Spannungsverläufe}{14}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Reflexionskoeffizient/Kabelimpedanz}{15}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Signalgeschwindigkeit/relative Permittivität}{15}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Verzweiger}{15}{subsection.7.4}%
-\contentsline {section}{\numberline {8}Zusammenfassung}{15}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Spannungsverläufe}{15}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Reflexionskoeffizient/Kabelimpedanz}{15}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Signalgeschwindigkeit/relative Permittivität}{16}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Verzweiger}{16}{subsection.8.4}%
-\contentsline {section}{Literatur}{16}{section*.21}%
+\contentsline {section}{\numberline {1}Aufgabenstellung}{3}{section.1}%
+\contentsline {section}{\numberline {2}Voraussetzungen \& Grundlagen}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Signalausbreitung in Kabeln}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Begriffe}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Wichtige Zusammenhänge}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Versuchsanordnung}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Spannungsverläufe}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Reflexionskoeffizient/Kabelimpedanz}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Signalgeschwindigkeit/relative Permittivität}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Verzweiger}{6}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Geräteliste}{6}{section.4}%
+\contentsline {section}{\numberline {5}Versuchsdurchführung \& Messergebnisse}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Spannungsverläufe}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Reflexionskoeffizient/Kabelimpedanz}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Signalgeschwindigkeit/relative Permittivität}{9}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Verzweiger}{9}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Auswertung und Unsicherheitsanalyse}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Spannungsverläufe}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Reflexionskoeffizient/Kabelimpedanz}{12}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Signalgeschwindigkeit/relative Permittivität}{13}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Verzweiger}{13}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Diskussion}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Spannungsverläufe}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Reflexionskoeffizient/Kabelimpedanz}{14}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Signalgeschwindigkeit/relative Permittivität}{14}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Verzweiger}{14}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Zusammenfassung}{14}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Spannungsverläufe}{14}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Reflexionskoeffizient/Kabelimpedanz}{14}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Signalgeschwindigkeit/relative Permittivität}{15}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Verzweiger}{15}{subsection.8.4}%
+\contentsline {section}{Literatur}{15}{section*.21}%
